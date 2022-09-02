@@ -1,4 +1,4 @@
-# PET & GATO
+# PET & GATÔ
 
 Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colégio Pedro II - Campus Duque de Caxias
 
@@ -6,7 +6,7 @@ Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colé
  - Bianca do Nascimento Eiras 
  - Carollyne Coelho do Nascimento 
  - Kauan Martinez da Silva
- - Leticia Cáceres Rosa
+ - Leticia Cáceres Rosas
 
  ## Descrição do Projeto
 
