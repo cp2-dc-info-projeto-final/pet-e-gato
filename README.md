@@ -1,11 +1,12 @@
-# Nome do Meu Projeto
+# PET & GATO
 
 Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colégio Pedro II - Campus Duque de Caxias
 
 **Integrantes:**
- - Fulano
- - Beltrano
- - Ciclano
+ - Bianca do Nascimento Eiras 
+ - Carollyne Coelho do Nascimento 
+ - Kauan Martinez da Silva
+ - Leticia Cáceres Rosa
 
  ## Descrição do Projeto
 
