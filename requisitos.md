@@ -4,11 +4,32 @@
 
 ### RF 01
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit nulla vel diam vehicula, eu porttitor nulla aliquam.
+O sistema deverá coletar dados como: nome completo, idade, e-mail e senha para efetuar um cadastro dos usuários e dos profissionais
 
 ### RF 02
 
-Nullam laoreet, mauris ac tempor vulputate, orci metus aliquet augue, at accumsan odio mi eu sapien. Aliquam tincidunt metus ut aliquet vehicula. Aliquam vitae arcu sed lacus fermentum sagittis.
+O sistema deverá conter um sistema de login utilizando o e-mail e senha utilizados no cadastro.
+
+### RF 03 
+
+O sistema deverá conter uma aba com todos os serviços disponíveis no pet shop.
+
+### RF 04
+
+O sistema deve exibir uma aba contendo os valores, data e hora disponíveis para o serviço escolhido.
+
+### RF 05 
+
+O sistema deverá abrir uma aba de pagamentos após ter sido escolhido a data e a hora do serviço.
+
+### RF 06 
+
+O sistema deverá coletar os dados de pagamento como: número do cartão, titular do cartão, data de validade, código de segurança e CPF do usuário caso ele escolha pagar através do site ou assinar um plano.
+
+### RF 07
+
+O sistema deverá armazenar o endereço do cliente caso ele escolha o serviço de transporte dos animais.
+
 
 ## Requisitos Não-Funcionais
 
