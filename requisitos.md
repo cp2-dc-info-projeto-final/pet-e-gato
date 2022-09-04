@@ -35,8 +35,20 @@ O sistema deverá armazenar o endereço do cliente caso ele escolha o serviço d
 
 ### RNF 01
 
-Nulla facilisi. Etiam tempus dolor et odio tincidunt fermentum. Donec pharetra nulla eu euismod maximus. Maecenas eu mauris tincidunt, pulvinar tellus sed, blandit eros.
+O sistema deverá estar disponível 24h por dia.
 
 ### RNF 02
 
-Nam id enim ut quam faucibus scelerisque at non diam. Morbi eget eleifend lectus, quis fringilla elit. Morbi iaculis, elit vel accumsan hendrerit, ipsum purus varius lacus, eget facilisis massa mauris ac ipsum.
+O sistema deverá exibir as datas e horários disponíveis.
+
+### RNF 03 
+
+O sistema deverá ser desenvolvido em PHP, MySQL, HTML, CSS, Javascript e bootstrap.
+
+### RNF 04 
+
+O sistema não poderá permitir agendamentos ou cadastros duplicados.
+
+### RNF 05 
+
+O sistema deverá ser acessado por qualquer navegador de internet.
