@@ -8,15 +8,15 @@ O sistema deverá coletar dados como: nome completo, idade, e-mail e senha para 
 
 ### RF 02
 
-O sistema deverá conter um sistema de login utilizando o e-mail e senha utilizados no cadastro.
+O sistema deverá conter um sistema de autenticação de usuário utilizando o e-mail e senha do cadastro.
 
 ### RF 03 
 
-O sistema deverá conter uma aba com todos os serviços disponíveis no pet shop.
+O sistema deverá conter uma aba com todos os serviços disponíveis no pet shop e seus respectivos valores.
 
 ### RF 04
 
-O sistema deve exibir uma aba contendo os valores, data e hora disponíveis para o serviço escolhido.
+O sistema deve exibir uma aba contendo as datas e horários disponíveis para o serviço escolhido.
 
 ### RF 05 
 
@@ -30,6 +30,9 @@ O sistema deverá coletar os dados de pagamento como: número do cartão, titula
 
 O sistema deverá armazenar o endereço do cliente caso ele escolha o serviço de transporte dos animais.
 
+### RF 08
+
+O sistema não poderá perimitir agendamentos ou cadastros duplicados.
 
 ## Requisitos Não-Funcionais
 
@@ -44,10 +47,6 @@ O sistema deverá exibir as datas e horários disponíveis.
 ### RNF 03 
 
 O sistema deverá ser desenvolvido em PHP, MySQL, HTML, CSS, Javascript e bootstrap.
-
-### RNF 04 
-
-O sistema não poderá permitir agendamentos ou cadastros duplicados.
 
 ### RNF 05 
 
