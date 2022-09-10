@@ -58,11 +58,7 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-  1. Administrador seleciona a opção “Cadastrar novo funcionário” 
-  2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
-  3. Sistema analisa os dados. 
-  4. Sistema informa que o funcionário já está cadastrado. 
-
+ 
 
 
 ### CDU 03 Autenticação de login
@@ -95,7 +91,7 @@ Ator: Proprietário do pet e funcionário
 
 **Fluxo Alternativo A**
 
-   1.
+   
    
    
  ### CDU 05 Disponibilizar horário
@@ -113,7 +109,7 @@ Ator: Administrador
 
 **Fluxo Alternativo A**
 
-   1.
+   
    
    
  ### CDU 06 Agendar horário
@@ -124,13 +120,12 @@ Ator: Proprietário do pet
 
  1.Usuário escolhe o serviço desejado. 
  2.Usuário seleciona dia e horário disponíveis. 
- 4.Sistema armazena dados. 
- 5.Sistema informa que o agendamento foi efetuado com sucesso. 
+ 3.Sistema armazena dados. 
+ 4.Sistema informa que o agendamento foi efetuado com sucesso. 
 
 
 **Fluxo Alternativo A**
 
-   1.
    
    
  ### CDU 07 Cancelamento de agendamento
@@ -149,7 +144,7 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-   1.  
+   
 
 
 
