@@ -129,10 +129,10 @@ Ator: Proprietário do pet
 
 **Fluxo Principal**
 
- 1.Usuário escolhe o serviço desejado. 
- 2.Usuário seleciona dia e horário disponíveis. 
- 3.Sistema armazena dados. 
- 4.Sistema informa que o agendamento foi efetuado com sucesso. 
+ 1. Usuário escolhe o serviço desejado. 
+ 2. Usuário seleciona dia e horário disponíveis. 
+ 3. Sistema armazena dados. 
+ 4. Sistema informa que o agendamento foi efetuado com sucesso. 
 
 
 **Fluxo Alternativo A**
