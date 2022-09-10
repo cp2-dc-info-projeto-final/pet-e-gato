@@ -4,13 +4,14 @@
 
  - [CDU 01](#CDU-01): Cadastro do funcionário
  - [CDU 02](#CDU-02): Cadastro do proprietário do pet
- - [CDU 03](#CDU-03): Autenticação de login do funcionário
- - [CDU 04](#CDU-04): Autenticação de login do proprietário do pet
- - [CDU 05](#CDU-05): Visualizar perfil
- - [CDU 06](#CDU-06): Agendamento na seção escolhida
- - [CDU 07](#CDU-07): Efetuar pagamento
-## Lista dos Atores
+ - [CDU 03](#CDU-03): Autenticação de login 
+ - [CDU 04](#CDU-04): Visualzar perfil
+ - [CDU 05](#CDU-05): Disponibilizar horário
+ - [CDU 06](#CDU-06): Agendamentar serviço
+ - [CDU 07](#CDU-07): Cancelar agendamento
 
+## Lista dos Atores
+ 
  - Administrador
  - Funcionário
  - Proprietário do pet
@@ -23,7 +24,8 @@
 
 ### CDU 01 Cadastro do funcionário
 
-Quisque id neque a erat imperdiet dictum et ut mauris.
+Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+
 
 **Fluxo Principal**
 
@@ -55,7 +57,7 @@ Quisque id neque a erat imperdiet dictum et ut mauris.
 
 ### CDU02 Cadastro do proprietário do pet
 
-Morbi fringilla dolor at mattis vestibulum.
+Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 
 **Fluxo Principal**
 
@@ -90,27 +92,59 @@ Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 
 **Fluxo Alternativo A**
 
-   1.  O usuário seleciona a opção “Cadastrar-se”.
-   2.O usuário insere os dados solicitados: nome completo, idade, e-mail e senha.
+   1. O usuário seleciona a opção “Cadastrar-se”.
+   2. O usuário insere os dados solicitados: nome completo, idade, e-mail e senha.
    3. O sistema analisa os dados. 
    4. O sistema exibe que o usuário já está cadastrado.
-   ### CDU 03 Autenticação de login
+   
+  
+ 
+ ### CDU 04 Visulizar perfil
 
 Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 
 **Fluxo Principal**
 
-1. O usuário seleciona a opção “Cadastrar-se”. 
-2. Usuário insere os dados solicitados: nome completo, idade, e-mail e senha. 
-3. O sistema analisa os dados. 
-4. O sistema valida os dados. 
-5. O sistema armazena os dados e adiciona novo cliente. 
-6. Sistema informa que o cadastro foi efetuado com sucesso. 
+1. 
+**Fluxo Alternativo A**
+
+   1. 
+   
+ ### CDU 05 Disponibilizar horário
+
+Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+
+**Fluxo Principal**
+
+1.
 
 **Fluxo Alternativo A**
 
-   1.  O usuário seleciona a opção “Cadastrar-se”.
-   2.O usuário insere os dados solicitados: nome completo, idade, e-mail e senha.
-   3. O sistema analisa os dados. 
-   4. O sistema exibe que o usuário já está cadastrado.
+   1.
+
+ 
+   
+   ### CDU 06 Agendar horário
+
+Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+
+**Fluxo Principal**
+ 1.
+
+**Fluxo Alternativo A**
+
+   1.
+   
+   ### CDU 07 Cancelamento de agendamento
+
+Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+
+**Fluxo Principal**
+
+ 1.
+**Fluxo Alternativo A**
+
+   1.  
+
+
 
