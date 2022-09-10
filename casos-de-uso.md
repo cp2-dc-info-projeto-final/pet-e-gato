@@ -24,7 +24,7 @@
 
 ### CDU 01 Cadastro do funcionário
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Administrador
 
 
 **Fluxo Principal**
@@ -55,9 +55,9 @@ Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 6. Nam vitae lacus porttitor, sodales orci vel, lobortis arcu.
 
 
-### CDU02 Cadastro do proprietário do pet
+### CDU 02 Cadastro do proprietário do pet
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Proprietário do pet
 
 **Fluxo Principal**
 
@@ -79,7 +79,7 @@ Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 
 ### CDU 03 Autenticação de login
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Principal**
 
@@ -101,18 +101,19 @@ Duis nec orci quis velit faucibus hendrerit tempus vel libero.
  
  ### CDU 04 Visualizar perfil
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Proprietário do pet e funcionário
 
 **Fluxo Principal**
 
 1. 
 **Fluxo Alternativo A**
 
-   1. 
+   1.
+   
    
  ### CDU 05 Disponibilizar horário
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Administrador
 
 **Fluxo Principal**
 
@@ -121,12 +122,11 @@ Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 **Fluxo Alternativo A**
 
    1.
-
- 
    
-   ### CDU 06 Agendar horário
+   
+ ### CDU 06 Agendar horário
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Proprietário do pet
 
 **Fluxo Principal**
 
@@ -136,9 +136,10 @@ Duis nec orci quis velit faucibus hendrerit tempus vel libero.
 
    1.
    
-   ### CDU 07 Cancelamento de agendamento
+   
+ ### CDU 07 Cancelamento de agendamento
 
-Duis nec orci quis velit faucibus hendrerit tempus vel libero.
+Ator: Proprietário do pet
 
 **Fluxo Principal**
 
