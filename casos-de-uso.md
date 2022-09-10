@@ -37,12 +37,11 @@ Ator: Administrador
 
 **Fluxo Alternativo A**
 
+1.
+2.
+3.
+4.
   
-
-
-**Fluxo Alternativo B**
-
-
 
 ### CDU 02 Cadastro do proprietário do pet
 
@@ -58,7 +57,10 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
- 
+ 1.
+ 2.
+ 3.
+ 4.
 
 
 ### CDU 03 Autenticação de login
@@ -75,8 +77,11 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Alternativo A**
 
+1.
+2.
+3.
+4.
  
-  
  
  ### CDU 04 Visualizar perfil
 
@@ -91,10 +96,13 @@ Ator: Proprietário do pet e funcionário
 
 **Fluxo Alternativo A**
 
+1.
+2.
+3.
+4.
+
    
-   
-   
- ### CDU 05 Disponibilizar horário
+### CDU 05 Disponibilizar horário
 
 Ator: Administrador
 
@@ -109,9 +117,12 @@ Ator: Administrador
 
 **Fluxo Alternativo A**
 
-   
-   
-   
+1.
+2.
+3.
+4. 
+ 
+ 
  ### CDU 06 Agendar horário
 
 Ator: Proprietário do pet
@@ -126,8 +137,12 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
+1.
+2.
+3.
+4.
    
-   
+
  ### CDU 07 Cancelamento de agendamento
 
 Ator: Proprietário do pet
@@ -144,7 +159,10 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-   
+1.
+2.
+3.
+4.   
 
 
 
