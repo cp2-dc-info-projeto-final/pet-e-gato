@@ -5,7 +5,7 @@
  - [CDU 01](#CDU-01): Cadastro do funcionário
  - [CDU 02](#CDU-02): Cadastro do proprietário do pet
  - [CDU 03](#CDU-03): Autenticação de login 
- - [CDU 04](#CDU-04): Visualzar perfil
+ - [CDU 04](#CDU-04): Visualizar perfil
  - [CDU 05](#CDU-05): Disponibilizar horário
  - [CDU 06](#CDU-06): Agendamentar serviço
  - [CDU 07](#CDU-07): Cancelar agendamento
@@ -29,30 +29,19 @@ Ator: Administrador
 
 **Fluxo Principal**
 
-1. O administrador seleciona a opção “Cadastrar novo funcionário” 
-2. O administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
-3. O sistema analisa os dados. 
-4. O sistema valida os dados. 
-5. O sistema armazena os dados e adiciona novo funcionário. 
-6. O sistema informa que o cadastro foi efetuado com sucesso. 
+1. Administrador seleciona a opção “Cadastrar novo funcionário” .
+2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
+3. Sistema armazena os dados e adiciona novo funcionário. 
+4. Sistema informa que o cadastro foi efetuado com sucesso. 
 
 
 **Fluxo Alternativo A**
 
-  1. Administrador seleciona a opção “Cadastrar novo funcionário” 
-  2. O Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
-  3. O sistema analisa os dados. 
-  4. O sistema informa que o funcionário já está cadastrado. 
+  
 
 
 **Fluxo Alternativo B**
 
-1. Ut elementum dolor id lorem elementum, et condimentum eros laoreet.
-2. Nulla sollicitudin arcu nec suscipit volutpat.
-3. Aliquam mattis sapien nec ornare faucibus.
-4. Sed eu massa nec enim condimentum commodo at eget ligula.
-5. Nam ultricies velit nec erat feugiat condimentum.
-6. Nam vitae lacus porttitor, sodales orci vel, lobortis arcu.
 
 
 ### CDU 02 Cadastro do proprietário do pet
@@ -61,19 +50,18 @@ Ator: Proprietário do pet
 
 **Fluxo Principal**
 
-1. O usuário seleciona a opção “Cadastrar-se”. 
+1. Usuário seleciona a opção “Cadastrar-se”. 
 2. Usuário insere os dados solicitados: nome completo, idade, e-mail e senha. 
-3. O sistema analisa os dados. 
-4. O sistema valida os dados. 
-5. O sistema armazena os dados e adiciona novo cliente. 
+3. Sistema armazena os dados e adiciona novo cliente. 
+4. Sistema informa que o cadastro foi efetuado com sucesso. 
 
 
 **Fluxo Alternativo A**
 
   1. Administrador seleciona a opção “Cadastrar novo funcionário” 
-  2.O Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
-  3. O sistema analisa os dados. 
-  4. O sistema informa que o funcionário já está cadastrado. 
+  2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
+  3. Sistema analisa os dados. 
+  4. Sistema informa que o funcionário já está cadastrado. 
 
 
 
@@ -83,20 +71,15 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Principal**
 
-1. O usuário seleciona a opção “Cadastrar-se”. 
+1. Usuário seleciona a opção “Cadastrar-se”. 
 2. Usuário insere os dados solicitados: nome completo, idade, e-mail e senha. 
-3. O sistema analisa os dados. 
-4. O sistema valida os dados. 
-5. O sistema armazena os dados e adiciona novo cliente. 
-6. Sistema informa que o cadastro foi efetuado com sucesso. 
+3. Sistema analisa os dados. 
+4. Sistema armazena os dados e adiciona novo cliente. 
+5. Sistema informa que o cadastro foi efetuado com sucesso. 
 
 **Fluxo Alternativo A**
 
-   1. O usuário seleciona a opção “Cadastrar-se”.
-   2. O usuário insere os dados solicitados: nome completo, idade, e-mail e senha.
-   3. O sistema analisa os dados. 
-   4. O sistema exibe que o usuário já está cadastrado.
-   
+ 
   
  
  ### CDU 04 Visualizar perfil
@@ -105,7 +88,11 @@ Ator: Proprietário do pet e funcionário
 
 **Fluxo Principal**
 
-1. 
+1. Usuário entra na aba perfil. 
+2. Sistema exibe calendário. 
+3. Sistema exibe os dados do usuário. 
+
+
 **Fluxo Alternativo A**
 
    1.
@@ -117,7 +104,12 @@ Ator: Administrador
 
 **Fluxo Principal**
 
-1.
+1. Administrador seleciona a opção perfil. 
+2. Administrador seleciona "Grade horária". 
+3. Administrador seleciona funcionário. 
+4. Sistema exibe calendário do funcionário. 
+5. Administrador inclui os horários e datas disponíveis do funcionário.
+6. Sistema armazena as informações. 
 
 **Fluxo Alternativo A**
 
@@ -130,7 +122,11 @@ Ator: Proprietário do pet
 
 **Fluxo Principal**
 
- 1.
+ 1.Usuário escolhe o serviço desejado. 
+ 2.Usuário seleciona dia e horário disponíveis. 
+ 4.Sistema armazena dados. 
+ 5.Sistema informa que o agendamento foi efetuado com sucesso. 
+
 
 **Fluxo Alternativo A**
 
@@ -143,7 +139,14 @@ Ator: Proprietário do pet
 
 **Fluxo Principal**
 
- 1.
+ 1. Cliente entra na aba perfil. 
+ 2. Cliente acessa calendário. 
+ 3. Cliente clica em agendamento. 
+ 4. Sistema exibe detalhes do agendamento. 
+ 5. Cliente escolhe a opção "Cancelar agendamento". 
+ 6. Sistema solicita a confirmação do cancelamento. 
+ 7. Sistema informa que o cancelamento foi efetuado com sucesso.
+
 **Fluxo Alternativo A**
 
    1.  
