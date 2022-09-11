@@ -69,11 +69,12 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Principal**
 
-1. Usuário seleciona a opção “Cadastrar-se”. 
-2. Usuário insere os dados solicitados: nome completo, idade, e-mail e senha. 
+1. Usuário seleciona a opção “Login”.  
+2. Usuário insere os dados solicitados: e-mail e senha. 
 3. Sistema analisa os dados. 
-4. Sistema armazena os dados e adiciona novo cliente. 
-5. Sistema informa que o cadastro foi efetuado com sucesso. 
+4. Sistema exibe que e-mail e senha são válidos. 
+5. Sistema libera o acesso do usuário. 
+
 
 **Fluxo Alternativo A**
 
