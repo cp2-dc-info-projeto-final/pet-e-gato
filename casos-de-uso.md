@@ -7,7 +7,7 @@
  - [CDU 03](#CDU-03): Autenticação de login 
  - [CDU 04](#CDU-04): Visualizar perfil
  - [CDU 05](#CDU-05): Disponibilizar horário
- - [CDU 06](#CDU-06): Agendamentar serviço
+ - [CDU 06](#CDU-06): Agendar horário
  - [CDU 07](#CDU-07): Cancelar agendamento
 
 ## Lista dos Atores
