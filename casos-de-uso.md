@@ -73,7 +73,7 @@ Ator: Proprietário do pet, administrador e funcionário
 
 1. Usuário seleciona a opção “Login”.  
 2. Usuário insere os dados solicitados: e-mail e senha. 
-3. Sistema analisa os dados. 
+3. Sistema analisa os dados e autentica o usuário.
 4. Sistema exibe que e-mail e senha são válidos. 
 5. Sistema libera o acesso do usuário. 
 
