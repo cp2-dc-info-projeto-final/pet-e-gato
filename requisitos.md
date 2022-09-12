@@ -26,6 +26,11 @@ O sistema deverá armazenar o endereço do cliente caso ele escolha o serviço d
 
 O sistema não poderá permitir agendamentos ou cadastros duplicados.
 
+### RF 07 
+
+O sistema deverá conter uma opção de cancelamento de agendamentos
+
+
 ## Requisitos Não-Funcionais
 
 ### RNF 01
