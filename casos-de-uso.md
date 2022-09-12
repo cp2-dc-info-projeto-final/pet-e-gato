@@ -7,7 +7,7 @@
  - [CDU 03](#CDU-03): Autenticação de login 
  - [CDU 04](#CDU-04): Visualizar perfil
  - [CDU 05](#CDU-05): Disponibilizar horário
- - [CDU 06](#CDU-06): Agendar horário
+ - [CDU 06](#CDU-06): Agendamento
  - [CDU 07](#CDU-07): Cancelar agendamento
 
 ## Lista dos Atores
@@ -126,7 +126,7 @@ Ator: Administrador
 4. 
  
  
- ### CDU 06 Agendar horário
+ ### CDU 06 Agendamento
 
 Ator: Proprietário do pet
 
@@ -146,7 +146,7 @@ Ator: Proprietário do pet
 4.
    
 
- ### CDU 07 Cancelamento de agendamento
+ ### CDU 07 Cancelar agendamento
 
 Ator: Proprietário do pet
 
