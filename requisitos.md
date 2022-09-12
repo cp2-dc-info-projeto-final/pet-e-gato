@@ -18,21 +18,13 @@ O sistema deverá conter uma aba com todos os serviços disponíveis no pet shop
 
 O sistema deve exibir uma aba contendo as datas e horários disponíveis para o serviço escolhido.
 
-### RF 05 
-
-O sistema deverá abrir uma aba de pagamentos após ter sido escolhido a data e a hora do serviço.
-
-### RF 06 
-
-O sistema deverá coletar os dados de pagamento como: número do cartão, titular do cartão, data de validade, código de segurança e CPF do usuário caso ele escolha pagar através do site ou assinar um plano.
-
-### RF 07
+### RF 05
 
 O sistema deverá armazenar o endereço do cliente caso ele escolha o serviço de transporte dos animais.
 
-### RF 08
+### RF 06
 
-O sistema não poderá perimitir agendamentos ou cadastros duplicados.
+O sistema não poderá permitir agendamentos ou cadastros duplicados.
 
 ## Requisitos Não-Funcionais
 
