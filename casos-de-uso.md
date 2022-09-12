@@ -117,6 +117,7 @@ Ator: Administrador
 4. Sistema exibe calendário do funcionário. 
 5. Administrador inclui os horários e datas disponíveis do funcionário.
 6. Sistema armazena as informações. 
+7. Sistema atualiza as informações.
 
 **Fluxo Alternativo A**
 
