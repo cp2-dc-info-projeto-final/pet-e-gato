@@ -18,8 +18,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso - pet_e_gato (final) FOTO](https://user-images.githubusercontent.com/95047248/189779643-2d3de630-50bb-435b-b6de-cb62f1e43992.png)
-
+![Diagrama de casos de uso - pet_e_gato (final) FOTO](https://user-images.githubusercontent.com/95047248/189779855-82e20ae8-d01b-4a3a-a521-936849b1d336.jpg)
 
 
 
