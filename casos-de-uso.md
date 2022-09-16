@@ -4,11 +4,13 @@
 
  - [CDU 01](#CDU-01): Cadastro do funcionário
  - [CDU 02](#CDU-02): Cadastro do proprietário do pet
- - [CDU 03](#CDU-03): Autenticação de login 
- - [CDU 04](#CDU-04): Visualizar perfil
- - [CDU 05](#CDU-05): Disponibilizar horário
- - [CDU 06](#CDU-06): Agendamento
- - [CDU 07](#CDU-07): Cancelar agendamento
+ - [CDU 03](#CDU-03): Manter funcionário
+ - [CDU 04](#CDU-04): Manter proprietário do pet
+ - [CDU 04](#CDU-05): Autenticação de login 
+ - [CDU 05](#CDU-06): Visualizar perfil
+ - [CDU 06](#CDU-07): Disponibilizar horário
+ - [CDU 07](#CDU-08): Agendamento
+ - [CDU 08](#CDU-09): Cancelar agendamento
 
 ## Lista dos Atores
  
@@ -63,9 +65,45 @@ Ator: Proprietário do pet
  2.
  3.
  4.
+ 
+### CDU 03 Manter funcionário
+
+Ator: Administrador 
+
+**Fluxo Principal**
+
+1. Administrador seleciona  o funcionário desejado.
+2. Administrador seleciona a opção “Manter funcionário".
+3. Administrador seleciona a opção desejada (excluir, editar, listar e incluir).
+
+**Fluxo Alternativo A**
+
+1. 
+2.
+3.
+4.
+ 
+### CDU 04 Manter proprietário do pet
+
+Ator: Proprietário do pet 
+
+**Fluxo Principal**
+1. Cliente entra na aba perfil. 
+2. Cliente entra na aba menu
+3. Cliente seleciona a opção configurações. 
+4. Cliente seleciona a opção desejada (excluir, editar, listar e incluir). 
 
 
-### CDU 03 Autenticação de login
+**Fluxo Alternativo A**
+
+1.
+2.
+3.
+4.
+ 
+  
+
+### CDU 05 Autenticação de login
 
 Ator: Proprietário do pet, administrador e funcionário
 
@@ -86,7 +124,7 @@ Ator: Proprietário do pet, administrador e funcionário
 4.
  
  
- ### CDU 04 Visualizar perfil
+ ### CDU 06 Visualizar perfil
 
 Ator: Proprietário do pet e funcionário
 
@@ -105,7 +143,7 @@ Ator: Proprietário do pet e funcionário
 4.
 
    
-### CDU 05 Disponibilizar horário
+### CDU 07 Disponibilizar horário
 
 Ator: Administrador
 
@@ -127,7 +165,7 @@ Ator: Administrador
 4. 
  
  
- ### CDU 06 Agendamento
+ ### CDU 08 Agendamento
 
 Ator: Proprietário do pet
 
@@ -147,7 +185,7 @@ Ator: Proprietário do pet
 4.
    
 
- ### CDU 07 Cancelar agendamento
+ ### CDU 09 Cancelar agendamento
 
 Ator: Proprietário do pet
 
