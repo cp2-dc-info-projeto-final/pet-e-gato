@@ -1,6 +1,6 @@
 # Documento de Casos de Uso
 
-## Luiz esteve aqui
+## Casos de uso
 
  - [CDU 01](#CDU-01): Cadastro do funcionário
  - [CDU 02](#CDU-02): Cadastro do proprietário do pet
