@@ -89,7 +89,7 @@ Ator: Proprietário do pet
 
 **Fluxo Principal**
 1. Cliente entra na aba perfil. 
-2. Cliente entra na aba menu
+2. Cliente entra na aba menu.
 3. Cliente seleciona a opção configurações. 
 4. Cliente seleciona a opção desejada (excluir, editar, listar e incluir). 
 
