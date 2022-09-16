@@ -6,7 +6,7 @@
  - [CDU 02](#CDU-02): Cadastro do proprietário do pet
  - [CDU 03](#CDU-03): Manter funcionário
  - [CDU 04](#CDU-04): Manter proprietário do pet
- - [CDU 04](#CDU-05): Autenticação de login 
+ - [CDU 05](#CDU-05): Autenticação de login 
  - [CDU 05](#CDU-06): Visualizar perfil
  - [CDU 06](#CDU-07): Disponibilizar horário
  - [CDU 07](#CDU-08): Agendamento
