@@ -7,10 +7,10 @@
  - [CDU 03](#CDU-03): Manter funcionário
  - [CDU 04](#CDU-04): Manter proprietário do pet
  - [CDU 05](#CDU-05): Autenticação de login 
- - [CDU 05](#CDU-06): Visualizar perfil
- - [CDU 06](#CDU-07): Disponibilizar horário
- - [CDU 07](#CDU-08): Agendamento
- - [CDU 08](#CDU-09): Cancelar agendamento
+ - [CDU 06](#CDU-06): Visualizar perfil
+ - [CDU 07](#CDU-07): Disponibilizar horário
+ - [CDU 08](#CDU-08): Agendamento
+ - [CDU 09](#CDU-09): Cancelar agendamento
 
 ## Lista dos Atores
  
