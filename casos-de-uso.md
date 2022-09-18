@@ -41,10 +41,10 @@ Ator: Administrador
 
 **Fluxo Alternativo A**
 
-1.
-2.
-3.
-4.
+1.Administrador seleciona a opção “Cadastrar novo funcionário” 
+2.Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
+3.Sistema analisa os dados. 
+4.Sistema informa que o funcionário já está cadastrado. 
   
 
 ### CDU 02 Cadastro do proprietário do pet
@@ -61,10 +61,11 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
- 1.
- 2.
- 3.
- 4.
+ 1.Usuário seleciona a opção “Login”. 
+ 2.Usuário insere os dados solicitados: e-mail e senha.
+ 3.Sistema analisa os dados. 
+ 4.Sistema exibe que e-mail e senha são inválidos.
+ 5.Sistema solicita que o usuário faça o cadastro
  
 ### CDU 03 Manter funcionário
 
@@ -179,10 +180,10 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-1.
-2.
-3.
-4.
+1.Usuário escolhe o serviço desejado. 
+2.Usuário seleciona dia e horário disponível. 
+3.Sistema analisa dados.
+4.Sistema solicita que o usuário faça login ou se cadastre.
    
 
  ### CDU 09 Cancelar agendamento
