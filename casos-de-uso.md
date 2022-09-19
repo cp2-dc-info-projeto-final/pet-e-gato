@@ -101,7 +101,8 @@ Ator: Administrador
 
 **Fluxo Alternativo C**
 
-- Fluxo alternativo: Listar Funcionários. 
+-Fluxo alternativo: Listar Funcionários. 
+
 1. Administrador seleciona opção “Listar funcionários”. 
 2. Sistema apresenta funcionário cadastrados.
 
