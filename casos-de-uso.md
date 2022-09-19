@@ -79,6 +79,7 @@ Ator: Administrador
 3. Administrador seleciona a opção desejada (excluir, editar, listar e incluir).
 
 **Fluxo Alternativo A**
+
 -Fluxo alternativo: Excluir funcionário
 
 1. Administrador seleciona opção “Excluir funcionário”. 
@@ -86,6 +87,7 @@ Ator: Administrador
 3. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
 
 **Fluxo Alternativo B**
+
 -Fluxo alternativo: Editar funcionário. 
 
 1. Administrador seleciona opção “Editar funcionário”. 
@@ -98,8 +100,8 @@ Ator: Administrador
 7. Sistema informa que a edição foi efetuada com sucesso.  
 
 **Fluxo Alternativo C**
+
 - Fluxo alternativo: Listar Funcionários. 
-- 
 1. Administrador seleciona opção “Listar funcionários”. 
 2. Sistema apresenta funcionário cadastrados.
 
