@@ -42,10 +42,10 @@ Ator: Administrador
 
 **Fluxo Alternativo A**
 
-1.Administrador seleciona a opção “Cadastrar novo funcionário” 
-2.Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
-3.Sistema analisa os dados. 
-4.Sistema informa que o funcionário já está cadastrado. 
+1. Administrador seleciona a opção “Cadastrar novo funcionário” 
+2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
+3. Sistema analisa os dados. 
+4. Sistema informa que o funcionário já está cadastrado. 
   
 
 ### CDU 02 Cadastro do proprietário do pet
