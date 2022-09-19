@@ -142,7 +142,7 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Alternativo A**
 
-1.O cliente seleciona a opção “Login”. 
+1. O cliente seleciona a opção “Login”. 
 2. O cliente insere os dados solicitados: e-mail e senha. 
 3. O sistema analisa os dados. 
 4. O sistema exibe que e-mail ou senha estão incorretos.
@@ -205,10 +205,10 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-1.Usuário escolhe o serviço desejado. 
-2.Usuário seleciona dia e horário disponível. 
-3.Sistema analisa dados.
-4.Sistema solicita que o usuário faça login ou se cadastre.
+1. Usuário escolhe o serviço desejado. 
+2. Usuário seleciona dia e horário disponível. 
+3. Sistema analisa dados.
+4. Sistema solicita que o usuário faça login ou se cadastre.
    
 
  ### CDU 09 Cancelar agendamento
