@@ -104,7 +104,7 @@ Ator: Administrador
 -Fluxo alternativo: Listar Funcionários. 
 
 1. Administrador seleciona opção “Listar funcionários”. 
-2. Sistema apresenta funcionário cadastrados.
+2. Sistema apresenta funcionários cadastrados.
 
  
 ### CDU 04 Manter proprietário do pet
