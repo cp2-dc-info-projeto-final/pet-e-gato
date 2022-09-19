@@ -62,11 +62,11 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
- 1.Usuário seleciona a opção “Login”. 
- 2.Usuário insere os dados solicitados: e-mail e senha.
- 3.Sistema analisa os dados. 
- 4.Sistema exibe que e-mail e senha são inválidos.
- 5.Sistema solicita que o usuário faça o cadastro
+ 1. Usuário seleciona a opção “Login”. 
+ 2. Usuário insere os dados solicitados: e-mail e senha.
+ 3. Sistema analisa os dados. 
+ 4. Sistema exibe que e-mail e senha são inválidos.
+ 5. Sistema solicita que o usuário faça o cadastro
  
 ### CDU 03 Manter funcionário
 
