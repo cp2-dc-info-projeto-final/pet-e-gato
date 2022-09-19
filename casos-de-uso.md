@@ -11,6 +11,7 @@
  - [CDU 07](#CDU-07): Disponibilizar horário
  - [CDU 08](#CDU-08): Agendamento
  - [CDU 09](#CDU-09): Cancelar agendamento
+ 
 
 ## Lista dos Atores
  
@@ -78,11 +79,30 @@ Ator: Administrador
 3. Administrador seleciona a opção desejada (excluir, editar, listar e incluir).
 
 **Fluxo Alternativo A**
+-Fluxo alternativo: Excluir funcionário
 
-1. 
-2.
-3.
-4.
+1. Administrador seleciona opção “Excluir funcionário”. 
+2. Sistema solicita a confirmação da exclusão do funcionário. 
+3. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
+
+**Fluxo Alternativo B**
+-Fluxo alternativo: Editar funcionário. 
+
+1. Administrador seleciona opção “Editar funcionário”. 
+2. Sistema apresenta os dados do usuário. 
+3. Administrador edita as lacunas desejadas. 
+4. Administrador submete edição.  
+5. Sistema solicita a confirmação da edição do funcionário. 
+6. Sistema armazena edições. 
+7. Sistema atualiza perfil. 
+7. Sistema informa que a edição foi efetuada com sucesso.  
+
+**Fluxo Alternativo C**
+- Fluxo alternativo: Listar Funcionários. 
+- 
+1. Administrador seleciona opção “Listar funcionários”. 
+2. Sistema apresenta funcionário cadastrados.
+
  
 ### CDU 04 Manter proprietário do pet
 
@@ -119,10 +139,12 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Alternativo A**
 
-1.
-2.
-3.
-4.
+1.O cliente seleciona a opção “Login”. 
+2. O cliente insere os dados solicitados: e-mail e senha. 
+3. O sistema analisa os dados. 
+4. O sistema exibe que e-mail ou senha estão incorretos.
+5. Sistema solicita que o usuário reinsira a senha ou e-mail novamente. 
+
  
  
  ### CDU 06 Visualizar perfil
