@@ -62,11 +62,7 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
- 1. Usuário seleciona a opção “Login”. 
- 2. Usuário insere os dados solicitados: e-mail e senha.
- 3. Sistema analisa os dados. 
- 4. Sistema exibe que e-mail e senha são inválidos.
- 5. Sistema solicita que o usuário faça o cadastro
+
  
 ### CDU 03 Manter funcionário
 
@@ -97,7 +93,7 @@ Ator: Administrador
 5. Sistema solicita a confirmação da edição do funcionário. 
 6. Sistema armazena edições. 
 7. Sistema atualiza perfil. 
-7. Sistema informa que a edição foi efetuada com sucesso.  
+8. Sistema informa que a edição foi efetuada com sucesso.  
 
 **Fluxo Alternativo C**
 
@@ -142,11 +138,19 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Alternativo A**
 
-1. O cliente seleciona a opção “Login”. 
-2. O cliente insere os dados solicitados: e-mail e senha. 
-3. O sistema analisa os dados. 
-4. O sistema exibe que e-mail ou senha estão incorretos.
+1. Cliente seleciona a opção “Login”. 
+2. Cliente insere os dados solicitados: e-mail e senha. 
+3. Sistema analisa os dados. 
+4. Sistema exibe que e-mail ou senha estão incorretos.
 5. Sistema solicita que o usuário reinsira a senha ou e-mail novamente. 
+
+**Fluxo Alternativo B**
+
+1.Usuário seleciona a opção “Login”. 
+2.Usuário insere os dados solicitados: e-mail e senha. 
+3.Sistema analisa os dados.
+4.Sistema exibe que o usuário não foi encontrado no sistema. 
+5.Sistema solicita que o usuário faça o cadastro. 
 
  
  
