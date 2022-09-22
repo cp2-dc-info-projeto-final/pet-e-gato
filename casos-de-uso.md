@@ -122,15 +122,15 @@ Ator: Proprietário do pet
 
 -Fluxo alternativo: Excluir proprietário do pet 
 
-1.Cliente seleciona a opção “Excluir conta”
-2.Sistema solicita a confirmação da exclusão da conta do cliente. 
-3.Sistema informa que a exclusão da conta foi efetuada com sucesso.  
+1. Cliente seleciona a opção “Excluir conta”
+2. Sistema solicita a confirmação da exclusão da conta do cliente. 
+3. Sistema informa que a exclusão da conta foi efetuada com sucesso.  
 
 **Fluxo Alternativo B**
 
 -Fluxo alternativo: Editar proprietário do pet.
 
-1. cliente seleciona opção “Editar conta”
+1. Cliente seleciona opção “Editar conta”
 2. Sistema apresenta os dados do cliente
 3. Cliente edita as lacunas desejadas.
 4. Cliente submete edição.
