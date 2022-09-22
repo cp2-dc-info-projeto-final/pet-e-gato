@@ -163,11 +163,11 @@ Ator: Proprietário do pet, administrador e funcionário
 
 **Fluxo Alternativo B**
 
-1.Usuário seleciona a opção “Login”. 
-2.Usuário insere os dados solicitados: e-mail e senha. 
-3.Sistema analisa os dados.
-4.Sistema exibe que o usuário não foi encontrado no sistema. 
-5.Sistema solicita que o usuário faça o cadastro. 
+1. Usuário seleciona a opção “Login”. 
+2. Usuário insere os dados solicitados: e-mail e senha. 
+3. Sistema analisa os dados.
+4. Sistema exibe que o usuário não foi encontrado no sistema. 
+5. Sistema solicita que o usuário faça o cadastro. 
 
  
  
@@ -242,7 +242,7 @@ Ator: Proprietário do pet
 6. Cliente edita as lacunas desejadas.
 7. Sistema armazena edições.
 8. Sistema atualiza calendários.
-9 . Sistema informa que a edição foi efetuada com sucesso.
+9. Sistema informa que a edição foi efetuada com sucesso.
 10. Sistema apresenta os novos detalhes do agendamento.
 
 **Fluxo Alternativo C**
@@ -284,7 +284,7 @@ Ator: Proprietário do pet
 2. Sistema apresenta os dados do serviço.
 3. Administrador edita as lacunas desejadas.
 4. Administrador submete edição.
-5. 5. Sistema solicita a confirmação da edição do serviço.
+5. Sistema solicita a confirmação da edição do serviço.
 6. Sistema armazena edições.
 7. Sistema atualiza serviço.
 8. Sistema informa que a edição foi efetuada com sucesso.
