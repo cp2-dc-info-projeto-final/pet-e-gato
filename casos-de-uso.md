@@ -62,7 +62,10 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-
+1. Administrador seleciona a opção “Cadastrar-se” 
+2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
+3. Sistema analisa os dados. 
+4. Sistema informa que o usuário já está cadastrado. 
  
 ### CDU 03 Manter funcionário
 
@@ -111,18 +114,29 @@ Ator: Proprietário do pet
 1. Cliente entra na aba perfil. 
 2. Cliente entra na aba menu.
 3. Cliente seleciona a opção configurações. 
-4. Cliente seleciona a opção desejada (excluir, editar, listar e incluir). 
+4. Cliente seleciona a opção desejada (excluir, editar, listar ). 
 
 
 **Fluxo Alternativo A**
+-Fluxo alternativo: Excluir proprietário do pet 
 
-1.
-2.
-3.
-4.
+1.Cliente seleciona a opção “Excluir conta”
+2.Sistema solicita a confirmação da exclusão da conta do cliente. 
+3.Sistema informa que a exclusão da conta foi efetuada com sucesso.  
+
+**Fluxo Alternativo B**
+-Fluxo alternativo: Editar proprietário do pet.
+
+1. cliente seleciona opção “Editar conta”
+2. Sistema apresenta os dados do cliente
+3. Cliente edita as lacunas desejadas.
+4. Cliente submete edição.
+5. Sistema solicita a confirmação da edição dos dados.
+6. Sistema armazena edições.
+7. Sistema atualiza perfil.
+8. Sistema informa que a edição foi efetuada com sucesso.
+
  
-  
-
 ### CDU 05 Autenticação de login
 
 Ator: Proprietário do pet, administrador e funcionário
