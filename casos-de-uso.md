@@ -205,7 +205,7 @@ Ator: Administrador
 4. 
  
  
- ### CDU 08 Agendamento
+ ### CDU 08 Manter Agendamento
 
 Ator: Proprietário do pet
 
@@ -219,17 +219,7 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo A**
 
-1. Usuário escolhe o serviço desejado. 
-2. Usuário seleciona dia e horário disponível. 
-3. Sistema analisa dados.
-4. Sistema solicita que o usuário faça login ou se cadastre.
-   
-
- ### CDU 09 Cancelar agendamento
-
-Ator: Proprietário do pet
-
-**Fluxo Principal**
+- Fluxo alternativo: Cancelar agendamento.
 
  1. Cliente entra na aba perfil. 
  2. Cliente acessa calendário. 
@@ -239,12 +229,82 @@ Ator: Proprietário do pet
  6. Sistema solicita a confirmação do cancelamento. 
  7. Sistema informa que o cancelamento foi efetuado com sucesso.
 
+
+**Fluxo Alternativo B**
+
+- Fluxo alternativo: Editar agendamento.
+
+1. Cliente entra na aba perfil.
+2. Cliente acessa calendário
+3. Cliente clica em agendamento desejado.
+4. Sistema exibe detalhes do agendamento.
+5. Cliente escolhe a opção " Editar agendamento"
+6. Cliente edita as lacunas desejadas.
+7. Sistema armazena edições.
+8. Sistema atualiza calendários.
+9 . Sistema informa que a edição foi efetuada com sucesso.
+10. Sistema apresenta os novos detalhes do agendamento.
+
+**Fluxo Alternativo C**
+
+- Fluxo alternativo: Listar agendamentos
+
+1. Cliente entra na aba perfil.
+2. Cliente acessa calendário.
+3. Cliente seleciona a opção "Listar funcionários".
+4. Sistema apresenta agendamentos cadastrados.
+
+   
+
+ ### CDU 09 Manter Serviço
+
+Ator: Proprietário do pet
+
+**Fluxo Principal**
+
+1. Administrador seleciona aba de serviços.
+2. Administrador seleciona serviço desejado.
+3. Administrador seleciona a opção " Manter funcionário" .
+4. Administrador seleciona a opção desejada (excluir, editar, listar e incluir).
+
+ 
 **Fluxo Alternativo A**
 
-1.
-2.
-3.
-4.   
+- Fluxo alternativo: Excluir serviço.
+
+1. Administrador seleciona opção " Excluir serviço"
+2. Sistema solicita a confirmação da exclusão do serviço.
+3. Sistema informa que a exclusão do serviço foi efetuada com sucesso.
+
+**Fluxo Alternativo B**
+
+- Fluxo alternativo: Editar serviço.
+
+1. Administrador seleciona opção " Editar funcionário".
+2. Sistema apresenta os dados do serviço.
+3. Administrador edita as lacunas desejadas.
+4. Administrador submete edição.
+5. 5. Sistema solicita a confirmação da edição do serviço.
+6. Sistema armazena edições.
+7. Sistema atualiza serviço.
+8. Sistema informa que a edição foi efetuada com sucesso.
+
+**Fluxo Alternativo C**
+
+- Fluxo alternativo: Listar serviços.
+1. Administrador seleciona opção " Listar funcionários"
+2. Sistema apresenta funcionários cadastrados.
+
+**Fluxo Alternativo D**
+
+-Fluxo alternativo: Incluir serviço.  
+
+1. Administrador seleciona opção " Cadastrar serviço".
+2. Administrador insere os dados solicitados " nome do serviço, preço, código"
+3. Sistema armazena os dados e adiciona novo funcionário .
+4. Sistema informa que o cadastro foi efetuado com sucesso.
+
+
 
 
 
