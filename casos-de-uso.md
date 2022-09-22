@@ -180,13 +180,6 @@ Ator: Proprietário do pet e funcionário
 3. Sistema exibe os dados do usuário. 
 
 
-**Fluxo Alternativo A**
-
-1.
-2.
-3.
-4.
-
    
 ### CDU 07 Disponibilizar horário
 
