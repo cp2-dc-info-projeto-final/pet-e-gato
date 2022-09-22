@@ -66,6 +66,7 @@ Ator: Proprietário do pet
 2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
 3. Sistema analisa os dados. 
 4. Sistema informa que o usuário já está cadastrado. 
+5. Sistema solicita que usuário faça login. 
  
 ### CDU 03 Manter funcionário
 
