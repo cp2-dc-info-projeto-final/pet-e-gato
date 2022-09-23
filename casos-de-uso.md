@@ -95,7 +95,7 @@ Ator: Administrador
 
 **Fluxo Alternativo B**
 
--Fluxo alternativo: Editar funcionário. 
+-Fluxo alternativo: Editar Funcionários. 
 
 1. Administrador seleciona opção “Editar funcionário”. 
 2. Sistema apresenta os dados do usuário. 
@@ -106,12 +106,26 @@ Ator: Administrador
 7. Sistema atualiza perfil. 
 8. Sistema informa que a edição foi efetuada com sucesso.  
 
+
 **Fluxo Alternativo C**
+
+-Fluxo alternativo: Editar administrador. 
+
+1. Administrador seleciona a opção "promover funcionário"
+2. Sistema solicita confirmação de promoção do funcionário.
+3. Sistema armazena edições. 
+4. Sistema atualiza perfil. 
+5. Sistema informa que a edição foi efetuada com sucesso.  
+
+
+
+**Fluxo Alternativo D**
 
 -Fluxo alternativo: Listar Funcionários. 
 
 1. Administrador seleciona opção “Listar funcionários”. 
 2. Sistema apresenta funcionários cadastrados.
+
 
  
 ### CDU 04 Manter proprietário do pet
