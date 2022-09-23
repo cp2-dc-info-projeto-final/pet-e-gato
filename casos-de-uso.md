@@ -83,7 +83,7 @@ Ator: Administrador
 
 1. Administrador seleciona  o funcionário desejado.
 2. Administrador seleciona a opção “Manter funcionário".
-3. Administrador seleciona a opção desejada (excluir, editar, listar e incluir).
+3. Administrador seleciona a opção desejada (excluir, editar e listar).
 
 **Fluxo Alternativo A**
 
