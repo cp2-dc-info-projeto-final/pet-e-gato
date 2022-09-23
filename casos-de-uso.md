@@ -46,6 +46,13 @@ Ator: Administrador
 2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
+
+**Fluxo Alternativo B**
+
+1. Usuário seleciona a opção "Cadastrar Administrador". 
+2. Sistema solicita que o usuário insira o código de autenticação de administrador.
+3. Sistema direciona usuário para a aba de administrador.
+4. Usuário escolhe entre "Novo administrador" ou "promover funcionário".
   
 
 ### CDU 02 Cadastro do proprietário do pet
