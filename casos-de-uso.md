@@ -217,13 +217,6 @@ Ator: Administrador
 5. Administrador inclui os horários e datas disponíveis do funcionário.
 6. Sistema armazena as informações. 
 7. Sistema atualiza as informações.
-
-**Fluxo Alternativo A**
-
-1.
-2.
-3.
-4. 
  
  
  ### CDU 08 Manter Agendamento
