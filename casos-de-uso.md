@@ -3,9 +3,9 @@
 ## Casos de uso
 
  - [CDU 01](#CDU-01): Cadastro do funcionário
- - [CDU 02](#CDU-02): Cadastro do proprietário do pet
+ - [CDU 02](#CDU-02): Cadastro do tutor
  - [CDU 03](#CDU-03): Manter funcionário
- - [CDU 04](#CDU-04): Manter proprietário do pet
+ - [CDU 04](#CDU-04): Manter tutor
  - [CDU 05](#CDU-05): Autenticação de login 
  - [CDU 06](#CDU-06): Visualizar perfil
  - [CDU 07](#CDU-07): Disponibilizar horário
@@ -17,7 +17,7 @@
  
  - Administrador
  - Funcionário
- - Proprietário do pet
+ - Tutor
 
 ## Diagrama de Casos de Uso
 
@@ -55,9 +55,9 @@ Ator: Administrador
 4. Usuário escolhe entre "Novo administrador" ou "promover funcionário".
   
 
-### CDU 02 Cadastro do proprietário do pet
+### CDU 02 Cadastro do tutor
 
-Ator: Proprietário do pet
+Ator: Tutor
 
 **Fluxo Principal**
 
@@ -87,7 +87,7 @@ Ator: Administrador
 
 **Fluxo Alternativo A**
 
--Fluxo alternativo: Excluir funcionário
+-Fluxo alternativo: Excluir funcionário.
 
 1. Administrador seleciona opção “Excluir funcionário”. 
 2. Sistema solicita a confirmação da exclusão do funcionário. 
@@ -95,7 +95,7 @@ Ator: Administrador
 
 **Fluxo Alternativo B**
 
--Fluxo alternativo: Editar Funcionários. 
+-Fluxo alternativo: Editar Funcionário. 
 
 1. Administrador seleciona opção “Editar funcionário”. 
 2. Sistema apresenta os dados do usuário. 
@@ -121,27 +121,27 @@ Ator: Administrador
 
 **Fluxo Alternativo D**
 
--Fluxo alternativo: Listar Funcionários. 
+-Fluxo alternativo: Listar Funcionário. 
 
-1. Administrador seleciona opção “Listar funcionários”. 
+1. Administrador seleciona opção “Listar funcionário”. 
 2. Sistema apresenta funcionários cadastrados.
 
 
  
-### CDU 04 Manter proprietário do pet
+### CDU 04 Manter tutor
 
-Ator: Proprietário do pet 
+Ator: Tutor
 
 **Fluxo Principal**
 1. Cliente entra na aba perfil. 
 2. Cliente entra na aba menu.
 3. Cliente seleciona a opção configurações. 
-4. Cliente seleciona a opção desejada (excluir, editar, listar ). 
+4. Cliente seleciona a opção desejada (excluir, editar, listar). 
 
 
 **Fluxo Alternativo A**
 
--Fluxo alternativo: Excluir proprietário do pet 
+-Fluxo alternativo: Excluir tutor 
 
 1. Cliente seleciona a opção “Excluir conta”
 2. Sistema solicita a confirmação da exclusão da conta do cliente. 
@@ -149,9 +149,9 @@ Ator: Proprietário do pet
 
 **Fluxo Alternativo B**
 
--Fluxo alternativo: Editar proprietário do pet.
+-Fluxo alternativo: Editar tutor.
 
-1. Cliente seleciona opção “Editar conta”
+1. Cliente seleciona opção “Editar conta”.
 2. Sistema apresenta os dados do cliente
 3. Cliente edita as lacunas desejadas.
 4. Cliente submete edição.
@@ -163,7 +163,7 @@ Ator: Proprietário do pet
  
 ### CDU 05 Autenticação de login
 
-Ator: Proprietário do pet, administrador e funcionário
+Ator: Tutor, administrador e funcionário
 
 **Fluxo Principal**
 
@@ -194,7 +194,7 @@ Ator: Proprietário do pet, administrador e funcionário
  
  ### CDU 06 Visualizar perfil
 
-Ator: Proprietário do pet e funcionário
+Ator: Tutor e funcionário
 
 **Fluxo Principal**
 
@@ -221,7 +221,7 @@ Ator: Administrador
  
  ### CDU 08 Manter Agendamento
 
-Ator: Proprietário do pet
+Ator: Tutor
 
 **Fluxo Principal**
 
@@ -249,7 +249,7 @@ Ator: Proprietário do pet
 - Fluxo alternativo: Editar agendamento.
 
 1. Cliente entra na aba perfil.
-2. Cliente acessa calendário
+2. Cliente acessa calendário.
 3. Cliente clica em agendamento desejado.
 4. Sistema exibe detalhes do agendamento.
 5. Cliente escolhe a opção " Editar agendamento"
@@ -286,7 +286,7 @@ Ator: Administrador
 
 - Fluxo alternativo: Excluir serviço.
 
-1. Administrador seleciona opção " Excluir serviço"
+1. Administrador seleciona opção " Excluir serviço".
 2. Sistema solicita a confirmação da exclusão do serviço.
 3. Sistema informa que a exclusão do serviço foi efetuada com sucesso.
 
