@@ -4,7 +4,7 @@
 
 ### RF 01
 
-O sistema deverá coletar dados como: nome completo, idade, e-mail e senha para efetuar um cadastro dos usuários e dos profissionais
+O sistema deverá coletar dados como: nome completo, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet para efetuar um cadastro dos usuários e dados como: nome completo, email, senha, data de nascimento, endereço, telefone dos profissionais
 
 ### RF 02
 
