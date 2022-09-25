@@ -43,7 +43,7 @@ Ator: Administrador
 **Fluxo Alternativo A**
 
 1. Administrador seleciona a opção “Cadastrar novo funcionário” 
-2. Administrador insere os dados solicitados: nome completo, idade, e-mail, senha e matrícula.
+2. Administrador insere os dados solicitados: CPF, nome completo, idade, e-mail, senha e matrícula.
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
