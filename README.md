@@ -20,7 +20,7 @@ Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colé
 - [Apresentação](apresentacao.pdf)
 
 **Diagrama de Classes**
-
+diagrama-exemplo.png
 
 **Modelagem do Banco de Dados**
 
