@@ -314,7 +314,7 @@ Ator: Administrador
 -Fluxo alternativo: Incluir serviço.  
 
 1. Administrador seleciona opção " Cadastrar serviço".
-2. Administrador insere os dados solicitados " nome do serviço, preço, código"
+2. Administrador insere os dados solicitados " nome do serviço, preço, código, descrição"
 3. Sistema armazena os dados e adiciona novo funcionário .
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 
