@@ -153,7 +153,7 @@ Ator: Tutor e Administrador
 
 -Fluxo alternativo: Listar tutores 
 
-1. Administrador seleciona opção " Listar funcionários"
+1. Administrador seleciona opção " Listar Tutores"
 2. Sistema apresenta funcionários cadastrados.
 
 
