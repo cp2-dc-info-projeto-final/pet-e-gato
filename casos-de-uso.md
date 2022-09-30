@@ -93,8 +93,6 @@ Ator: Administrador
 8. Sistema informa que a edição foi efetuada com sucesso.  
 
 
-
-
 **Fluxo Alternativo A**
 
 -Fluxo alternativo: Excluir funcionário.
@@ -125,7 +123,7 @@ Ator: Administrador
  
 ### CDU 04 Manter tutor
 
-Ator: Tutor
+Ator: Tutor e Administrador
 
 **Fluxo Principal**
 
@@ -150,6 +148,13 @@ Ator: Tutor
 1. Cliente seleciona a opção “Excluir conta”
 2. Sistema solicita a confirmação da exclusão da conta do cliente. 
 3. Sistema informa que a exclusão da conta foi efetuada com sucesso.  
+
+**Fluxo Alternativo B**
+
+-Fluxo alternativo: Listar tutores 
+
+1. Administrador seleciona opção " Listar funcionários"
+2. Sistema apresenta funcionários cadastrados.
 
 
 
