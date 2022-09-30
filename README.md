@@ -10,7 +10,7 @@ Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colé
 
  ## Descrição do Projeto
 
-  Um sistema de agendamento para pet shop com serviços e planos específicos, além de login para o administrador, os funcionários e clientes. O site também apresesentará a disponibilidade de dias e horários para agendamentos de serviços e será possível cancelar o agendamento, caso necessário.
+  Um sistema de agendamento para pet shop com serviços e planos específicos, além de login para o administrador, os funcionários e clientes. O site também apresentará a disponibilidade de dias e horários para agendamentos de serviços e será possível cancelar o agendamento, caso necessário.
   
 ## Documentação
 
