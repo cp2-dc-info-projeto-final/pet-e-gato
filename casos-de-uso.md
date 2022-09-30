@@ -81,21 +81,7 @@ Ator: Administrador
 
 **Fluxo Principal**
 
-1. Administrador seleciona  o funcionário desejado.
-2. Administrador seleciona a opção “Manter funcionário".
-3. Administrador seleciona a opção desejada (excluir, editar e listar).
-
-**Fluxo Alternativo A**
-
--Fluxo alternativo: Excluir funcionário.
-
-1. Administrador seleciona opção “Excluir funcionário”. 
-2. Sistema solicita a confirmação da exclusão do funcionário. 
-3. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
-
-**Fluxo Alternativo B**
-
--Fluxo alternativo: Editar Funcionário. 
+-Fluxo principal: Editar Funcionário. 
 
 1. Administrador seleciona opção “Editar funcionário”. 
 2. Sistema apresenta os dados do usuário. 
@@ -107,7 +93,17 @@ Ator: Administrador
 8. Sistema informa que a edição foi efetuada com sucesso.  
 
 
-**Fluxo Alternativo C**
+
+
+**Fluxo Alternativo A**
+
+-Fluxo alternativo: Excluir funcionário.
+
+1. Administrador seleciona opção “Excluir funcionário”. 
+2. Sistema solicita a confirmação da exclusão do funcionário. 
+3. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
+
+**Fluxo Alternativo B**
 
 -Fluxo alternativo: Editar administrador. 
 
@@ -118,8 +114,7 @@ Ator: Administrador
 5. Sistema informa que a edição foi efetuada com sucesso.  
 
 
-
-**Fluxo Alternativo D**
+**Fluxo Alternativo C**
 
 -Fluxo alternativo: Listar Funcionário. 
 
@@ -133,10 +128,19 @@ Ator: Administrador
 Ator: Tutor
 
 **Fluxo Principal**
+
 1. Cliente entra na aba perfil. 
 2. Cliente entra na aba menu.
 3. Cliente seleciona a opção configurações. 
-4. Cliente seleciona a opção desejada (excluir, editar, listar). 
+4. Cliente seleciona a opção desejada.
+5. Cliente seleciona opção “Editar conta”.
+6. Sistema apresenta os dados do cliente
+7. Cliente edita as lacunas desejadas.
+8. Cliente submete edição.
+9. Sistema solicita a confirmação da edição dos dados.
+10. Sistema armazena edições.
+11. Sistema atualiza perfil.
+12. Sistema informa que a edição foi efetuada com sucesso.
 
 
 **Fluxo Alternativo A**
@@ -147,18 +151,7 @@ Ator: Tutor
 2. Sistema solicita a confirmação da exclusão da conta do cliente. 
 3. Sistema informa que a exclusão da conta foi efetuada com sucesso.  
 
-**Fluxo Alternativo B**
 
--Fluxo alternativo: Editar tutor.
-
-1. Cliente seleciona opção “Editar conta”.
-2. Sistema apresenta os dados do cliente
-3. Cliente edita as lacunas desejadas.
-4. Cliente submete edição.
-5. Sistema solicita a confirmação da edição dos dados.
-6. Sistema armazena edições.
-7. Sistema atualiza perfil.
-8. Sistema informa que a edição foi efetuada com sucesso.
 
  
 ### CDU 05 Autenticação de login
@@ -228,7 +221,17 @@ Ator: Tutor
  1. Usuário escolhe o serviço desejado. 
  2. Usuário seleciona dia e horário disponíveis. 
  3. Sistema armazena dados. 
- 4. Sistema informa que o agendamento foi efetuado com sucesso. 
+ 4. Sistema informa que o agendamento foi efetuado com sucesso.
+ 5. Cliente entra na aba perfil.
+ 6. Cliente acessa calendário.
+ 7. Cliente clica em agendamento desejado.
+ 8. Sistema exibe detalhes do agendamento.
+ 9. Cliente escolhe a opção " Editar agendamento"
+ 10. Cliente edita as lacunas desejadas.
+ 11. Sistema armazena edições.
+ 12. Sistema atualiza calendários.
+ 13. Sistema informa que a edição foi efetuada com sucesso.
+ 14. Sistema apresenta os novos detalhes do agendamento. 
 
 
 **Fluxo Alternativo A**
@@ -245,21 +248,6 @@ Ator: Tutor
 
 
 **Fluxo Alternativo B**
-
-- Fluxo alternativo: Editar agendamento.
-
-1. Cliente entra na aba perfil.
-2. Cliente acessa calendário.
-3. Cliente clica em agendamento desejado.
-4. Sistema exibe detalhes do agendamento.
-5. Cliente escolhe a opção " Editar agendamento"
-6. Cliente edita as lacunas desejadas.
-7. Sistema armazena edições.
-8. Sistema atualiza calendários.
-9. Sistema informa que a edição foi efetuada com sucesso.
-10. Sistema apresenta os novos detalhes do agendamento.
-
-**Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar agendamentos
 
