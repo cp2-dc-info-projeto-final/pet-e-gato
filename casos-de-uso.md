@@ -275,11 +275,13 @@ Ator: Tutor
 Ator: Administrador 
 
 **Fluxo Principal**
+-Fluxo principal: Incluir serviço.  
 
-1. Administrador seleciona aba de serviços.
-2. Administrador seleciona serviço desejado.
-3. Administrador seleciona a opção " Manter funcionário" .
-4. Administrador seleciona a opção desejada (excluir, editar, listar e incluir).
+1. Administrador seleciona opção " Cadastrar serviço".
+2. Administrador insere os dados solicitados " nome do serviço, preço, código, descrição"
+3. Sistema armazena os dados e adiciona novo funcionário .
+4. Sistema informa que o cadastro foi efetuado com sucesso.
+
 
  
 **Fluxo Alternativo A**
@@ -309,14 +311,7 @@ Ator: Administrador
 1. Administrador seleciona opção " Listar funcionários"
 2. Sistema apresenta funcionários cadastrados.
 
-**Fluxo Alternativo D**
 
--Fluxo alternativo: Incluir serviço.  
-
-1. Administrador seleciona opção " Cadastrar serviço".
-2. Administrador insere os dados solicitados " nome do serviço, preço, código, descrição"
-3. Sistema armazena os dados e adiciona novo funcionário .
-4. Sistema informa que o cadastro foi efetuado com sucesso.
 
 
 
