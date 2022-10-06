@@ -49,7 +49,7 @@ Ator: Administrador
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
-### Diagrama de sequência![Cadastro funcionário - CDU 01 (fluxo alternativo A)](![Fluxo alternativo funcionário](https://user-images.githubusercontent.com/95979551/194377961-fa03c67d-c5b2-47bd-9790-ea94f1f36d2b.jpg){:height="10px" width="10px"}.
+### Diagrama de sequência![Cadastro funcionário - CDU 01 (fluxo alternativo A)](![Fluxo alternativo funcionário](https://user-images.githubusercontent.com/95979551/194377961-fa03c67d-c5b2-47bd-9790-ea94f1f36d2b.jpg)
 
 **Fluxo Alternativo B**
 
@@ -69,6 +69,9 @@ Ator: Tutor
 2. Usuário insere os dados solicitados: nome completo, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet. 
 3. Sistema armazena os dados e adiciona novo cliente. 
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
+
+### Diagrama de sequência![Cadastro tutor - CDU 02 (fluxo principal) (![Cadastro cliente - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194378707-b4623618-ba29-4ec0-a358-eb86ac1d8f46.jpg)
+)
 
 
 **Fluxo Alternativo A**
