@@ -74,6 +74,8 @@ Ator: Tutor
 3. Sistema analisa os dados. 
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
+
+https://github.com/cp2-dc-info-projeto-final/pet-e-gato/blob/ff195b8d9fd0505a5df2c6f01688b19ba7c613d1/Diagramas%20de%20fluxos/Diagrama%20de%20fluxo%20alternativo%20-%20cadastro_cliente.jpg
  
 ### CDU 03 Manter funcionário
 
