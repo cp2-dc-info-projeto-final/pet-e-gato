@@ -193,7 +193,7 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que e-mail ou senha estão incorretos.
 5. Sistema solicita que o usuário reinsira a senha ou e-mail novamente. 
 
-### Diagrama de sequência![Autenticação de login - CDU 05 (fluxo alternativo A)(![Autenticação de login (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
+### Diagrama de sequência ![Autenticação de login - CDU 05 (fluxo alternativo A)[Autenticação de login (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
 
 
 **Fluxo Alternativo B**
@@ -322,7 +322,7 @@ Ator: Administrador
 1. Administrador seleciona opção " Listar funcionários"
 2. Sistema apresenta funcionários cadastrados.
 
-### Diagrama de sequência![Listar Serviço - CDU 05 (fluxo alternativo C)(![Listar serviço (fluxo alternativo C))](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
+### Diagrama de sequência ![Listar Serviço - CDU 05 (fluxo alternativo C)(![Listar serviço (fluxo alternativo C))](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
 
 
 
