@@ -49,6 +49,8 @@ Ator: Administrador
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
+### Diagrama de sequência![Cadastro funcionário - CDU 01 (fluxo alternativo A)](![Fluxo alternativo funcionário](https://user-images.githubusercontent.com/95979551/194377961-fa03c67d-c5b2-47bd-9790-ea94f1f36d2b.jpg){:height="36px" width="36px"}.
+
 **Fluxo Alternativo B**
 
 1. Usuário seleciona a opção "Cadastrar Administrador". 
