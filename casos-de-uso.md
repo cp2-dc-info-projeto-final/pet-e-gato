@@ -21,7 +21,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso - pet_e_gato (final) FOTO](https://user-images.githubusercontent.com/95047248/189779855-82e20ae8-d01b-4a3a-a521-936849b1d336.jpg=20x20)
+![Diagrama de casos de uso - pet_e_gato (final) FOTO](https://user-images.githubusercontent.com/95047248/189779855-82e20ae8-d01b-4a3a-a521-936849b1d336.jpg)
 
 
 
@@ -322,7 +322,7 @@ Ator: Administrador
 1. Administrador seleciona opção " Listar funcionários"
 2. Sistema apresenta funcionários cadastrados.
 
-### Diagrama de sequência![Listar Serviço - CDU 05 (fluxo alternativo C)(![Listar serviço (fluxo alternativo C)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
+### Diagrama de sequência![Listar Serviço - CDU 05 (fluxo alternativo C)(![Listar serviço (fluxo alternativo C))](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
 
 
 
