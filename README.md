@@ -25,5 +25,6 @@ Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colé
 
 **Modelagem do Banco de Dados**
 
-![Diagrama de banco de dados - pet gatô 2 mwb](https://user-images.githubusercontent.com/95979551/192399833-90039529-f351-4285-9cf3-a2cf04878916.png)
+![Diagrama de banco de dados - pet gatô 2 mwb](![Diagrama de banco de dados (png)](https://user-images.githubusercontent.com/95979551/194389469-a38cc697-6bdc-4949-a59f-016426a541b8.png)
+
 
