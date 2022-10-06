@@ -39,8 +39,7 @@ Ator: Administrador
 3. Sistema armazena os dados e adiciona novo funcionário. 
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
 
-### Diagrama de sequência![Cadastro funcionário - CDU 01 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194375709-92a98c15-ebd4-4193-9a5c-2d4e8cee0db3.jpg)
-
+### Diagrama de sequência [Cadastro funcionário - CDU 01 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194375709-92a98c15-ebd4-4193-9a5c-2d4e8cee0db3.jpg)
 
 **Fluxo Alternativo A**
 
