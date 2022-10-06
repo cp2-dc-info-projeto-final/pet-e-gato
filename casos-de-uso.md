@@ -48,7 +48,7 @@ Ator: Administrador
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
-### Diagrama de sequência![Cadastro funcionário - CDU 01 (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194377961-fa03c67d-c5b2-47bd-9790-ea94f1f36d2b.jpg)
+### Diagrama de sequência ![Cadastro funcionário - CDU 01 (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194377961-fa03c67d-c5b2-47bd-9790-ea94f1f36d2b.jpg)
 
 **Fluxo Alternativo B**
 
@@ -69,7 +69,7 @@ Ator: Tutor
 3. Sistema armazena os dados e adiciona novo cliente. 
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
 
-### Diagrama de sequência![Cadastro tutor - CDU 02 (fluxo principal) (![Cadastro cliente - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194378707-b4623618-ba29-4ec0-a358-eb86ac1d8f46.jpg)
+### Diagrama de sequência ![Cadastro tutor - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194378707-b4623618-ba29-4ec0-a358-eb86ac1d8f46.jpg)
 
 
 
@@ -81,7 +81,7 @@ Ator: Tutor
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
 
-### Diagrama de sequência![Cadastro tutor - CDU 02 (fluxo alternativo A) (![Cadastro cliente - CDU 02 (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194379368-df381daa-0adf-4e6e-9cca-0a5daa93073f.jpg)
+### Diagrama de sequência ![Cadastro tutor - CDU 02 (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194379368-df381daa-0adf-4e6e-9cca-0a5daa93073f.jpg)
 
  
 ### CDU 03 Manter funcionário
@@ -180,7 +180,7 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que e-mail e senha são válidos. 
 5. Sistema libera o acesso do usuário. 
 
-### Diagrama de sequência[Autenticação de login - CDU 05 (fluxo principal)(![Autenticação de login](https://user-images.githubusercontent.com/95979551/194379932-b34c9ec6-73fe-4db3-90be-2f9c268c5b29.jpg)
+### Diagrama de sequência ![Autenticação de login - CDU 05 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194379932-b34c9ec6-73fe-4db3-90be-2f9c268c5b29.jpg)
 
 
 
@@ -192,7 +192,7 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que e-mail ou senha estão incorretos.
 5. Sistema solicita que o usuário reinsira a senha ou e-mail novamente. 
 
-### Diagrama de sequência [Autenticação de login - CDU 05 (fluxo alternativo A)(![Autenticação de login (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
+### Diagrama de sequência [Autenticação de login - CDU 05 (fluxo alternativo A)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
 
 
 **Fluxo Alternativo B**
@@ -290,7 +290,7 @@ Ator: Administrador
 3. Sistema armazena os dados e adiciona novo funcionário.
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 
-### Diagrama de sequência![Incluir serviço - CDU 05 (fluxo principal)(![Incluir serviço (fluxo principal)](https://user-images.githubusercontent.com/95979551/194381312-fb483490-50b5-4f1a-941e-50472c545684.jpg)
+### Diagrama de sequência![Incluir serviço - CDU 05 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194381312-fb483490-50b5-4f1a-941e-50472c545684.jpg)
 
 
 
@@ -321,7 +321,7 @@ Ator: Administrador
 1. Administrador seleciona opção " Listar funcionários"
 2. Sistema apresenta funcionários cadastrados.
 
-### Diagrama de sequência ![Listar Serviço - CDU 05 (fluxo alternativo C)(![Listar serviço (fluxo alternativo C))](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
+### Diagrama de sequência ![Listar Serviço - CDU 05 (fluxo alternativo C)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
 
 
 
