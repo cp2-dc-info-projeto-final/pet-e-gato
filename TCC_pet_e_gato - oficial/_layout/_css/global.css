@@ -1,0 +1,16 @@
+.button {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    text-decoration-color: black;
+}
+
+.button-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.block{
+    margin-top: 100px;
+}
