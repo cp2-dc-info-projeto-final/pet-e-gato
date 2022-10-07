@@ -318,8 +318,8 @@ Ator: Administrador
 **Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar serviços.
-1. Administrador seleciona opção " Listar funcionários"
-2. Sistema apresenta funcionários cadastrados.
+1. Administrador seleciona opção " Listar serviços"
+2. Sistema apresenta serviços cadastrados.
 
 ### Diagrama de sequência ![Listar Serviço - CDU 05 (fluxo alternativo C)](https://user-images.githubusercontent.com/95979551/194380510-f49ac0e6-3c8d-4d1c-97fd-418c8a2f51bf.jpg)
 
