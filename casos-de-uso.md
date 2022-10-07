@@ -287,7 +287,7 @@ Ator: Administrador
 
 1. Administrador seleciona opção " Cadastrar serviço".
 2. Administrador insere os dados solicitados " nome do serviço, preço, código, descrição".
-3. Sistema armazena os dados e adiciona novo funcionário.
+3. Sistema armazena os dados e adiciona novo serviço.
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 
 ### Diagrama de sequência![Incluir serviço - CDU 05 (fluxo principal)](https://user-images.githubusercontent.com/95979551/194381312-fb483490-50b5-4f1a-941e-50472c545684.jpg)
