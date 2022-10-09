@@ -48,6 +48,10 @@
                   </li>
 
                   <li class="nav-item">
+                    <a class="nav-link" href="clientes.php">Clientes</a>
+                  </li>
+
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
                   </li>
 
@@ -55,6 +59,9 @@
                     <a class="nav-link" href="#">Sobre</a>
                   </li>
 
+                  <li class="nav-item">
+                    <a class="nav-link" href="cadastro_funcionario.php">Cadastro de Funcionários</a>
+                  </li>
 
                   <li class="nav-item">
                     <a class="nav-link" href="logout.php">Fazer logout</a>
@@ -86,4 +93,3 @@
     <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
-

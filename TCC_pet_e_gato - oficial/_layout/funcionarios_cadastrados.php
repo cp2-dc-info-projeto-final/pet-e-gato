@@ -70,7 +70,8 @@ if($operacao == "funcionario"){
     mysqli_query($mysqli,$sql);
 
 }
-
+ 
+    header ('location: index-adm.php');
 ?>
     </body>
 </html>

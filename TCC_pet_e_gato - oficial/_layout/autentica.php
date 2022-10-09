@@ -1,3 +1,4 @@
+
 <?php
     session_start();
     if(isset($_SESSION["email"])){
@@ -43,4 +44,3 @@
         }
         mysqli_close($mysqli);
     }
-?>
