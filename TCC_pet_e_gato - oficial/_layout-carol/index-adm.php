@@ -61,7 +61,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastro de Serviços</a>
+                    <a class="nav-link" href="cadastro_servicos.php">Cadastro de Serviços</a>
                   </li>
 
                   <li class="nav-item">
