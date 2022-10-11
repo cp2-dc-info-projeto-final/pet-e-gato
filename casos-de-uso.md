@@ -164,7 +164,7 @@ Ator: Tutor e Administrador
 -Fluxo alternativo: Listar tutores 
 
 1. Administrador seleciona opção " Listar Tutores"
-2. Sistema apresenta funcionários cadastrados.
+2. Sistema apresenta tutores cadastrados.
 
 
 
@@ -310,7 +310,7 @@ Ator: Administrador
 
 - Fluxo alternativo: Editar serviço.
 
-1. Administrador seleciona opção " Editar funcionário".
+1. Administrador seleciona opção "Editar funcionário".
 2. Sistema apresenta os dados do serviço.
 3. Administrador edita as lacunas desejadas.
 4. Administrador submete edição.
