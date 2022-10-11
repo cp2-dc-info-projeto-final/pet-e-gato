@@ -73,7 +73,7 @@
         <h1>O PetShop mais delicioso para o seu pet!</h1>
         <h4>Contrate já um de nossos serviços.</h4>
         <a href="#" class="btn btn-primary button">Contato</a>
-        <a href="#" class="btn btn-outline-primary button">Serviços</a>
+        <a href="servicos.html" class="btn btn-outline-primary button">Serviços</a>
       </div>
       <div class="col-md-6 align-self-center text-center">
         <img src="_img/pet_img.svg" class="img-fluid" alt="Um gatinho e um cachorrinho.">
