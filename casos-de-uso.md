@@ -328,6 +328,36 @@ Ator: Administrador
 ### Diagrama de sequência ![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
 
 
+### CDU 10 Recuperar senha
+
+Ator: Administrador, funcionário e tutor
+
+**Fluxo Principal**
+
+1. Usuário clica em "Recuperar senha".
+2. Sistema exibe página recuperação.
+3. Usuário insere email. 
+4. Sistema envia código de verificação.
+5. Usuário insere código.
+6. Usuário redefine senha. 
+7. Sistema exibe pagina de login. 
+8. Usuário insere email e nova senha.  
+9. Sistema libera o acesso ao usuário. 
+
+**Fluxo Alternativo A**
+
+- Fluxo alternativo: Código de verificação incorreto.
+1. Usuário clica em "Recuperar senha".
+2. Sistema exibe página recuperação.
+3. Usuário insere email. 
+4. Sistema envia código de verificação.
+5. Usuário insere código.
+6. Sistema informa erro no código de verificação. 
+7. Sistema solicita código novamente. 
+8. Usuário insere código. 
+9. Sistema libera o acesso ao usuário. 
+ 
+ 
 
 
 
