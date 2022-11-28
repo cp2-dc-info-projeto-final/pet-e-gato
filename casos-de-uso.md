@@ -344,6 +344,8 @@ Ator: Administrador, funcionário e tutor
 8. Usuário insere email e nova senha.  
 9. Sistema libera o acesso ao usuário. 
 
+### Diagrama de sequência ![diagrama de sequência -Recuperar senha (fluxo principal)](https://user-images.githubusercontent.com/95935490/204376009-54889c56-005f-4f8d-a469-eed608a80e0d.jpg)
+
 **Fluxo Alternativo A**
 
 - Fluxo alternativo: Código de verificação incorreto.
