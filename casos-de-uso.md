@@ -11,6 +11,8 @@
  - [CDU 07](#CDU-07): Disponibilizar horário
  - [CDU 08](#CDU-08): Manter agendamento
  - [CDU 09](#CDU-09): Manter serviço
+ - [CDU 10](#CDU-10): Recuperar senha
+
  
 
 ## Lista dos Atores
