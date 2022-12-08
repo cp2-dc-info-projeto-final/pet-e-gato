@@ -356,10 +356,13 @@ Ator: Administrador, funcionário e tutor
 3. Usuário insere email. 
 4. Sistema envia código de verificação.
 5. Usuário insere código.
-6. Sistema informa erro no código de verificação. 
-7. Sistema solicita código novamente. 
-8. Usuário insere código. 
-9. Sistema libera o acesso ao usuário. 
+6. Sistema analisa código.
+7. Sistema informa erro no código de verificação. 
+8. Sistema solicita código novamente. 
+9. Usuário insere código. 
+10. Sistema analisa código.
+11. Usuário insere nova senha.
+12. Sistema libera o acesso ao usuário. 
 
 
  
