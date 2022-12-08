@@ -360,7 +360,8 @@ Ator: Administrador, funcionário e tutor
 7. Sistema solicita código novamente. 
 8. Usuário insere código. 
 9. Sistema libera o acesso ao usuário. 
- 
+
+
  
 
 
