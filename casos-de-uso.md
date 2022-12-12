@@ -365,7 +365,7 @@ Ator: Administrador, funcionário e tutor
 12. Sistema registra nova senha.
 13. Sistema libera o acesso ao usuário. 
 
-**Fluxo Alternativo B **
+**Fluxo Alternativo B**
 
 - Fluxo alternativo: Email incorreto.
 1. Usuário clica em "Recuperar senha".
