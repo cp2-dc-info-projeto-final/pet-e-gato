@@ -219,6 +219,9 @@ Ator: Tutor e funcionário
 1. Usuário entra na aba perfil. 
 2. Sistema exibe os dados do usuário. 
 
+### Diagrama de sequência(![Diagrama de sequência- CDU06 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/207130534-e0c434b4-45c9-4d44-b74d-2d899c02f672.jpg)
+)
+
 
    
 ### CDU 07 Disponibilizar horário
