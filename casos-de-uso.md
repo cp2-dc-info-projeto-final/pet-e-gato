@@ -196,7 +196,7 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que e-mail ou senha estão incorretos.
 5. Sistema solicita que o usuário reinsira a senha ou e-mail novamente. 
 
-### Diagrama de sequência ![Autenticação de login - CDU 05 (fluxo alternativo A)](https://user-images.githubusercontent.com/95935490/194650516-c1cfdb18-9f57-4e1b-9672-10256887601c.jpg)
+### Diagrama de sequência ![Diagrama de sequência- CDU06 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/207130822-f1823715-0131-4d4b-b2c2-2298d0b9d865.jpg)
 
 
 
