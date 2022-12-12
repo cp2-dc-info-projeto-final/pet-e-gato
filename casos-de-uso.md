@@ -217,8 +217,7 @@ Ator: Tutor e funcionário
 **Fluxo Principal**
 
 1. Usuário entra na aba perfil. 
-2. Sistema exibe calendário. 
-3. Sistema exibe os dados do usuário. 
+2. Sistema exibe os dados do usuário. 
 
 
    
