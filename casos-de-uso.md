@@ -104,6 +104,8 @@ Ator: Administrador
 7. Sistema atualiza perfil. 
 8. Sistema informa que a edição foi efetuada com sucesso.  
 
+### Diagrama de sequência ![Diagrama de sequência- CDU03 ( fluxo principal)](https://user-images.githubusercontent.com/95935490/207912198-fe287cd1-1996-4646-b22a-46ffef80a816.jpg)
+
 
 **Fluxo Alternativo A**
 
@@ -112,6 +114,9 @@ Ator: Administrador
 1. Administrador seleciona opção “Excluir funcionário”. 
 2. Sistema solicita a confirmação da exclusão do funcionário. 
 3. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
+
+### Diagrama de sequência ![Diagrama de sequência- CDU03( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/207913671-aef17ca1-7945-428b-a765-58ea38ece6e3.jpg)
+
 
 **Fluxo Alternativo B**
 
@@ -155,7 +160,6 @@ Ator: Tutor e Administrador
 ### Diagrama de sequência![Diagrama de sequência- CDU04 ( fluxo principal)  (1)](https://user-images.githubusercontent.com/95935490/207910492-8d6e7355-ffb6-4d6a-968a-db7eb30c513e.jpg)
 
 
-
 **Fluxo Alternativo A**
 
 -Fluxo alternativo: Excluir tutor 
@@ -163,6 +167,9 @@ Ator: Tutor e Administrador
 1. Cliente seleciona a opção “Excluir conta”
 2. Sistema solicita a confirmação da exclusão da conta do cliente. 
 3. Sistema informa que a exclusão da conta foi efetuada com sucesso.  
+
+### Diagrama de sequência ![Diagrama de sequência- CDU04 ( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/207912715-4e84dee6-dd67-449a-a3a1-2eec20f3b845.jpg)
+
 
 **Fluxo Alternativo B**
 
