@@ -260,6 +260,14 @@ Ator: Tutor
  2. Usuário seleciona dia e horário disponíveis. 
  3. Sistema armazena dados. 
  4. Sistema informa que o agendamento foi efetuado com sucesso.
+ 
+ ### Diagrama de sequência ![Diagrama de sequência- CDU08( fluxo principal) ](https://user-images.githubusercontent.com/95935490/207922674-4d65865e-05db-4e97-8c8b-a2814f676c9d.jpg)
+
+
+**Fluxo Alternativo A**
+
+- Fluxo alternativo: Editar agendamento.
+
  5. Cliente entra na aba perfil.
  6. Cliente acessa calendário.
  7. Cliente clica em agendamento desejado.
@@ -271,8 +279,7 @@ Ator: Tutor
  13. Sistema informa que a edição foi efetuada com sucesso.
  14. Sistema apresenta os novos detalhes do agendamento. 
 
-
-**Fluxo Alternativo A**
+**Fluxo Alternativo B**
 
 - Fluxo alternativo: Cancelar agendamento.
 
