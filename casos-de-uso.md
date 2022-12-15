@@ -368,7 +368,8 @@ Ator: Administrador, funcionário e tutor
 8. Usuário insere email e nova senha.  
 9. Sistema libera o acesso ao usuário. 
 
-### Diagrama de sequência ![diagrama de sequência -Recuperar senha (fluxo principal)](https://user-images.githubusercontent.com/95935490/204376009-54889c56-005f-4f8d-a469-eed608a80e0d.jpg)
+### Diagrama de sequência ![Diagrama de sequência- CDU10 ( Fluxo principal) ](https://user-images.githubusercontent.com/95935490/207925267-093bfc1b-6bff-4038-aec7-07259999bb87.jpg)
+
 
 **Fluxo Alternativo A**
 
@@ -386,6 +387,9 @@ Ator: Administrador, funcionário e tutor
 11. Usuário insere nova senha.
 12. Sistema registra nova senha.
 13. Sistema libera o acesso ao usuário. 
+
+### Diagrama de sequência ![Diagrama de sequência- CDU10- ( fluxo alternativo A)](https://user-images.githubusercontent.com/95935490/207925437-273456b8-1d2d-46a1-93c4-25d044d97299.jpg)
+
 
 **Fluxo Alternativo B**
 
