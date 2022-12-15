@@ -279,6 +279,8 @@ Ator: Tutor
  13. Sistema informa que a edição foi efetuada com sucesso.
  14. Sistema apresenta os novos detalhes do agendamento. 
 
+### Diagrama de sequência ![Diagrama de sequência- CDU08( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/207924640-298d2937-7466-4386-b362-e3a162f661b4.jpg)
+
 **Fluxo Alternativo B**
 
 - Fluxo alternativo: Cancelar agendamento.
