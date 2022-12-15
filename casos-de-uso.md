@@ -294,7 +294,7 @@ Ator: Tutor
  7. Sistema informa que o cancelamento foi efetuado com sucesso.
 
 
-**Fluxo Alternativo B**
+**Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar agendamentos
 
