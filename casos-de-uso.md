@@ -248,6 +248,7 @@ Ator: Administrador
 6. Sistema armazena as informações. 
 7. Sistema atualiza as informações.
  
+### Diagrama de sequência ![Diagrama de sequência- CDU07 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/207929023-fe61a5ac-8112-4856-aa79-292c50680111.jpg)
 
  
  ### CDU 08 Manter Agendamento
