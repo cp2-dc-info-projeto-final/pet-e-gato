@@ -157,7 +157,7 @@ Para fazer agendamento de algum plano.
 
 ## PÁGINA INICIAL - Funcionário
 
-## 1.ACESSAR CALENDÁRIO
+**1.Acessar calendário**
 
 1. Clique em "Login". 
 2. Clique em "Calendário".
