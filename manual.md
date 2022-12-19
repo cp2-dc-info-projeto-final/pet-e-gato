@@ -154,3 +154,10 @@ Para fazer agendamento de algum plano.
 - Aperte do símbolo (img do simbolo).
 - Faça a edição.
 - Clique em "Salvar alterações".
+
+## PÁGINA INICIAL - Funcionário
+
+## 1.ACESSAR CALENDÁRIO
+
+1. Clique em "Login". 
+2. Clique em "Calendário".
