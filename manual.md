@@ -23,19 +23,19 @@ Para fazer login como administrador
 
 Clique em "Login", logo em seguida em "funcionário". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta administrador. 
 
-##LOGOUT 
+##  LOGOUT 
 
 Para fazer logout( sair)  de sua conta. 
  Clique em " Sair" e será direcionado para a página inicial sem login. 
 
-##CADASTRAR
+##  CADASTRAR
 
 Para se Cadastrar no site. 
 
 Clique em " Cadastrar-se", logo em seguida insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". 
 
 
-##AGENDAMENTO 
+##  AGENDAMENTO 
 
 Para fazer agendamento de algum plano. 
 
