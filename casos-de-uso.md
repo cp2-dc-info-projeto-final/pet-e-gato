@@ -422,4 +422,4 @@ Ator: Tutor, administrador e funcionário
 2. Sistema encerra sessão.
 3. Sistema redireciona para página inicial.
 
-### Diagrama de sequência ![Diagrama de sequência- CDU11- ( fluxo principal)](![CDU 11 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208498229-00f880a9-ac9c-437d-851f-db6089c461f6.jpg)
+### Diagrama de sequência (![CDU 11 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208498229-00f880a9-ac9c-437d-851f-db6089c461f6.jpg)
