@@ -230,7 +230,6 @@ Ator: Administrador
 
 **Fluxo Principal**
 
-1. Administrador seleciona a opção perfil. 
 2. Administrador seleciona "Grade horária". 
 3. Administrador seleciona funcionário. 
 4. Sistema exibe calendário do funcionário. 
