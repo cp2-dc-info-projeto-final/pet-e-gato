@@ -93,7 +93,11 @@ Para fazer agendamento de algum plano.
 
 **4.4 Excluir Agendamento**
 
-Em sua conta, clique em calendário. Escolha a marcação que deseja cancelar, aperte do símbolo (img do simbolo) e cancele seu agendamento. Logo em seguida clique em "Salvar alterações". 
+- Em sua conta, clique em calendário. 
+- Escolha a marcação que deseja cancelar.
+- Aperte do símbolo (img do simbolo).
+- Cancele seu agendamento. 
+- Clique em "Salvar alterações". 
 
 **VER COMO QUE FUNCIONA ESSE NO SITE.**
 
