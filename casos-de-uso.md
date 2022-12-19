@@ -131,8 +131,7 @@ Ator: Administrador
  
 ### CDU 04 Manter tutor
 
-Ator: Tutor e Administrador
-
+Ator: Tutor
 **Fluxo Principal**
 
 1. Cliente entra na aba perfil. 
@@ -230,6 +229,7 @@ Ator: Administrador
 
 **Fluxo Principal**
 
+1. Administrador seleciona a opção perfil. 
 2. Administrador seleciona "Grade horária". 
 3. Administrador seleciona funcionário. 
 4. Sistema exibe calendário do funcionário. 
