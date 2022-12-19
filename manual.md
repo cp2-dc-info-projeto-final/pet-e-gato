@@ -47,7 +47,7 @@ Para fazer agendamento de algum plano.
 Clique em "Login", logo em seguida em "Cliente". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta. Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
 
 
-**4.2 Para consultar Agendamento(Visualizar calendário)**
+**4.2 Para consultar Agendamento (Visualizar calendário)**
 Em sua conta, clique em calendário assim verá todas as marcações feitas, assim como horário e data . 
 
 **4.3 Editar Agendamento** 
