@@ -123,18 +123,18 @@ Em sua conta, clique em calendário. Escolha a marcação que deseja cancelar, a
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
 - Aperte em "Salvar alterações"
 
-**2.1 Exibir clientes
+**2.1 Exibir clientes**
 
 - Em sua conta administrador, clique em "Clientes".  
 - Serão exibidos os clientes cadastrados, assim como horário e data. 
 
 
-**3.1 Consultar funcionários 
+**3.1 Consultar funcionários**
 
 - Em sua conta administrador, clique em "Funcionários". 
 - Serão exibidos todos os funcionários cadastrados, assim como os emails e nascimento. 
 
-**4.1 Editar funcionários
+**4.1 Editar funcionários**
 
 - Em sua conta administrador, clique em "Funcionários".
 - Escolha o funcionário que deseja editar.
