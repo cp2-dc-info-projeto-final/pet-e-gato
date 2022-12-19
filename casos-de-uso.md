@@ -343,7 +343,7 @@ Ator: Administrador
 1. Administrador seleciona opção " Listar serviços"
 2. Sistema apresenta serviços cadastrados.
 
-### Diagrama de sequência ![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
+### Diagrama de sequência (![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
 
 
 ### CDU 10 Recuperar senha
