@@ -17,26 +17,36 @@ Nullam vitae velit a eros dignissim bibendum id a enim. Vestibulum hendrerit nis
  - Clique em "Login".
  - Clique em "Cliente".
  - Insira o email e a senha e aperte em "Entrar".
- - Seulogin será feitocom sucesso.
+ - Seu login como cliente será feito com sucesso.
 
 **1.2 Para fazer login como funcionário:**
 
-Clique em "Login", logo em seguida em "funcionário". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta funcionário. 
+- Clique em "Login".
+- Clique em "funcionário". 
+- Insira o email e a senha e aperte em "Entrar".
+- Seu login de funcionário será feito com sucesso.
 
 **1.3 Para fazer login como administrador:**
 
-Clique em "Login", logo em seguida em "funcionário". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta administrador. 
+- Clique em "Login".
+- Clique em "funcionário". 
+- Insira o email e a senha e aperte em "Entrar".
+- Seu login de administrador será feito com sucesso.
 
 ## 2. LOGOUT 
 
-Para fazer logout( sair)  de sua conta. 
- Clique em " Sair" e será direcionado para a página inicial sem login. 
+Para fazer logout(sair) de sua conta. 
+
+- Clique em "Sair".
+- Será direcionado para a página inicial sem login. 
 
 ## 3. CADASTRAR
 
 Para se Cadastrar no site. 
 
-Clique em " Cadastrar-se", logo em seguida insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". 
+- Clique em " Cadastrar-se".
+- Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet.
+- Clique em "Cadastrar". 
 
 
 ## 4. AGENDAMENTO 
@@ -45,21 +55,41 @@ Para fazer agendamento de algum plano.
 
 **Caso não esteja cadastrado:**
 
- *Clique em " Cadastrar-se"*
- insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". Logo em seguida, Clique em " login", posteriormente em "Cliente". Insira o email e a senha e aperte em "Entrar". Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
+ - Clique em " Cadastrar-se".
+ - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. 
+ - Clique em "Cadastrar".
+ - Clique em " login". 
+ - Clique em "Cliente".
+ - Insira o email e a senha.
+ - Aperte em "Entrar". 
+ - Aperte em "Agendamento".
+ - Preencha o formulário. 
+ - Confirme o agendamento. 
 
 **Caso não esteja logado:**
 
-Clique em "Login", logo em seguida em "Cliente". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta. Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
+- Clique em "Login".
+- Clique em "Cliente". 
+- Insira o email e a senha.
+- Aperte em "Entrar".
+- Login será feito com sucesso. 
+- Aperte em "Agendamento".
+- Preencha o formulário. 
+- Confirme o agendamento. 
 
 
 **4.2 Para consultar Agendamento (Visualizar calendário)**
 
-Em sua conta, clique em calendário assim verá todas as marcações feitas, assim como horário e data . 
+- Em sua conta, clique em "calendário" 
+- O calendário será exibido com as marcações feitas, assim como horário e data. 
 
 **4.3 Editar Agendamento** 
 
-Em sua conta, clique em calendário. Escolha a marcação que deseja editar, aperte do símbolo (img do simbolo) e edite seu agendamento. Logo em seguida clique em " Salvar alterLogo em seguida clique em " Salvar alterações". 
+- Em sua conta, clique em calendário. 
+- Escolha a marcação que deseja editar.
+- Aperte do símbolo (img do simbolo).
+- Edite seu agendamento. 
+- Clique em "Salvar alterações". 
 
 **4.4 Excluir Agendamento**
 
