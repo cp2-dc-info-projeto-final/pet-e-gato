@@ -4,8 +4,8 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 **Lista das Funcionalidades:**
 
- - [Fazer login](#Funcionalidade-X)
- - [Funcionalidade Y](#Funcionalidade-Y)
+ - [Fazer login](Fazer login)
+ - [Fazer logout](Fazer logout)
  - [Funcionalidade Z](#Funcionalidade-Z)
 
 
