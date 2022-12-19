@@ -1,6 +1,6 @@
 # Manual do Usuário
 
-Nullam vitae velit a eros dignissim bibendum id a enim. Vestibulum hendrerit nisl sed magna gravida, non elementum urna condimentum. Quisque porta tincidunt nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis at varius mauris. Quisque molestie ante imperdiet elit blandit, ac volutpat sem efficitur. Donec nec sem tempus, ullamcorper nisl non, blandit tortor. Etiam suscipit rutrum laoreet. Donec facilisis eros ultrices, venenatis quam nec, feugiat ante. Donec ante eros, consequat nec nibh vitae, porta vehicula orci. Duis nec eros et lorem malesuada sodales. Praesent auctor accumsan ipsum, et volutpat ex porttitor eu. Vestibulum facilisis elementum elit, hendrerit mollis velit pretium in. Curabitur tristique vel augue a sodales. Sed malesuada lacinia porttitor.
+Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feito para auxiliar e facilitar a interação do cliente com o sitema. Nosso site possui login para clientes, funcionários e administrador, logout, sistema de cadastramento de clientes, funcionários e administrador, sistema de agendamento com horários e datas, edição e exlusão dos agendamnentos, página de serviços e rodapé com informações para contato.
 
 **Lista das Funcionalidades:**
 
@@ -44,7 +44,7 @@ Para fazer logout(sair) de sua conta.
 
 Para se Cadastrar no site. 
 
-- Clique em " Cadastrar-se".
+- Clique em "Cadastrar-se".
 - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet.
 - Clique em "Cadastrar". 
 
@@ -55,10 +55,10 @@ Para fazer agendamento de algum plano.
 
 **Caso não esteja cadastrado:**
 
- - Clique em " Cadastrar-se".
+ - Clique em "Cadastrar-se".
  - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. 
  - Clique em "Cadastrar".
- - Clique em " login". 
+ - Clique em "login". 
  - Clique em "Cliente".
  - Insira o email e a senha.
  - Aperte em "Entrar". 
@@ -153,4 +153,4 @@ Para fazer agendamento de algum plano.
 - Escolha o funcionário que deseja editar.
 - Aperte do símbolo (img do simbolo).
 - Faça a edição.
-- Clique em " Salvar alterações".
+- Clique em "Salvar alterações".
