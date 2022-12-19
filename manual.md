@@ -14,7 +14,10 @@ Nullam vitae velit a eros dignissim bibendum id a enim. Vestibulum hendrerit nis
 
 **1.1 Para fazer login como cliente:** 
 
- Clique em "Login", logo em seguida em "Cliente". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta. 
+ - Clique em "Login".
+ - Clique em "Cliente".
+ - Insira o email e a senha e aperte em "Entrar".
+ - Seulogin será feitocom sucesso.
 
 **1.2 Para fazer login como funcionário:**
 
