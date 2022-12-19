@@ -422,3 +422,13 @@ Ator: Administrador, funcionário e tutor
 13.  Usuário insere nova senha.
 14.  Sistema registra nova senha.
 15.  Sistema libera o acesso ao usuário.
+
+
+CDU 11 Fazer logout
+Ator: Tutor, administrador e funcionário
+
+Fluxo Principal
+
+Usuário seleciona a opção “Sair".
+Sistema encerra sessão.
+Usuário é redirecionado para a página inicial.
