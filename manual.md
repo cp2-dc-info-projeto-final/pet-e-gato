@@ -87,7 +87,7 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta, clique em calendário. 
 - Escolha a marcação que deseja editar.
-- Aperte do símbolo (img do simbolo).
+- Aperte em editar .
 - Edite seu agendamento. 
 - Clique em "Salvar alterações". 
 
@@ -95,7 +95,7 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta, clique em calendário. 
 - Escolha a marcação que deseja cancelar.
-- Aperte do símbolo (img do simbolo).
+- Aperte em excluir.
 - Cancele seu agendamento. 
 - Clique em "Salvar alterações". 
 
@@ -132,7 +132,7 @@ Para fazer agendamento de algum plano.
 **1.3 Cadastrar Administrador**
 
 - Clique em "Cadastrar".
-- Clique em "Administrador ".
+- Clique em "Administrador".
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
 - Aperte em "Salvar alterações"
 
@@ -151,7 +151,7 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta administrador, clique em "Funcionários".
 - Escolha o funcionário que deseja editar.
-- Aperte do símbolo (img do simbolo).
+- Aperte do símbolo editar.
 - Faça a edição.
 - Clique em "Salvar alterações".
 
@@ -161,5 +161,5 @@ Para fazer agendamento de algum plano.
 
 **1.1 Acessar calendário**
 
-1. Clique em "Login". 
-2. Clique em "Calendário".
+- Clique em "Login". 
+- Clique em "Calendário".
