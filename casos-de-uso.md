@@ -7,12 +7,12 @@
  - [CDU 03](#CDU-03): Manter funcionário
  - [CDU 04](#CDU-04): Manter tutor
  - [CDU 05](#CDU-05): Autenticação de login 
- - [CDU 06](#CDU-06): Logout
- - [CDU 07](#CDU-07): Visualizar perfil
- - [CDU 08](#CDU-08): Disponibilizar horário
- - [CDU 09](#CDU-09): Manter agendamento
- - [CDU 10](#CDU-10): Manter serviço
- - [CDU 11](#CDU-11): Recuperar senha
+ - [CDU 06](#CDU-06): Visualizar perfil
+ - [CDU 07](#CDU-07): Disponibilizar horário
+ - [CDU 08](#CDU-08): Manter agendamento
+ - [CDU 09](#CDU-09): Manter serviço
+ - [CDU 10](#CDU-10): Recuperar senha
+ - [CDU 11](#CDU-11): Logout
 
  
 
@@ -218,20 +218,9 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que o usuário não foi encontrado no sistema. 
 5. Sistema solicita que o usuário faça o cadastro. 
 
-### CDU 06 Fazer logout
-
-Ator: Tutor, administrador e funcionário
-
-**Fluxo Principal**
-
-1. Usuário seleciona a opção "Sair".
-2. Sistema encerra sessão
-3. Sistema redireciona para página inicial.
-
-
 
  
- ### CDU 07 Visualizar perfil
+ ### CDU 06 Visualizar perfil
 
 Ator: Tutor e funcionário
 
@@ -245,7 +234,7 @@ Ator: Tutor e funcionário
 
 
    
-### CDU 08 Disponibilizar horário
+### CDU 07 Disponibilizar horário
 
 Ator: Administrador
 
@@ -262,7 +251,7 @@ Ator: Administrador
 ### Diagrama de sequência ![Diagrama de sequência- CDU07 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/207929023-fe61a5ac-8112-4856-aa79-292c50680111.jpg)
 
  
- ### CDU 09 Manter Agendamento
+ ### CDU 08 Manter Agendamento
 
 Ator: Tutor
 
@@ -317,7 +306,7 @@ Ator: Tutor
 
    
 
- ### CDU 10 Manter Serviço
+ ### CDU 09 Manter Serviço
 
 Ator: Administrador 
 
@@ -364,7 +353,7 @@ Ator: Administrador
 ### Diagrama de sequência ![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
 
 
-### CDU 11 Recuperar senha
+### CDU 10 Recuperar senha
 
 Ator: Administrador, funcionário e tutor
 
@@ -423,12 +412,14 @@ Ator: Administrador, funcionário e tutor
 14.  Sistema registra nova senha.
 15.  Sistema libera o acesso ao usuário.
 
+### CDU 11 Fazer logout
 
-CDU 11 Fazer logout
 Ator: Tutor, administrador e funcionário
 
-Fluxo Principal
+**Fluxo Principal**
 
-Usuário seleciona a opção “Sair".
-Sistema encerra sessão.
-Usuário é redirecionado para a página inicial.
+1. Usuário seleciona a opção "Sair".
+2. Sistema encerra sessão.
+3. Sistema redireciona para página inicial.
+
+### Diagrama de sequência ![Diagrama de sequência- CDU11- ( fluxo principal)](![CDU 11 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208498229-00f880a9-ac9c-437d-851f-db6089c461f6.jpg)
