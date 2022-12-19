@@ -42,7 +42,8 @@ Para fazer agendamento de algum plano.
 
 **Caso não esteja cadastrado:**
 
- Clique em " Cadastrar-se", logo em seguida insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". Logo em seguida, Clique em " login", posteriormente em "Cliente". Insira o email e a senha e aperte em "Entrar". Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
+ *Clique em " Cadastrar-se"*
+ insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". Logo em seguida, Clique em " login", posteriormente em "Cliente". Insira o email e a senha e aperte em "Entrar". Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
 
 **Caso não esteja logado:**
 
