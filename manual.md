@@ -96,3 +96,48 @@ Para fazer agendamento de algum plano.
 Em sua conta, clique em calendário. Escolha a marcação que deseja cancelar, aperte do símbolo (img do simbolo) e cancele seu agendamento. Logo em seguida clique em "Salvar alterações". 
 
 **VER COMO QUE FUNCIONA ESSE NO SITE.**
+
+
+## PÁGINA INICIAL - Adm 
+
+## 1. CADASTRO 
+
+**1.1 Cadastrar serviços**
+
+- Clique em "Cadastrar".
+- Clique em "Serviços".
+- Preencha o formulário com os dados do novo serviço.
+- Aperte em "Salvar alterações". 
+
+**1.2 Cadastrar funcionário**
+
+- Clique em "Cadastrar".
+- Clique em "Funcionários".
+- Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
+- Aperte em "Salvar alterações".
+
+**1.3 Cadastrar Administrador**
+
+- Clique em "Cadastrar".
+- Clique em "Administrador ".
+- Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
+- Aperte em "Salvar alterações"
+
+**2.1 Exibir clientes
+
+- Em sua conta administrador, clique em "Clientes".  
+- Serão exibidos os clientes cadastrados, assim como horário e data. 
+
+
+**3.1 Consultar funcionários 
+
+- Em sua conta administrador, clique em "Funcionários". 
+- Serão exibidos todos os funcionários cadastrados, assim como os emails e nascimento. 
+
+**4.1 Editar funcionários
+
+- Em sua conta administrador, clique em "Funcionários".
+- Escolha o funcionário que deseja editar.
+- Aperte do símbolo (img do simbolo).
+- Faça a edição.
+- Clique em " Salvar alterações".
