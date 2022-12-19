@@ -40,14 +40,19 @@ Clique em " Cadastrar-se", logo em seguida insira os seguintes dados: Nome, emai
 
 Para fazer agendamento de algum plano. 
 
-Caso não esteja cadastrado:
+**Caso não esteja cadastrado:**
  Clique em " Cadastrar-se", logo em seguida insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". Logo em seguida, Clique em " login", posteriormente em "Cliente". Insira o email e a senha e aperte em "Entrar". Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
 
-Caso não esteja logado: Clique em "Login", logo em seguida em "Cliente". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta. Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
+**Caso não esteja logado:**
+Clique em "Login", logo em seguida em "Cliente". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta. Aperte em "Agendamento" preencha o formulário e confirme o agendamento. 
 
 
-Para consultar Agendamento. (Visualizar calendário) 
+**4.2 Para consultar Agendamento(Visualizar calendário)**
 Em sua conta, clique em calendário assim verá todas as marcações feitas, assim como horário e data . 
 
-Editar Agendamento 
-Em sua conta, clique em calendário. Escolha a marcação que deseja editar, aperte do símbolo (img do simbolo) e edite seu agendamento. Logo em seguida clique em " Salvar alter
+**4.3 Editar Agendamento** 
+Em sua conta, clique em calendário. Escolha a marcação que deseja editar, aperte do símbolo (img do simbolo) e edite seu agendamento. Logo em seguida clique em " Salvar alterLogo em seguida clique em " Salvar alterações". 
+
+**4.4 Excluir Agendamento**
+Em sua conta, clique em calendário. Escolha a marcação que deseja cancelar, aperte do símbolo (img do simbolo) e cancele seu agendamento. Logo em seguida clique em " Salvar alterações". 
+**VER COMO QUE FUNCIONA ESSE NO SITE.**
