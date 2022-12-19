@@ -270,16 +270,16 @@ Ator: Tutor
 
 - Fluxo alternativo: Editar agendamento.
 
- 5. Cliente entra na aba perfil.
- 6. Cliente acessa calendário.
- 7. Cliente clica em agendamento desejado.
- 8. Sistema exibe detalhes do agendamento.
- 9. Cliente escolhe a opção " Editar agendamento"
- 10. Cliente edita as lacunas desejadas.
- 11. Sistema armazena edições.
- 12. Sistema atualiza calendários.
- 13. Sistema informa que a edição foi efetuada com sucesso.
- 14. Sistema apresenta os novos detalhes do agendamento. 
+ 1. Cliente entra na aba perfil.
+ 2. Cliente acessa calendário.
+ 3. Cliente clica em agendamento desejado.
+ 4. Sistema exibe detalhes do agendamento.
+ 5. Cliente escolhe a opção " Editar agendamento"
+ 6. Cliente edita as lacunas desejadas.
+ 7. Sistema armazena edições.
+ 8. Sistema atualiza calendários.
+ 9. Sistema informa que a edição foi efetuada com sucesso.
+ 10. Sistema apresenta os novos detalhes do agendamento. 
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU08( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/207924640-298d2937-7466-4386-b362-e3a162f661b4.jpg)
 
@@ -419,7 +419,7 @@ Ator: Tutor, administrador e funcionário
 
 **Fluxo Principal**
 
-1. Usuário seleciona a opção “Logout".
+1. Usuário seleciona a opção “Sair".
 2. Sistema encerra sessão.
 3. Usuário é redirecionado para a página inicial.
 
