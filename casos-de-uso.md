@@ -119,16 +119,6 @@ Ator: Administrador
 ### Diagrama de sequência ![Diagrama de sequência- CDU03( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/207913671-aef17ca1-7945-428b-a765-58ea38ece6e3.jpg)
 
 
-**Fluxo Alternativo B**
-
--Fluxo alternativo: Editar administrador. 
-
-1. Administrador seleciona a opção "promover funcionário".
-2. Sistema solicita confirmação de promoção do funcionário.
-3. Sistema armazena edições. 
-4. Sistema atualiza perfil. 
-5. Sistema informa que a edição foi efetuada com sucesso.  
-
 
 **Fluxo Alternativo C**
 
