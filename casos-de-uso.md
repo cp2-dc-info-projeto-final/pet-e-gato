@@ -334,6 +334,9 @@ Ator: Administrador
 7. Sistema atualiza serviço.
 8. Sistema informa que a edição foi efetuada com sucesso.
 
+### Diagrama de sequência (https://user-images.githubusercontent.com/95935490/194650638-dd9d9c4a-ea5e-4232-b596-02be824b886e.jpg)
+
+
 **Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar serviços.
