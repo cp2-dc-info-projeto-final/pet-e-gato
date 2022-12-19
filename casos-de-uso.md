@@ -325,7 +325,7 @@ Ator: Administrador
 
 - Fluxo alternativo: Editar serviço.
 
-1. Administrador seleciona opção "Editar funcionário".
+1. Administrador seleciona opção "Editar serviço".
 2. Sistema apresenta os dados do serviço.
 3. Administrador edita as lacunas desejadas.
 4. Administrador submete edição.
