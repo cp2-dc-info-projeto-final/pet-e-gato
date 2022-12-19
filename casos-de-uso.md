@@ -7,12 +7,12 @@
  - [CDU 03](#CDU-03): Manter funcionário
  - [CDU 04](#CDU-04): Manter tutor
  - [CDU 05](#CDU-05): Autenticação de login 
- - [CDU 06](#CDU-06): Visualizar perfil
- - [CDU 07](#CDU-07): Disponibilizar horário
- - [CDU 08](#CDU-08): Manter agendamento
- - [CDU 09](#CDU-09): Manter serviço
- - [CDU 10](#CDU-10): Recuperar senha
- - [CDU 10](#CDU-11): Fazer logout
+ - [CDU 06](#CDU-06): Logout
+ - [CDU 07](#CDU-07): Visualizar perfil
+ - [CDU 08](#CDU-08): Disponibilizar horário
+ - [CDU 09](#CDU-09): Manter agendamento
+ - [CDU 10](#CDU-10): Manter serviço
+ - [CDU 11](#CDU-11): Recuperar senha
 
  
 
@@ -180,7 +180,6 @@ Ator: Tutor e Administrador
 2. Sistema apresenta tutores cadastrados.
 
 
-
  
 ### CDU 05 Autenticação de login
 
@@ -219,9 +218,20 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que o usuário não foi encontrado no sistema. 
 5. Sistema solicita que o usuário faça o cadastro. 
 
+### CDU 06 Fazer logout
+
+Ator: Tutor, administrador e funcionário
+
+**Fluxo Principal**
+
+1. Usuário seleciona a opção "Sair".
+2. Sistema encerra sessão
+3. Sistema redireciona para página inicial.
+
+
+
  
- 
- ### CDU 06 Visualizar perfil
+ ### CDU 07 Visualizar perfil
 
 Ator: Tutor e funcionário
 
@@ -235,7 +245,7 @@ Ator: Tutor e funcionário
 
 
    
-### CDU 07 Disponibilizar horário
+### CDU 08 Disponibilizar horário
 
 Ator: Administrador
 
@@ -252,7 +262,7 @@ Ator: Administrador
 ### Diagrama de sequência ![Diagrama de sequência- CDU07 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/207929023-fe61a5ac-8112-4856-aa79-292c50680111.jpg)
 
  
- ### CDU 08 Manter Agendamento
+ ### CDU 09 Manter Agendamento
 
 Ator: Tutor
 
@@ -270,16 +280,16 @@ Ator: Tutor
 
 - Fluxo alternativo: Editar agendamento.
 
- 1. Cliente entra na aba perfil.
- 2. Cliente acessa calendário.
- 3. Cliente clica em agendamento desejado.
- 4. Sistema exibe detalhes do agendamento.
- 5. Cliente escolhe a opção " Editar agendamento"
- 6. Cliente edita as lacunas desejadas.
- 7. Sistema armazena edições.
- 8. Sistema atualiza calendários.
- 9. Sistema informa que a edição foi efetuada com sucesso.
- 10. Sistema apresenta os novos detalhes do agendamento. 
+ 5. Cliente entra na aba perfil.
+ 6. Cliente acessa calendário.
+ 7. Cliente clica em agendamento desejado.
+ 8. Sistema exibe detalhes do agendamento.
+ 9. Cliente escolhe a opção " Editar agendamento"
+ 10. Cliente edita as lacunas desejadas.
+ 11. Sistema armazena edições.
+ 12. Sistema atualiza calendários.
+ 13. Sistema informa que a edição foi efetuada com sucesso.
+ 14. Sistema apresenta os novos detalhes do agendamento. 
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU08( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/207924640-298d2937-7466-4386-b362-e3a162f661b4.jpg)
 
@@ -307,7 +317,7 @@ Ator: Tutor
 
    
 
- ### CDU 09 Manter Serviço
+ ### CDU 10 Manter Serviço
 
 Ator: Administrador 
 
@@ -354,7 +364,7 @@ Ator: Administrador
 ### Diagrama de sequência ![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
 
 
-### CDU 10 Recuperar senha
+### CDU 11 Recuperar senha
 
 Ator: Administrador, funcionário e tutor
 
@@ -412,23 +422,3 @@ Ator: Administrador, funcionário e tutor
 13.  Usuário insere nova senha.
 14.  Sistema registra nova senha.
 15.  Sistema libera o acesso ao usuário.
-
-### CDU 11 Fazer logout
-
-Ator: Tutor, administrador e funcionário
-
-**Fluxo Principal**
-
-1. Usuário seleciona a opção “Sair".
-2. Sistema encerra sessão.
-3. Usuário é redirecionado para a página inicial.
-
-
-
- 
-
-
-
-
-
-
