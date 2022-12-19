@@ -101,6 +101,15 @@ Para fazer agendamento de algum plano.
 
 **VER COMO QUE FUNCIONA ESSE NO SITE.**
 
+## 5. RECUPERAR SENHA 
+
+- Clique em  "Login". 
+- Clique em "Esqueci minha senha". 
+- Insira seu email.
+- Digite o código de recuperação enviado para o seu email.
+- Insira uma nova senha e confirme a nova senha.
+- Clique em "Salvar alterações" e faça login.
+
 
 ## PÁGINA INICIAL - Adm 
 
