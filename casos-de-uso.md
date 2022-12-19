@@ -334,7 +334,7 @@ Ator: Administrador
 7. Sistema atualiza serviço.
 8. Sistema informa que a edição foi efetuada com sucesso.
 
-### Diagrama de sequência (![CDU 09 (Fluxo alternativo B)](https://user-images.githubusercontent.com/95935490/208503016-a9d1336a-ea69-46a9-a559-697519d2e06a.jpg)
+### Diagrama de sequência![CDU 09 (Fluxo alternativo B)](https://user-images.githubusercontent.com/95935490/208503016-a9d1336a-ea69-46a9-a559-697519d2e06a.jpg)
 
 
 **Fluxo Alternativo C**
