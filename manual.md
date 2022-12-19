@@ -12,31 +12,31 @@ Nullam vitae velit a eros dignissim bibendum id a enim. Vestibulum hendrerit nis
 
 ## 1. LOGIN
 
-**1.1 Para fazer login como cliente** 
+**1.1 Para fazer login como cliente:** 
 
  Clique em "Login", logo em seguida em "Cliente". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta. 
 
-**1.2 Para fazer login como funcionário**
+**1.2 Para fazer login como funcionário:**
 
 Clique em "Login", logo em seguida em "funcionário". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta funcionário. 
 
-**1.3 Para fazer login como administrador**
+**1.3 Para fazer login como administrador:**
 
 Clique em "Login", logo em seguida em "funcionário". Insira o email e a senha e aperte em "Entrar". Assim estará logado em sua conta administrador. 
 
-##  LOGOUT 
+## 2. LOGOUT 
 
 Para fazer logout( sair)  de sua conta. 
  Clique em " Sair" e será direcionado para a página inicial sem login. 
 
-##  CADASTRAR
+## 3. CADASTRAR
 
 Para se Cadastrar no site. 
 
 Clique em " Cadastrar-se", logo em seguida insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. E então em "Cadastrar". 
 
 
-##  AGENDAMENTO 
+## 4. AGENDAMENTO 
 
 Para fazer agendamento de algum plano. 
 
