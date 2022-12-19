@@ -7,7 +7,7 @@
  - [CDU 03](#CDU-03): Manter funcionário
  - [CDU 04](#CDU-04): Manter tutor
  - [CDU 05](#CDU-05): Autenticação de login 
- - [CDU 06](#CDU-06): Visualizar grade horária
+ - [CDU 06](#CDU-06): Visualizar calendário
  - [CDU 07](#CDU-07): Manter agendamento
  - [CDU 08](#CDU-08): Manter serviço
  - [CDU 09](#CDU-09): Recuperar senha
