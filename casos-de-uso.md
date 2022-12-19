@@ -12,6 +12,7 @@
  - [CDU 08](#CDU-08): Manter agendamento
  - [CDU 09](#CDU-09): Manter serviço
  - [CDU 10](#CDU-10): Recuperar senha
+ - [CDU 10](#CDU-11): Fazer logout
 
  
 
@@ -412,6 +413,15 @@ Ator: Administrador, funcionário e tutor
 14.  Sistema registra nova senha.
 15.  Sistema libera o acesso ao usuário.
 
+### CDU 11 Fazer logout
+
+Ator: Tutor, administrador e funcionário
+
+**Fluxo Principal**
+
+1. Usuário seleciona a opção “Logout".
+2. Sistema encerra sessão.
+3. Usuário é redirecionado para a página inicial.
 
 
 
