@@ -111,9 +111,7 @@ Para fazer agendamento de algum plano.
 - Clique em "Salvar alterações" e faça login.
 
 
-## PÁGINA INICIAL - Adm 
-
-## 1. CADASTRO 
+## 1. PÁGINA INICIAL - Adm 
 
 **1.1 Cadastrar serviços**
 
@@ -129,12 +127,14 @@ Para fazer agendamento de algum plano.
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
 - Aperte em "Salvar alterações".
 
+
 **1.3 Cadastrar Administrador**
 
 - Clique em "Cadastrar".
 - Clique em "Administrador".
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
 - Aperte em "Salvar alterações"
+
 
 **2.1 Exibir clientes**
 
@@ -155,25 +155,24 @@ Para fazer agendamento de algum plano.
 - Faça a edição.
 - Clique em "Salvar alterações".
 
-**5.1 Editar serviços**
 
-1. Em sua conta administrador,  clique em "Serviço". 
-2. Escolha o serviço que deseja editar. 
-3. Aperte em editar. 
-4. Edite serviço. 
-5.Clique em "Salvar alterações". 
+**5.1 Editar serviços**
+- Em sua conta administrador,  clique em "Serviço". 
+- Escolha o serviço que deseja editar. 
+- Aperte em editar. 
+- Edite serviço. 
+-Clique em "Salvar alterações". 
 
 **5.2 Excluir serviços**
 
-1.Em sua conta administrador, clique em "Serviço"
-2. Escolha o serviço que deseja excluir. 
-3. Aperte em excluir. 
-4. Edite serviço. 
-5 Clique em "Salvar alterações".
+-Em sua conta administrador, clique em "Serviço"
+- Escolha o serviço que deseja excluir. 
+- Aperte em excluir. 
+- Edite serviço. 
+-Clique em "Salvar alterações".
 
-## PÁGINA INICIAL - Funcionário
+## 1. PÁGINA INICIAL - Funcionário
 
-## 1. CALENDÁRIO
 
 **1.1 Acessar calendário**
 
