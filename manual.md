@@ -17,8 +17,8 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - Clique em "Login".
  - Clique em "Como cliente".
  
- ![Login-cliente](https://user-images.githubusercontent.com/95935490/208567158-5e0b2c1a-d498-4e7e-b3d6-11ae3b0a60f3.png)
- 
+![image](https://user-images.githubusercontent.com/95979551/208581968-3e7568fc-5f12-49ec-99a8-3248cef293da.png)
+
  - Insira o email e a senha e aperte em "Login".
 
 (![Login](https://user-images.githubusercontent.com/95979551/208568472-5a1c360e-2211-4fb9-af0e-5283f067b053.png)
@@ -183,15 +183,15 @@ Para fazer agendamento de algum plano.
 
 - Clique em "Cadastrar".
 
-![image](https://user-images.githubusercontent.com/95979551/208577514-16dca454-ba8a-4769-a984-cceeb8e6d7dc.png)
+![image](https://user-images.githubusercontent.com/95979551/208579753-d3b98fc0-3884-405b-a087-fe6adf3cffde.png)
 
 - Clique em "Serviços".
 
-![image](https://user-images.githubusercontent.com/95979551/208577605-ce8fe9df-0e22-4713-8de8-dfb181e4e79e.png)
-
+![image](https://user-images.githubusercontent.com/95979551/208579834-9c502336-bfb2-4430-ba03-e1b3461b958f.png)
 
 - Preencha o formulário com os dados do novo serviço.
 
+![image](https://user-images.githubusercontent.com/95979551/208579892-0ed1aed1-6aa9-4bb9-a5ac-fcbd6333b65e.png)
 
 - Aperte em "Salvar alterações". 
 
@@ -202,57 +202,120 @@ Para fazer agendamento de algum plano.
 
 - Clique em "Cadastrar".
 - Clique em "Funcionários".
+
+![image](https://user-images.githubusercontent.com/95979551/208580061-f0ffc113-4b03-475c-ae86-43a00d8b6aa2.png)
+
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
+
+![image](https://user-images.githubusercontent.com/95979551/208580094-f473e324-3c88-4a3c-b7b1-c00778c5c2aa.png)
+
 - Aperte em "Salvar alterações".
+
+![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
 
 **1.3 Cadastrar Administrador**
 
 - Clique em "Cadastrar".
 - Clique em "Administrador".
-- Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
-- Aperte em "Salvar alterações"
 
+![image](https://user-images.githubusercontent.com/95979551/208580175-066c4d20-9c61-415b-9fc4-fed35855e94e.png)
+
+- Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
+
+![image](https://user-images.githubusercontent.com/95979551/208580240-540355f1-dc37-41cc-969a-f207d9e2a242.png)
+
+- Aperte em "Salvar alterações".
+
+![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
 **2.1 Exibir clientes**
 
 - Em sua conta administrador, clique em "Clientes".  
+
+![image](https://user-images.githubusercontent.com/95979551/208580330-a28a96cb-6326-443d-8734-ed1bccc366f0.png)
+
 - Serão exibidos os clientes cadastrados, assim como horário e data. 
+
+![image](https://user-images.githubusercontent.com/95979551/208580396-fa991b8a-7297-471a-9861-dfb3e2ed0a81.png)
 
 
 **3.1 Consultar funcionários**
 
-- Em sua conta administrador, clique em "Funcionários". 
-- Serão exibidos todos os funcionários cadastrados, assim como os emails e nascimento. 
+- Em sua conta administrador, clique em "Funcionários".
+
+![image](https://user-images.githubusercontent.com/95979551/208580462-75969a8e-c855-412f-baab-e7ef8edb9ea7.png)
+
+- Serão exibidos todos os funcionários cadastrados, assim como os emails e datas de nascimento. 
+
+![image](https://user-images.githubusercontent.com/95979551/208581865-136138f3-fc71-4414-b627-ce0883f67217.png)
+
 
 **4.1 Editar funcionários**
 
 - Em sua conta administrador, clique em "Funcionários".
+
+![image](https://user-images.githubusercontent.com/95979551/208580694-6aabd20f-1c64-42d2-9955-65dbc4cbf4a2.png)
+
 - Escolha o funcionário que deseja editar.
 - Aperte do símbolo editar.
+
+![image](https://user-images.githubusercontent.com/95979551/208580733-c98ba9a4-920f-42b0-8b89-a5b810fb0701.png)
+
 - Faça a edição.
 - Clique em "Salvar alterações".
 
+![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
 **5.1 Editar serviços**
+
 - Em sua conta administrador,  clique em "Serviço". 
+
+![image](https://user-images.githubusercontent.com/95979551/208580855-875054a4-bc21-4cec-a29a-9b425ef3b4c6.png)
+
 - Escolha o serviço que deseja editar. 
 - Aperte em editar. 
-- Edite serviço. 
+
+![image](https://user-images.githubusercontent.com/95979551/208580896-53834678-641a-4a8f-bda8-2c6caa841961.png)
+
 -Clique em "Salvar alterações". 
 
-**5.2 Excluir serviços**
+![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
--Em sua conta administrador, clique em "Serviço"
+**5.2 Excluir funcionário**
+
+- Em sua conta administrador, clique em "Funcionários".
+
+![image](https://user-images.githubusercontent.com/95979551/208581629-7001a795-55aa-41ab-bc05-59f861983aed.png)
+
+- Escolha o funcionário que deseja excluir. 
+- Aperte em excluir. 
+
+![image](https://user-images.githubusercontent.com/95979551/208581027-6cabee09-e633-48b2-83bd-03f610d99f30.png)
+
+- Exclua funcionário. 
+
+**5.3 Excluir serviços**
+
+- Em sua conta administrador, clique em "Serviços".
+
+![image](https://user-images.githubusercontent.com/95979551/208581695-92f9113a-564c-40b4-8139-de38c333fb17.png)
+
 - Escolha o serviço que deseja excluir. 
 - Aperte em excluir. 
-- Edite serviço. 
--Clique em "Salvar alterações".
+
+![image](https://user-images.githubusercontent.com/95979551/208581027-6cabee09-e633-48b2-83bd-03f610d99f30.png)
+
+- Exclua serviço. 
+
 
 ## 1. PÁGINA INICIAL - Funcionário
 
 
 **1.1 Acessar calendário**
 
-- Clique em "Login". 
+- Faça "Login". 
 - Clique em "Calendário".
+
+![image](https://user-images.githubusercontent.com/95979551/208581787-5d455967-d63f-4850-b081-8d7c824dd52a.png)
+
