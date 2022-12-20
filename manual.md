@@ -20,7 +20,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Excluir funcionários (Página  inicial - adm)]()
  - [Excluir serviços (Página  inicial - adm)]()
  - [Acessar calendário (Página  inicial - funcionário]()
- - 
+
 
 ## 1. LOGIN
 
