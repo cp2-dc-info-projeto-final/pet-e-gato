@@ -260,7 +260,7 @@ Para fazer agendamento de algum plano.
 - Escolha o funcionário que deseja editar.
 - Aperte do símbolo editar.
 
-![image](https://user-images.githubusercontent.com/95979551/208580733-c98ba9a4-920f-42b0-8b89-a5b810fb0701.png)
+![image](https://user-images.githubusercontent.com/95979551/208580896-53834678-641a-4a8f-bda8-2c6caa841961.png)
 
 - Faça a edição.
 - Clique em "Salvar alterações".
