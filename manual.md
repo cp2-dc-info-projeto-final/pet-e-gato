@@ -170,8 +170,6 @@ Para fazer agendamento de algum plano.
 
 - Cancele seu agendamento.  
 
-**VER COMO QUE FUNCIONA ESSE NO SITE.**
-
 ## 5. RECUPERAR SENHA 
 
 - Clique em  "Login". 
