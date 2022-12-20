@@ -21,7 +21,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  
  - Insira o email e a senha e aperte em "Login".
 
-![Login-cliente](![Login](https://user-images.githubusercontent.com/95979551/208568472-5a1c360e-2211-4fb9-af0e-5283f067b053.png)
+(![Login](https://user-images.githubusercontent.com/95979551/208568472-5a1c360e-2211-4fb9-af0e-5283f067b053.png)
 
  - Seu login como cliente será feito com sucesso.
  
