@@ -25,7 +25,6 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
  - Seu login como cliente será feito com sucesso.
  
- 
 
 **1.2 Para fazer login como funcionário:**
 
@@ -43,11 +42,14 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 **1.3 Para fazer login como administrador:**
 
 - Clique em "Login".
-- Clique em "funcionário".
+- Clique em "Como administrador".
 
+![image](https://user-images.githubusercontent.com/95979551/208579358-99545bdb-c6b0-49f8-8076-8529b8b59c01.png)
 
+- Insira o email e a senha e aperte em "Login".
 
-- Insira o email e a senha e aperte em "Entrar".
+![image](https://user-images.githubusercontent.com/95979551/208579410-e4628c6c-2b0f-4d76-bf17-58c17df2edef.png)
+
 - Seu login de administrador será feito com sucesso.
 
 ## 2. LOGOUT 
@@ -55,7 +57,11 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 Para fazer logout(sair) de sua conta. 
 
 - Clique em "Sair".
+
+![image](https://user-images.githubusercontent.com/95979551/208579463-4c4812ef-8ddb-4309-a93f-afe40da0e25d.png)
+
 - Será direcionado para a página inicial sem login. 
+
 
 ## 3. CADASTRAR
 
@@ -72,7 +78,7 @@ Para se Cadastrar no site.
 
 - Clique em "Cadastrar". 
 
-(![image](https://user-images.githubusercontent.com/95979551/208569487-ed7816a8-491d-45d0-a521-9c8ca355461e.png)
+![image](https://user-images.githubusercontent.com/95979551/208569487-ed7816a8-491d-45d0-a521-9c8ca355461e.png)
 
 
 ## 4. AGENDAMENTO 
@@ -83,17 +89,17 @@ Para fazer agendamento de algum plano.
 
  - Clique em "Cadastrar".
  
- (![image](https://user-images.githubusercontent.com/95979551/208571845-1d1a730c-0a17-438c-a9a6-592a83122bf0.png)
+ ![image](https://user-images.githubusercontent.com/95979551/208571845-1d1a730c-0a17-438c-a9a6-592a83122bf0.png)
 
  
  - Aperte em "Agendamento".
  
- (![image](https://user-images.githubusercontent.com/95979551/208571902-e7c08d9d-6b0e-407d-8ae4-0f3b0ce5ddf6.png)
+ ![image](https://user-images.githubusercontent.com/95979551/208571902-e7c08d9d-6b0e-407d-8ae4-0f3b0ce5ddf6.png)
 
  
  - Preencha o formulário.
 
-(![image](https://user-images.githubusercontent.com/95979551/208571956-f1ddc731-3e27-45e8-842a-87ec4b699af0.png)
+![image](https://user-images.githubusercontent.com/95979551/208571956-f1ddc731-3e27-45e8-842a-87ec4b699af0.png)
 
 
  - Confirme o agendamento. 
