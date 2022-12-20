@@ -155,6 +155,22 @@ Para fazer agendamento de algum plano.
 - Faça a edição.
 - Clique em "Salvar alterações".
 
+**5.1 Editar serviços**
+
+1. Em sua conta administrador,  clique em "Serviço". 
+2. Escolha o serviço que deseja editar. 
+3. Aperte em editar. 
+4. Edite serviço. 
+5.Clique em "Salvar alterações". 
+
+**5.2 Excluir serviços**
+
+1.Em sua conta administrador, clique em "Serviço"
+2. Escolha o serviço que deseja excluir. 
+3. Aperte em excluir. 
+4. Edite serviço. 
+5 Clique em "Salvar alterações".
+
 ## PÁGINA INICIAL - Funcionário
 
 ## 1. CALENDÁRIO
