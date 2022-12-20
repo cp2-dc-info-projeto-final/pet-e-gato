@@ -16,11 +16,16 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
  - Clique em "Login".
  - Clique em "Cliente".
- - Insira o email e a senha e aperte em "Entrar".
- - Seu login como cliente será feito com sucesso.
  
  ![Login-cliente](https://user-images.githubusercontent.com/95935490/208567158-5e0b2c1a-d498-4e7e-b3d6-11ae3b0a60f3.png)
+ 
+ - Insira o email e a senha e aperte em "Login".
 
+![Login-cliente](![Login](https://user-images.githubusercontent.com/95979551/208568472-5a1c360e-2211-4fb9-af0e-5283f067b053.png)
+
+ - Seu login como cliente será feito com sucesso.
+ 
+ 
 
 **1.2 Para fazer login como funcionário:**
 
@@ -48,16 +53,9 @@ Para fazer logout(sair) de sua conta.
 Para se Cadastrar no site. 
 
 - Clique em "Cadastrar-se".
-
-![Cadastra-se botão](https://user-images.githubusercontent.com/95935490/208567837-0ff8b114-9976-4316-8d40-2a7c62a8a3ae.png)
-
 - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet.
-
-![cadastra-se](https://user-images.githubusercontent.com/95935490/208568160-50e12799-f99d-46d6-8d1c-03f8719d29cf.png)
-
 - Clique em "Cadastrar". 
 
-![image](https://user-images.githubusercontent.com/95935490/208568233-383c74a0-82a9-477b-9d30-756b84445365.png)
 
 ## 4. AGENDAMENTO 
 
