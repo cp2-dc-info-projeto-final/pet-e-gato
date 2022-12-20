@@ -68,21 +68,6 @@
 
                   <li class="nav-item">
                     <a class="nav-link" href="logout.php"> Sair </a>
-                  </li>
-
-                  
-                  <div class="navbar-collapse" id="nav-content">
-                    <ul class="navbar-nav mr-auto">
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Login </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="login.php">Como cliente</a>
-                              <a class="dropdown-item" href="login-funcionario.php">Como funcionário</a>
-                              <a class="dropdown-item" href="login-adm.php">Como administrador</a>
-                            </div>
-                          </li>
-                    </ul>
-                  </div>
 
                 </ul>
               </div>
