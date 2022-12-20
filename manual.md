@@ -59,11 +59,11 @@ Para se Cadastrar no site.
 - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet.
 
 
-![image](![image](https://user-images.githubusercontent.com/95979551/208569150-e4c19e56-12b4-46fd-b3ab-e34c63dceaf9.png)
+![image](https://user-images.githubusercontent.com/95979551/208569150-e4c19e56-12b4-46fd-b3ab-e34c63dceaf9.png)
 
 - Clique em "Cadastrar". 
 
-
+![image](![image](https://user-images.githubusercontent.com/95979551/208569487-ed7816a8-491d-45d0-a521-9c8ca355461e.png)
 
 
 ## 4. AGENDAMENTO 
@@ -72,27 +72,25 @@ Para fazer agendamento de algum plano.
 
 **Caso não esteja cadastrado:**
 
- - Clique em "Cadastrar-se".
- - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet. 
  - Clique em "Cadastrar".
- - Clique em "login". 
- - Clique em "Cliente".
- - Insira o email e a senha.
- - Aperte em "Entrar". 
+ 
+ ![image](![image](https://user-images.githubusercontent.com/95979551/208571845-1d1a730c-0a17-438c-a9a6-592a83122bf0.png)
+
+ 
  - Aperte em "Agendamento".
- - Preencha o formulário. 
+ 
+ ![image](![image](https://user-images.githubusercontent.com/95979551/208571902-e7c08d9d-6b0e-407d-8ae4-0f3b0ce5ddf6.png)
+
+ 
+ - Preencha o formulário.
+
+![image](![image](https://user-images.githubusercontent.com/95979551/208571956-f1ddc731-3e27-45e8-842a-87ec4b699af0.png)
+
+
  - Confirme o agendamento. 
+ 
+ ![image](https://user-images.githubusercontent.com/95979551/208572004-701c9bbe-a626-4f7e-89d9-36fee6eb7b90.png)
 
-**Caso não esteja logado:**
-
-- Clique em "Login".
-- Clique em "Cliente". 
-- Insira o email e a senha.
-- Aperte em "Entrar".
-- Login será feito com sucesso. 
-- Aperte em "Agendamento".
-- Preencha o formulário. 
-- Confirme o agendamento. 
 
 
 **4.2 Para consultar Agendamento (Visualizar calendário)**
