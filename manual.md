@@ -305,7 +305,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208580896-53834678-641a-4a8f-bda8-2c6caa841961.png)
 
--Clique em "Salvar alterações". 
+- Clique em "Salvar alterações". 
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
