@@ -20,6 +20,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Excluir funcionários (Página  inicial - adm)]()
  - [Excluir serviços (Página  inicial - adm)]()
  - [Acessar calendário (Página  inicial - funcionário]()
+ - 
 
 ## 1. LOGIN
 
@@ -72,6 +73,8 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 - Seu login de administrador será feito com sucesso.
 
+
+
 ## 2. LOGOUT 
 
 Para fazer logout(sair) de sua conta. 
@@ -81,6 +84,7 @@ Para fazer logout(sair) de sua conta.
 ![image](https://user-images.githubusercontent.com/95979551/208579463-4c4812ef-8ddb-4309-a93f-afe40da0e25d.png)
 
 - Será direcionado para a página inicial sem login. 
+
 
 
 ## 3. CADASTRAR
@@ -99,6 +103,7 @@ Para se Cadastrar no site.
 - Clique em "Cadastrar". 
 
 ![image](https://user-images.githubusercontent.com/95979551/208569487-ed7816a8-491d-45d0-a521-9c8ca355461e.png)
+
 
 
 ## 4. AGENDAMENTO 
@@ -170,6 +175,8 @@ Para fazer agendamento de algum plano.
 
 - Cancele seu agendamento.  
 
+
+
 ## 5. RECUPERAR SENHA 
 
 - Clique em  "Login". 
@@ -193,6 +200,8 @@ Para fazer agendamento de algum plano.
 - Clique em "Salvar alterações" e faça login.
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
+
+
 
 
 ## 1. PÁGINA INICIAL - Adm 
@@ -325,6 +334,7 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/208581027-6cabee09-e633-48b2-83bd-03f610d99f30.png)
 
 - Exclua serviço. 
+
 
 
 ## 1. PÁGINA INICIAL - Funcionário
