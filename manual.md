@@ -4,11 +4,22 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 **Lista das Funcionalidades:**
 
- - [Fazer login]()
- - [Fazer logout]()
- - [Funcionalidade Z](#Funcionalidade-Z)
-
-
+ - [Login]()
+ - [Logout]()
+ - [Cadastro]()
+ - [CAgendamento]()
+ - [CRecuperar senha]()
+ - [Manter serviços]()
+ - [Cadastrar serviços (Página inicial - adm]()
+ - [Cadastrar funcionário (Página  inicial - adm]()
+ - [Cadastrar administrador(Página  inicial - adm]()
+ - [Exibir clientes (Página  inicial - adm]()
+ - [Consultar funcionários (Página  inicial - adm]()
+ - [Editar funcionários (Página  inicial - adm]()
+ - [Editar serviços (Página  inicial - adm]()
+ - [Excluir funcionários (Página  inicial - adm]()
+ - [Excluir serviços (Página  inicial - adm]()
+ - [Acessar calendário (Página  inicial - funcionário]()
 
 ## 1. LOGIN
 
