@@ -53,8 +53,8 @@ Para fazer logout(sair) de sua conta.
 Para se Cadastrar no site. 
 
 - Clique em "Cadastrar-se".
+- 
 ![image](https://user-images.githubusercontent.com/95979551/208568912-95742ddb-2308-4396-9eb8-368a42b9830e.png)
-
 
 - Insira os seguintes dados: Nome, email, senha, confirmação de senha, data de nascimento, Cpf, telefone, nome do pet e data de nascimento do pet.
 - Clique em "Cadastrar". 
