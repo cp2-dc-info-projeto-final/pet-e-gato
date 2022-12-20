@@ -217,8 +217,9 @@ Ator: Tutor e funcionário
 1. Usuário seleciona "Calendário". 
 2. Sistema exibe calendário.
 
- 
-### Diagrama de sequência ()
+### Diagrama de sequência ![CDU 06 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208550949-504f8e6c-a297-4d42-8cc8-1bd696414c02.jpg)
+
+
 
  
  ### CDU 07 Manter Agendamento
