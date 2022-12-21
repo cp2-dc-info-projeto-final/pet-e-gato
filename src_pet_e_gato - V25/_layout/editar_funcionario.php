@@ -12,8 +12,7 @@ if($editar == "editar")
     $ADM = $_REQUEST["ADM"];
     $matricula = $_REQUEST["matricula"];
 
-    $sql = "UPDATE funcionario SET nome='$nome', email='$email', data_nasc='$data_nasc', ADM='$ADM', matricula='$matricula'
-    WHERE matricula='$matricula'";
+    $sql = "UPDATE funcionario SET nome='$nome', email='$email', data_nasc='$data_nasc' WHERE matricula='$matricula'";
 
     mysqli_query($mysqli,$sql);
 
