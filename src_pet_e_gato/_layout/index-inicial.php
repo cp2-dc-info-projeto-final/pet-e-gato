@@ -67,6 +67,10 @@
                   </li>
 
                   <li class="nav-item">
+                    <a class="nav-link" href="perfil_cliente.php">Perfil</a>
+                  </li>
+
+                  <li class="nav-item">
                     <a class="nav-link" href="logout.php"> Sair </a>
 
                 </ul>
