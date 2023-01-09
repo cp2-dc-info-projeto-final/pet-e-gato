@@ -27,7 +27,7 @@
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
+              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -212,4 +212,3 @@
   </div>
   <!-- Copyright -->
 </footer>
-

@@ -44,33 +44,86 @@ for ($i = 0; $i < $linhas; $i++){
 
   <body class="fadeIn">
 
+  <div id="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+              
+              <a class="navbar-brand" href="#"></a>
+              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
+              
+              <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index-inicial.php"> Início</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicos_cliente.php">Serviços</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="agendamento.php">Agendamento</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="calendario_cliente.php">Calendário</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato-cliente.php">Contato</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#rodape">Sobre</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="perfil_cliente.php">Perfil</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="logout.php"> Sair </a>
+
+                </ul>
+              </div>
+          </nav>
+        </div>
+    </div>
+
 <div class="container rounded bg-white mt-5">
         <div class="row">
             <div class="col-md-4 border-right">
-                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" src="_img/perfil.svg" width="90"><span class="font-weight-bold">John Doe</span><span class="text-black-50">john_doe12@bbb.com</span><span>United States</span></div>
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" src="_img/perfil.svg" width="90"><span class="font-weight-bold"><?php echo $cliente['nome']?></span><span class="text-black-50"><?php echo $cliente['email']?></span><span>United States</span></div>
                 </div>
                 <div class="col-md-8">
                 <div class="p-3 py-5">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="d-flex flex-row align-items-center back"><i class="fa fa-long-arrow-left mr-1 mb-1"></i>
-                            <h6>Back to home</h6>
-                        </div>
-                        <h6 class="text-right">Editar perfil</h6>
-                    </div>
-
-                <fieldset>
-
-                    <legend>Informações do tutor</legend>
 
                     <form action="exibeperfil_cliente.php" method="POST">
                         <input type="hidden" name="operacao_exibir" value="exibir">
                         <input type="hidden" name="email" value="<?php echo $email?>">
 
+                    <fieldset>
+
+                    <legend>Informações do tutor</legend>
+
+                <div class="form-group">
+
                     <div class="row mt-2">
                         <div class="col-md-12"><input type="text" class="form-control" placeholder="Nome Completo" value="<?php echo $cliente['nome']?>"></div>
                     </div>
                     <div class="row mt-3">
-                    <div class="col-md-6"><input type="text" class="form-control" placeholder="E" value="<?php echo $cliente['endereco']?>"></div>
+                    <div class="col-md-6"><input type="text" class="form-control" placeholder="Endereço" value="<?php echo $cliente['endereco']?>"></div>
 
                         <div class="col-md-6"><input type="text" class="form-control" value="<?php echo $cliente['telefone']?>" placeholder="Telefone"></div>
                     </div>
@@ -82,33 +135,20 @@ for ($i = 0; $i < $linhas; $i++){
                         <div class="col-md-6"><input type="text" class="form-control" value="<?php echo $cliente['cpf']?>" placeholder="CPF"></div>
                     </div>
                 
-                </fieldset>
+                
 
-                <fieldset>
+                    <fieldset>
+                        
+                        <legend>Informações do PET</legend>
+
+                        <div class="row mt-2">
+                            <div class="col-md-6"><input type="text" class="form-control" placeholder="Nome do seu PET" value="<?php echo $cliente['nome_pet']?>"></div>
+                            <div class="col-md-6"><input type="date" class="form-control" value="<?php echo $cliente['nasc_pet']?>"></div>
+                        </div>
+                    </fieldset>
                     
-                    <legend>Informações do tutor</legend>
-
-
-                    <div class="row mt-2">
-                        <div class="col-md-12"><input type="text" class="form-control" placeholder="Nome Completo" value="<?php echo $cliente['nome']?>"></div>
-                    </div>
-                    <div class="row mt-3">
-                    <div class="col-md-6"><input type="text" class="form-control" placeholder="E" value="<?php echo $cliente['endereco']?>"></div>
-
-                        <div class="col-md-6"><input type="text" class="form-control" value="<?php echo $cliente['telefone']?>" placeholder="Telefone"></div>
-                    </div>
-                    <div class="row mt-3">
-                    <div class="col-md-12"><input type="email" class="form-control" placeholder="Email" value="<?php echo $cliente['email']?>"></div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-md-6"><input type="date" class="form-control" placeholder="Data de Nascimento" value="<?php echo $cliente['data_nasc']?>"></div>
-                        <div class="col-md-6"><input type="text" class="form-control" value="<?php echo $cliente['cpf']?>" placeholder="CPF"></div>
-                    </div>
-                    
-      
-                </fieldset>
+                    <div class="mt-5 text-right"><button class="btn btn-primary profile-button" type="submit">Salvar Alterações</button></div>
                 </div>
-
             </div>
         </div>
     </div>
