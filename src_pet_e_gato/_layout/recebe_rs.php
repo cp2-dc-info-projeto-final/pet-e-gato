@@ -19,8 +19,8 @@ if($resultado["email"] == $email){
     include "envia_email.php";
 
     $para = $resultado["email"];
-    $assunto = "Recuperação de senha";
-    $mensagem = "$code";
+    $assunto = utf8_decode("Recuperação de senha");
+    $mensagem = utf8_decode("Seu código de redefinição de senha é $code");
 
     envia_email($para, $assunto, $mensagem);
 

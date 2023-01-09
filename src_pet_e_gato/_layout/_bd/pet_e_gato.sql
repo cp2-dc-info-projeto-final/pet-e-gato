@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21-Dez-2022 às 11:16
+-- Tempo de geração: 07-Jan-2023 às 19:46
 -- Versão do servidor: 5.7.17
 -- versão do PHP: 7.1.3
 
@@ -95,6 +95,7 @@ INSERT INTO `agendamento` (`cod_agendamento`, `cpf`, `nome`, `email`, `servico`,
 --
 
 CREATE TABLE `cliente` (
+  `cod_cliente` int(11) NOT NULL,
   `nome` varchar(30) NOT NULL,
   `email` varchar(50) NOT NULL,
   `senha` varchar(250) NOT NULL,
@@ -110,20 +111,20 @@ CREATE TABLE `cliente` (
 -- Extraindo dados da tabela `cliente`
 --
 
-INSERT INTO `cliente` (`nome`, `email`, `senha`, `data_nasc`, `endereco`, `cpf`, `telefone`, `nome_pet`, `nasc_pet`) VALUES
-('Kauan Martinez', 'kauann.martiinez@gmail.com', '05012005', '2005-01-05', 'Travessa Lins, 3 - Pavuna', '212.675.267-42', '(21) 97656-6504', 'Bolt CÃ£o', '2014-01-03'),
-('Bianca Nascimento', 'biancanascimento@gmail.com', '12345', '2005-04-25', 'Rua B', '000.000.000-00', '(00) 00000-0000', 'Bolt', '2013-05-06'),
-('Carollyne Coelho', 'carollynecoelho@gmail.com', '123456', '2005-03-06', 'Rua C', '123.456.789-0', '(21) 93658-7463', 'Bolt Super', '2014-05-06'),
-('Leticia Caceres', 'leticiacaceres@gmail.com', '123456', '2005-02-06', 'Rua D', '012.345.678-9', '(21) 98765-4321', 'Caramelo', '2013-04-05'),
-('Cliente Testee', 'cliente.teste.2@company.com', '$2y$10$baoP9wNpnfJ5LMy46se/S.Wy1y89ZEjenNUt3C1YAcVp7fUmCSQjy', '0001-01-01', 'Rua A', '000.000.000-02', '(00) 00000-0001', 'Caozinho', '0001-01-01'),
-('Cliente Teste', 'cliente.teste.1@company.com', '', '0001-01-01', 'Rua A', '000.000.000-01', '(00) 00000-0001', 'Caozinho', '0001-01-01'),
-('Kauann da Silva', 'kauannmartiinez.contato@gmail.com', '$2y$10$sWT84cCo7YYZDwWch6NLG.E59VmhqrXxhoeBk3acmIQe0nqJKIRlS', '2005-01-05', 'Rua B', '000.123.400-45', '(21) 62656-5662', 'Petzinho', '3333-03-23'),
-('Leticia Caceres', 'leticia.adm@petegato.com', '$2y$10$NUKFQTKFNAVYEMKhHJacNe1LjMwVhqAlPjE6bD21GOs0x0s1Fc6j6', '2005-03-02', 'Rua C', '000.001.234-56', '(00) 00000-0000', 'CÃ£o', '2014-06-03'),
-('Larissa Ferreira', 'larissaferreira.1@petegato.com.br', '$2y$10$NGfemSe8Xzdvz1xJM6nKd..2HXqUWJ26lhX6SFp/LEa6geLSPk6mu', '2004-10-07', 'Rua B', '011.365.454-52', '(21) 02022-0222', 'Benjamin ', '2015-07-03'),
-('Pedro Pedroca Nariz de Pipoca', 'pedropipoca.1@petegato.com', '$2y$10$9ZrGu2gY0aZWl0apq6yyHuzb99buDDm32GsPBaEveqZ6GWSzHhdDi', '2004-06-03', 'Rua D', '699.841.503-03', '(22) 65959-2625', 'Caramelo', '2015-02-03'),
-('Carlos Eduardo ', 'Carlinhos@gmail.com', '$2y$10$R1CVw3nxTO0x7kotzaDDiufFccnmxy9N9bDIAI5r0lojIMsxJehDC', '1984-06-27', 'Rua Matadouros ', '345.678.901-23', '(21) 99999-9999', 'pipoca', '2022-12-06'),
-('Carlinhos Maia', 'Maia@gmail.com', '$2y$10$q8zCx4G1ja6U4i1n/GJF5u3DiNwZjEC.CHFa.3jfdR.JUkhxduj/G', '1960-07-17', 'Rua Matadouros ', '679.094.563-21', '(21) 97645-3214', 'Fubá', '2022-12-01'),
-('Carollyne Coelho do Nascimento', 'lololzinha225@gmail.com', '$2y$10$Lxjoef6/gMAVQLuCAUfBVOGjs5BoBPIarEVQO0cgWmyK6O.y77TAm', '2005-02-25', 'Rua C ', '123.456.789-23', '(21) 94002-8922', 'Spiker', '2019-09-01');
+INSERT INTO `cliente` (`cod_cliente`, `nome`, `email`, `senha`, `data_nasc`, `endereco`, `cpf`, `telefone`, `nome_pet`, `nasc_pet`) VALUES
+(1, 'Kauan Martinez', 'kauann.martiinez@gmail.com', '05012005', '2005-01-05', 'Travessa Lins, 3 - Pavuna', '212.675.267-42', '(21) 97656-6504', 'Bolt CÃ£o', '2014-01-03'),
+(2, 'Bianca Nascimento', 'biancanascimento@gmail.com', '12345', '2005-04-25', 'Rua B', '000.000.000-00', '(00) 00000-0000', 'Bolt', '2013-05-06'),
+(3, 'Carollyne Coelho', 'carollynecoelho@gmail.com', '123456', '2005-03-06', 'Rua C', '123.456.789-0', '(21) 93658-7463', 'Bolt Super', '2014-05-06'),
+(4, 'Leticia Caceres', 'leticiacaceres@gmail.com', '123456', '2005-02-06', 'Rua D', '012.345.678-9', '(21) 98765-4321', 'Caramelo', '2013-04-05'),
+(5, 'Cliente Testee', 'cliente.teste.2@company.com', '$2y$10$baoP9wNpnfJ5LMy46se/S.Wy1y89ZEjenNUt3C1YAcVp7fUmCSQjy', '0001-01-01', 'Rua A', '000.000.000-02', '(00) 00000-0001', 'Caozinho', '0001-01-01'),
+(6, 'Cliente Teste', 'cliente.teste.1@company.com', '', '0001-01-01', 'Rua A', '000.000.000-01', '(00) 00000-0001', 'Caozinho', '0001-01-01'),
+(7, 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', '$2y$10$sWT84cCo7YYZDwWch6NLG.E59VmhqrXxhoeBk3acmIQe0nqJKIRlS', '2005-01-05', 'Rua B', '000.123.400-45', '(21) 62656-5662', 'Petzinho', '3333-03-23'),
+(8, 'Leticia Caceres', 'leticia.adm@petegato.com', '$2y$10$NUKFQTKFNAVYEMKhHJacNe1LjMwVhqAlPjE6bD21GOs0x0s1Fc6j6', '2005-03-02', 'Rua C', '000.001.234-56', '(00) 00000-0000', 'CÃ£o', '2014-06-03'),
+(9, 'Larissa Ferreira', 'larissaferreira.1@petegato.com.br', '$2y$10$NGfemSe8Xzdvz1xJM6nKd..2HXqUWJ26lhX6SFp/LEa6geLSPk6mu', '2004-10-07', 'Rua B', '011.365.454-52', '(21) 02022-0222', 'Benjamin ', '2015-07-03'),
+(10, 'Pedro Pedroca Nariz de Pipoca', 'pedropipoca.1@petegato.com', '$2y$10$9ZrGu2gY0aZWl0apq6yyHuzb99buDDm32GsPBaEveqZ6GWSzHhdDi', '2004-06-03', 'Rua D', '699.841.503-03', '(22) 65959-2625', 'Caramelo', '2015-02-03'),
+(11, 'Carlos Eduardo ', 'Carlinhos@gmail.com', '$2y$10$R1CVw3nxTO0x7kotzaDDiufFccnmxy9N9bDIAI5r0lojIMsxJehDC', '1984-06-27', 'Rua Matadouros ', '345.678.901-23', '(21) 99999-9999', 'pipoca', '2022-12-06'),
+(12, 'Carlinhos Maia', 'Maia@gmail.com', '$2y$10$q8zCx4G1ja6U4i1n/GJF5u3DiNwZjEC.CHFa.3jfdR.JUkhxduj/G', '1960-07-17', 'Rua Matadouros ', '679.094.563-21', '(21) 97645-3214', 'Fubá', '2022-12-01'),
+(13, 'Carollyne Coelho do Nascimento', 'lololzinha225@gmail.com', '$2y$10$Lxjoef6/gMAVQLuCAUfBVOGjs5BoBPIarEVQO0cgWmyK6O.y77TAm', '2005-02-25', 'Rua C ', '123.456.789-23', '(21) 94002-8922', 'Spiker', '2019-09-01');
 
 -- --------------------------------------------------------
 
@@ -224,7 +225,7 @@ ALTER TABLE `agendamento`
 -- Índices para tabela `cliente`
 --
 ALTER TABLE `cliente`
-  ADD PRIMARY KEY (`cpf`);
+  ADD PRIMARY KEY (`cod_cliente`);
 
 --
 -- Índices para tabela `contato`
@@ -259,6 +260,12 @@ ALTER TABLE `administrador`
 --
 ALTER TABLE `agendamento`
   MODIFY `cod_agendamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT de tabela `cliente`
+--
+ALTER TABLE `cliente`
+  MODIFY `cod_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de tabela `funcionario`

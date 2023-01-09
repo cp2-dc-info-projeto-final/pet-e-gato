@@ -1,3 +1,5 @@
+<?php include "autentica-adm.php" ?>
+
 <!doctype html>
 <html lang="pt-br">
 	<head>
