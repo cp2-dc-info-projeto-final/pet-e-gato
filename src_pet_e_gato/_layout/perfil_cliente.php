@@ -1,22 +1,17 @@
 <?php
 
 include "autentica.php";
-include "conecta_mysql.php";
 
 $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
 $sql = "SELECT * FROM cliente WHERE email = '$email';";
-$res= mysqli_query($mysqli,$sql);
-$linhas= mysqli_num_rows($res);
-
-for ($i = 0; $i < $linhas; $i++){
-    $cliente = mysqli_fetch_array ($res);
-        
+$res = mysqli_query($mysqli,$sql);
+$cliente = mysqli_fetch_array ($res);
 
         if(!mysqli_query($mysqli,$sql)){
             echo mysqli_error($mysqli);
+            exit;
         }
-    }
-    ?>
+?>
 
 <!doctype html>
 <html lang="pt-br">
@@ -104,14 +99,14 @@ for ($i = 0; $i < $linhas; $i++){
 <div class="container rounded bg-white mt-5">
         <div class="row">
             <div class="col-md-4 border-right">
-                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" src="_img/perfil.svg" width="90"><span class="font-weight-bold"><?php echo $cliente['nome']?></span><span class="text-black-50"><?php echo $cliente['email']?></span><span>United States</span></div>
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" src="_img/perfil.svg" width="90"><span class="font-weight-bold"><?php echo $cliente['nome']?></span><span class="text-black-50"><?php echo $cliente['email']?></span><span><?php echo $cliente['cpf']?></span></div>
                 </div>
                 <div class="col-md-8">
                 <div class="p-3 py-5">
 
-                    <form action="exibeperfil_cliente.php" method="POST">
-                        <input type="hidden" name="operacao_exibir" value="exibir">
-                        <input type="hidden" name="email" value="<?php echo $email?>">
+                <form action="exibeperfil_cliente.php" method="POST">
+                  <input type="hidden" name="operacao_editar" value="editar">
+                  <input type="hidden" name="email" value="<?php echo $email?>">
 
                     <fieldset>
 
@@ -120,19 +115,19 @@ for ($i = 0; $i < $linhas; $i++){
                 <div class="form-group">
 
                     <div class="row mt-2">
-                        <div class="col-md-12"><input type="text" class="form-control" placeholder="Nome Completo" value="<?php echo $cliente['nome']?>"></div>
+                        <div class="col-md-12"><input type="text" name="nome" class="form-control" placeholder="Nome Completo" value="<?php echo $cliente['nome']?>"></div>
                     </div>
                     <div class="row mt-3">
-                    <div class="col-md-6"><input type="text" class="form-control" placeholder="Endereço" value="<?php echo $cliente['endereco']?>"></div>
+                    <div class="col-md-6"><input type="text" name="endereco" class="form-control" placeholder="Endereço" value="<?php echo $cliente['endereco']?>"></div>
 
-                        <div class="col-md-6"><input type="text" class="form-control" value="<?php echo $cliente['telefone']?>" placeholder="Telefone"></div>
+                        <div class="col-md-6"><input type="text" name="telefone" class="form-control" value="<?php echo $cliente['telefone']?>" placeholder="Telefone"></div>
                     </div>
                     <div class="row mt-3">
-                    <div class="col-md-12"><input type="email" class="form-control" placeholder="Email" value="<?php echo $cliente['email']?>"></div>
+                    <div class="col-md-12"><input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $cliente['email']?>"></div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-6"><input type="date" class="form-control" placeholder="Data de Nascimento" value="<?php echo $cliente['data_nasc']?>"></div>
-                        <div class="col-md-6"><input type="text" class="form-control" value="<?php echo $cliente['cpf']?>" placeholder="CPF"></div>
+                        <div class="col-md-6"><input type="date" name="data_nasc" class="form-control" placeholder="Data de Nascimento" value="<?php echo $cliente['data_nasc']?>"></div>
+                        <div class="col-md-6"><input type="text" name="cpf" class="form-control" value="<?php echo $cliente['cpf']?>" placeholder="CPF"></div>
                     </div>
                 
                 
@@ -142,12 +137,12 @@ for ($i = 0; $i < $linhas; $i++){
                         <legend>Informações do PET</legend>
 
                         <div class="row mt-2">
-                            <div class="col-md-6"><input type="text" class="form-control" placeholder="Nome do seu PET" value="<?php echo $cliente['nome_pet']?>"></div>
-                            <div class="col-md-6"><input type="date" class="form-control" value="<?php echo $cliente['nasc_pet']?>"></div>
+                            <div class="col-md-6"><input type="text" name="nome_pet" class="form-control" placeholder="Nome do seu PET" value="<?php echo $cliente['nome_pet']?>"></div>
+                            <div class="col-md-6"><input type="date" name="nasc_pet" class="form-control" value="<?php echo $cliente['nasc_pet']?>"></div>
                         </div>
                     </fieldset>
                     
-                    <div class="mt-5 text-right"><button class="btn btn-primary profile-button" type="submit">Salvar Alterações</button></div>
+                    <div class="mt-5 text-right"><button class="btn btn-primary profile-button" type="submit" value="submit" name="submit" >Salvar Alterações</button></div>
                 </div>
             </div>
         </div>

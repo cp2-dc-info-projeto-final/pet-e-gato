@@ -5,32 +5,33 @@ include "conecta_mysql.php";
 
 ?>
 
-
 <!doctype html>
 <html lang="pt-br">
+
   <head>
-    <title>Calendário | Pet&Gatô</title>
+
+    <title>Serviços - Agendar | Pet&Gatô</title>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="_img/logo_petgato.png" type="image/x-icon" />
+    
     <link rel="stylesheet" href="_css/main.css"/>
+    <link rel="shortcut icon" href="_img/logo_petgato.png" type="image/x-icon" />
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-   
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
+
   <body class="fadeIn">
 
-
-  <div id="header">
+    <div id="header">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index-inicial.php"><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
+              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -62,16 +63,20 @@ include "conecta_mysql.php";
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="contato-cliente.php">Contato</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#rodape">Sobre</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="perfil_cliente.php">Perfil</a>
                   </li>
 
                   <li class="nav-item">
                     <a class="nav-link" href="logout.php"> Sair </a>
-                  </li>
+
                 </ul>
               </div>
           </nav>
@@ -87,43 +92,33 @@ include "conecta_mysql.php";
                             <div class="row justify-content-center">
                             <div class="col-12">
                                 <div class="table-responsive bg-white table table-bordered" style="margin: 50px auto;"> 
-                                <table class="table mb-0  table-striped" table="center">
+                                <table class="table mb-0  table-striped" table="center" border="2px">
                                     <thead class="color">
                                     <tr>
                                       <th scope="col">SERVIÇO</th>
-                                      <th scope="col">FUNCIONÁRIO</th>
-                                      <th scope="col">DATA</th>
-                                      <th scope="col">HORA</th>
-                                      <th scope="col">CANCELAR</th>
+                                      <th scope="col">PREÇO</th>
+                                      <th scope="col">AGENDAR</th>
                                     </tr>
                                     </thead>
                                     <tbody>
 
                                     <?php
-                                        $sql = "SELECT * FROM cliente WHERE email = '$email'";
-                                        $res= mysqli_query($mysqli,$sql);
-                                        $cliente = mysqli_fetch_array ($res);
-
-                                        $cod_cliente = $cliente['matricula'];
-
-                                        $sql = "SELECT * FROM agendamento WHERE cod_cliente = '$cod_cliente';";
+                                        $sql= "SELECT * FROM servicos";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
 
                                         for ($i = 0; $i < $linhas; $i++){
-                                            $agendamento = mysqli_fetch_array ($res);
+                                            $servicos = mysqli_fetch_array ($res);
 
                                             echo"
                                             <tr>
-                                            <td>".utf8_encode($agendamento['servico'])."</td>
-                                            <td>".utf8_encode($agendamento['funcionario'])."</td>
-                                            <td>".$agendamento['dia']."</td>
-                                            <td>".$agendamento['hora']."</td>
-                                            <td><a class='btn btn-sm btn-danger' href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]'>
-                                            <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-trash' viewBox='0 0 16 16'><path d='M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z'/><path fill-rule='evenodd' d='M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z'/>
-                                            </svg>
-                                            </a>
-                                        </td>
+                                            <td>".utf8_encode($servicos['servico'])."</td>
+                                            <td>".$servicos['preco']."</td>
+                                            <td><a class='btn btn-sm btn-primary' href='agendamento.php?cod_servico=$servicos[cod_servico]'>
+                                                <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pencil' viewBox='0 0 16 16'><path d='M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z'/>
+                                                </svg>
+                                                </a>
+                                            </td>
                                             </tr>";
                                             
                                         }

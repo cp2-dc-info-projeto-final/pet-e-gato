@@ -1,27 +1,33 @@
 <?php
 
-session_start();
+include "autentica.php";
 
 $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
 
+$editar = $_REQUEST['operacao_editar'];
 
-$exibir = $_REQUEST['operacao_exibir'];
+if($editar == "editar"){
+    $cpf = $_REQUEST["cpf"];
+    $nome = $_REQUEST["nome"]; 
+    $email = $_REQUEST["email"];
+    $data_nasc = $_REQUEST["data_nasc"];
+    $endereco = $_REQUEST["endereco"];
+    $nome_pet = $_REQUEST["nome_pet"];
+    $nasc_pet = $_REQUEST["nasc_pet"];
+    $telefone = $_REQUEST["telefone"];
 
-if($exibir == "exibir")
-{
-    $cpf = utf8_decode($_REQUEST["cpf"]);
-    $nome = utf8_decode($_REQUEST["nome"]); 
-    $email = utf8_decode($_REQUEST["email"]);
-    $data_nasc = utf8_decode($_REQUEST["data_nasc"]);
-    $endereco = utf8_decode($_REQUEST["endereco"]);
-    $nome_pet = utf8_decode($_REQUEST["nome_pet"]);
-    $nasc_pet = utf8_decode($_REQUEST["nasc_pet"]);
-    $telefone = utf8_decode($_REQUEST["telefone"]);
+    $sql = "UPDATE cliente SET nome='$nome', email='$email', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
 
-    $sql = "UPDATE cliente SET nome='$nome', email='$email', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$teleone', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
+
+    if(!mysqli_query($mysqli,$sql)){
+        echo mysqli_error($mysqli);
+        exit;
+    }
 
     mysqli_query($mysqli,$sql);
 
-    header('Location: perfil_cliente.php');
+    
+
+    //header('Location: perfil_cliente.php');
 }
 ?>

@@ -48,7 +48,7 @@
 		      		</div>
               <div class="form-group">
                 <label for="email">Descreva o novo serviço:</label>
-		      			<input type="text" name="descricao" class="form-control rounded-left" placeholder="Digite a descrição do serviço" required="required">
+		      			<input type="text" name="descricao" class="form-control rounded-left" placeholder="Digite a descrição do serviço">
 		      		</div>
               <label for="email">Valor do serviço:</label>
 	            <div class="form-group d-flex">

@@ -1,5 +1,9 @@
-<?php include "conecta_mysql.php" ?>
-<?php include "autentica-funcionario.php" ?>
+<?php 
+
+include "autentica-adm.php";
+include "conecta_mysql.php";
+
+?>
 
 <!doctype html>
 <html lang="pt-br">
@@ -69,8 +73,7 @@
                                 <table class="table mb-0  table-striped" table="center">
                                     <thead class="color">
                                     <tr>
-                                      <th scope="col">NOME</th>
-                                      <th scope="col">CPF</th>
+                                      <th scope="col">CLIENTE</th>
                                       <th scope="col">SERVIÇO</th>
                                       <th scope="col">DATA</th>
                                       <th scope="col">HORA</th>
@@ -79,23 +82,29 @@
                                     <tbody>
 
                                     <?php
-                                        $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
-                                        $sql = "SELECT * FROM agendamento ;";
+                                        $sql = "SELECT * FROM funcionario WHERE email = '$email'";
+                                        $res= mysqli_query($mysqli,$sql);
+                                        $funcionario = mysqli_fetch_array ($res);
+
+                                        $matricula = $funcionario['matricula'];
+
+                                        $sql = "SELECT * FROM agendamento WHERE cod_funcionario = '$matricula'";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
 
                                         for ($i = 0; $i < $linhas; $i++){
-                                            $cliente = mysqli_fetch_array ($res);
+                                            $agendamento = mysqli_fetch_array ($res);
+
+                                          if(isset($agendamento['cod_cliente'])){   
 
                                             echo"
                                             <tr>
-                                            <td>".utf8_encode($cliente['nome'])."</td>
-                                            <td>".$cliente['email']."</td>
-                                            <td>".utf8_encode($cliente['servico'])."</td>
-                                            <td>".$cliente['dia']."</td>
-                                            <td>".$cliente['hora']."</td>
+                                            <td>".utf8_encode($agendamento['nome_cliente'])."</td>
+                                            <td>".utf8_encode($agendamento['servico'])."</td>
+                                            <td>".$agendamento['dia']."</td>
+                                            <td>".$agendamento['hora']."</td>
                                             </tr>";
-                                            
+                                          }   
                                         }
 
                                     ?>

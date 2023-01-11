@@ -1,37 +1,38 @@
+<?php include "autentica.php" ?>
+
 <?php
 
-include "autentica.php";
 include "conecta_mysql.php";
+ 
+ $matricula = utf8_decode($_POST["funcionario"]); 
+ $cod_servico = utf8_decode($_POST["servico"]);
+ 
+ $sql= "SELECT * FROM funcionario WHERE matricula = '$matricula'";
+ $res= mysqli_query($mysqli,$sql);
+ $funcionario = mysqli_fetch_array($res);
+
+ $sql= "SELECT * FROM servicos WHERE cod_servico = '$cod_servico'";
+ $res= mysqli_query($mysqli,$sql);
+ $servico = mysqli_fetch_array($res);
+
     
 $operacao = $_POST["operacao"];
 
 if ($operacao == "agendamento"){
 
-  $cod_agendamento = $_REQUEST["agendamento"];
+    $hora = utf8_decode($_POST["hora"]);
+    $dia = utf8_decode($_POST["dia"]);
+    $nome_funcionario = $funcionario["nome"];
+    $nome_servico = $servico["servico"];
 
-  $sql = "SELECT * FROM cliente WHERE email = '$email'";
-  $res = mysqli_query($mysqli,$sql);
-  $cliente = mysqli_fetch_array($res);
-
-  $cod_cliente = $cliente["matricula"];
-
-  $nome_cliente = $cliente['nome'];
-
-  $sql = "UPDATE agendamento SET cod_cliente = '$cod_cliente', nome_cliente = '$nome_cliente'";
-  $sql .= "WHERE cod_agendamento = '$cod_agendamento'";  
-  mysqli_query($mysqli,$sql);
-
-  header("Location: calendario_cliente.php");
-
-/*$sql= "SELECT * FROM agendamento";
+$sql= "SELECT * FROM agendamento";
 $res= mysqli_query($mysqli,$sql);
 $linhas= mysqli_num_rows($res);
-
 
 for ($i = 0; $i < $linhas; $i++){
     $agendamento = mysqli_fetch_array ($res);
     
-    if($agendamento['dia'] == $data){
+    if($agendamento['dia'] == $dia){
 
       if ($agendamento ['servico'] == $servico){
         if ($agendamento['hora'] == $hora){
@@ -44,7 +45,7 @@ for ($i = 0; $i < $linhas; $i++){
 }
 
 
-$sql = "SELECT * FROM cliente WHERE email = '$email';";
+/* $sql = "SELECT * FROM cliente WHERE email = '$email';";
 $res= mysqli_query($mysqli,$sql);
 $cliente = mysqli_fetch_array ($res);
 
@@ -68,17 +69,19 @@ $cliente = mysqli_fetch_array ($res);
       header("Location: agendamento.php");
       exit;
 }
-
+*/
                                
 
-    $sql = "INSERT INTO agendamento (cpf, nome, email, servico, hora, dia) VALUES ('$cpf','$nome', '$email', '$servico', '$hora', '$data');";
+    $sql = "INSERT INTO agendamento (funcionario, cod_funcionario, servico, cod_servico, hora, dia) VALUES ('$nome_funcionario','$matricula', '$nome_servico', '$cod_servico', '$hora', '$dia');";
     mysqli_query($mysqli,$sql);
 
-    $_SESSION['mensagem_agendamento'] = "<div class='alert alert-success' role='alert'> Agendamento realizado!</div>";
-    header("Location: agendamento.php");
+    $_SESSION['mensagem_agendamento'] = "<div class='alert alert-success' role='alert'> Horário cadastrado!</div>";
+    header("Location: cadastrar_horario.php");
 
-      if(!mysqli_query($mysqli,$sql)){
+      /*if(!mysqli_query($mysqli,$sql)){
           echo mysqli_error($mysqli);
+          exit;
       }*/
 
 }
+   

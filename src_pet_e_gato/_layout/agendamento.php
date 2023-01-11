@@ -1,4 +1,13 @@
-<?php include "autentica.php" ?>
+<?php 
+
+include "autentica.php";
+include "conecta_mysql.php";
+
+$sql = "SELECT * FROM cliente WHERE email = '$email'";
+$res= mysqli_query($mysqli,$sql);
+$cliente = mysqli_fetch_array ($res);
+
+?>
 
 <!doctype html>
 <html lang="pt-br">
@@ -18,7 +27,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 
   </head>
     
@@ -54,48 +62,35 @@
             
             <form action="recebe_agendamento.php" method="POST" class="login-form"> 
             <input type="hidden" name="operacao" value="agendamento">
-		      		
-            <div class="form-group">
-                <label for="nome">Digite seu nome:</label>
-		      			<input type="text" name="nome" class="form-control rounded-left" placeholder="Digite o seu nome cadastrado" required autofocus pattern="[A-Za-z ']{10,}" title="O nome precisa ter pelo menos 10 caracteres">
-		      		</div>
-
-            <label for="cpf">CPF:</label>
-              <div class="form-group d-flex">
-                <input type="text" class="form-control rounded-left" required="required" id="cpf" name="cpf" placeholder="Digite seu CPF cadastrado">
-              <script type="text/javascript">$("#cpf").mask("000.000.000-00");</script>
-              </div>
-
-              <div class="form-group">
-                <label for="email">Digite seu e-mail:</label>
-		      			<input type="email" name="email" class="form-control rounded-left" placeholder="Digite seu email cadastrado" required="required">
-		      		</div>
-
-              <label for="servico">Tipo de serviço:</label>
-              <div class="form-group">
-                <select id="inputAgendamento" class="form-control" name="servico">
-                    <option selected></option>
-                    <option>Tosa</option>
-                    <option>Banho</option>
-                    <option>Banho e Tosa</option>
-                    <option>Corte de unha</option>
-                    <option>Higiênica</option>
-                    <option>Banho com higiênica</option>
-                    <option>Clubinho</option>
-                    <option>Clubinho plus</option>
-                </select>    
-                </div>
+            <input type="hidden" name="cod_cliente" value="<?php echo $cliente['matricula']?>">
 
                 <div class="form-group">
                 <label for="hora">Escolha um horário:</label>
-		      			<input type="time" name="hora" class="form-control rounded-left" placeholder="Escolha um horário">
-		      		</div>
+		      			<select name="agendamento" required="required" class="form item">
+                            <option value=''>Data e Horário</option>
+                            <?php
 
-              <div class="form-group">
-                <label for="data">Escolha uma data:</label>
-		      			<input type="date" name="data" class="form-control rounded-left" placeholder="Escolha uma data">
+                            $cod_servico = $_REQUEST["cod_servico"];
+
+                            $sql= "SELECT * FROM agendamento WHERE cod_servico = '$cod_servico'";
+                            $res= mysqli_query($mysqli,$sql);
+                            $linhas= mysqli_num_rows($res);
+
+                            for ($i = 0; $i < $linhas; $i++){
+                                $agendamento = mysqli_fetch_array ($res);
+
+                              if(empty($agendamento['cod_cliente'])){
+
+                                  
+                                  echo"
+                                  <option value=".$agendamento['cod_agendamento'].">".$agendamento['dia'].' - '.$agendamento['hora']."</option>";
+
+                              }
+                            }
+
+                           ?>
+                        </select>
 		      		</div>
-          </fieldset>
 
 	            <div class="form-group d-md-flex">
 	            	<div class="w-50">
@@ -106,8 +101,6 @@
                   <button class="btn btn-light rounded text-md-flex"><a href="index-inicial.php">Voltar</a></button>	
                 </div>
 	            </div>
-
-              <div class="g-recaptcha" data-sitekey="6Ld6iPkaAAAAACbmLsA8N9xo03pp6O6t-d_vp9pm"></div>
 
 	            <div class="form-group">
 	            	<button type="submit" class="btn btn-primary rounded submit p-3 px-5">Cadastrar</button>

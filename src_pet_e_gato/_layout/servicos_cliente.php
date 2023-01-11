@@ -85,7 +85,7 @@
   </div>
  
   <div class="container-fluid card">
-        <h1 class="text-center mt-5 display-3 fw-bold"> <span class="theme-text">Serviços</span></h1>
+        <h1 class="text-center mt-5 display-3 fw-bold"> <span class="theme-text">Conheça alguns dos nossos serviços</span></h1>
         <hr class="mx-auto mb-5 w-25">
         <div class="row mb-5">
             <div class="col-12 col-sm-6 col-md-3 m-auto tamanho">

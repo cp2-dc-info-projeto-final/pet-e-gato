@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 07-Jan-2023 às 19:46
+-- Tempo de geração: 11-Jan-2023 às 23:10
 -- Versão do servidor: 5.7.17
 -- versão do PHP: 7.1.3
 
@@ -54,10 +54,12 @@ INSERT INTO `administrador` (`matricula`, `nome`, `email`, `senha`, `data_nasc`)
 
 CREATE TABLE `agendamento` (
   `cod_agendamento` int(11) NOT NULL,
-  `cpf` varchar(30) NOT NULL,
-  `nome` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL,
+  `nome_cliente` varchar(50) DEFAULT NULL,
+  `cod_cliente` int(11) DEFAULT NULL,
+  `funcionario` varchar(50) NOT NULL,
+  `cod_funcionario` int(11) NOT NULL,
   `servico` varchar(30) NOT NULL,
+  `cod_servico` int(11) NOT NULL,
   `hora` varchar(10) NOT NULL,
   `dia` date NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -66,27 +68,9 @@ CREATE TABLE `agendamento` (
 -- Extraindo dados da tabela `agendamento`
 --
 
-INSERT INTO `agendamento` (`cod_agendamento`, `cpf`, `nome`, `email`, `servico`, `hora`, `dia`) VALUES
-(1, '123.456.789-10', 'Bianca Eiras', 'nbianca240@gmail.com', 'Banho e Tosa', '17:30', '2022-12-20'),
-(2, '123.456.789-10', 'Bianca Eiras', 'nbianca240@gmail.com', 'Banho e Tosa', '17:30', '2022-12-20'),
-(3, '123.456.789-10', 'Bianca Eiras', 'nbianca240@gmail.com', 'Banho e Tosa', '17:30', '2022-12-20'),
-(4, '123.456.789-10', 'Bianca Eiras', 'nbianca240@gmail.com', 'Banho e Tosa', '17:30', '2022-12-20'),
-(5, '123.456.789-10', 'Bianca Eiras', 'nbianca240@gmail.com', 'Banho', '17:30', '2022-12-20'),
-(6, '123.456.789-10', 'Bianca Eiras', 'nbianca240@gmail.com', 'Banho', '17:30', '2022-12-20'),
-(7, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Banho com higiênica', '12:00', '2022-12-26'),
-(8, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Banho com higiênica', '12:00', '2022-12-26'),
-(9, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Clubinho', '19:35', '2022-12-19'),
-(10, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Clubinho', '19:35', '2022-12-19'),
-(11, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Clubinho', '19:37', '2022-12-27'),
-(12, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Clubinho', '19:37', '2022-12-27'),
-(13, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Corte de unha', '18:45', '2023-01-12'),
-(14, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Corte de unha', '18:45', '2023-01-12'),
-(15, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Corte de unha', '17:47', '2022-12-27'),
-(16, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Corte de unha', '17:47', '2022-12-27'),
-(17, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Banho e Tosa', '17:56', '2022-12-12'),
-(18, '000.123.400-45', 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', 'Banho e Tosa', '17:56', '2022-12-12'),
-(20, '123.456.789-23', 'Carollyne Coelho do Nascimento', 'lololzinha225@gmail.com', 'Clubinho plus', '12:00', '2022-12-20'),
-(21, '123.456.789-23', 'Carollyne Coelho do Nascimento', 'lololzinha225@gmail.com', 'Higiênica', '12:00', '2022-12-22');
+INSERT INTO `agendamento` (`cod_agendamento`, `nome_cliente`, `cod_cliente`, `funcionario`, `cod_funcionario`, `servico`, `cod_servico`, `hora`, `dia`) VALUES
+(24, 'Kauan Martinez dos Santos', 7, 'Kauan Martinez', 15, 'Banho e Tosa', 1, '12:00', '2023-02-06'),
+(25, 'Kauan Martinez dos Santos', 7, 'Carollyne Coelho ', 14, 'Banho e Tosa', 1, '15:00', '2023-01-12');
 
 -- --------------------------------------------------------
 
@@ -95,7 +79,7 @@ INSERT INTO `agendamento` (`cod_agendamento`, `cpf`, `nome`, `email`, `servico`,
 --
 
 CREATE TABLE `cliente` (
-  `cod_cliente` int(11) NOT NULL,
+  `matricula` int(11) NOT NULL,
   `nome` varchar(30) NOT NULL,
   `email` varchar(50) NOT NULL,
   `senha` varchar(250) NOT NULL,
@@ -111,14 +95,14 @@ CREATE TABLE `cliente` (
 -- Extraindo dados da tabela `cliente`
 --
 
-INSERT INTO `cliente` (`cod_cliente`, `nome`, `email`, `senha`, `data_nasc`, `endereco`, `cpf`, `telefone`, `nome_pet`, `nasc_pet`) VALUES
+INSERT INTO `cliente` (`matricula`, `nome`, `email`, `senha`, `data_nasc`, `endereco`, `cpf`, `telefone`, `nome_pet`, `nasc_pet`) VALUES
 (1, 'Kauan Martinez', 'kauann.martiinez@gmail.com', '05012005', '2005-01-05', 'Travessa Lins, 3 - Pavuna', '212.675.267-42', '(21) 97656-6504', 'Bolt CÃ£o', '2014-01-03'),
 (2, 'Bianca Nascimento', 'biancanascimento@gmail.com', '12345', '2005-04-25', 'Rua B', '000.000.000-00', '(00) 00000-0000', 'Bolt', '2013-05-06'),
 (3, 'Carollyne Coelho', 'carollynecoelho@gmail.com', '123456', '2005-03-06', 'Rua C', '123.456.789-0', '(21) 93658-7463', 'Bolt Super', '2014-05-06'),
 (4, 'Leticia Caceres', 'leticiacaceres@gmail.com', '123456', '2005-02-06', 'Rua D', '012.345.678-9', '(21) 98765-4321', 'Caramelo', '2013-04-05'),
 (5, 'Cliente Testee', 'cliente.teste.2@company.com', '$2y$10$baoP9wNpnfJ5LMy46se/S.Wy1y89ZEjenNUt3C1YAcVp7fUmCSQjy', '0001-01-01', 'Rua A', '000.000.000-02', '(00) 00000-0001', 'Caozinho', '0001-01-01'),
 (6, 'Cliente Teste', 'cliente.teste.1@company.com', '', '0001-01-01', 'Rua A', '000.000.000-01', '(00) 00000-0001', 'Caozinho', '0001-01-01'),
-(7, 'Kauann da Silva', 'kauannmartiinez.contato@gmail.com', '$2y$10$sWT84cCo7YYZDwWch6NLG.E59VmhqrXxhoeBk3acmIQe0nqJKIRlS', '2005-01-05', 'Rua B', '000.123.400-45', '(21) 62656-5662', 'Petzinho', '3333-03-23'),
+(7, 'Kauan Martinez dos Santos', 'kauannmartiinez.contato@gmail.com', '$2y$10$sWT84cCo7YYZDwWch6NLG.E59VmhqrXxhoeBk3acmIQe0nqJKIRlS', '2005-01-05', 'Rua X', '346.244.041-14', '21978656659', 'CÃ£o 2', '2014-02-06'),
 (8, 'Leticia Caceres', 'leticia.adm@petegato.com', '$2y$10$NUKFQTKFNAVYEMKhHJacNe1LjMwVhqAlPjE6bD21GOs0x0s1Fc6j6', '2005-03-02', 'Rua C', '000.001.234-56', '(00) 00000-0000', 'CÃ£o', '2014-06-03'),
 (9, 'Larissa Ferreira', 'larissaferreira.1@petegato.com.br', '$2y$10$NGfemSe8Xzdvz1xJM6nKd..2HXqUWJ26lhX6SFp/LEa6geLSPk6mu', '2004-10-07', 'Rua B', '011.365.454-52', '(21) 02022-0222', 'Benjamin ', '2015-07-03'),
 (10, 'Pedro Pedroca Nariz de Pipoca', 'pedropipoca.1@petegato.com', '$2y$10$9ZrGu2gY0aZWl0apq6yyHuzb99buDDm32GsPBaEveqZ6GWSzHhdDi', '2004-06-03', 'Rua D', '699.841.503-03', '(22) 65959-2625', 'Caramelo', '2015-02-03'),
@@ -225,7 +209,7 @@ ALTER TABLE `agendamento`
 -- Índices para tabela `cliente`
 --
 ALTER TABLE `cliente`
-  ADD PRIMARY KEY (`cod_cliente`);
+  ADD PRIMARY KEY (`matricula`);
 
 --
 -- Índices para tabela `contato`
@@ -259,13 +243,13 @@ ALTER TABLE `administrador`
 -- AUTO_INCREMENT de tabela `agendamento`
 --
 ALTER TABLE `agendamento`
-  MODIFY `cod_agendamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `cod_agendamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT de tabela `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `cod_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de tabela `funcionario`

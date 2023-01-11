@@ -62,7 +62,7 @@
         <a href="calendario_func.php" class="btn btn-primary button">Calendário de agendamentos</a>
       </div>
       <div class="col-md-6 align-self-center text-center">
-        <img src="_img/funcionariopet.svg" class="img-fluid" alt="Um gatinho e um cachorrinho.">
+        <img src="_img/funcionariopet2.svg" class="img-fluid" alt="Um gatinho e um cachorrinho.">
       </div>
     </div>
   </div>

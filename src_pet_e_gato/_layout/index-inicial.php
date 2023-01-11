@@ -51,7 +51,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="agendamento.php">Agendamento</a>
+                    <a class="nav-link" href="seleciona_servico.php">Agendamento</a>
                   </li>
 
                   <li class="nav-item">
