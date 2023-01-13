@@ -1,12 +1,24 @@
-<?php include "autentica-funcionario.php" ?>
+<?php
 
+include "autentica-funcionario.php";
+include "conecta_mysql.php";
+
+$sql = "SELECT * FROM funcionario WHERE email = '$email';";
+$res = mysqli_query($mysqli,$sql);
+$funcionario = mysqli_fetch_array ($res);
+
+        if(!mysqli_query($mysqli,$sql)){
+            echo mysqli_error($mysqli);
+            exit;
+        }
+?>
 
 <!doctype html>
 <html lang="pt-br">
 
   <head>
 
-    <title>Funcionário - Pet&Gatô</title>
+    <title>Meu perfil</title>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,72 +96,49 @@
         </div>
     </div>
 
-<div id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 align-self-center">
-        <h1>Bem-vindo ao seu painel de funcionário!</h1>
-        <h4>Verifique o seu calendário.</h4>
-        <a href="calendario_func.php" class="btn btn-primary button">Calendário de agendamentos</a>
-      </div>
-      <div class="col-md-6 align-self-center text-center">
-        <img src="_img/funcionariopet2.svg" class="img-fluid" alt="Um gatinho e um cachorrinho.">
-      </div>
-    </div>
-  </div>
+<div class="container rounded bg-white mt-2">
+        <div class="row">
+            <div class="col-md-4 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-2"><img class="rounded-circle mt-5" src="_img/perfil-funcionario.gif" width="100%"><span class="font-weight-bold"><?php echo $cliente['nome']?></span><span class="text-black-50"><?php echo $cliente['email']?></span><span></span></div>
+                </div>
+                <div class="col-md-8">
+                <div class="p-3 py-5">
 
-    <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
- </section>
-  
- <!-- Section: Links  -->
-<section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4"> 
-            <i class="fas fa-gem me-3"> <img src="_img/diamond.png" class="img-fluid" ></i> Pet&Gatô House
-          </h6>
-          <p>
-            Desde 2016, a Pet&Gatô House foi criada com o objetivo de melhorar a vida dos tutores e seus pets fornecendo agendamento de atendimento com a pontualidade que só a nossa empresa oferece para os clientes. Além disso, utilizamos produtos de excelente qualidade e um ambiente acolhedor para que o seu pet fique confortável e cheiroso.
-            
-          </p>
+                <form>
+
+                    <fieldset>
+
+                    <legend class="font-weight-bold">SUAS INFORMAÇÕES:</legend>
+
+                <div class="form-group">
+
+                    <div class="row mt-2">
+                        <div class="col-md-12">
+                            <span class="font-weight-bold">Nome completo:</span>
+                            <span class="text-black-50"><?php echo $funcionario['nome']?></span>
+                        </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-md-12">
+                            <span class="font-weight-bold">CPF:</span>
+                            <span class="text-black-50"><?php echo $funcionario['cpf']?></span>
+                        </div>
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            <span class="font-weight-bold">E-mail:</span>
+                            <span class="text-black-50"><?php echo $funcionario['email']?></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="font-weight-bold">Data de nascimento:</span>
+                            <span class="text-black-50"><?php echo date('d/m/Y', strtotime($funcionario['data_nasc']))?></span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-5 text-right"><a class="btn btn-primary profile-button" href="calendario_func.php" value="submit" name="submit" >Ir para o calendário</a></div>
+                </div>
+            </div>
         </div>
-       
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4" >Contato</h6>
-          <p> <img src="_img/home (1).png" class="img-fluid" ><i class="fas fa-home me-3"></i> Rua Manoel Gomes, 20 - Duque de Caxias - RJ </p>
-          <p> <img src="_img/mail.png" class="img-fluid" >
-            <i class="fas fa-envelope me-3"></i>
-            petegatooficial1@gmail.com
-          </p>
-          <p ><img src="_img/phone (1).png" class="img-fluid" ><i class="fas fa-phone me-3"></i> (21) 94002-8922</p>
-          <p><img src="_img/phone (1).png" class="img-fluid" ><i class="fas fa-print me-3"></i> (21) 97683-9732</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
     </div>
-  </section>
-  <!-- Section: Links  -->
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2022 Copyright:
-    <a class="text-reset fw-bold" href="#">Pet&Gatô - House</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-
-
-</div>    
-    
-    <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  </body>
-</html>

@@ -13,7 +13,7 @@ if($operacao == "funcionario"){
     $senha = utf8_decode($_POST["senha"]);
     $repetesenha = utf8_decode($_POST["repetesenha"]);
     $data_nasc = utf8_decode($_POST["data_nasc"]);
-    $especialidade = utf8_decode($_POST["especialidade"]);
+    $cpf = utf8_decode($_POST["cpf"]);
 
     $sql = "SELECT * FROM funcionario;";
     $res = mysqli_query($mysqli, $sql);
@@ -42,8 +42,7 @@ if($operacao == "funcionario"){
     
     $senha_cript = password_hash($senha, PASSWORD_DEFAULT);
 
-    $sql = "INSERT INTO funcionario (nome, email, senha, data_nasc, especialidade) VALUES ('$nome','$email','$senha_cript','$data_nasc','$especialidade');";  
-    $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
+    $sql = "INSERT INTO funcionario (nome, email, senha, data_nasc, cpf) VALUES ('$nome','$email','$senha_cript','$data_nasc','$cpf');";  
     
       if(!mysqli_query($mysqli,$sql)){
         echo mysqli_error($mysqli);

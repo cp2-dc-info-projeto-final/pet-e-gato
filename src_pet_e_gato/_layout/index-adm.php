@@ -25,7 +25,7 @@
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index-adm.php" ><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
+              <a href="index-adm.php" ><img src="_img/logo_petgato.png" class="img-center" width="30%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -49,6 +49,10 @@
                   </li>
 
                   <li class="nav-item">
+                    <a class="nav-link" href="calendario_adm.php">Calendário</a>
+                  </li>
+
+                  <li class="nav-item">
                     <a class="nav-link" href="clientes.php">Clientes</a>
                   </li>
 
@@ -61,6 +65,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Cadastrar</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="cadastro_servicos.php">Serviços</a>
+                              <a class="dropdown-item" href="cadastrar_horario.php">Horários</a>
                               <a class="dropdown-item" href="cadastro_funcionario.php">Funcionários</a>
                               <a class="dropdown-item" href="cadastro_adm.php">Administrador</a>
                             </div>

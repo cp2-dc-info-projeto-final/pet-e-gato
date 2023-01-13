@@ -1,5 +1,7 @@
 <?php
     session_start();
+    include "conecta_mysql.php";
+
     if(isset($_SESSION["email"])){
         $email = $_SESSION["email"];
     }
@@ -14,7 +16,6 @@
     }
 
     else{
-        $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato"); 
         $sql = "SELECT * FROM funcionario WHERE email = '$email';";
         $res = mysqli_query($mysqli, $sql);
 

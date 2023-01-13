@@ -2,5 +2,5 @@
     session_start();
     $_SESSION = array();
     session_destroy();
-    header ("location: login-adm.php");
+    header ("location: index.php");
 ?>

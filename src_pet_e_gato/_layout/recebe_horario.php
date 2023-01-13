@@ -1,4 +1,4 @@
-<?php include "autentica.php" ?>
+<?php include "autentica-adm.php" ?>
 
 <?php
 
@@ -20,8 +20,8 @@ $operacao = $_POST["operacao"];
 
 if ($operacao == "agendamento"){
 
-    $hora = utf8_decode($_POST["hora"]);
-    $dia = utf8_decode($_POST["dia"]);
+    $hora = $_POST["hora"];
+    $dia = $_POST["dia"];
     $nome_funcionario = $funcionario["nome"];
     $nome_servico = $servico["servico"];
 
@@ -34,14 +34,16 @@ for ($i = 0; $i < $linhas; $i++){
     
     if($agendamento['dia'] == $dia){
 
-      if ($agendamento ['servico'] == $servico){
+      if ($agendamento ['cod_servico'] == $servico['cod_servico']){
         if ($agendamento['hora'] == $hora){
-          $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>Horário Indisponível</div>";
-          header("Location: agendamento.php");
+            if ($agendamento['cod_funcionario'] == $funcionario['matricula']){
+          $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>Funcionário indisponível!</div>";
+          header("Location: cadastrar_horario.php");
           exit;
-  }
- }
- }
+            }   
+        }
+        }
+    }
 }
 
 
@@ -76,7 +78,7 @@ $cliente = mysqli_fetch_array ($res);
     mysqli_query($mysqli,$sql);
 
     $_SESSION['mensagem_agendamento'] = "<div class='alert alert-success' role='alert'> Horário cadastrado!</div>";
-    header("Location: cadastrar_horario.php");
+    header("Location: calendario_adm.php");
 
       /*if(!mysqli_query($mysqli,$sql)){
           echo mysqli_error($mysqli);

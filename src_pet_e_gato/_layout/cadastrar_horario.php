@@ -1,4 +1,4 @@
-<?php   include "autentica.php";
+<?php   include "autentica-adm.php";
         include "conecta_mysql.php";
 ?>
 

@@ -40,9 +40,7 @@
             <form action="funcionarios_cadastrados.php" method="POST" class="login-form"> 
             <input type="hidden" name="operacao" value="funcionario">
 
-			<?php
-
-            session_start();
+			      <?php
               if(isset($_SESSION['mensagem_erro'])){
                 echo $_SESSION['mensagem_erro'];
                 unset($_SESSION['mensagem_erro']);
@@ -53,32 +51,32 @@
                 <label for="nome">Digite seu nome:</label>
 		      			<input type="text" name="nome" class="form-control rounded-left" placeholder="Digite seu nome completo" required autofocus pattern="[A-Za-zÀ-ú ']{10,}" title="O nome precisa ter pelo menos 10 caracteres">
 		      		</div>
+
               <div class="form-group">
                 <label for="email">Digite seu e-mail:</label>
 		      			<input type="email" name="email" class="form-control rounded-left" placeholder="Digite seu email" required="required">
 		      		</div>
+
+              <label for="cpf">CPF:</label>
+              <div class="form-group d-flex">
+                <input type="text" class="form-control rounded-left" required="required" id="cpf" name="cpf" placeholder="Digite seu CPF">
+              <script type="text/javascript">$("#cpf").mask("000.000.000-00");</script>
+              </div>
+
               <label for="email">Digite uma senha:</label>
 	            <div class="form-group d-flex">
 	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required="required" required maxlength="8" minlength="5">
 	            </div>
+
               <label for="email">Digite novamente sua senha:</label>
 	            <div class="form-group d-flex">
 	              <input type="password" name="repetesenha" class="form-control rounded-left" placeholder="Digite sua senha novamente" required="required" required maxlength="8" minlength="5">
 	            </div>
+
               <label for="data_nasc">Data de Nascimento:</label>
               <div class="form-group d-flex">
                 <input type="date" class="form-control rounded-left" required="required" id="data_nasc" name="data_nasc">
               </div>
-			  <label for="servico">Especialidade:</label>
-              <div class="form-group">
-                <select id="inputAgendamento" class="form-control" name="especialidade">
-                    <option selected></option>
-                    <option>Tosa</option>
-                    <option>Banho</option>
-                    <option>Corte de unha</option>
-                    <option>Higiênica</option>
-                </select>    
-                </div>
           
           </fieldset>
 			<div class="w-50 text-md-right">

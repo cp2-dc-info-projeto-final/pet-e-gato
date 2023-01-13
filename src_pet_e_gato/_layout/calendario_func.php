@@ -1,6 +1,6 @@
 <?php 
 
-include "autentica-adm.php";
+include "autentica-funcionario.php";
 include "conecta_mysql.php";
 
 ?>
@@ -53,6 +53,18 @@ include "conecta_mysql.php";
                   </li>
 
                   <li class="nav-item">
+                    <a class="nav-link" href="contato.php">Contato</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#rodape">Sobre</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="perfil_funcionario.php">Perfil</a>
+                  </li>
+
+                  <li class="nav-item">
                     <a class="nav-link" href="logout.php"> Sair </a>
                   </li>
                 </ul>
@@ -73,10 +85,10 @@ include "conecta_mysql.php";
                                 <table class="table mb-0  table-striped" table="center">
                                     <thead class="color">
                                     <tr>
-                                      <th scope="col">CLIENTE</th>
-                                      <th scope="col">SERVIÇO</th>
                                       <th scope="col">DATA</th>
                                       <th scope="col">HORA</th>
+                                      <th scope="col">CLIENTE</th>
+                                      <th scope="col">SERVIÇO</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -88,7 +100,7 @@ include "conecta_mysql.php";
 
                                         $matricula = $funcionario['matricula'];
 
-                                        $sql = "SELECT * FROM agendamento WHERE cod_funcionario = '$matricula'";
+                                        $sql = "SELECT * FROM agendamento WHERE cod_funcionario = '$matricula' ORDER BY dia ASC";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
 
@@ -99,10 +111,10 @@ include "conecta_mysql.php";
 
                                             echo"
                                             <tr>
+                                            <td>".date('d/m/Y', strtotime($agendamento['dia']))."</td>
+                                            <td>".$agendamento['hora']."</td>
                                             <td>".utf8_encode($agendamento['nome_cliente'])."</td>
                                             <td>".utf8_encode($agendamento['servico'])."</td>
-                                            <td>".$agendamento['dia']."</td>
-                                            <td>".$agendamento['hora']."</td>
                                             </tr>";
                                           }   
                                         }
