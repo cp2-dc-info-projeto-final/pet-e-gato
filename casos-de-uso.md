@@ -11,7 +11,8 @@
  - [CDU 07](#CDU-07): Manter agendamento
  - [CDU 08](#CDU-08): Manter serviço
  - [CDU 09](#CDU-09): Recuperar senha
- - [CDU 10](#CDU-10): Logout
+ - [CDU 10](#CDU-10): Disponibilizar horário
+ - [CDU 11](#CDU-10): Logout
 
  
 
@@ -382,11 +383,27 @@ Ator: Administrador, funcionário e tutor
 10. Sistema envia código de verificação.
 11. Usuário insere código.
 12. Sistema analisa código.
-13.  Usuário insere nova senha.
-14.  Sistema registra nova senha.
-15.  Sistema libera o acesso ao usuário.
+13. Usuário insere nova senha.
+14. Sistema registra nova senha.
+15. Sistema libera o acesso ao usuário.
 
-### CDU 10 Fazer logout
+
+### CDU 10 Disponibilizar horário 
+
+Ator: Administrador
+
+**Fluxo Principal**
+
+1. Administrador seleciona a opção Cadastrar.
+2. Administrador seleciona "Horário".
+3. Administrador seleciona serviço. 
+4. Administrador seleciona funcionário. 
+6. Administrador inclui os horários e datas disponíveis do funcionário.
+7. Sistema armazena as informações.
+8. Sistema atualiza as informações.
+
+
+### CDU 11 Fazer logout
 
 Ator: Tutor, administrador e funcionário
 
@@ -397,3 +414,4 @@ Ator: Tutor, administrador e funcionário
 3. Sistema redireciona para página inicial.
 
 ### Diagrama de sequência ![CDU 11 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208498229-00f880a9-ac9c-437d-851f-db6089c461f6.jpg)
+
