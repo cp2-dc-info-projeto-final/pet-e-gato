@@ -232,7 +232,8 @@ Fluxo Principal
 1. Usuário entra na aba perfil.
 2. Sistema exibe os dados do usuário.
 
-### Diagrama de sequência ![Diagrama de sequência- CDU07 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/212982517-f1d1cf39-506b-4328-8437-0ec6c740bb07.png)
+### Diagrama de sequência ![Diagrama de sequência- CDU07 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/212982949-f16d478e-7064-4900-8e00-11e3e6f63ddf.jpg)
+
 
  
  ### CDU 07 Manter Agendamento
