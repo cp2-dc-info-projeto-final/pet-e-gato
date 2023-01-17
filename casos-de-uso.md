@@ -8,11 +8,12 @@
  - [CDU 04](#CDU-04): Manter tutor
  - [CDU 05](#CDU-05): Autenticação de login 
  - [CDU 06](#CDU-06): Visualizar calendário
- - [CDU 07](#CDU-07): Manter agendamento
- - [CDU 08](#CDU-08): Manter serviço
- - [CDU 09](#CDU-09): Recuperar senha
- - [CDU 10](#CDU-10): Disponibilizar horário
- - [CDU 11](#CDU-10): Logout
+ - [CDU 07](#CDU-06): Visualizar perfil
+ - [CDU 08](#CDU-07): Manter agendamento
+ - [CDU 09](#CDU-08): Manter serviço
+ - [CDU 10](#CDU-09): Recuperar senha
+ - [CDU 11](#CDU-10): Disponibilizar horário
+ - [CDU 12](#CDU-10): Logout
 
  
 
@@ -222,8 +223,16 @@ Ator: Tutor e funcionário
 
 ### Diagrama de sequência ![CDU 06 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208550949-504f8e6c-a297-4d42-8cc8-1bd696414c02.jpg)
 
+##CDU 07 Visualizar perfil
 
+Ator: Tutor e funcionário
 
+Fluxo Principal
+
+1.Usuário entra na aba perfil.
+2.Sistema exibe os dados do usuário.
+
+### Diagrama de sequência 
  
  ### CDU 07 Manter Agendamento
 
