@@ -14,7 +14,7 @@
  - [CDU 10](#CDU-10): Recuperar senha
  - [CDU 11](#CDU-11): Disponibilizar horário
  - [CDU 12](#CDU-12): Logout
-
+ - [CDU 13](#CDU-13): Redefinição de senha
  
 
 ## Lista dos Atores
@@ -427,3 +427,12 @@ Ator: Tutor, administrador e funcionário
 
 ### Diagrama de sequência ![CDU 11 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208498229-00f880a9-ac9c-437d-851f-db6089c461f6.jpg)
 
+
+### CDU 13 Redefinição de senha
+
+Ator: 
+
+
+**Fluxo Principal**
+
+1. 
