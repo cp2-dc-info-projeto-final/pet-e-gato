@@ -408,8 +408,8 @@ Ator: Administrador
 
 1. Administrador seleciona a opção Cadastrar.
 2. Administrador seleciona "Horário".
-3. Administrador seleciona serviço. 
-4. Administrador seleciona funcionário. 
+3. Administrador seleciona "Serviço". 
+4. Administrador seleciona "Funcionário". 
 6. Administrador inclui os horários e datas disponíveis do funcionário.
 7. Sistema armazena as informações.
 8. Sistema atualiza as informações.
