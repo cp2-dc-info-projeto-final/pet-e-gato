@@ -224,7 +224,8 @@ Ator: Tutor e funcionário
 
 ### Diagrama de sequência ![CDU 06 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208550949-504f8e6c-a297-4d42-8cc8-1bd696414c02.jpg)
 
-## CDU 07 Visualizar perfil
+
+### CDU 07 Visualizar perfil
 
 Ator: Tutor e funcionário
 
@@ -234,7 +235,6 @@ Fluxo Principal
 2. Sistema exibe os dados do usuário.
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU07 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/212982949-f16d478e-7064-4900-8e00-11e3e6f63ddf.jpg)
-
 
  
  ### CDU 08 Manter Agendamento
