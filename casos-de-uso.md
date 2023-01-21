@@ -62,11 +62,11 @@ Ator: Administrador
 
 **Fluxo Alternativo B**
 
-1. Usuário seleciona a opção "Cadastrar Administrador". 
-2. Sistema solicita que o usuário insira o código de autenticação de administrador.
-3. Sistema direciona usuário para a aba de administrador.
-4. Usuário escolhe entre "Novo administrador" ou "promover funcionário".
-  
+1. Administrador seleciona a opção "Cadastrar administrador"
+2. Administrador insere dados solicitados: nome completo, cpf, data de nascimento, email e senha. 
+3. Sistema armazena dados e adiciona nova administrador. 
+4. Sistema informa que o cadastro foi efetuado com sucesso. 
+
 
 ### CDU 02 Cadastro do tutor
 
