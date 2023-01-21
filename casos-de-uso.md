@@ -42,17 +42,17 @@ Ator: Administrador
 **Fluxo Principal**
 
 1. Administrador seleciona a opção “Cadastrar novo funcionário” .
-2. Administrador insere os dados solicitados: nome completo, idade, e-mail, senha e matrícula.
+2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
 3. Sistema armazena os dados e adiciona novo funcionário. 
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
-5. Redireciona para login.
+5. Sistema redireciona para login.
 
 ### Diagrama de sequência ![Cadastro funcionário - CDU 01](https://user-images.githubusercontent.com/95935490/194649833-66a90e6f-b6e0-4b1e-a64d-0190329fa8d5.jpg)
 
 **Fluxo Alternativo A**
 
 1. Administrador seleciona a opção “Cadastrar novo funcionário” 
-2. Administrador insere os dados solicitados: CPF, nome completo, idade, e-mail, senha e matrícula.
+2. Administrador insere os dados solicitados: CPF, nome completo, idade, e-mail e senha.
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
@@ -76,7 +76,7 @@ Ator: Tutor
 2. Usuário insere os dados solicitados: nome completo, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet. 
 3. Sistema armazena os dados e adiciona novo cliente. 
 4. Sistema informa que o cadastro foi efetuado com sucesso.
-5. Redireciona para login.
+5. Sistema redireciona para login.
 
 ### Diagrama de sequência ![Cadastro tutor - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95935490/194650204-7092001d-737d-44f8-a2d4-532e46824249.jpg)
 
