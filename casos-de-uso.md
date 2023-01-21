@@ -192,7 +192,8 @@ Ator: Tutor, administrador e funcionário
 4. Sistema exibe que e-mail e senha são válidos. 
 5. Sistema libera o acesso do usuário. 
 
-### Diagrama de sequência ![Autenticação de login - CDU 05 (fluxo principal)](https://user-images.githubusercontent.com/95935490/194650445-bdaabe2d-a644-4313-8ad6-3d24b3017479.jpg)
+### Diagrama de sequência ![Diagrama de sequência - CDU 05 (fluxo principal)](https://user-images.githubusercontent.com/95979551/213882867-d1172d80-0554-481a-b092-3537a901c2c2.jpg)
+
 
 
 
