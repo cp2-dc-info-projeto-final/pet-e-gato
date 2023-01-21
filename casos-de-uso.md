@@ -73,20 +73,19 @@ Ator: Tutor
 **Fluxo Principal**
 
 1. Usuário seleciona a opção “Cadastrar-se”. 
-2. Usuário insere os dados solicitados: nome completo, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet. 
+2. Usuário insere os dados solicitados: nome completo, CPF, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet e data de nascimento do pet.
 3. Sistema armazena os dados e adiciona novo cliente. 
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 5. Sistema redireciona para login.
 
-### Diagrama de sequência ![Cadastro tutor - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95935490/194650204-7092001d-737d-44f8-a2d4-532e46824249.jpg)
-
+### Diagrama de sequência ![Diagrama de sequência - CDU 02 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/213881174-f66b6a48-5fef-4ee9-95bb-8c65256233b4.jpg)
 
 
 
 **Fluxo Alternativo A**
 
 1. Administrador seleciona a opção “Cadastrar-se” 
-2. Administrador insere os dados solicitados: nome completo, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet
+2. Administrador insere os dados solicitados: nome completo, CPF, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet, data de nascimento do pet.
 3. Sistema analisa os dados. 
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
