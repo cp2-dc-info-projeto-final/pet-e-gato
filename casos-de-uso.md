@@ -418,8 +418,8 @@ Ator: Administrador
 
 **Fluxo Principal**
 
-1. Administrador seleciona a opção Cadastrar.
-2. Administrador seleciona "Horário".
+1. Administrador seleciona a opção "Cadastrar".
+2. Administrador seleciona "Cadastrar Horário".
 3. Administrador seleciona "Serviço". 
 4. Administrador seleciona "Funcionário". 
 6. Administrador inclui os horários e datas disponíveis do funcionário.
