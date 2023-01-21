@@ -416,18 +416,6 @@ Ator: Administrador
 8. Sistema atualiza as informações.
 
 
-### CDU 12 Fazer logout
-
-Ator: Tutor, administrador e funcionário
-
-**Fluxo Principal**
-
-1. Usuário seleciona a opção "Sair".
-2. Sistema encerra sessão.
-3. Sistema redireciona para página inicial.
-
-### Diagrama de sequência ![CDU 11 (Fluxo principal)](https://user-images.githubusercontent.com/95935490/208498229-00f880a9-ac9c-437d-851f-db6089c461f6.jpg)
-
 
 ### CDU 13 Redefinição de senha
 
@@ -437,3 +425,16 @@ Ator:
 **Fluxo Principal**
 
 1. 
+
+
+### CDU 13 Fazer logout
+
+Ator: Tutor, administrador e funcionário
+
+**Fluxo Principal**
+
+1. Usuário seleciona a opção "Sair".
+2. Sistema encerra sessão.
+3. Sistema redireciona para página inicial.
+
+### Diagrama de sequência ![Diagrama de sequência- CDU13 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/213875658-410f305c-486f-43a3-af74-6a37a057667c.jpg)
