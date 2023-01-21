@@ -404,7 +404,7 @@ Ator: Administrador, funcionário e tutor
 
 ### CDU 11 Redefinição de senha
 
-Ator: 
+Ator: Administrador e tutor
 
 
 **Fluxo Principal**
@@ -434,7 +434,7 @@ Ator: Administrador
 
 ### CDU 13 Fazer logout
 
-Ator: Tutor, administrador e funcionário
+Ator: Administrador, funcionário e tutor
 
 **Fluxo Principal**
 
