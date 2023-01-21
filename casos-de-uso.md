@@ -12,9 +12,10 @@
  - [CDU 08](#CDU-08): Manter agendamento
  - [CDU 09](#CDU-09): Manter serviço
  - [CDU 10](#CDU-10): Recuperar senha
- - [CDU 11](#CDU-11): Disponibilizar horário
- - [CDU 12](#CDU-12): Logout
- - [CDU 13](#CDU-13): Redefinição de senha
+ - [CDU 11](#CDU-11): Redefinição de senha
+ - [CDU 12](#CDU-12): Disponibilizar horário
+ - [CDU 13](#CDU-13): Logout
+
  
 
 ## Lista dos Atores
@@ -401,7 +402,17 @@ Ator: Administrador, funcionário e tutor
 15. Sistema libera o acesso ao usuário.
 
 
-### CDU 11 Disponibilizar horário 
+### CDU 11 Redefinição de senha
+
+Ator: 
+
+
+**Fluxo Principal**
+
+
+
+
+### CDU 12 Disponibilizar horário 
 
 Ator: Administrador
 
@@ -417,14 +428,6 @@ Ator: Administrador
 
 
 
-### CDU 13 Redefinição de senha
-
-Ator: 
-
-
-**Fluxo Principal**
-
-1. 
 
 
 ### CDU 13 Fazer logout
