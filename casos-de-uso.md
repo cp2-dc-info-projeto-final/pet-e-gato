@@ -378,7 +378,7 @@ Ator: Administrador, funcionário e tutor
 12. Sistema registra nova senha.
 13. Sistema libera o acesso ao usuário. 
 
-### Diagrama de sequência ![Diagrama de sequência- CDU10- ( fluxo alternativo A)](https://user-images.githubusercontent.com/95935490/207925437-273456b8-1d2d-46a1-93c4-25d044d97299.jpg)
+### Diagrama de sequência ![Diagrama de sequência- CDU10 ( Fluxo principal) ](https://user-images.githubusercontent.com/95935490/213872585-23924a8c-ff72-4414-bd4c-1ac7fbd20814.jpg)
 
 
 **Fluxo Alternativo B**
