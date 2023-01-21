@@ -78,7 +78,7 @@ Ator: Tutor
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 5. Sistema redireciona para login.
 
-### Diagrama de sequência ![Diagrama de sequência - CDU 02 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/213881268-cd415139-6198-470b-85d8-94f2fb00e97c.jpg)
+### Diagrama de sequência  ![Diagrama de sequência - CDU 02 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/213881268-cd415139-6198-470b-85d8-94f2fb00e97c.jpg)
 
 
 
@@ -91,7 +91,8 @@ Ator: Tutor
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
 
-### Diagrama de sequência ![Cadastro tutor - CDU 02 (fluxo alternativo A)](https://user-images.githubusercontent.com/95935490/194650325-8dd97d52-0326-4c49-a5f7-a0a9c17fe142.jpg)
+### Diagrama de sequência  ![Diagrama de sequência - CDU 02 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/213881557-d209fd9e-b20b-4602-a3e0-42c85e623bc8.jpg)
+
 
  
 ### CDU 03 Manter funcionário
