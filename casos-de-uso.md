@@ -42,17 +42,18 @@ Ator: Administrador
 **Fluxo Principal**
 
 1. Administrador seleciona a opção “Cadastrar novo funcionário” .
-2. Administrador insere os dados solicitados: nome completo, idade, e-mail e senha.
+2. Administrador insere os dados solicitados: nome completo, CPF, idade, e-mail e senha.
 3. Sistema armazena os dados e adiciona novo funcionário. 
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
 5. Sistema redireciona para login.
 
-### Diagrama de sequência ![Cadastro funcionário - CDU 01](https://user-images.githubusercontent.com/95935490/194649833-66a90e6f-b6e0-4b1e-a64d-0190329fa8d5.jpg)
+### Diagrama de sequência ![Diagrama de sequência - CDU 01 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/213882348-b24a2ab0-c993-4cc4-9d21-caffd769d381.jpg)
+
 
 **Fluxo Alternativo A**
 
 1. Administrador seleciona a opção “Cadastrar novo funcionário” 
-2. Administrador insere os dados solicitados: CPF, nome completo, idade, e-mail e senha.
+2. Administrador insere os dados solicitados: nome completo, CPF, idade, e-mail e senha.
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
