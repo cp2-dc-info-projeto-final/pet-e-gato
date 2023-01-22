@@ -26,7 +26,7 @@
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de casos de uso 2](https://user-images.githubusercontent.com/95935490/213920941-2e95eaf7-d8fb-4108-a3f8-870dc30d99d9.jpg)
+![Diagrama de casos de uso 3](https://user-images.githubusercontent.com/95935490/213921979-eb5a714b-035e-4d5f-b252-ca35d34d11d2.jpg)
 
 
 
@@ -245,12 +245,12 @@ Fluxo Principal
  
  ### CDU 08 Manter Agendamento
 
-Ator: Tutor
+Ator: Tutor e administrador 
 
 **Fluxo Principal**
 
- 1. Usuário escolhe o serviço desejado. 
- 2. Usuário seleciona dia e horário disponíveis. 
+ 1. Tutor escolhe o serviço desejado. 
+ 2. Tutor seleciona dia e horário disponíveis. 
  3. Sistema armazena dados. 
  4. Sistema informa que o agendamento foi efetuado com sucesso.
  
@@ -278,11 +278,11 @@ Ator: Tutor
 
 - Fluxo alternativo: Cancelar agendamento.
 
- 1. Cliente entra na aba perfil. 
- 2. Cliente acessa calendário. 
- 3. Cliente clica em agendamento. 
+ 1. Usuário entra na aba perfil. 
+ 2. Usuário acessa calendário. 
+ 3. Usuário clica em agendamento. 
  4. Sistema exibe detalhes do agendamento. 
- 5. Cliente escolhe a opção "Cancelar agendamento". 
+ 5. Usuário escolhe a opção "Cancelar agendamento". 
  6. Sistema solicita a confirmação do cancelamento. 
  7. Sistema informa que o cancelamento foi efetuado com sucesso.
 
@@ -293,7 +293,6 @@ Ator: Tutor
 
 1. Cliente entra na aba perfil.
 2. Cliente acessa calendário.
-3. Cliente seleciona a opção "Listar funcionários".
 4. Sistema apresenta agendamentos cadastrados.
 
    
