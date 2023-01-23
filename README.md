@@ -2,7 +2,12 @@
 
 Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colégio Pedro II - Campus Duque de Caxias
 
-**Integrantes:**
+## Login como administrador
+ **Email:** petegatooficial1@gmail.com
+ 
+ **Senha:** abacate
+
+## Integrantes:
  - Bianca do Nascimento Eiras 
  - Carollyne Coelho do Nascimento 
  - Kauan Martinez da Silva
