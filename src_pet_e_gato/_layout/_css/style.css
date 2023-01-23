@@ -8335,6 +8335,11 @@ h1, h2, h3, h4, h5,
         border: 1px solid transparent;
         background: #8d448b;
         color: #fff; }
+        .btn.btn-danger {
+          background: #dc3545 !important;
+          border-radius: 10px 10px 10px 10px;
+          border: 1px solid #fff !important;
+          color: #fff !important; }
 
 .form-group {
   position: relative; }
@@ -8374,5 +8379,85 @@ h1, h2, h3, h4, h5,
 animation: fadeIn 1s ease-in-out;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
+#topo-link {
+  text-decoration: none;
+  color: white;
+  border-radius: 65px;
+  background-color: #570070;
+  padding: 10px;
+  cursor: pointer;
+  position: fixed;
+  right: 22px;
+  bottom: 14px;
+  box-shadow: 3px 3px 5px black;
+}
 
+bel-float{
+  position: relative;
+  padding-top: 13px;
+}
+
+.label-float input{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -webkit-appearance:none;
+  border-radius: 0;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #3951b2;
+}
+
+.label-float input::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.label-float input:required:invalid + label{
+  color: red;
+}
+.label-float input:focus:required:invalid{
+  border-bottom: 2px solid red;
+}
+.label-float input:required:invalid + label:before{
+  content: '*';
+}
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #3951b2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    top: 16px;
+    left: -5px;
+    will-change: transform;
+}
+.dropdown {
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}

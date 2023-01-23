@@ -33,18 +33,45 @@
   input[type="url"],
   textarea,
   select {
-    background: rgba(255,255,255,0.1);
-    border: none;
+    background: rgb(18 16 16 / 0%);
+    border-style: solid;
+    border-width: 1px;
     font-size: 16px;
-    height: auto;
-    margin: 0;
-    outline: 0;
-    padding: 15px;
+    height: 50px;
+    margin: 0px;
+    padding: 9px;
     width: 100%;
-    background-color: #e8eeef;
-    color: #8a97a0;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-    margin-bottom: 30px;
+    background-color: white;
+    color: #ffffff;
+    box-shadow: 0px 0px 8px 1px #ff914d;
+    margin-bottom: 5px;
+  }
+
+  ::-webkit-input-placeholder {
+    color: white;
+    font: 12px verdana, arial, sans-serif;
+ }
+ 
+ :-moz-placeholder {
+    color: white;
+    font: 12px verdana, arial, sans-serif;
+ }
+ 
+ ::-moz-placeholder {
+    color: white;  
+    font: 12px verdana, arial, sans-serif;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;  
+    font: 12px verdana, arial, sans-serif;
+ }
+
+  input#txt_consulta.placeholder {
+      color: white;
+      margin: 0px 0px 5px;
+      padding: 9px;
+    
   }
   
   input[type="radio"],
