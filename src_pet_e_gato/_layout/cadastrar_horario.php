@@ -58,7 +58,7 @@
 		      		
             <div class="form-group">
                 <label for="nome">Escolha o serviço:</label>
-                <select name="servico" required="required" class="form-group">
+                <select name="servico" required="required" class="form-control rounded-left">
             <option value="">Nome do Serviço</option>
             <?php
 
@@ -71,7 +71,7 @@
 
                 if(isset($servico['cod_servico'])){
                   echo"
-                  <option value=".$servico['cod_servico'].">".$servico['servico']."</option>";
+                  <option value=".$servico['cod_servico'].">".utf8_encode($servico['servico'])."</option>";
 
                 }
               }
@@ -82,7 +82,7 @@
 
             <label for="cpf">Funcionário responsável:</label>
               <div class="form-group d-flex">
-                <select name="funcionario" required="required" class="form item">
+                <select name="funcionario" required="required" class="form-control rounded-left">
             <option value="">Nome do funcionário</option>
             <?php
 
@@ -95,7 +95,7 @@
 
                 if(isset($funcionario['matricula'])){
                   echo"
-                  <option value=".$funcionario['matricula'].">".$funcionario['nome']."</option>";
+                  <option value=".$funcionario['matricula'].">".utf8_encode($funcionario['nome'])."</option>";
 
                 }
               }

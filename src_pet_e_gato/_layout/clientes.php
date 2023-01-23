@@ -1,5 +1,9 @@
-<?php include "conecta_mysql.php" ?>
-<?php include "autentica-adm.php" ?>
+<?php 
+
+include "autentica-adm.php"; 
+include "conecta_mysql.php";
+
+?>
 
 <!doctype html>
 <html lang="pt-br">
@@ -16,6 +20,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
   </head>
   <body class="fadeIn">
 
@@ -49,6 +54,10 @@
                   </li>
 
                   <li class="nav-item">
+                    <a class="nav-link" href="administradores.php">Administradores</a>
+                  </li>
+
+                  <li class="nav-item">
                     <a class="nav-link" href="clientes.php">Clientes</a>
                   </li>
 
@@ -66,14 +75,9 @@
                             </div>
                           </li>
                   </ul>
-                 
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="perfil_adm.php">Perfil</a>
                   </li>
 
                   <li class="nav-item">
@@ -86,6 +90,12 @@
         </div>
     </div>
 
+      <div class="col-12 row d-flex justify-content-center">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+          <div class="form-outline w-75 p-3" style="margin: 20px auto;">
+          <input name="consulta" id="txt_consulta" placeholder="Digite para iniciar a pesquisa" type="search" class="form-control d-flex" onkeyup="myFunction()">
+          </div>
+      </div>
 
     <div class="container">
                 <section class="intro ">
@@ -94,9 +104,35 @@
                         <div class="container"> 
                             <div class="row justify-content-center">
                             <div class="col-12">
-                                <div class="table-responsive bg-white table table-bordered" style="margin: 50px auto;"> 
-                                <table class="table mb-0  table-striped" table="center" border="2px">
-                                    <thead class="color">
+                                <div class="table-responsive bg-white table table-bordered" style="margin: 5px auto;"> 
+
+                                <script>
+                                  function myFunction() {
+                                    var input, filter, table, tr, td, cell, i, j;
+                                    input = document.getElementById("txt_consulta");
+                                    filter = input.value.toUpperCase();
+                                    table = document.getElementById("tabela");
+                                    tr = table.getElementsByTagName("tr");
+
+                                    for (i = 1; i < tr.length; i++) {
+                                      tr[i].style.display = "none";
+                                      td = tr[i].getElementsByTagName("td");
+
+                                    for (var j = 0; j < td.length; j++) {
+                                        cell = tr[i].getElementsByTagName("td")[j];
+                                        if (cell) {
+                                            if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                                                tr[i].style.display = "";
+                                                break;
+                                            } 
+                                        }
+                                      }
+                                    }
+                                  }
+                                </script>
+
+                                <table class="table mb-0  table-hover table-bordered table-sm" id="tabela" table="center">
+                                    <thead class="color thead-dark">
                                     <tr>
                                       <th scope="col">NOME</th>
                                       <th scope="col">EMAIL</th>
@@ -104,14 +140,13 @@
                                       <th scope="col">TELEFONE</th>
                                       <th scope="col">NOME_PET</th>
                                       <th scope="col">NASC_PET</th>
+                                      <th scope="col">EXCLUIR</th>
                                     </tr>
                                     </thead>
                                     <tbody>
 
                                     <?php
-                                        $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
-                                        $sql= "SELECT * FROM cliente";
-                                        $sql= "SELECT nome, email, data_nasc, telefone, nome_pet, nasc_pet FROM cliente ORDER BY nome;";
+                                        $sql= "SELECT * FROM cliente ORDER BY nome;";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
 
@@ -122,10 +157,17 @@
                                             <tr>
                                             <td>".utf8_encode($cliente['nome'])."</td>
                                             <td>".$cliente['email']."</td>
-                                            <td>".$cliente['data_nasc']."</td>
+                                            <td>".date('d/m/Y', strtotime($cliente['data_nasc']))."</td>
                                             <td>".$cliente['telefone']."</td>
                                             <td>".utf8_encode($cliente['nome_pet'])."</td>
-                                            <td>".$cliente['nasc_pet']."</td>
+                                            <td>".date('d/m/Y', strtotime($cliente['nasc_pet']))."</td>
+                                            
+                                            <td><a class='btn btn-sm btn-danger' href='excluir_cliente.php?matricula=$cliente[matricula]'>
+                                                <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-trash' viewBox='0 0 16 16'><path d='M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z'/><path fill-rule='evenodd' d='M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z'/>
+                                                </svg>
+                                                </a>
+                                            </td>
+
                                             </tr>";
                                             
                                         }

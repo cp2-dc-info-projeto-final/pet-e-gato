@@ -29,7 +29,7 @@
 				<div class="col-md-6 col-lg-5">
 					<div class="login-wrap p-4 p-md-5">
 		      	<div class="icon d-flex align-items-center justify-content-center">
-		      		<span class="fa fa-user-o"></span>
+		      		<span class="fa fa-pencil"></span>
 		      	</div>
 
 		      	<h3 class="text-center mb-4">Insira sua nova senha</h3>

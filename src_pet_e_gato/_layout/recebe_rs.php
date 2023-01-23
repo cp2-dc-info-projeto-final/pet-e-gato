@@ -24,7 +24,7 @@ if($resultado["email"] == $email){
 
     envia_email($para, $assunto, $mensagem);
 
-    $_SESSION['msg_rec'] = "<div class='alert alert-success' role='alert'>Enviamos uma mensagem para o seu email</div>";
+    $_SESSION['msg_rec'] = "<div class='alert alert-success' role='alert'>Digite o código enviado para o seu e-mail!</div>";
     header("Location: recuperar-senha-cod.php");
 
     $_SESSION['cod_senha'] = $code;
@@ -34,7 +34,7 @@ if($resultado["email"] == $email){
 }
 
 if(empty($resultado)){
-    $_SESSION['msg_rec'] = "<div class='alert alert-danger'>Email não encontrado</div>";
+    $_SESSION['msg_rec'] = "<div class='alert alert-danger'>Email não encontrado.</div>";
     header("Location: recuperar-senha.php");  
     exit;
 }

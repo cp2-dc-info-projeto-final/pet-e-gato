@@ -1,5 +1,9 @@
-<?php include "conecta_mysql.php" ?>
-<?php include "autentica-adm.php" ?>
+<?php 
+
+//include "autentica-adm.php";
+include "conecta_mysql.php";
+
+?>
 
 <!doctype html>
 <html lang="pt-br">
@@ -86,6 +90,38 @@
         </div>
     </div>
 
+    <script>
+      function myFunction() {
+        var input, filter, table, tr, td, cell, i, j;
+        input = document.getElementById("txt_consulta");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("tabela");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 1; i < tr.length; i++) {
+          tr[i].style.display = "none";
+          td = tr[i].getElementsByTagName("td");
+
+        for (var j = 0; j < td.length; j++) {
+            cell = tr[i].getElementsByTagName("td")[j];
+            if (cell) {
+                if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    break;
+                } 
+            }
+          }
+        }
+      }
+    </script>
+
+      <div class="col-12 row d-flex justify-content-center">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+          <div class="form-outline w-75 p-3" style="margin: 20px auto;">
+          <input name="consulta" id="txt_consulta" placeholder="Digite para iniciar a pesquisa" type="search" class="form-control d-flex" onkeyup="myFunction()">
+          </div>
+      </div>
+
 
     <div class="container">
                 <section class="intro ">
@@ -94,9 +130,19 @@
                         <div class="container"> 
                             <div class="row justify-content-center">
                             <div class="col-12">
-                                <div class="table-responsive bg-white table table-bordered" style="margin: 40px auto;"> 
-                                <table class="table mb-0  table-striped" table="center">
-                                    <thead class="color">
+
+                              <?php
+
+                                if(isset($_SESSION['mensagem_servicos'])){
+                                  echo $_SESSION['mensagem_servicos'];
+                                  unset($_SESSION['mensagem_servicos']);
+                                }
+                              
+                              ?>
+
+                                <div class="table-responsive bg-white table table-bordered" style="margin: 5px auto;"> 
+                                <table class="table mb-0  table-hover table-bordered table-sm" table="center" id="tabela">
+                                    <thead class="color thead-dark">
                                     <tr>
                                       <th scope="col">COD_SERVIÇO</th>
                                       <th scope="col">SERVIÇO</th>
@@ -109,7 +155,6 @@
                                     <tbody>
 
                                     <?php
-                                        $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
                                         $sql= "SELECT * FROM servicos";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
@@ -121,7 +166,7 @@
                                             <tr>
                                             <td>".$servicos['cod_servico']."</td>
                                             <td>".utf8_encode($servicos['servico'])."</td>
-                                            <td>".$servicos['descricao']."</td>
+                                            <td>".utf8_encode($servicos['descricao'])."</td>
                                             <td>".$servicos['preco']."</td>
                                             <td><a class='btn btn-sm btn-primary' href='altera_servico.php?cod_servico=$servicos[cod_servico]'>
                                                 <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pencil' viewBox='0 0 16 16'><path d='M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z'/>

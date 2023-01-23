@@ -49,8 +49,7 @@
                                 </div>
                             </div>
                             
-                            <div class="row">
-                            </div>
+                            <br>
 
 							<div class="form-group h-100 text-center">
                                 <button class="btn btn-light rounded text-md-flex"><a href="login.php">Voltar</a></button>	

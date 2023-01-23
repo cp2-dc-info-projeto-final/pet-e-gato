@@ -65,9 +65,9 @@ $cliente = mysqli_fetch_array ($res);
             <input type="hidden" name="cod_cliente" value="<?php echo $cliente['matricula']?>">
 
                 <div class="form-group">
-                <label for="hora">Escolha um horário:</label>
-		      			<select name="agendamento" required="required" class="form item">
-                            <option value=''>Data e Horário</option>
+                <label for="hora">Escolha uma data e um horário:</label>
+		      			<select name="agendamento" required="required" class="form-control rounded-left">
+                            
                             <?php
 
                             $cod_servico = $_REQUEST["cod_servico"];
@@ -76,16 +76,23 @@ $cliente = mysqli_fetch_array ($res);
                             $res= mysqli_query($mysqli,$sql);
                             $linhas= mysqli_num_rows($res);
 
-                            for ($i = 0; $i < $linhas; $i++){
-                                $agendamento = mysqli_fetch_array ($res);
+                            if($linhas >= 1){
 
-                              if(empty($agendamento['cod_cliente'])){
+                              echo "<option value=''>Data e Horário</option>";
 
-                                  
-                                  echo"
-                                  <option value=".$agendamento['cod_agendamento'].">".$agendamento['dia'].' - '.$agendamento['hora']."</option>";
+                              for ($i = 0; $i < $linhas; $i++){
+                                  $agendamento = mysqli_fetch_array ($res);
 
+                                if(empty($agendamento['cod_cliente'])){ 
+
+                                    echo"
+                                    <option value=".$agendamento['cod_agendamento'].">".date('d/m/Y', strtotime($agendamento['dia'])).' - '.$agendamento['hora']."</option>";
+
+                                }
                               }
+                            }
+                            else{
+                              echo "<option value=''>*Nenhum horário disponível</option>";
                             }
 
                            ?>
@@ -98,7 +105,7 @@ $cliente = mysqli_fetch_array ($res);
 								
                 </div>
                 <div class="form-group container">
-                  <button class="btn btn-light rounded text-md-flex"><a href="index-inicial.php">Voltar</a></button>	
+                  <button class="btn btn-light rounded text-md-flex"><a href="seleciona_servico.php">Voltar</a></button>	
                 </div>
 	            </div>
 

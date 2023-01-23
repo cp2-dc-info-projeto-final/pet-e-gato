@@ -38,11 +38,10 @@
 
 		      	<h3 class="text-center mb-4">Preencha os campos abaixo</h3>
 				
-				<form action="recebe_contato.php" method="POST" class="login-form">
+				<form action="recebecontato_cliente.php" method="POST" class="login-form">
 				<input type="hidden" name="operacao" value="contato">
 
 				<?php
-				session_start();
               	if(isset($_SESSION['mensagem_sucesso'])){
                 echo $_SESSION['mensagem_sucesso'];
                 unset($_SESSION['mensagem_sucesso']);
@@ -70,7 +69,7 @@
 				</div>
 
 				<div class="form-group h-100 text-center">
-                 	<button class="btn btn-light rounded text-md-flex"><a href="index.php">Voltar</a></button>	
+                 	<button class="btn btn-light rounded text-md-flex"><a href="index-inicial.php">Voltar</a></button>	
                 </div>
 
 	            <div class="form-group">

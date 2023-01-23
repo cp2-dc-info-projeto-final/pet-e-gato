@@ -29,10 +29,10 @@
 				<div class="col-md-6 col-lg-5">
 					<div class="login-wrap p-4 p-md-5">
 		      	<div class="icon d-flex align-items-center justify-content-center">
-		      		<span class="fa fa-user-o"></span>
+		      		<span class="fa fa-pencil"></span>
 		      	</div>
 
-		      	<h3 class="text-center mb-4">Digite o código que foi enviado para seu email:</h3>
+		      	<h3 class="text-center mb-4">Digite o código:</h3>
                 <?php
                 session_start();
                 if(isset($_SESSION['msg_rec'])){
@@ -41,14 +41,21 @@
                 }?>
 
             <form action="recebe_cod.php" method="POST" class="needs-validation"  novalidate>
+                
                 <div class="input-group mt-2">
-                    <input type="hidden" name="operacao" value="enviar-codigo">
-                    <input type="text" class="form-control rounded-left" id="codigo" name="codigo" placeholder="Código" required  pattern="[0-9]{6}">
+                    <div class="col-md-6">
+                        <input type="hidden" name="operacao" value="enviar-codigo">
+                        <input type="text" class="form-control rounded-left" id="codigo" name="codigo" placeholder="Código" required  pattern="[0-9]{6}">
+                    </div>
+
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary rounded submit p-3 px-5">Continuar</button>
+                    </div>
+                    
                     <div class="invalid-feedback">
                         Preencha o código de 6 digitos
                     </div>
-                </div>
-                 <button type="submit" class="btn btn-primary rounded submit p-3 px-5">Continuar</button>
+                 
                 </div>
             </form>
         </div>

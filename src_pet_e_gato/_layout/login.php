@@ -42,13 +42,19 @@
 						echo $_SESSION['mensagem_erro'];
 						unset($_SESSION['mensagem_erro']);
 					}
-					?>
 
-		      		<div class="form-group">
-		      			<input type="text" name="email" class="form-control rounded-left" placeholder="Nome de usuário" required>
+			
+                    if(isset($_SESSION['msg_rec'])){
+                        echo $_SESSION['msg_rec'];
+                        unset($_SESSION['msg_rec']);
+                    }
+				?>
+
+		      		<div class="form-group label-float">
+		      			<input type="text" name="email" class="form-control rounded-left" placeholder="Digite seu email" required>
 		      		</div>
 
-	            <div class="form-group d-flex">
+	            <div class="form-group d-flex label-float">
 	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required>
 	            </div>
 

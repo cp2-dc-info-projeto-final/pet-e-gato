@@ -52,19 +52,19 @@
                 <input type="hidden" name="operacao_editar" value="editar">
                 <input type="hidden" name="cod_servico" value="<?php echo $cod_servico?>">
 
-                <div class="form-group">
-                    <label for="nome">Digite o nome do serviço:</label>
-                    <input type="text" required="required" class="form-control rounded-left" name="servico" placeholder="Digite o nome do serviço" value="<?php echo $servicos['servico']?>">
+                <label for="nome">Digite o nome do serviço:</label>
+                <div class="form-group label-float">
+                  <input type="text" required="required" class="form-control rounded-left" name="servico" placeholder="Digite o nome do serviço" value="<?php echo $servicos['servico']?>">
                 </div>
 
-                <div class="form-group">
-                  <label for="nome">Digite a descrição do serviço:</label>
-                    <input type="text" required="required" class="form-control rounded-left" name="descricao" placeholder="Digite a descrição" value="<?php echo $servicos['descricao']?>">
+                <label for="nome">Digite a descrição do serviço:</label>
+                <div class="form-group label-float">
+                  <input type="text" required="required" class="form-control rounded-left" name="descricao" placeholder="Digite a descrição" value="<?php echo $servicos['descricao']?>">
                 </div>
 
-                <div class="form-group">
                 <label for="nome">Qual o preço do serviço:</label>
-                <input type="text" name="preco" onkeypress="$(this).mask('R$ ###,##', {reverse: true});" class="form-control rounded-left" placeholder="Digite o preço do serviço" required="required" required maxlength="50" minlength="1" value="<?php echo $servicos['preco']?>">
+                <div class="form-group label-float">
+                  <input type="text" name="preco" onkeypress="$(this).mask('R$ ###,##', {reverse: true});" class="form-control rounded-left" placeholder="Digite o preço do serviço" required="required" required maxlength="50" minlength="1" value="<?php echo $servicos['preco']?>">
                 </div>
 
               </fieldset>

@@ -24,13 +24,12 @@ include "conecta_mysql.php";
   </head>
   <body class="fadeIn">
 
-
-  <div id="header">
+    <div id="header">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index-inicial.php"><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
+              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -54,7 +53,7 @@ include "conecta_mysql.php";
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="agendamento.php">Agendamento</a>
+                    <a class="nav-link" href="seleciona_servico.php">Agendamento</a>
                   </li>
 
                   <li class="nav-item">
@@ -62,16 +61,20 @@ include "conecta_mysql.php";
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="contato-cliente.php">Contato</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#rodape">Sobre</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="perfil_cliente.php">Perfil</a>
                   </li>
 
                   <li class="nav-item">
                     <a class="nav-link" href="logout.php"> Sair </a>
-                  </li>
+
                 </ul>
               </div>
           </nav>
@@ -87,13 +90,13 @@ include "conecta_mysql.php";
                             <div class="row justify-content-center">
                             <div class="col-12">
                                 <div class="table-responsive bg-white table table-bordered" style="margin: 50px auto;"> 
-                                <table class="table mb-0  table-striped" table="center">
-                                    <thead class="color">
+                                <table class="table mb-0  table-hover table-bordered table-sm" table="center">
+                                    <thead class="color thead-dark">
                                     <tr>
-                                      <th scope="col">SERVIÇO</th>
-                                      <th scope="col">FUNCIONÁRIO</th>
                                       <th scope="col">DATA</th>
                                       <th scope="col">HORA</th>
+                                      <th scope="col">SERVIÇO</th>
+                                      <th scope="col">FUNCIONÁRIO</th>
                                       <th scope="col">CANCELAR</th>
                                     </tr>
                                     </thead>
@@ -106,7 +109,7 @@ include "conecta_mysql.php";
 
                                         $cod_cliente = $cliente['matricula'];
 
-                                        $sql = "SELECT * FROM agendamento WHERE cod_cliente = '$cod_cliente';";
+                                        $sql = "SELECT * FROM agendamento WHERE cod_cliente = '$cod_cliente' ORDER BY dia ASC";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
 
@@ -115,15 +118,13 @@ include "conecta_mysql.php";
 
                                             echo"
                                             <tr>
+                                            <td>".date('d/m/Y', strtotime($agendamento['dia']))."</td>
+                                            <td>".$agendamento['hora']."</td>
                                             <td>".utf8_encode($agendamento['servico'])."</td>
                                             <td>".utf8_encode($agendamento['funcionario'])."</td>
-                                            <td>".$agendamento['dia']."</td>
-                                            <td>".$agendamento['hora']."</td>
-                                            <td><a class='btn btn-sm btn-danger' href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]'>
-                                            <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-trash' viewBox='0 0 16 16'><path d='M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z'/><path fill-rule='evenodd' d='M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z'/>
-                                            </svg>
-                                            </a>
-                                        </td>
+                                            <td><a class='btn btn-sm btn-danger' data-toggle='modal' data-target='#exampleModal'>
+                                            <img src='_img/cancela.svg' width='25'></a>
+                                            </td>
                                             </tr>";
                                             
                                         }
@@ -142,6 +143,27 @@ include "conecta_mysql.php";
                 </div>
 
    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Deseja realmente cancelar o agendamento?
+                        </div>
+                        <div class="modal-footer">
+                          <input type="button" class="btn btn-primary" data-dismiss="modal" value="Voltar"></input>
+                          <a <?php echo "href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]'" ?> type="submit" value="Cancelar agendamento" name="Cancela agendamento" type="button" class="btn btn-danger">Cancelar agendamento</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

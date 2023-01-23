@@ -20,7 +20,13 @@ include "conecta_mysql.php";
     $sql .= "WHERE email = '$email_cliente'";  
     mysqli_query($mysqli,$sql);
 
-    $_SESSION['msg_rec'] = "<div class='alert alert-success'>Senha Atualizada!</div>";
+    include "envia_email.php";
+        $para = $email_cliente;
+        $assunto = utf8_decode("Sua senha foi alterada! | Pet&Gatô");
+        $mensagem = utf8_decode("A sua nova senha é $confirmasenha");
+        envia_email($para, $assunto, $mensagem);
+
+    $_SESSION['msg_rec'] = "<div class='alert alert-success'>Senha Atualizada! Faça login.</div>";
         
     header('location: login.php');
 

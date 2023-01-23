@@ -33,7 +33,7 @@
 				<div class="col-md-6 col-lg-5">
 					<div class="login-wrap p-4 p-md-5">
 		    <div class="icon d-flex align-items-center justify-content-center">
-		      <span class="fa fa-user-o"></span>
+		      <span class="fa fa-user-plus"></span>
 		    </div>
         
         <h3 class="text-center mb-4">Cadastre-se</h3>
@@ -54,44 +54,44 @@
               }
             ?>
 		      		
-            <div class="form-group">
-                <label for="nome">Digite seu nome:</label>
+              <label for="nome">Digite seu nome:</label>
+                <div class="form-group label-float">
 		      			<input type="text" name="nome" class="form-control rounded-left" placeholder="Digite seu nome completo" required autofocus pattern="[A-Za-zÀ-ú ']{10,}" title="O nome precisa ter pelo menos 10 caracteres">
 		      		</div>
 
-              <div class="form-group">
-                <label for="email">Digite seu e-mail:</label>
+              <label for="email">Digite seu e-mail:</label>
+                <div class="form-group label-float">
 		      			<input type="email" name="email" class="form-control rounded-left" placeholder="Digite seu email" required="required">
 		      		</div>
 
               <label for="email">Digite uma senha:</label>
-	            <div class="form-group d-flex">
+	            <div class="form-group d-flex label-float">
 	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required="required" required maxlength="8" minlength="5">
 	            </div>
 
               <label for="email">Digite novamente sua senha:</label>
-	            <div class="form-group d-flex">
+	            <div class="form-group d-flex label-float">
 	              <input type="password" name="repetesenha" class="form-control rounded-left" placeholder="Digite sua senha novamente" required="required" required maxlength="8" minlength="5">
 	            </div>
 
               <label for="data_nasc">Data de Nascimento:</label>
-              <div class="form-group d-flex">
+              <div class="form-group d-flex label-float">
                 <input type="date" class="form-control rounded-left" required="required" id="data_nasc" name="data_nasc">
               </div>
 
               <label for="endereco">Digite seu endereço:</label>
-              <div class="form-group d-flex">
+              <div class="form-group d-flex label-float">
                 <input type="text" class="form-control rounded-left" required="required" id="endereco" name="endereco" placeholder="Digite seu endereço">
               </div>
 
               <label for="cpf">CPF:</label>
-              <div class="form-group d-flex">
+              <div class="form-group d-flex label-float">
                 <input type="text" class="form-control rounded-left" required="required" id="cpf" name="cpf" placeholder="Digite seu CPF">
               <script type="text/javascript">$("#cpf").mask("000.000.000-00");</script>
               </div>
 
               <label for="telefone">Telefone:</label>
-              <div class="form-group d-flex">
+              <div class="form-group d-flex label-float">
                 <input type="tel" class="form-control rounded-left" required="required" id="telefone" name="telefone" placeholder="Digite seu número de telefone">
               <script type="text/javascript">$("#telefone").mask("(00) 00000-0000");</script>
               </div>
@@ -103,12 +103,12 @@
             <legend>Informações do PET</legend>
 
           <label for="nome_pet">Digite o nome do pet:</label>
-          <div class="form-group d-flex">
+          <div class="form-group d-flex label-float">
             <input type="text" class="form-control rounded-left" required="required" id="nome_pet" name="nome_pet" placeholder="Nome do seu PET">
           </div>
       
           <label for="nasc_pet">Data de Nascimento:</label>
-          <div class="form-group d-flex">
+          <div class="form-group d-flex label-float">
             <input type="date" class="form-control rounded-left" required="required" id="nasc_pet" name="nasc_pet">
           </div> 
 
@@ -120,7 +120,7 @@
 								
                 </div>
 								<div class="w-40 text-md-flex container">
-									<a class="links" href="login.html">Possui cadastro? Fazer login</a>
+									<a class="links" href="login.php">Possui cadastro? Fazer login</a>
                   <style>
                      .links {
                         color: #570070;

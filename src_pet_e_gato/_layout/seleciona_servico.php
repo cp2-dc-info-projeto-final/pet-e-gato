@@ -92,7 +92,7 @@ include "conecta_mysql.php";
                             <div class="row justify-content-center">
                             <div class="col-12">
                                 <div class="table-responsive bg-white table table-bordered" style="margin: 50px auto;"> 
-                                <table class="table mb-0  table-striped" table="center" border="2px">
+                                <table class="table mb-0  table-hover" table="center" border="2px">
                                     <thead class="color">
                                     <tr>
                                       <th scope="col">SERVIÇO</th>

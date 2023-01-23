@@ -48,7 +48,6 @@
 
 			<?php
 
-            session_start();
               if(isset($_SESSION['mensagem_erro'])){
                 echo $_SESSION['mensagem_erro'];
                 unset($_SESSION['mensagem_erro']);
@@ -57,7 +56,7 @@
 		      		
             <div class="form-group">
                 <label for="nome">Digite seu nome:</label>
-		      			<input type="text" name="nome" class="form-control rounded-left" placeholder="Digite seu nome completo" required autofocus pattern="[A-Za-zÀ-ú ']{10,}" title="O nome precisa ter pelo menos 10 caracteres">
+		      			<input type="text" name="nome" class="form-control rounded-left" placeholder="Digite seu nome completo" required autofocus pattern="{10,}" title="O nome precisa ter pelo menos 10 caracteres">
 		      		</div>
 
               <div class="form-group">
@@ -83,8 +82,8 @@
           </fieldset>
 
           	<div class="form-group d-md-flex">
-				<div class="w-50 text-md-right">
-					<a href="index-adm.php">Voltar para o dashboard</a>
+				<div class="w-50 text-md-left">
+					<a href="administradores.php">→ Administradores</a>
 				</div>
 	    	</div>
 

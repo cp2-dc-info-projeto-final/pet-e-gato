@@ -27,7 +27,7 @@
               <a class="navbar-brand" href="#"></a>
               <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="10%"/></a>
               
-              <nav class="navbar navbar-expand-sm navbar-light bg-faded">
+              <nav class="navbar navbar-expand-sm navbar-light bg-faded" id="topo">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -75,7 +75,7 @@
       <div class="col-md-6 align-self-center">
         <h1> Faça já seu cadastro e aproveite os nossos serviços</h1>
         <h4>Todo o carinho e cuidado que o seu pet merece!</h4>
-        <a href="index-inicial.php" class="btn btn-outline-secondary button">Página inicial</a>
+        <a href="index.php" class="btn btn-outline-secondary button">Página inicial</a>
         <a href="cadastro_cliente.php" class="btn btn-primary button">Cadastra-se</a>
       </div>
       <div class="col-md-6 align-self-center text-center">
@@ -85,7 +85,7 @@
   </div>
  
   <div class="container-fluid card">
-        <h1 class="text-center mt-5 display-3 fw-bold"> <span class="theme-text">Serviços</span></h1>
+        <h1 class="text-center mt-5 display-3 fw-bold"> <span class="theme-text">Conheça alguns serviços</span></h1>
         <hr class="mx-auto mb-5 w-25">
         <div class="row mb-5">
             <div class="col-12 col-sm-6 col-md-3 m-auto tamanho">
@@ -218,7 +218,11 @@
                 
                 <!-- card ends here -->
     </div>
-  <footer class="text-center text-lg-start bg-light text-muted">
+</div>
+  
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted" id="rodape">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
  </section>
@@ -246,7 +250,7 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Products
+            Acesso ao site
           </h6>
           <p>
             <a href="servicos.php" class="text-reset">Serviços</a>
@@ -260,9 +264,13 @@
           
         </div>
         <!-- Grid column -->
+
+        
+
+        <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4" >Contact</h6>
+          <h6 class="text-uppercase fw-bold mb-4" >Contato</h6>
           <p> <img src="_img/home (1).png" class="img-fluid" ><i class="fas fa-home me-3"></i> Rua Manoel Gomes, 20 - Duque de Caxias- Rj </p>
           <p> <img src="_img/mail.png" class="img-fluid" >
             <i class="fas fa-envelope me-3"></i>
@@ -280,24 +288,15 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">Pet&Gatô - House</a>
   </div>
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
+
+<a id="topo-link" href="#">&#9650;</a>
 
 </body>
 
-</html>
-
-</div>    
-    
-    <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  
-  </body>
 </html>

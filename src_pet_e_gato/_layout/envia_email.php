@@ -3,9 +3,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'C:/Program Files (x86)/EasyPHP-Devserver-17/eds-www/PHPMailer-master/src/Exception.php';
-require 'C:/Program Files (x86)/EasyPHP-Devserver-17/eds-www/PHPMailer-master/src/PHPMailer.php';
-require 'C:/Program Files (x86)/EasyPHP-Devserver-17/eds-www/PHPMailer-master/src/SMTP.php';
+require 'C:/Program Files (x86)/EasyPHP-Devserver-17/eds-www/src_pet_e_gato/PHPMailer-master/src/Exception.php';
+require 'C:/Program Files (x86)/EasyPHP-Devserver-17/eds-www/src_pet_e_gato/PHPMailer-master/src/PHPMailer.php';
+require 'C:/Program Files (x86)/EasyPHP-Devserver-17/eds-www/src_pet_e_gato/PHPMailer-master/src/SMTP.php';
 
 function envia_email($para, $assunto, $mensagem){
 
@@ -14,7 +14,7 @@ function envia_email($para, $assunto, $mensagem){
 
     try {
         //Configurações do servidor
-        $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Habilita a saída de debug (para fase de testes)
+        //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Habilita a saída de debug (para fase de testes)
         $mail->isSMTP();                                            //Define o envio por meio do SMTP
         $mail->Host       = 'smtp.gmail.com';                       //Define o servidor SMTP utilizado para o envio
         $mail->SMTPAuth   = true;                                   //Habilita a autenticação do SMTP
@@ -25,7 +25,7 @@ function envia_email($para, $assunto, $mensagem){
         
 
         //Remetente e Destinatários
-        $mail->setFrom('petegatooficial1@gmail.com', 'Pet & Gato House');  // Adiciona o remetente
+        $mail->setFrom('petegatooficial1@gmail.com', utf8_decode('Pet&Gatô House'));  // Adiciona o remetente
         $mail->addAddress($para);                                       // Adiciona um destinatário
         // $mail->addAddress('ellen@example.com');                      // O nome é opcional
         // $mail->addReplyTo('info@example.com', 'Information');        // Adicona um endereço de resposta

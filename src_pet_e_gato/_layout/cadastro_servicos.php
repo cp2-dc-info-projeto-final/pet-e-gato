@@ -1,4 +1,9 @@
-<?php include "autentica-adm.php" ?>
+<?php 
+
+include "autentica-adm.php";
+include "conecta_mysql.php";
+
+?>
 
 <!doctype html>
 <html lang="pt-br">

@@ -91,9 +91,9 @@ if ($operacao == "cliente"){
     $sql = "INSERT INTO cliente (cpf, nome, email, senha, data_nasc, endereco, nome_pet, nasc_pet, telefone) VALUES ('$cpf','$nome', '$email', '$senha_cript', '$data_nasc', '$endereco', '$nome_pet', '$nasc_pet', '$telefone');";
     mysqli_query($mysqli,$sql);
 
-      if(!mysqli_query($mysqli,$sql)){
+      /*if(!mysqli_query($mysqli,$sql)){
         echo mysqli_error($mysqli);
-      }
+    }*/
 
         $_SESSION['mensagem_erro'] = "<div class='alert alert-success'>Cadastro realizado com sucesso! Faça login.</div>";
         header('location: login.php');

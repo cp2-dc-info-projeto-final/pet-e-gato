@@ -15,14 +15,14 @@ if($editar == "editar")
     $senha_cript = password_hash($senha, PASSWORD_DEFAULT);
 
     if(empty($senha)){
-        $sql = "UPDATE funcionario SET nome='$nome', email='$email', data_nasc='$data_nasc' WHERE matricula='$matricula'";
+        $sql = "UPDATE administrador SET nome='$nome', email='$email', data_nasc='$data_nasc' WHERE matricula='$matricula'";
         mysqli_query($mysqli,$sql);
 
-        header('Location: funcionario.php');
+        header('Location: administradores.php');
     }
 
     else{
-        $sql = "UPDATE funcionario SET nome='$nome', email='$email', senha='$senha_cript', data_nasc='$data_nasc' WHERE matricula='$matricula'";
+        $sql = "UPDATE administrador SET nome='$nome', email='$email', senha='$senha_cript', data_nasc='$data_nasc' WHERE matricula='$matricula'";
 
         mysqli_query($mysqli,$sql);
 
@@ -32,7 +32,7 @@ if($editar == "editar")
         $mensagem = utf8_decode("A sua nova senha é $senha");
         envia_email($para, $assunto, $mensagem);
 
-        header('Location: funcionario.php');
+        header('Location: administradores.php');
     }
 }
 
