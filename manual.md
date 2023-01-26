@@ -209,12 +209,12 @@ Para fazer agendamento de algum plano.
 **1.1 Cadastrar serviços**
 
 - Clique em "Cadastrar".
-
-![image](https://user-images.githubusercontent.com/95979551/208579753-d3b98fc0-3884-405b-a087-fe6adf3cffde.png)
+![Cadastrar ](https://user-images.githubusercontent.com/95935490/214917135-48cd752d-dc86-466b-af8f-1b26983ee6c7.png)
 
 - Clique em "Serviços".
 
-![image](https://user-images.githubusercontent.com/95979551/208579834-9c502336-bfb2-4430-ba03-e1b3461b958f.png)
+![Cadastarr serviço ](https://user-images.githubusercontent.com/95935490/214917258-bc8c2362-dac8-4595-ac2e-66fc4c331d30.png)
+
 
 - Preencha o formulário com os dados do novo serviço.
 
