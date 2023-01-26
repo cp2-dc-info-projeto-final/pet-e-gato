@@ -202,6 +202,30 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
 
+## 6. VISUALIZAR PERFIL
+
+- Em sua conta, clique em "Perfil"
+- Seu perfil será exibido com os seus dados. 
+
+**6.2 Editar dados**
+
+- Em seu perfil, selecione o campo a ser alterado. 
+- Edite seus dados.
+- Clique em "Salvar alterações".
+
+**6.2 Excluir dados**
+
+- Em seu perfil, clique em "Excluir conta".
+- Confirme a exclusão da conta. 
+
+
+## 7. REDEFINIR SENHA
+- Em sua conta, clique em "Perfil". 
+- Em "Deseja criar uma nova senha". selecione "SIM".
+- Altere a senha.
+- Clique em "Salvar alterações".
+
+
 
 
 ## 1. PÁGINA INICIAL - Adm 
@@ -365,4 +389,5 @@ Para fazer agendamento de algum plano.
 - Clique em "Calendário".
 
 ![image](https://user-images.githubusercontent.com/95979551/208581787-5d455967-d63f-4850-b081-8d7c824dd52a.png)
+
 
