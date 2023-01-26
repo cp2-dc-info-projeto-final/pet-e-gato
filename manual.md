@@ -216,13 +216,26 @@ Para fazer agendamento de algum plano.
 **6.2 Editar dados**
 
 - Em seu perfil, selecione o campo a ser alterado. 
+
+![Editar dados- perfil ](https://user-images.githubusercontent.com/95935490/214931767-03861bf8-af32-4282-952b-da96b2beaec9.png)
+
 - Edite seus dados.
+
 - Clique em "Salvar alterações".
+
+![Salvar alteração botão ](https://user-images.githubusercontent.com/95935490/214931845-593b6567-95f2-4ba7-91be-296d78e3d400.png)
+
 
 **6.2 Excluir dados**
 
 - Em seu perfil, clique em "Excluir conta".
+
+![Excluir conta botão ](https://user-images.githubusercontent.com/95935490/214932480-a8eab3ab-32cf-48d8-b4d0-b3018c8ac06c.png)
+
 - Confirme a exclusão da conta. 
+
+![Confirmação excluir conta](https://user-images.githubusercontent.com/95935490/214932518-e25e505c-f086-45ad-97b6-f202799ee856.png)
+
 
 
 ## 7. REDEFINIR SENHA
