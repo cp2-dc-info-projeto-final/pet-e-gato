@@ -31,7 +31,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
  - Clique em "Login".
 
-![image](https://user-images.githubusercontent.com/95979551/208582476-e7c28c2b-b164-4d15-b6dd-efb3d61b908c.png)
+![Login](https://user-images.githubusercontent.com/95935490/214967731-091c0098-6228-438d-b8db-4c6e486015da.png)
 
  - Clique em "Como cliente".
  
@@ -48,7 +48,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 - Clique em "Login".
 
-![image](https://user-images.githubusercontent.com/95979551/208582483-5710dd8b-de49-468c-b198-70779f773720.png)
+![Login](https://user-images.githubusercontent.com/95935490/214967770-00e00a63-6cd0-4b69-b339-f3327fd880da.png)
 
 - Clique em "Como funcionário". 
  
@@ -64,7 +64,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 - Clique em "Login".
 
-![image](https://user-images.githubusercontent.com/95979551/208582497-a8b343a5-092d-4484-b303-0338de33f886.png)
+![Login](https://user-images.githubusercontent.com/95935490/214967799-aa04ad2e-c774-474d-a2e7-39cd5a1d6521.png)
 
 - Clique em "Como administrador".
 
