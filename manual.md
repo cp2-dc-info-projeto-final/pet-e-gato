@@ -231,7 +231,8 @@ Para fazer agendamento de algum plano.
 - Clique em "Cadastrar".
 - Clique em "Funcionários".
 
-![image](https://user-images.githubusercontent.com/95979551/208580061-f0ffc113-4b03-475c-ae86-43a00d8b6aa2.png)
+![cadastrar funcionário- passo 1](https://user-images.githubusercontent.com/95935490/214917653-d52b7ace-c7de-49df-8a45-c9f17df193c3.png)
+
 
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
 
@@ -247,7 +248,7 @@ Para fazer agendamento de algum plano.
 - Clique em "Cadastrar".
 - Clique em "Administrador".
 
-![image](https://user-images.githubusercontent.com/95979551/208580175-066c4d20-9c61-415b-9fc4-fed35855e94e.png)
+![Cdastrar adm- passo 2](https://user-images.githubusercontent.com/95935490/214917820-c54b8724-ec96-407c-9029-550a613ef9c8.png)
 
 - Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
 
