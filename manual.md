@@ -214,7 +214,8 @@ Para fazer agendamento de algum plano.
 
 - Clique em "Serviços".
 
-![Cadastarr serviço ](https://user-images.githubusercontent.com/95935490/214917258-bc8c2362-dac8-4595-ac2e-66fc4c331d30.png)
+![Cadastrar serviço](https://user-images.githubusercontent.com/95935490/214921605-6dd50c36-c03a-4524-be48-610cda68bf11.png)
+
 
 
 - Preencha o formulário com os dados do novo serviço.
@@ -248,11 +249,27 @@ Para fazer agendamento de algum plano.
 - Clique em "Cadastrar".
 - Clique em "Administrador".
 
-![Cdastrar adm- passo 2](https://user-images.githubusercontent.com/95935490/214917820-c54b8724-ec96-407c-9029-550a613ef9c8.png)
+![Cadastrar adm](https://user-images.githubusercontent.com/95935490/214921475-67d5774c-b84a-4f90-ad48-9b3f0b91c880.png)
+
 
 - Preencha o formulário com os dados do novo administrador (nome, email, senha, data de nascimento).
 
 ![image](https://user-images.githubusercontent.com/95979551/208580240-540355f1-dc37-41cc-969a-f207d9e2a242.png)
+
+- Aperte em "Salvar alterações".
+
+![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
+
+**1.4 Cadastrar Horário (Disponibilizar horário)**
+
+- Clique em "Cadastrar". 
+- Clique em "Horários". 
+
+![Cadastrar horário](https://user-images.githubusercontent.com/95935490/214921151-d929290c-b4cb-41ee-b1a5-0fefa64e4597.png)
+
+- Preencha o formulário com os dados do novo horário  ( Nome do serviço, nome do funcionário, horário e data).
+
+![Cadastrar horário (dados) ](https://user-images.githubusercontent.com/95935490/214921366-7d9011b8-39e5-475b-ab57-fa4148869728.png)
 
 - Aperte em "Salvar alterações".
 
