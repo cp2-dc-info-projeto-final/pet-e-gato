@@ -9,10 +9,13 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Cadastro]()
  - [Agendamento]()
  - [Recuperar senha]()
+ - [Visualizar perfil]()
+ - [Redefinir senha]()
  - [Manter serviços]()
  - [Cadastrar serviços (Página inicial - adm)]()
  - [Cadastrar funcionário (Página  inicial - adm)]()
  - [Cadastrar administrador(Página  inicial - adm)]()
+ - [Cadastrar Horário (Página inicial - adm]()
  - [Exibir clientes (Página  inicial - adm)]()
  - [Consultar funcionários (Página  inicial - adm)]()
  - [Editar funcionários (Página  inicial - adm)]()
@@ -223,7 +226,7 @@ Para fazer agendamento de algum plano.
 
 - Clique em "Salvar alterações".
 
-![Salvar alteração botão ](https://user-images.githubusercontent.com/95935490/214931845-593b6567-95f2-4ba7-91be-296d78e3d400.png)
+![Salvar alteração botão ](https://user-images.githubusercontent.com/95935490/214933034-776bcde4-4bd5-4215-80a9-146cccc06ba0.png)
 
 
 **6.2 Excluir dados**
@@ -240,9 +243,18 @@ Para fazer agendamento de algum plano.
 
 ## 7. REDEFINIR SENHA
 - Em sua conta, clique em "Perfil". 
+
+![Perfil botão](https://user-images.githubusercontent.com/95935490/214933102-5fc28866-e146-4ffa-8624-024bdcf486fc.png)
+
 - Em "Deseja criar uma nova senha". selecione "SIM".
-- Altere a senha.
+
+![Deseja criar uma senha nova](https://user-images.githubusercontent.com/95935490/214933495-e4df3fd0-5a84-4d43-a939-acdd958f8f40.png)
+
+- Digite a nova senha.
 - Clique em "Salvar alterações".
+
+![Salvar alteração botão ](https://user-images.githubusercontent.com/95935490/214933537-10b7cb42-c84d-4a09-8923-0e2a5dee5274.png)
+
 
 
 
