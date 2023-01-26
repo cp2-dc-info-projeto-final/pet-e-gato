@@ -209,6 +209,7 @@ Para fazer agendamento de algum plano.
 **1.1 Cadastrar serviços**
 
 - Clique em "Cadastrar".
+
 ![Cadastrar ](https://user-images.githubusercontent.com/95935490/214917135-48cd752d-dc86-466b-af8f-1b26983ee6c7.png)
 
 - Clique em "Serviços".
