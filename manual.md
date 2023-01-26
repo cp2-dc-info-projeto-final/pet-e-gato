@@ -205,7 +205,13 @@ Para fazer agendamento de algum plano.
 ## 6. VISUALIZAR PERFIL
 
 - Em sua conta, clique em "Perfil"
+
+![Perfil botão](https://user-images.githubusercontent.com/95935490/214930890-792d4a67-080b-48d8-8931-66f9306451c2.png)
+
 - Seu perfil será exibido com os seus dados. 
+
+![Perfil img](https://user-images.githubusercontent.com/95935490/214930940-4dc8ee89-30ec-487f-b367-7bd4867a6b1e.png)
+
 
 **6.2 Editar dados**
 
