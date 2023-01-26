@@ -216,15 +216,15 @@ Para fazer agendamento de algum plano.
 
 ![Cadastrar serviço](https://user-images.githubusercontent.com/95935490/214921605-6dd50c36-c03a-4524-be48-610cda68bf11.png)
 
-
-
 - Preencha o formulário com os dados do novo serviço.
 
 ![image](https://user-images.githubusercontent.com/95979551/208579892-0ed1aed1-6aa9-4bb9-a5ac-fcbd6333b65e.png)
 
-- Aperte em "Salvar alterações". 
+- Aperte em "Cadastrar". 
 
-![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
+![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
+
+
 
 
 **1.2 Cadastrar funcionário**
@@ -239,9 +239,9 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208580094-f473e324-3c88-4a3c-b7b1-c00778c5c2aa.png)
 
-- Aperte em "Salvar alterações".
+- Aperte em "Cadastrar".
 
-![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
+![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
 
 **1.3 Cadastrar Administrador**
@@ -256,9 +256,9 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208580240-540355f1-dc37-41cc-969a-f207d9e2a242.png)
 
-- Aperte em "Salvar alterações".
+- Aperte em "Cadastrar".
 
-![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
+![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
 **1.4 Cadastrar Horário (Disponibilizar horário)**
 
@@ -271,9 +271,9 @@ Para fazer agendamento de algum plano.
 
 ![Cadastrar horário (dados) ](https://user-images.githubusercontent.com/95935490/214921366-7d9011b8-39e5-475b-ab57-fa4148869728.png)
 
-- Aperte em "Salvar alterações".
+- Aperte em "Cadastrar ".
 
-![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
+![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
 **2.1 Exibir clientes**
 
