@@ -250,7 +250,7 @@ Para fazer agendamento de algum plano.
 
 ![Cdastrar adm- passo 2](https://user-images.githubusercontent.com/95935490/214917820-c54b8724-ec96-407c-9029-550a613ef9c8.png)
 
-- Preencha o formulário com os dados do novo funcionário (nome, email, senha, data de nascimento).
+- Preencha o formulário com os dados do novo administrador (nome, email, senha, data de nascimento).
 
 ![image](https://user-images.githubusercontent.com/95979551/208580240-540355f1-dc37-41cc-969a-f207d9e2a242.png)
 
