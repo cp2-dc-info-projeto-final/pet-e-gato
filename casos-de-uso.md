@@ -151,7 +151,8 @@ Ator: Tutor
 7. Sistema atualiza perfil.
 8. Sistema informa que a edição foi efetuada com sucesso
 
-### Diagrama de sequência![Diagrama de sequência- CDU04 ( fluxo principal)  (1)](https://user-images.githubusercontent.com/95935490/207910492-8d6e7355-ffb6-4d6a-968a-db7eb30c513e.jpg)
+![Diagrama de sequência- CDU04 ( fluxo principal) ](https://user-images.githubusercontent.com/95935490/215217344-ba352c8f-8742-4b2a-83dd-a04a1833b83a.jpg)
+
 
 
 **Fluxo Alternativo A**
