@@ -131,7 +131,7 @@ Ator: Administrador
 
 -Fluxo alternativo: Listar Funcionário. 
 
-1. Administrador seleciona opção “Listar funcionário”. 
+1. Administrador seleciona opção “Funcionários”. 
 2. Sistema apresenta funcionários cadastrados.
 
 
@@ -142,18 +142,14 @@ Ator: Tutor
 
 **Fluxo Principal**
 
-1. Cliente entra na aba perfil. 
-2. Cliente entra na aba menu.
-3. Cliente seleciona a opção configurações. 
-4. Cliente seleciona a opção desejada.
-5. Cliente seleciona opção “Editar conta”.
-6. Sistema apresenta os dados do cliente
-7. Cliente edita as lacunas desejadas.
-8. Cliente submete edição.
-9. Sistema solicita a confirmação da edição dos dados.
-10. Sistema armazena edições.
-11. Sistema atualiza perfil.
-12. Sistema informa que a edição foi efetuada com sucesso
+1. Cliente entra na aba Perfil. 
+2. Sistema apresenta os dados do cliente
+3. Cliente edita as lacunas desejadas.
+4. Cliente submete edição.
+5. Sistema solicita a confirmação da edição dos dados.
+6. Sistema armazena edições.
+7. Sistema atualiza perfil.
+8. Sistema informa que a edição foi efetuada com sucesso
 
 ### Diagrama de sequência![Diagrama de sequência- CDU04 ( fluxo principal)  (1)](https://user-images.githubusercontent.com/95935490/207910492-8d6e7355-ffb6-4d6a-968a-db7eb30c513e.jpg)
 
@@ -162,6 +158,7 @@ Ator: Tutor
 
 -Fluxo alternativo: Excluir tutor 
 
+1. Cliente entra na aba Perfil. 
 1. Cliente seleciona a opção “Excluir conta”
 2. Sistema solicita a confirmação da exclusão da conta do cliente. 
 3. Sistema informa que a exclusão da conta foi efetuada com sucesso.  
@@ -173,7 +170,7 @@ Ator: Tutor
 
 -Fluxo alternativo: Listar tutores 
 
-1. Administrador seleciona opção " Listar Tutores"
+1. Administrador seleciona opção "Clientes".
 2. Sistema apresenta tutores cadastrados.
 
 
@@ -278,22 +275,19 @@ Ator: Tutor e administrador
 
 - Fluxo alternativo: Cancelar agendamento.
 
- 1. Usuário entra na aba perfil. 
- 2. Usuário acessa calendário. 
- 3. Usuário clica em agendamento. 
- 4. Sistema exibe detalhes do agendamento. 
- 5. Usuário escolhe a opção "Cancelar agendamento". 
- 6. Sistema solicita a confirmação do cancelamento. 
- 7. Sistema informa que o cancelamento foi efetuado com sucesso.
+ 1. Usuário entra na aba Calendário. 
+ 2. Sistema exibe detalhes do agendamento. 
+ 3. Usuário escolhe a opção "Cancelar agendamento". 
+ 4. Sistema solicita a confirmação do cancelamento. 
+ 5. Sistema informa que o cancelamento foi efetuado com sucesso.
 
 
 **Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar agendamentos
 
-1. Cliente entra na aba perfil.
-2. Cliente acessa calendário.
-4. Sistema apresenta agendamentos cadastrados.
+1. Usuário entra na aba Calendário.
+2. Sistema apresenta agendamentos cadastrados.
 
    
 
