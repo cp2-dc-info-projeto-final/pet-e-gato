@@ -413,6 +413,14 @@ Ator: Administrador e tutor
 
 **Fluxo Principal**
 
+1. Usuário clica em "Perfil".
+2  Sistema exibe o perfil do usuário. 
+3. Usuário clica SIM em "Deseja criar uma nova senha". 
+4. Usuário insere nova senha. 
+5. Sistema registra nova senha.
+6.
+7.
+8.
 
 
 
