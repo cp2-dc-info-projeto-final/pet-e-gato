@@ -221,7 +221,7 @@ Ator: Tutor, administrador e funcionário
  
 ### CDU 06 Visualizar calendário
 
-Ator: Tutor e funcionário
+Ator: Tutor, funcionário e administrador 
 
 **Fluxo Principal**
 
@@ -233,7 +233,7 @@ Ator: Tutor e funcionário
 
 ### CDU 07 Visualizar perfil
 
-Ator: Tutor e funcionário
+Ator: Tutor, funcionário e admnistrador 
 
 Fluxo Principal
 
