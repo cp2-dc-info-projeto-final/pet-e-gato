@@ -105,7 +105,7 @@ Ator: Administrador
 
 -Fluxo principal: Editar Funcionário. 
 
-1. Administrador abre aba de perfil.
+1. Administrador entra na aba de perfil.
 2. Administrador seleciona opção “Editar funcionário”. 
 3. Sistema apresenta os dados do usuário. 
 4. Administrador edita as lacunas desejadas. 
@@ -124,7 +124,7 @@ Ator: Administrador
 
 -Fluxo alternativo: Excluir funcionário.
 
-1. Administrador abre aba de perfil.
+1. Administrador entra na aba de perfil.
 2. Administrador seleciona opção “Excluir funcionário”. 
 3. Sistema solicita a confirmação da exclusão do funcionário. 
 4. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
