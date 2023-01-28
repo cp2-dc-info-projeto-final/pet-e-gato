@@ -105,14 +105,15 @@ Ator: Administrador
 
 -Fluxo principal: Editar Funcionário. 
 
-1. Administrador seleciona opção “Editar funcionário”. 
-2. Sistema apresenta os dados do usuário. 
-3. Administrador edita as lacunas desejadas. 
-4. Administrador submete edição.  
-5. Sistema solicita a confirmação da edição do funcionário. 
-6. Sistema armazena edições. 
-7. Sistema atualiza perfil. 
-8. Sistema informa que a edição foi efetuada com sucesso.  
+1. Administrador abre aba de perfil.
+2. Administrador seleciona opção “Editar funcionário”. 
+3. Sistema apresenta os dados do usuário. 
+4. Administrador edita as lacunas desejadas. 
+5. Administrador submete edição.  
+6. Sistema solicita a confirmação da edição do funcionário. 
+7. Sistema armazena edições. 
+8. Sistema atualiza perfil. 
+9. Sistema informa que a edição foi efetuada com sucesso.  
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU03 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215235758-ca98be0c-236f-41ed-a9c3-0fe9b2027bf4.jpg)
 
@@ -123,9 +124,10 @@ Ator: Administrador
 
 -Fluxo alternativo: Excluir funcionário.
 
-1. Administrador seleciona opção “Excluir funcionário”. 
-2. Sistema solicita a confirmação da exclusão do funcionário. 
-3. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
+1. Administrador abre aba de perfil.
+2. Administrador seleciona opção “Excluir funcionário”. 
+3. Sistema solicita a confirmação da exclusão do funcionário. 
+4. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU03 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/215235874-cb049ce0-94f5-4262-b17f-c1d80cfabfd9.jpg)
 
