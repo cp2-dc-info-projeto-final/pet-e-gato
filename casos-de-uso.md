@@ -442,10 +442,11 @@ Ator: Administrador
 
 ### Diagrama de sequência ![Diagrama de sequência CDU 12 - fluxo principal](https://user-images.githubusercontent.com/95979551/215236733-9a873847-bf53-4036-aa5e-2214a83651ce.jpg)
 
-**Fluxo alternativo** 
+**Fluxo alternativo A** 
 
-- Fluxo alternativo: Excluir serviço.
+- Fluxo alternativo: Excluir horário.
 
+1. 
 
 
 
