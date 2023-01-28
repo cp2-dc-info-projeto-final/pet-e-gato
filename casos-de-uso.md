@@ -448,13 +448,12 @@ Ator: Administrador
 
 **Fluxo Principal**
 
-1. Administrador seleciona a opção "Cadastrar".
-2. Administrador seleciona "Cadastrar Horário".
-3. Administrador seleciona "Serviço". 
-4. Administrador seleciona "Funcionário". 
-6. Administrador inclui os horários e datas disponíveis do funcionário.
-7. Sistema armazena as informações.
-8. Sistema atualiza as informações.
+1. Administrador seleciona "Cadastrar Horário".
+2. Administrador seleciona "Serviço". 
+3. Administrador seleciona "Funcionário". 
+4. Administrador inclui os horários e datas disponíveis do funcionário.
+5. Sistema armazena as informações.
+6. Sistema atualiza as informações.
 
 ### Diagrama de sequência ![Diagrama de sequência CDU 12 - fluxo principal](https://user-images.githubusercontent.com/95979551/215236733-9a873847-bf53-4036-aa5e-2214a83651ce.jpg)
 
