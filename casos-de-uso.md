@@ -423,7 +423,18 @@ Ator: Administrador e tutor
 5. Sistema registra nova senha.
 6. Sistema envia email informando a alteração de senha.
 
+### Diagrama de sequência ![Diagrama de sequência - CDU 11 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215291990-51bfe751-5cd1-4708-a1c0-dfad9f6d73d7.jpg)
 
+**Fluxo alternativo**
+Administrador redefine senha de Funcionário 
+
+1. Administrador seleciona a opção "Empresa". 
+2. Administrador seleciona a opção "Funcionários". 
+3. Administrador seleciona a opção editar. 
+3. Administrador confirma que deseja redefinir senha. 
+4. Usuário insere nova senha. 
+5. Sistema registra nova senha.
+6. Sistema envia e-mail informando a senha provisória do funcionário.
 
 
 ### CDU 12 Disponibilizar horário 
