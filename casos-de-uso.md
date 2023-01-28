@@ -373,6 +373,7 @@ Ator: Administrador, funcionário e tutor
 **Fluxo Alternativo A**
 
 - Fluxo alternativo: Código de verificação incorreto.
+
 1. Usuário clica em "Recuperar senha".
 2. Sistema exibe página recuperação.
 3. Usuário insere email. 
@@ -393,6 +394,7 @@ Ator: Administrador, funcionário e tutor
 **Fluxo Alternativo B**
 
 - Fluxo alternativo: Email incorreto.
+
 1. Usuário clica em "Recuperar senha".
 2. Sistema exibe página recuperação.
 3. Usuário insere email. 
@@ -417,7 +419,7 @@ Ator: Administrador e tutor
 
 **Fluxo Principal**
 
-1. Usuário clica em "Perfil".
+1. Usuário abre perfil.
 2. Sistema exibe o perfil do usuário. 
 3. Usuário confirma que deseja redefinir senha. 
 4. Usuário insere nova senha. 
