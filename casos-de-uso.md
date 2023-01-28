@@ -171,7 +171,7 @@ Ator: Tutor
 2. Sistema solicita a confirmação da exclusão da conta do cliente. 
 3. Sistema informa que a exclusão da conta foi efetuada com sucesso.  
 
-![Diagrama de sequência- CDU04 ( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/215216353-fe8cdb8c-0731-4b7b-ad3e-272af6208cce.jpg)
+![Diagrama de sequência- CDU04 ( fluxo alternativo) ](https://user-images.githubusercontent.com/95935490/215268103-cf0d57df-4af2-4f3e-b6f3-9984dfb3f70d.jpg)
 
 
 
