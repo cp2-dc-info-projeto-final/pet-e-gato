@@ -91,7 +91,8 @@ Ator: Tutor
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
 
-### Diagrama de sequência  ![Diagrama de sequência - CDU 02 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/213881557-d209fd9e-b20b-4602-a3e0-42c85e623bc8.jpg)
+### Diagrama de sequência ![Diagrama de sequência - CDU 02 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/215235083-9ffceed4-fff5-4416-b1c4-cd6ff7b7f993.jpg)
+
 
 
  
