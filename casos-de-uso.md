@@ -270,7 +270,7 @@ Ator: Tutor e administrador
  2. Cliente acessa calendário.
  3. Cliente clica em agendamento desejado.
  4. Sistema exibe detalhes do agendamento.
- 5. Cliente escolhe a opção " Editar agendamento"
+ 5. Cliente escolhe a opção "Editar agendamento".
  6. Cliente edita as lacunas desejadas.
  7. Sistema armazena edições.
  8. Sistema atualiza calendários.
@@ -306,8 +306,8 @@ Ator: Administrador
 **Fluxo Principal**
 -Fluxo principal: Incluir serviço.  
 
-1. Administrador seleciona opção " Cadastrar serviço".
-2. Administrador insere os dados solicitados " nome do serviço, preço, código, descrição".
+1. Administrador seleciona opção "Cadastrar serviço".
+2. Administrador insere os dados solicitados "nome do serviço, preço, código, descrição".
 3. Sistema armazena os dados e adiciona novo serviço.
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 
@@ -318,7 +318,7 @@ Ator: Administrador
 
 - Fluxo alternativo: Excluir serviço.
 
-1. Administrador seleciona opção " Excluir serviço".
+1. Administrador seleciona opção "Excluir serviço".
 2. Sistema solicita a confirmação da exclusão do serviço.
 3. Sistema informa que a exclusão do serviço foi efetuada com sucesso.
 
@@ -341,7 +341,7 @@ Ator: Administrador
 **Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar serviços.
-1. Administrador seleciona opção " Listar serviços"
+1. Administrador seleciona opção "Listar serviços"
 2. Sistema apresenta serviços cadastrados.
 
 ### Diagrama de sequência![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
@@ -441,8 +441,6 @@ Ator: Administrador
 8. Sistema atualiza as informações.
 
 ### Diagrama de sequência ![Diagrama de sequência CDU 12 - fluxo principal](https://user-images.githubusercontent.com/95979551/213876958-2d641c4f-3129-42a1-afa1-8d6817f70055.jpg)
-
-
 
 
 
