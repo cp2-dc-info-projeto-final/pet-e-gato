@@ -414,7 +414,7 @@ Ator: Administrador, funcionário e tutor
 
 ### CDU 11 Redefinição de senha
 
-Ator: Administrador e tutor
+Ator: Administrador, funcionário e tutor
 
 
 **Fluxo Principal**
