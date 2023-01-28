@@ -457,8 +457,17 @@ Ator: Administrador
 
 - Fluxo alternativo: Excluir horário.
 
-1. 
+1. Administrador seleciona a opção "Calendário". 
+2. Administrador seleciona a opção "Excluir". 
+3. Sistema informa que a exclusão do horário foi efetuada com sucesso.
 
+
+**Fluxo alternativo B**
+
+-Fluxo alternativo: Listar horários
+
+1. Administrador seleciona a opção "Calendário". 
+2. Sistema apresenta horários cadastrados.
 
 
 ### CDU 13 Fazer logout
