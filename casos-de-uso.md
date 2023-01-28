@@ -432,7 +432,7 @@ Ator: Administrador, funcionário e tutor
 
 **Fluxo alternativo A** 
 
-- Fluxo alternativo: Administrador redefine senha de Funcionário 
+- Fluxo alternativo: Administrador redefine senha de funcionário.
 
 1. Administrador seleciona a opção "Empresa". 
 2. Administrador seleciona a opção "Funcionários". 
