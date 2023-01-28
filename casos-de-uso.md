@@ -440,7 +440,9 @@ Ator: Administrador
 7. Sistema armazena as informações.
 8. Sistema atualiza as informações.
 
-### Diagrama de sequência ![Diagrama de sequência CDU 12 - fluxo principal](https://user-images.githubusercontent.com/95979551/213876958-2d641c4f-3129-42a1-afa1-8d6817f70055.jpg)
+### Diagrama de sequência ![Diagrama de sequência CDU 12 - fluxo principal](https://user-images.githubusercontent.com/95979551/215236733-9a873847-bf53-4036-aa5e-2214a83651ce.jpg)
+
+ 
 
 
 
