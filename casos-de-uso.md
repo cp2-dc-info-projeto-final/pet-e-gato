@@ -440,6 +440,7 @@ Ator: Administrador, funcionário e tutor
 5. Sistema registra nova senha.
 6. Sistema envia e-mail informando a senha provisória do funcionário.
 
+### Diagrama de sequência ![Diagrama de sequência CDU11 - Fluxo alternativo A](https://user-images.githubusercontent.com/95979551/215294170-79804ca7-4ef7-43c2-acec-8d0cff9a82c1.jpg)
 
 ### CDU 12 Disponibilizar horário 
 
