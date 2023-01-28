@@ -425,8 +425,9 @@ Ator: Administrador e tutor
 
 ### Diagrama de sequência ![Diagrama de sequência - CDU 11 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215291990-51bfe751-5cd1-4708-a1c0-dfad9f6d73d7.jpg)
 
-**Fluxo alternativo**
-Administrador redefine senha de Funcionário 
+**Fluxo alternativo A** 
+
+- Fluxo alternativo: Administrador redefine senha de Funcionário 
 
 1. Administrador seleciona a opção "Empresa". 
 2. Administrador seleciona a opção "Funcionários". 
@@ -457,17 +458,11 @@ Ator: Administrador
 
 - Fluxo alternativo: Excluir horário.
 
+
 1. Administrador seleciona a opção "Calendário". 
 2. Administrador seleciona a opção "Excluir". 
 3. Sistema informa que a exclusão do horário foi efetuada com sucesso.
 
-
-**Fluxo alternativo B**
-
--Fluxo alternativo: Listar horários
-
-1. Administrador seleciona a opção "Calendário". 
-2. Sistema apresenta horários cadastrados.
 
 
 ### CDU 13 Fazer logout
