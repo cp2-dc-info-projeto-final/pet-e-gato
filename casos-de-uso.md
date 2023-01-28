@@ -418,7 +418,7 @@ Ator: Administrador e tutor
 
 1. Usuário clica em "Perfil".
 2. Sistema exibe o perfil do usuário. 
-3. Usuário clica SIM em "Deseja criar uma nova senha". 
+3. Usuário confirma que deseja redefinir senha. 
 4. Usuário insere nova senha. 
 5. Sistema registra nova senha.
 6. Sistema envia email informando a alteração de senha.
