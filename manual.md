@@ -350,25 +350,33 @@ Para fazer agendamento de algum plano.
 
 **3.1 Consultar funcionários**
 
+- Em sua conta administrador, clique em "Empresa".  
+
+![image](https://user-images.githubusercontent.com/95979551/215335913-7e1d5caf-0957-491f-a11b-2090813ed760.png)
+
 - Em sua conta administrador, clique em "Funcionários".
 
-![image](https://user-images.githubusercontent.com/95979551/208580462-75969a8e-c855-412f-baab-e7ef8edb9ea7.png)
+![image](https://user-images.githubusercontent.com/95979551/215336331-57d0f4d2-9e81-455a-a374-2beaa320b393.png)
 
 - Serão exibidos todos os funcionários cadastrados, assim como os emails e datas de nascimento. 
 
-![image](https://user-images.githubusercontent.com/95979551/208581865-136138f3-fc71-4414-b627-ce0883f67217.png)
+![image](https://user-images.githubusercontent.com/95979551/215336394-191be942-6cd9-4267-9323-faca2e90bfee.png)
 
 
 **4.1 Editar funcionários**
 
+- Em sua conta administrador, clique em "Empresa".  
+
+![image](https://user-images.githubusercontent.com/95979551/215335913-7e1d5caf-0957-491f-a11b-2090813ed760.png)
+
 - Em sua conta administrador, clique em "Funcionários".
 
-![image](https://user-images.githubusercontent.com/95979551/208580694-6aabd20f-1c64-42d2-9955-65dbc4cbf4a2.png)
+![image](https://user-images.githubusercontent.com/95979551/215336331-57d0f4d2-9e81-455a-a374-2beaa320b393.png)
 
 - Escolha o funcionário que deseja editar.
 - Aperte do símbolo editar.
 
-![image](https://user-images.githubusercontent.com/95979551/208580896-53834678-641a-4a8f-bda8-2c6caa841961.png)
+![image](https://user-images.githubusercontent.com/95979551/215336477-6fdccc9c-7ac3-493d-9417-fdace495bcb2.png)
 
 - Faça a edição.
 - Clique em "Salvar alterações".
