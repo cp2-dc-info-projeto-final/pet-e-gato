@@ -213,7 +213,7 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta, clique em "Perfil"
 
-![Perfil botão](https://user-images.githubusercontent.com/95935490/214930890-792d4a67-080b-48d8-8931-66f9306451c2.png)
+![image](https://user-images.githubusercontent.com/95979551/215331878-a62bee7c-6329-457c-9d15-c5cfe79da2b3.png)
 
 - Seu perfil será exibido com os seus dados. 
 
