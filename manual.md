@@ -336,14 +336,17 @@ Para fazer agendamento de algum plano.
 
 **2.1 Exibir clientes**
 
+- Em sua conta administrador, clique em "Empresa".  
+
+![image](https://user-images.githubusercontent.com/95979551/215335913-7e1d5caf-0957-491f-a11b-2090813ed760.png)
+
 - Em sua conta administrador, clique em "Clientes".  
 
-![image](https://user-images.githubusercontent.com/95979551/208580330-a28a96cb-6326-443d-8734-ed1bccc366f0.png)
+![image](https://user-images.githubusercontent.com/95979551/215335926-5967cae8-d7bd-415d-96c7-cefab04e8955.png)
 
 - Serão exibidos os clientes cadastrados, assim como horário e data. 
 
-![image](https://user-images.githubusercontent.com/95979551/208580396-fa991b8a-7297-471a-9861-dfb3e2ed0a81.png)
-
+![image](https://user-images.githubusercontent.com/95979551/215335940-c5d0cd2d-a449-4993-942f-0e1e07a97944.png)
 
 **3.1 Consultar funcionários**
 
