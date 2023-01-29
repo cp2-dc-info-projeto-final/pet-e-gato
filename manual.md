@@ -125,14 +125,18 @@ Para fazer agendamento de algum plano.
  ![image](https://user-images.githubusercontent.com/95979551/208571902-e7c08d9d-6b0e-407d-8ae4-0f3b0ce5ddf6.png)
 
  
- - Preencha o formulário.
+ - Agende um tipo de serviço
 
-![image](https://user-images.githubusercontent.com/95979551/208571956-f1ddc731-3e27-45e8-842a-87ec4b699af0.png)
+![image](https://user-images.githubusercontent.com/95979551/215331186-5bccc367-3f07-4bfe-aeab-13646605b642.jpeg)
 
 
- - Confirme o agendamento. 
+ - Selecione data e hora
+ ![image](https://user-images.githubusercontent.com/95979551/215331248-210295cf-0830-47c4-bd0a-37e399cc0734.jpeg)
  
- ![image](https://user-images.githubusercontent.com/95979551/208572004-701c9bbe-a626-4f7e-89d9-36fee6eb7b90.png)
+ - Clique no botão "Cadastrar"
+ 
+ ![image](https://user-images.githubusercontent.com/95979551/215331338-356bb404-c029-4166-a0f8-47c451553aa2.jpeg)
+ 
 
 
 
