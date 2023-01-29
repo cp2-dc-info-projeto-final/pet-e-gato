@@ -213,11 +213,11 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta, clique em "Perfil"
 
-![image](https://user-images.githubusercontent.com/95979551/215331878-a62bee7c-6329-457c-9d15-c5cfe79da2b3.png)
+![image](https://user-images.githubusercontent.com/95979551/215332232-c0812ae0-9baf-4a96-b69b-1bc4d6db417f.png)
 
 - Seu perfil será exibido com os seus dados. 
 
-![Perfil img](https://user-images.githubusercontent.com/95935490/214930940-4dc8ee89-30ec-487f-b367-7bd4867a6b1e.png)
+![Perfil img](https://user-images.githubusercontent.com/95979551/215332144-9697fd7d-81fd-4977-a1e2-67f9a66f5a1d.png))
 
 
 **6.2 Editar dados**
