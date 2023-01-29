@@ -392,7 +392,7 @@ Para fazer agendamento de algum plano.
 - Escolha o serviço que deseja editar. 
 - Aperte em editar. 
 
-![image](https://user-images.githubusercontent.com/95979551/208580896-53834678-641a-4a8f-bda8-2c6caa841961.png)
+![image](https://user-images.githubusercontent.com/95979551/215336477-6fdccc9c-7ac3-493d-9417-fdace495bcb2.png)
 
 - Clique em "Salvar alterações". 
 
@@ -400,14 +400,19 @@ Para fazer agendamento de algum plano.
 
 **5.2 Excluir funcionário**
 
+- Em sua conta administrador, clique em "Empresa".  
+
+![image](https://user-images.githubusercontent.com/95979551/215335913-7e1d5caf-0957-491f-a11b-2090813ed760.png)
+
 - Em sua conta administrador, clique em "Funcionários".
 
-![image](https://user-images.githubusercontent.com/95979551/208581629-7001a795-55aa-41ab-bc05-59f861983aed.png)
+![image](https://user-images.githubusercontent.com/95979551/215336331-57d0f4d2-9e81-455a-a374-2beaa320b393.png)
+
 
 - Escolha o funcionário que deseja excluir. 
 - Aperte em excluir. 
 
-![image](https://user-images.githubusercontent.com/95979551/208581027-6cabee09-e633-48b2-83bd-03f610d99f30.png)
+![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
 - Exclua funcionário. 
 
@@ -420,7 +425,7 @@ Para fazer agendamento de algum plano.
 - Escolha o serviço que deseja excluir. 
 - Aperte em excluir. 
 
-![image](https://user-images.githubusercontent.com/95979551/208581027-6cabee09-e633-48b2-83bd-03f610d99f30.png)
+![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
 - Exclua serviço. 
 
@@ -434,6 +439,5 @@ Para fazer agendamento de algum plano.
 - Faça "Login". 
 - Clique em "Calendário".
 
-![image](https://user-images.githubusercontent.com/95979551/208581787-5d455967-d63f-4850-b081-8d7c824dd52a.png)
-
+![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
 
