@@ -176,9 +176,9 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/208573709-c24e08ff-873e-49a8-a45c-f8e6b7456d86.png)
 
 - Escolha a marcação que deseja cancelar.
-- Aperte em excluir.
+- Aperte em cancelar.
 
-![image](https://user-images.githubusercontent.com/95979551/208575190-21d284c7-1084-4c10-b5a4-ddd5f119f16d.png)
+![image](https://user-images.githubusercontent.com/95979551/215331648-cdb18ff9-91a4-41ce-b35c-de2067aad4d0.png)
 
 - Cancele seu agendamento.  
 
