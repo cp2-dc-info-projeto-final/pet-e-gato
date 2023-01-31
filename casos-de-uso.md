@@ -46,7 +46,7 @@ Ator: Administrador
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
 5. Sistema envia email com os dados cadastrados para funcionário. 
 
-### Diagrama de sequência ![Diagrama de sequência  - CDU 01 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215856587-afd8cc15-96e6-4737-a174-1a7991b9caed.jpg)
+### Diagrama de sequência ![Diagrama de sequência  - CDU 01 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215861478-2c6e475b-d259-43f0-927f-e33c0d9185e4.jpg)
 
 
 
