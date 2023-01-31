@@ -43,7 +43,7 @@ Ator: Administrador
 2. Administrador insere os dados solicitados: nome completo, CPF, idade, e-mail e senha provisória.
 3. Sistema armazena os dados e adiciona novo funcionário. 
 4. Sistema informa que o cadastro foi efetuado com sucesso. 
-5. Sistema envia email com os dados cadastrados para funconário. 
+5. Sistema envia email com os dados cadastrados para funcionário. 
 
 ### Diagrama de sequência ![Diagrama de sequência - CDU 01 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/213882348-b24a2ab0-c993-4cc4-9d21-caffd769d381.jpg)
 
