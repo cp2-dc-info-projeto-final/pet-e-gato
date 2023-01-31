@@ -14,7 +14,8 @@
  - [CDU 10](#CDU-10): Recuperar senha
  - [CDU 11](#CDU-11): Redefinição de senha
  - [CDU 12](#CDU-12): Disponibilizar horário
- - [CDU 13](#CDU-13): Logout
+ - [CDU 13](#CDU-13): Manter administrador
+ - [CDU 14](#CDU-14): Logout
 
  
 
@@ -478,8 +479,18 @@ Ator: Administrador
 1. Administrador seleciona a opção "Calendário". 
 2. Sistema apresenta agendamentos cadastrados.
 
+### CDU 12 Manter administrador
 
-### CDU 13 Fazer logout
+Ator: Administrador
+
+
+**Fluxo Principal**
+
+
+**Fluxo alternativo A** 
+
+
+### CDU 14 Fazer logout
 
 Ator: Administrador, funcionário e tutor
 
