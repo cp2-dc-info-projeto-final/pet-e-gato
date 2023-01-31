@@ -481,7 +481,7 @@ Ator: Administrador
 1. Administrador seleciona a opção "Calendário". 
 2. Sistema apresenta agendamentos cadastrados.
 
-### CDU 12 Manter administrador
+### CDU 13 Manter administrador
 
 Ator: Administrador
 
@@ -492,7 +492,7 @@ Ator: Administrador
 **Fluxo alternativo A** 
 
 
-### CDU 13 Fazer logout
+### CDU 14 Fazer logout
 
 Ator: Administrador, funcionário e tutor
 
