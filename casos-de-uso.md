@@ -105,15 +105,16 @@ Ator: Administrador
 
 -Fluxo principal: Editar Funcionário. 
 
-1. Administrador entra na aba de perfil.
-2. Administrador seleciona opção “Editar funcionário”. 
-3. Sistema apresenta os dados do usuário. 
-4. Administrador edita as lacunas desejadas. 
-5. Administrador submete edição.  
-6. Sistema solicita a confirmação da edição do funcionário. 
-7. Sistema armazena edições. 
-8. Sistema atualiza perfil. 
-9. Sistema informa que a edição foi efetuada com sucesso.  
+1. Administrador clica na aba  "Empresa".
+2. Administrador entra na aba "Funcionários". 
+3. Administrador seleciona opção “Editar funcionário”. 
+4. Sistema apresenta os dados do usuário. 
+5. Administrador edita as lacunas desejadas. 
+6. Administrador submete edição.  
+7. Sistema solicita a confirmação da edição do funcionário. 
+8. Sistema armazena edições. 
+9. Sistema atualiza perfil. 
+10. Sistema informa que a edição foi efetuada com sucesso.  
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU03 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215235758-ca98be0c-236f-41ed-a9c3-0fe9b2027bf4.jpg)
 
@@ -124,10 +125,11 @@ Ator: Administrador
 
 -Fluxo alternativo: Excluir funcionário.
 
-1. Administrador entra na aba de perfil.
-2. Administrador seleciona opção “Excluir funcionário”. 
-3. Sistema solicita a confirmação da exclusão do funcionário. 
-4. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
+1. Administrador clica na aba "Empresa" .
+2. Administrador entra na aba "Funcionários". 
+3. Administrador seleciona opção “Excluir funcionário”. 
+4. Sistema solicita a confirmação da exclusão do funcionário. 
+5. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU03 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/215235874-cb049ce0-94f5-4262-b17f-c1d80cfabfd9.jpg)
 
@@ -139,8 +141,9 @@ Ator: Administrador
 
 -Fluxo alternativo: Listar Funcionário. 
 
-1. Administrador seleciona opção “Funcionários”. 
-2. Sistema apresenta funcionários cadastrados.
+1. Administrador clica na aba "Empresa". 
+2. Administrador entra na aba "Funcionários". 
+3. Sistema apresenta funcionários cadastrados.
 
 
  
@@ -345,7 +348,7 @@ Ator: Administrador
 **Fluxo Alternativo C**
 
 - Fluxo alternativo: Listar serviços.
-1. Administrador seleciona opção "Listar serviços"
+1. Administrador seleciona opção "Serviços"
 2. Sistema apresenta serviços cadastrados.
 
 ### Diagrama de sequência![Listar Serviço - CDU 09 (fluxo alternativo C)](https://user-images.githubusercontent.com/95935490/194650721-6d8fb72c-1246-4024-9d1e-567017a1f98d.jpg)
@@ -468,6 +471,12 @@ Ator: Administrador
 2. Administrador seleciona a opção "Excluir". 
 3. Sistema informa que a exclusão do horário foi efetuada com sucesso.
 
+**Fluxo alternativo B** 
+
+- Fluxo alternativo: Listar horário.
+
+1. Administrador seleciona a opção "Calendário". 
+2. Sistema apresenta agendamentos cadastrados.
 
 
 ### CDU 13 Fazer logout
