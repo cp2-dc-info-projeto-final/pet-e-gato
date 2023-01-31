@@ -119,7 +119,7 @@ Ator: Administrador
 9. Sistema atualiza perfil. 
 10. Sistema informa que a edição foi efetuada com sucesso.  
 
-### Diagrama de sequência ![Diagrama de sequência- CDU03 (fluxo principal) ](https://user-images.githubusercontent.com/95979551/215235758-ca98be0c-236f-41ed-a9c3-0fe9b2027bf4.jpg)
+![Diagrama de sequência- CDU03 (fluxo principal) ](https://user-images.githubusercontent.com/95935490/215901915-818458ac-38cf-456e-a1d1-8f2d9f0c0a4a.jpg)
 
 
 
