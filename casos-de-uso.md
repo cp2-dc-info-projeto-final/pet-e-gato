@@ -57,7 +57,8 @@ Ator: Administrador
 3. Sistema analisa os dados. 
 4. Sistema informa que o funcionário já está cadastrado. 
 
-### Diagrama de sequência ![Diagrama de sequência - CDU 01 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/213882509-e5e47d9b-55e2-4f5a-a51b-d99aed9d0fc8.jpg)
+### Diagrama de sequência ![Diagrama de sequência  - CDU 01 ( fluxo alternativo) ](https://user-images.githubusercontent.com/95979551/215857147-140a8626-6641-4c67-8fda-a88ada8bc47f.jpg)
+
 
 
 **Fluxo Alternativo B**
