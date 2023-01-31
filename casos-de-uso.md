@@ -113,7 +113,7 @@ Ator: Administrador
 3. Administrador seleciona opção “Editar funcionário”. 
 4. Sistema apresenta os dados do usuário. 
 5. Administrador edita as lacunas desejadas. 
-6. Administrador submete edição.  
+6. Administrador confirma edição.  
 7. Sistema solicita a confirmação da edição do funcionário. 
 8. Sistema armazena edições. 
 9. Sistema atualiza perfil. 
