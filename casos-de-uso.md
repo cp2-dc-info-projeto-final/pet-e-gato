@@ -487,8 +487,38 @@ Ator: Administrador
 
 **Fluxo Principal**
 
+-Fluxo principal: Editar Administrador.
 
-**Fluxo alternativo A** 
+1.Administrador clica na aba "Empresa".
+2.Administrador entra na aba "Administrador".
+3.Administrador seleciona opção “Editar administrador”.
+4.Sistema apresenta os dados do usuário.
+5.Administrador edita as lacunas desejadas.
+6.Administrador submete edição.
+7.Sistema solicita a confirmação da edição do administrador .
+8.Sistema armazena edições.
+9.Sistema atualiza perfil.
+10.Sistema informa que a edição foi efetuada com sucesso.
+
+
+**Fluxo Alternativo A**
+
+-Fluxo alternativo: Excluir Administrador.
+
+1.Administrador clica na aba "Empresa" .
+2.Administrador entra na aba "Administrador".
+3.Administrador seleciona opção “Excluir Administrador”.
+4.Sistema solicita a confirmação da exclusão do administrador.
+5.Sistema informa que a exclusão do administrador  foi efetuada com sucesso.
+
+
+**Fluxo Alternativo B**
+
+-Fluxo alternativo: Listar Administradores.
+
+Administrador clica na aba "Empresa".
+Administrador entra na aba "Adminitradores ".
+Sistema apresenta funcionários cadastrados.
 
 
 ### CDU 14 Fazer logout
