@@ -134,8 +134,7 @@ Ator: Administrador
 4. Sistema solicita a confirmação da exclusão do funcionário. 
 5. Sistema informa que a exclusão do funcionário foi efetuada com sucesso. 
 
-### Diagrama de sequência ![Diagrama de sequência- CDU03 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95979551/215235874-cb049ce0-94f5-4262-b17f-c1d80cfabfd9.jpg)
-
+![Diagrama de sequência- CDU03 (fluxo alternativo A) ](https://user-images.githubusercontent.com/95935490/215900504-3a4c5732-09bb-412c-abb0-be1851e2c106.jpg)
 
 
 
