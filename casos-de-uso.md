@@ -500,6 +500,8 @@ Ator: Administrador
 9. Sistema atualiza perfil.
 10. Sistema informa que a edição foi efetuada com sucesso.
 
+![Diagrama de sequência- CDU13 (fluxo principal) ](https://user-images.githubusercontent.com/95935490/215908750-291f5fde-7055-489e-b655-2000c679cbaa.jpg)
+
 
 **Fluxo Alternativo A**
 
@@ -510,6 +512,8 @@ Ator: Administrador
 3. Administrador seleciona opção “Excluir Administrador”.
 4. Sistema solicita a confirmação da exclusão do administrador.
 5. Sistema informa que a exclusão do administrador  foi efetuada com sucesso.
+
+![Diagrama de sequência- CDU13  (fluxo alternativo A) ](https://user-images.githubusercontent.com/95935490/215908499-dfef7735-2834-4dd6-9118-1a70880b2739.jpg)
 
 
 **Fluxo Alternativo B**
