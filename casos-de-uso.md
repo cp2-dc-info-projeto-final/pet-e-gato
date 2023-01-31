@@ -492,7 +492,7 @@ Ator: Administrador
 **Fluxo alternativo A** 
 
 
-### CDU 14 Fazer logout
+### CDU 13 Fazer logout
 
 Ator: Administrador, funcionário e tutor
 
