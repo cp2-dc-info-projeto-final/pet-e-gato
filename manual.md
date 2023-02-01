@@ -363,6 +363,20 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215336394-191be942-6cd9-4267-9323-faca2e90bfee.png)
 
+**3.2 Consultar administradores**
+
+- Em sua conta administrador, clique em "Empresa". 
+
+![image](https://user-images.githubusercontent.com/95979551/216078341-187f112b-08e5-4ceb-a487-e9cf72edda6a.png)
+
+- Em sua conta administrador, clique em "Administrador". 
+
+![image](https://user-images.githubusercontent.com/95979551/216078504-52a97fbc-a3a8-4808-af64-8e055d40b3b4.png)
+
+- Serão exibidos todos os administradores cadastrados, assim como os emails e datas de nascimento.
+
+![image](https://user-images.githubusercontent.com/95979551/216078606-8cd5e785-5bca-4e9d-8291-1227fbe5d3cf.png)
+
 
 **4.1 Editar funcionários**
 
@@ -399,7 +413,28 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
-**5.2 Excluir funcionário**
+**5.2 Editar administradores**
+
+- Em sua conta administrador, clique em "Empresa".
+
+![image](https://user-images.githubusercontent.com/95979551/216079189-644fe568-7860-458b-ba8d-0b6219311f39.png)
+ 
+- Em sua conta administrador, clique em "Administrador".  
+
+![image](https://user-images.githubusercontent.com/95979551/216079258-f14fe51e-ca81-4466-9bc6-eb4c7b4f1ce9.png)
+
+- Escolha o administrador que deseja editar.
+- Aperte do símbolo editar.
+
+![image](https://user-images.githubusercontent.com/95979551/216079362-28030c9d-5c88-4895-b76f-ff729c311288.png)
+
+- Faça a edição.
+- Clique em "Salvar alterações".
+
+![image](https://user-images.githubusercontent.com/95979551/216079414-d5b0aafd-fee3-4bae-8567-28933e12f593.png)
+
+
+**6.1 Excluir funcionário**
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -417,7 +452,7 @@ Para fazer agendamento de algum plano.
 
 - Exclua funcionário
 
-**5.4 Excluir serviços**
+**6.2 Excluir serviços**
 
 - Em sua conta administrador, clique em "Serviços".
 
@@ -429,6 +464,23 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
 - Exclua serviço. 
+
+**6.3 Excluir administradores**
+
+-Em sua conta administrador, clique em "Empresa".
+
+![image](https://user-images.githubusercontent.com/95979551/216080208-5f9bab09-9470-4077-a753-ed39034e1473.png)
+
+- Em sua conta administrador, clique em "Administrador". 
+
+![image](https://user-images.githubusercontent.com/95979551/216080257-70395738-9b2b-48cb-bfc8-85a4d092f81b.png)
+
+- Escolha o administrador que deseja excluir.
+- Aperte em excluir.
+
+![image](https://user-images.githubusercontent.com/95979551/216080402-5e53564b-08b3-40a7-bf95-8e281f5cf061.png)
+
+- Exclua administrador.
 
 
 ## 1. PÁGINA INICIAL - Funcionário
