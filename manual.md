@@ -225,7 +225,8 @@ Para fazer agendamento de algum plano.
 
 - Em seu perfil, selecione o campo a ser alterado. 
 
-![Editar dados- perfil ](https://user-images.githubusercontent.com/95935490/214931767-03861bf8-af32-4282-952b-da96b2beaec9.png)
+![cliente-perfil 2](https://user-images.githubusercontent.com/95935490/216082778-4cd061a3-d74e-4a3f-a62a-17046a4ab885.png)
+
 
 - Edite seus dados.
 
