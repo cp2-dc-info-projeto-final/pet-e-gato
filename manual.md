@@ -493,3 +493,11 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
 
+**2.1 Acessar perfil**
+
+- Faça "Login". 
+- Clique em "Perfil".
+
+![image](https://user-images.githubusercontent.com/95935490/216082543-f4a780ba-00d9-44a2-a452-1abae1ae04ef.png)
+
+
