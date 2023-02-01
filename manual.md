@@ -415,9 +415,9 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
-- Exclua funcionário. 
+- Exclua funcionário
 
-**5.3 Excluir serviços**
+**5.4 Excluir serviços**
 
 - Em sua conta administrador, clique em "Serviços".
 
@@ -429,7 +429,6 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
 - Exclua serviço. 
-
 
 
 ## 1. PÁGINA INICIAL - Funcionário
