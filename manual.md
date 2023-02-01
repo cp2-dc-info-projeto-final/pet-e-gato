@@ -382,7 +382,7 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/216078606-8cd5e785-5bca-4e9d-8291-1227fbe5d3cf.png)
 
 
-**5.1 Editar funcionários**
+**4.1 Editar funcionários**
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -402,7 +402,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
-**5.2 Editar serviços**
+**4.2 Editar serviços**
 
 - Em sua conta administrador,  clique em "Serviço". 
 
@@ -417,7 +417,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
-**5.3 Editar administradores**
+**4.3 Editar administradores**
 
 - Em sua conta administrador, clique em "Empresa".
 
@@ -438,7 +438,7 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/216079414-d5b0aafd-fee3-4bae-8567-28933e12f593.png)
 
 
-**6.1 Excluir funcionário**
+**5.1 Excluir funcionário**
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -456,7 +456,7 @@ Para fazer agendamento de algum plano.
 
 - Exclua funcionário
 
-**6.2 Excluir serviços**
+**5.2 Excluir serviços**
 
 - Em sua conta administrador, clique em "Serviços".
 
@@ -469,7 +469,7 @@ Para fazer agendamento de algum plano.
 
 - Exclua serviço. 
 
-**6.3 Excluir administradores**
+**5.3 Excluir administradores**
 
 -Em sua conta administrador, clique em "Empresa".
 
