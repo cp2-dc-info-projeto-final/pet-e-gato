@@ -345,7 +345,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215335926-5967cae8-d7bd-415d-96c7-cefab04e8955.png)
 
-- Serão exibidos os clientes cadastrados, assim como horário e data. 
+- Serão exibidos os clientes cadastrados, assim como seus respectivos e-mails, telefone, data de nascimento, nome do pet e data do nascimento do pet. 
 
 ![image](https://user-images.githubusercontent.com/95979551/215335940-c5d0cd2d-a449-4993-942f-0e1e07a97944.png)
 
