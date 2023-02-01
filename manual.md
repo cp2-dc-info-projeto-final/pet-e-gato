@@ -18,12 +18,15 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Cadastrar Horário (Página inicial - adm]()
  - [Exibir clientes (Página  inicial - adm)]()
  - [Consultar funcionários (Página  inicial - adm)]()
+ - [Consultar administradores (Página  inicial - adm)]()
  - [Editar funcionários (Página  inicial - adm)]()
  - [Editar serviços (Página  inicial - adm)]()
+ - [Editar administradores (Página  inicial - adm)]()
  - [Excluir funcionários (Página  inicial - adm)]()
  - [Excluir serviços (Página  inicial - adm)]()
+ - [Excluir administradores (Página  inicial - adm)]()
  - [Acessar calendário (Página  inicial - funcionário]()
-
+ - [Acessar perfil (Página  inicial - funcionário]()
 
 ## 1. LOGIN
 
