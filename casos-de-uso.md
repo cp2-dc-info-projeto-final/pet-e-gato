@@ -197,10 +197,11 @@ Ator: Tutor, administrador e funcionário
 **Fluxo Principal**
 
 1. Usuário seleciona a opção “Login”.  
-2. Usuário insere os dados solicitados: e-mail e senha. 
-3. Sistema analisa os dados e autentica o usuário.
-4. Sistema exibe que e-mail e senha são válidos. 
-5. Sistema libera o acesso do usuário. 
+2. Usuário seleciona perfil.
+3. Usuário insere os dados solicitados: e-mail e senha. 
+4. Sistema analisa os dados e autentica o usuário.
+5. Sistema exibe que e-mail e senha são válidos. 
+6. Sistema libera o acesso do usuário. 
 
 ### Diagrama de sequência ![Diagrama de sequência - CDU 05 (fluxo principal)](https://user-images.githubusercontent.com/95979551/213882867-d1172d80-0554-481a-b092-3537a901c2c2.jpg)
 
