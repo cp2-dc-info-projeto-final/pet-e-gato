@@ -4,7 +4,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 **Lista das Funcionalidades:**
 
- - [Login](#LOGIN)
+ - [Login](#1-LOGIN)
  - [Logout]()
  - [Cadastro]()
  - [Agendamento]()
@@ -28,7 +28,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Acessar calendário (Página  inicial - funcionário)]()
  - [Acessar perfil (Página  inicial - funcionário)]()
 
-## LOGIN
+## 1. LOGIN
 
 **1.1 Para fazer login como cliente:** 
 
