@@ -358,19 +358,19 @@ Ator: Administrador
 
 ### CDU 10 Recuperar senha
 
-Ator: Administrador, funcionário e tutor
+Ator: Tutor
 
 **Fluxo Principal**
 
-1. Usuário clica em "Recuperar senha".
+1. Cliente clica em "Recuperar senha".
 2. Sistema exibe página recuperação.
-3. Usuário insere email. 
+3. Cliente insere email. 
 4. Sistema envia código de verificação.
-5. Usuário insere código.
-6. Usuário redefine senha. 
+5. Cliente insere código.
+6. Cliente redefine senha. 
 7. Sistema exibe pagina de login. 
-8. Usuário insere email e nova senha.  
-9. Sistema libera o acesso ao usuário. 
+8. Cliente insere email e nova senha.  
+9. Sistema libera o acesso ao cliente. 
 
 ### Diagrama de sequência ![Diagrama de sequência- CDU10 ( Fluxo principal) ](https://user-images.githubusercontent.com/95935490/213872386-723c7158-c263-49fa-ae44-6343f127d4bf.jpg)
 
@@ -381,17 +381,17 @@ Ator: Administrador, funcionário e tutor
 
 - Fluxo alternativo: Código de verificação incorreto.
 
-1. Usuário clica em "Recuperar senha".
+1. Cliente clica em "Recuperar senha".
 2. Sistema exibe página recuperação.
-3. Usuário insere email. 
+3. Cliente insere email. 
 4. Sistema envia código de verificação.
-5. Usuário insere código.
+5. Cliente insere código.
 6. Sistema analisa código.
 7. Sistema informa erro no código de verificação. 
 8. Sistema solicita código novamente. 
-9. Usuário insere código. 
+9. Cliente insere código. 
 10. Sistema analisa código.
-11. Usuário insere nova senha.
+11. Cliente insere nova senha.
 12. Sistema registra nova senha.
 13. Sistema libera o acesso ao usuário. 
 
@@ -402,21 +402,21 @@ Ator: Administrador, funcionário e tutor
 
 - Fluxo alternativo: Email incorreto.
 
-1. Usuário clica em "Recuperar senha".
+1. Cliente clica em "Recuperar senha".
 2. Sistema exibe página recuperação.
-3. Usuário insere email. 
+3. Cliente insere email. 
 4. Sistema analisa email. 
 5. Sistema informa email  inválido.
 6. Sistema solicita email novamente. 
-7. Usuário insere email. 
+7. Cliente insere email. 
 8. Sistema solicita código novamente. 
 9. Sistema analisa email. 
 10. Sistema envia código de verificação.
-11. Usuário insere código.
+11. Cliente insere código.
 12. Sistema analisa código.
-13. Usuário insere nova senha.
+13. Cliente insere nova senha.
 14. Sistema registra nova senha.
-15. Sistema libera o acesso ao usuário.
+15. Sistema libera o acesso ao cliente.
 
 
 ### CDU 11 Redefinição de senha
