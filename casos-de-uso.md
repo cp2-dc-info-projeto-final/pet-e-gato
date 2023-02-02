@@ -2,8 +2,8 @@
 
 ## Casos de uso
 
- - [CDU 01](#CDU-01): Cadastro do funcionário
- - [CDU 02](#CDU-02): Cadastro do tutor
+ - [CDU 01](#CDU-01-Cadastro-do-funcionário): Cadastro do funcionário
+ - [CDU 02](#CDU-02-Cadastro-do-tutor): Cadastro do tutor
  - [CDU 03](#CDU-03): Manter funcionário
  - [CDU 04](#CDU-04): Manter tutor
  - [CDU 05](#CDU-05): Autenticação de login 
