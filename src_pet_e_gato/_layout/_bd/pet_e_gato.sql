@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.2
+-- version 4.7.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28-Jan-2023 às 06:44
+-- Generation Time: 02-Fev-2023 às 04:35
 -- Versão do servidor: 5.7.17
--- versão do PHP: 7.1.3
+-- PHP Version: 7.1.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `pet_e_gato`
+-- Database: `pet_e_gato`
 --
 CREATE DATABASE IF NOT EXISTS `pet_e_gato` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `pet_e_gato`;
@@ -43,7 +44,8 @@ CREATE TABLE `administrador` (
 
 INSERT INTO `administrador` (`matricula`, `nome`, `email`, `senha`, `data_nasc`) VALUES
 (1, 'Pet&Gatô House', 'petegatooficial1@gmail.com', '$2y$10$fXpm8oZn1vJVHvPlYvEgJuQVrmkjYfs1wr42cwjAYOeM.bjm65Y9q', '2000-01-15'),
-(2, 'Kauan Martinez da Silva', 'kauannmartiinez.contato@gmail.com', '$2y$10$gtM26lYNc1rOunEwy7lLiOty/R.nILcWzISDIIZaFzp04X6bx2nde', '2005-01-05');
+(16, 'Leticia Cáceres', 'leticiacaceresrosas@gmail.com', '$2y$10$iVDJyNH8VptokXjnpkRKaugB8OMRs6Ryn79JsnEcwhmwPU9QTEm2m', '2004-01-25'),
+(13, 'Larissa Ferreira', 'larissaferreirabarbosa31@gmail.com', '$2y$10$yMlQkRdpyRihI49sIRfPhOEFjfD/NR3NpFDd6MrmmIG2o8k2cCEym', '2004-10-07');
 
 -- --------------------------------------------------------
 
@@ -72,7 +74,7 @@ INSERT INTO `agendamento` (`cod_agendamento`, `nome_cliente`, `cod_cliente`, `fu
 (2, NULL, NULL, 'Kauan Martinez', 1, 'Banho (Básico)', 1, '12:30', '2023-02-20'),
 (3, NULL, NULL, 'Kauan Martinez', 1, 'Banho (Básico)', 1, '17:00', '2023-02-08'),
 (4, NULL, NULL, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '16:00', '2023-02-03'),
-(5, NULL, NULL, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '12:00', '2023-02-01'),
+(5, 'Larissa Ferreira', 2, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '12:00', '2023-02-01'),
 (6, NULL, NULL, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '14:30', '2023-02-19'),
 (7, NULL, NULL, 'Bianca do Nascimento', 2, 'Banho e tosa', 3, '12:00', '2023-02-03'),
 (8, NULL, NULL, 'Bianca do Nascimento', 2, 'Banho e tosa', 3, '15:00', '2023-02-14'),
@@ -90,7 +92,7 @@ INSERT INTO `agendamento` (`cod_agendamento`, `nome_cliente`, `cod_cliente`, `fu
 (20, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '16:30', '2023-02-13'),
 (21, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '13:00', '2023-02-13'),
 (22, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Básico)', 7, '17:30', '2023-02-13'),
-(23, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '15:00', '2023-03-15'),
+(23, 'Larissa Ferreira', 2, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '15:00', '2023-03-15'),
 (24, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '14:30', '2023-03-19'),
 (25, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '16:00', '2023-03-19'),
 (26, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Básico)', 7, '16:30', '2023-03-25'),
@@ -127,40 +129,11 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`matricula`, `nome`, `email`, `senha`, `data_nasc`, `endereco`, `cpf`, `telefone`, `nome_pet`, `nasc_pet`) VALUES
-(1, 'Kauan Martinez da Silva', 'kauannmartiinez.contato@gmail.com', '$2y$10$m6dB4FuRiPPJqXdGjHkSPeLP20e3u3X0Q5XjYi6/qhs9Hby9sMRpy', '2005-01-05', 'Rua D', '236.591.202-51', '(21) 86325-7744', 'Bolt', '2020-06-03'),
+(5, 'Leticia Cáceres', 'leticiacaceresrosas@gmail.com', '$2y$10$CGrXvBnWXYcL4KAuwcKB8e8SOVpJsa5dluwU6J0vHUJlCeZ00i7nC', '2004-01-25', 'Rua H', '036.598.420-72', '(21) 98765-3012', 'Floquinho', '2020-07-03'),
 (2, 'Larissa Ferreira', 'larissaferreirabarbosa31@gmail.com', '$2y$10$JNvFNSIX6gE3BX.q4LBX..uv9ltc2HY0VtxfUS0/0zZ469/wBzAYu', '2004-10-07', 'Rua B', '012.345.678-90', '(21) 98565-2520', 'Bolt', '2014-05-20'),
 (3, 'Pedro Rodrigues Moralles', 'pedrorodriguesmoralles@gmail.com', '$2y$10$MUQO7ltnRWPuQV5Kg9pOgOjkHc4zNkKJFZr1sFGsi1YE4IoCCoaTK', '2004-08-25', 'Rua M', '123.560.214-58', '(21) 96563-0288', 'Caramelo', '2016-03-15'),
-(4, 'Regiane Teixeira', 'regianeteixeira@gmail.com', '$2y$10$wiuR10.oWw9sYY/.RIUwb.tPiCWzzNYSSNcze24EZoUseiirYt/oC', '2004-02-06', 'Rua B', '123.456.987-50', '(21) 96325-8741', 'Guduco', '2019-06-03');
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `contato`
---
-
-CREATE TABLE `contato` (
-  `nome` varchar(30) NOT NULL,
-  `email` varchar(40) NOT NULL,
-  `telefone` varchar(20) NOT NULL,
-  `mensagem` varchar(250) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Extraindo dados da tabela `contato`
---
-
-INSERT INTO `contato` (`nome`, `email`, `telefone`, `mensagem`) VALUES
-('Carollyne Coelho', 'lololzinha225@gmail.com', '(21) 98547-5257', 'Mensagem teste!'),
-('Kauan Martinez', 'kauannmartiinez.contato@gmail.com', '(21) 86325-7744', 'Mensagem teste!'),
-('Larissa Ferreira', 'larissaferreira.1@petegato.com.br', '(21) 94545-1515', 'Olá, me chamo Larissa!\r\nAmei o site do Pet&Gatô House.'),
-('Regiane Teixeira', 'regiane.teixeira@petegato.com', '(21) 95626-2626', 'Olá, me chamo Regiane!\r\nAmei o site do Pet&Gatô House.'),
-('Pedro Moralles', 'pedro.moralles@petegato.com', '(21) 95562-6262', 'Olá, me chamo Pedro!\r\nAmei o site do Pet&Gatô House.					'),
-('Fátima Bernardes', 'fatimasbernardes@petegato.com', '(21) 97899-4962', 'Olá, me chamo Fátima!\r\nAmei o site do Pet&Gatô House.					'),
-('Ygor Canalli', 'ygorcanalli@petegato.com', '(21) 98584-9458', 'Olá, me chamo Ygor!\r\nAmei o site do Pet&Gatô House.'),
-('Alayne Duarte', 'alayneduarte@petegato.com', '(21) 95562-6220', 'Olá, me chamo Alayne!\r\nAmei o site do Pet&Gatô House.'),
-('Roberto Carlos', 'roertocarlos@petegato.com', '(21) 99895-2522', 'Olá, me chamo Roberto!\r\nAmei o site do Pet&Gatô House.'),
-('Neymar Júnior', 'neymarjunior@petegato.com', '(21) 95625-0051', 'Olá, me chamo Neymar!\r\nAmei o site do Pet&Gatô House.'),
-('Chris Flores', 'chrisflores@petegato.com', '(21) 95626-2623', 'Olá, me chamo Chris!\r\nAmei o site do Pet&Gatô House.');
+(4, 'Regiane Teixeira', 'regianeteixeira@gmail.com', '$2y$10$wiuR10.oWw9sYY/.RIUwb.tPiCWzzNYSSNcze24EZoUseiirYt/oC', '2004-02-06', 'Rua B', '123.456.987-50', '(21) 96325-8741', 'Guduco', '2019-06-03'),
+(6, 'Kauan Martinez', 'kauannmartiinez.contato@gmail.com', '$2y$10$7H34e/Ho5C4/JZGbv/G.Pu0wjAnKeu9qKI9ajUu.pCpsGQ7mEiBfW', '2005-01-05', 'Rua K', '236.595.525-02', '(21) 98555-2000', 'Boltzinho', '2019-02-06');
 
 -- --------------------------------------------------------
 
@@ -215,79 +188,68 @@ INSERT INTO `servicos` (`cod_servico`, `servico`, `descricao`, `preco`) VALUES
 (8, 'Clubinho (Plus)', 'Um pacote mensal para o seu pet com transporte incluso.', 'R$ 220,00');
 
 --
--- Índices para tabelas despejadas
+-- Indexes for dumped tables
 --
 
 --
--- Índices para tabela `administrador`
+-- Indexes for table `administrador`
 --
 ALTER TABLE `administrador`
   ADD PRIMARY KEY (`matricula`);
 
 --
--- Índices para tabela `agendamento`
+-- Indexes for table `agendamento`
 --
 ALTER TABLE `agendamento`
   ADD PRIMARY KEY (`cod_agendamento`);
 
 --
--- Índices para tabela `cliente`
+-- Indexes for table `cliente`
 --
 ALTER TABLE `cliente`
   ADD PRIMARY KEY (`matricula`);
 
 --
--- Índices para tabela `contato`
---
-ALTER TABLE `contato`
-  ADD PRIMARY KEY (`email`);
-
---
--- Índices para tabela `funcionario`
+-- Indexes for table `funcionario`
 --
 ALTER TABLE `funcionario`
   ADD PRIMARY KEY (`matricula`);
 
 --
--- Índices para tabela `servicos`
+-- Indexes for table `servicos`
 --
 ALTER TABLE `servicos`
   ADD PRIMARY KEY (`cod_servico`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de tabela `administrador`
+-- AUTO_INCREMENT for table `administrador`
 --
 ALTER TABLE `administrador`
-  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
+  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
--- AUTO_INCREMENT de tabela `agendamento`
+-- AUTO_INCREMENT for table `agendamento`
 --
 ALTER TABLE `agendamento`
   MODIFY `cod_agendamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
-
 --
--- AUTO_INCREMENT de tabela `cliente`
+-- AUTO_INCREMENT for table `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
+  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT de tabela `funcionario`
+-- AUTO_INCREMENT for table `funcionario`
 --
 ALTER TABLE `funcionario`
   MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
 --
--- AUTO_INCREMENT de tabela `servicos`
+-- AUTO_INCREMENT for table `servicos`
 --
 ALTER TABLE `servicos`
-  MODIFY `cod_servico` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
-COMMIT;
+  MODIFY `cod_servico` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
