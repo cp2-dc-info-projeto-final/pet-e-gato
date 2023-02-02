@@ -256,7 +256,7 @@ Para fazer agendamento de algum plano.
 
 ![Perfil botão](https://user-images.githubusercontent.com/95935490/214933102-5fc28866-e146-4ffa-8624-024bdcf486fc.png)
 
-- Em "Deseja criar uma nova senha". selecione "SIM".
+- Em "Deseja criar uma nova senha", selecione "SIM".
 
 ![Deseja criar uma senha nova](https://user-images.githubusercontent.com/95935490/214933495-e4df3fd0-5a84-4d43-a939-acdd958f8f40.png)
 
