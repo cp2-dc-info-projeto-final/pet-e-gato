@@ -222,7 +222,7 @@ Para fazer agendamento de algum plano.
 
 - Seu perfil será exibido com os seus dados. 
 
-![Perfil img](https://user-images.githubusercontent.com/95979551/215332144-9697fd7d-81fd-4977-a1e2-67f9a66f5a1d.png))
+![Perfil img](https://user-images.githubusercontent.com/95979551/215332144-9697fd7d-81fd-4977-a1e2-67f9a66f5a1d.png)
 
 
 **6.2 Editar dados**
