@@ -54,7 +54,7 @@
                             <br>
 
 							<div class="form-group h-100 text-center">
-                                <button class="btn btn-light rounded text-md-flex"><a href="login.php">Voltar</a></button>	
+                                <button class="btn btn-dark rounded text-md-flex"><a href="login.php">Voltar</a></button>	
                             </div>
 
                             <div class="form-group">

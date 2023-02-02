@@ -1,5 +1,7 @@
 <?php 
-    $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
+     include "autentica-adm.php";
+     include "conecta_mysql.php";
+     
      $matricula = $_GET ["matricula"];
      $sql= "SELECT * FROM funcionario WHERE matricula = $matricula;";
      $res= mysqli_query($mysqli,$sql);

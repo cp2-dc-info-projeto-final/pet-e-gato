@@ -8,7 +8,7 @@ $editar = $_REQUEST['operacao_editar'];
 if($editar == "editar"){
     $cpf = $_REQUEST["cpf"];
     $nome = $_REQUEST["nome"]; 
-    $email = $_REQUEST["email"];
+    $email_cliente = $_REQUEST["email"];
     $data_nasc = $_REQUEST["data_nasc"];
     $endereco = $_REQUEST["endereco"];
     $senha = $_REQUEST["senha"];
@@ -19,7 +19,7 @@ if($editar == "editar"){
     $senha_cript = password_hash($senha, PASSWORD_DEFAULT);
 
     if(empty($senha)){
-        $sql = "UPDATE cliente SET nome='$nome', email='$email', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
+        $sql = "UPDATE cliente SET nome='$nome', email='$email_cliente', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
         mysqli_query($mysqli,$sql);
 
         $_SESSION['msg_rec'] = "<div class='alert alert-success'>Cadastro atualizado!</div>";
@@ -28,12 +28,12 @@ if($editar == "editar"){
     }
 
     else{
-        $sql = "UPDATE cliente SET nome='$nome', email='$email', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', senha='$senha_cript', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
+        $sql = "UPDATE cliente SET nome='$nome', email='$email_cliente', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', senha='$senha_cript', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
 
         mysqli_query($mysqli,$sql);
 
         include "envia_email.php";
-        $para = $email;
+        $para = $email_cliente;
         $assunto = utf8_decode("Seu cadastro foi atualizado! | Pet&Gatô");
         $mensagem = utf8_decode("A Pet&Gatô detectou uma atualização cadastral em sua conta. Caso não tenha sido você, envie um e-mail para petegatooficial1@gmail.com que te ajudaremos a recuperar o seu acesso.");
         envia_email($para, $assunto, $mensagem);

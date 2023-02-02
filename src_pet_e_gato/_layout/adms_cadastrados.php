@@ -1,6 +1,7 @@
 <?php
 
 include "conecta_mysql.php";
+include "autentica-adm.php";
 
 session_start();
 

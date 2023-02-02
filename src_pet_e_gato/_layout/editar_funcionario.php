@@ -2,6 +2,7 @@
 
 session_start();
 include "conecta_mysql.php";
+include "autentica-adm.php";
 
 $editar = $_REQUEST['operacao_editar'];
 

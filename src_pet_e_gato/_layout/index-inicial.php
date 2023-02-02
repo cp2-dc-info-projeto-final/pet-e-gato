@@ -27,7 +27,7 @@
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
+              <a href="index-inicial.php"><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -59,10 +59,6 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="contato-cliente.php">Contato</a>
-                  </li>
-
-                  <li class="nav-item">
                     <a class="nav-link" href="#sobre">Sobre</a>
                   </li>
 
@@ -85,8 +81,8 @@
       <div class="col-md-6 align-self-center">
         <h1>O PetShop mais delicioso para o seu pet!</h1>
         <h4>Contrate já um de nossos serviços.</h4>
-        <a href="#" class="btn btn-primary button">Contato</a>
-        <a href="#" class="btn btn-outline-secondary button">Serviços</a>
+        <a href="seleciona_servico" class="btn btn-primary button">Agendar</a>
+        <a href="servicos_cliente.php" class="btn btn-outline-secondary button">Serviços</a>
       </div>
       <div class="col-md-6 align-self-center text-center">
         <img src="_img/pet_img.svg" class="img-fluid" alt="Um gatinho e um cachorrinho.">
@@ -175,10 +171,7 @@
           Acesso ao site
         </h6>
         <p>
-          <a href="servicos.php" class="text-reset">Serviços</a>
-        </p>
-        <p>
-          <a href="contato.php" class="text-reset">Contato</a>
+          <a href="servicos_cliente.php" class="text-reset">Serviços</a>
         </p>
         <p>
           <a href="#!" class="text-reset">Sobre</a>

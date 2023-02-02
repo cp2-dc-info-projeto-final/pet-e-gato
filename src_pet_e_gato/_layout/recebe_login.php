@@ -8,7 +8,6 @@ session_start();
     $senha = $_POST["senha"];
 
     // Realiza a consulta no banco de dados
-    $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
     $sql = "SELECT * FROM cliente WHERE email = '$email';";
     $res = mysqli_query($mysqli, $sql);
 

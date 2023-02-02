@@ -64,11 +64,7 @@ $funcionario = mysqli_fetch_array ($res);
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="calendario_func.php">Agendamentos</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
+                    <a class="nav-link" href="calendario_func.php">Calendário</a>
                   </li>
 
                   <li class="nav-item">
@@ -177,3 +173,6 @@ $funcionario = mysqli_fetch_array ($res);
             </div>
         </div>
     </div>
+
+</body>
+</html>

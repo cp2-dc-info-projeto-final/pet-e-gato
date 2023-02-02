@@ -52,7 +52,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="calendario_func.php">Agendamentos</a>
+                    <a class="nav-link" href="calendario_func.php">Calendário</a>
                   </li>
 
                   <li class="nav-item">

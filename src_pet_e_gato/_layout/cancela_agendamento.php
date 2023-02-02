@@ -14,7 +14,6 @@ if (!mysqli_query($mysqli,$sql)){
 
 $_SESSION['mensagem_agendamento'] = "<div class='alert alert-success'>Agendamento cancelado!</div>";
 
-
 header ('location: calendario_cliente.php');
 
 ?>

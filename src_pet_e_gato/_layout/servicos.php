@@ -43,11 +43,7 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="contato.php">Contato</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#sobre">Sobre</a>
                   </li>
 
                     <div class="navbar-collapse" id="nav-content">
@@ -222,7 +218,7 @@
   
 
     <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted" id="rodape">
+<footer class="text-center text-lg-start bg-light text-muted" id="sobre">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
  </section>
@@ -254,9 +250,6 @@
           </h6>
           <p>
             <a href="servicos.php" class="text-reset">Serviços</a>
-          </p>
-          <p>
-            <a href="contato.php" class="text-reset">Contato</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Sobre</a>

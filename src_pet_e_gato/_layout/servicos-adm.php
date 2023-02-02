@@ -158,7 +158,7 @@ include "conecta_mysql.php";
                                     <tbody>
 
                                     <?php
-                                        $sql= "SELECT * FROM servicos";
+                                        $sql= "SELECT * FROM servicos ORDER BY cod_servico ASC";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
 

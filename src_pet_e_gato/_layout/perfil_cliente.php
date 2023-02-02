@@ -44,7 +44,7 @@ $cliente = mysqli_fetch_array ($res);
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="18%"/></a>
+              <a href="index-inicial.php"><img src="_img/logo_petgato.png" class="img-center" width="13%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -68,15 +68,11 @@ $cliente = mysqli_fetch_array ($res);
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="agendamento.php">Agendamento</a>
+                    <a class="nav-link" href="seleciona_servico.php">Agendamento</a>
                   </li>
 
                   <li class="nav-item">
                     <a class="nav-link" href="calendario_cliente.php">Calendário</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="contato-cliente.php">Contato</a>
                   </li>
 
                   <li class="nav-item">
@@ -127,7 +123,7 @@ $cliente = mysqli_fetch_array ($res);
                     </div>
 
                     <div class="form-group d-flex">
-                    <div class="col-md-12"><input type="email" name="email" class="form-control rounded-left" placeholder="Email" value="<?php echo $cliente['email']?>"></div>
+                      <div class="col-md-12"><input type="email" name="email" class="form-control rounded-left" placeholder="Email" value="<?php echo $cliente['email']?>"></div>
                     </div>
 
                     <div class="form-group d-flex">

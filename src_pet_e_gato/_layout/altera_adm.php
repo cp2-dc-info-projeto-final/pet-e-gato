@@ -1,4 +1,5 @@
 <?php 
+     include "autentica-adm.php";
      include "conecta_mysql.php";
 
      $matricula = $_GET ["matricula"];
@@ -113,7 +114,7 @@
 								
                 </div>
 								<div class="form-group container">
-                  <button class="btn btn-light rounded text-md-flex"><a href="administradores.php">Voltar</a></button>	
+                  <button class="btn btn-dark rounded text-md-flex"><a href="administradores.php">Voltar</a></button>	
 								</div>
 	            </div>
 

@@ -29,7 +29,7 @@ include "conecta_mysql.php";
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
+              <a href="index-inicial.php"><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -58,14 +58,6 @@ include "conecta_mysql.php";
 
                   <li class="nav-item">
                     <a class="nav-link" href="calendario_cliente.php">Calendário</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="contato-cliente.php">Contato</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
                   </li>
 
                   <li class="nav-item">
@@ -138,6 +130,7 @@ include "conecta_mysql.php";
                                       <th scope="col">HORA</th>
                                       <th scope="col">SERVIÇO</th>
                                       <th scope="col">FUNCIONÁRIO</th>
+                                      <th scope="col">REAGENDAR</th>
                                       <th scope="col">CANCELAR</th>
                                     </tr>
                                     </thead>
@@ -163,7 +156,10 @@ include "conecta_mysql.php";
                                             <td>".$agendamento['hora']."</td>
                                             <td>".utf8_encode($agendamento['servico'])."</td>
                                             <td>".utf8_encode($agendamento['funcionario'])."</td>
-                                            <td><a class='btn btn-sm btn-danger' href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]'>
+                                            <td><a class='btn btn-sm btn-primary' href='novo_horario.php?cod_agendamento=$agendamento[cod_agendamento]'>
+                                            <img src='_img/agendar.svg' width='25'></a>
+                                            </td>
+                                            <td><a class='btn btn-sm btn-danger' data-toggle='modal' data-target='#exampleModal'>
                                             <img src='_img/cancela.svg' width='25'></a>
                                             </td>
                                             </tr>";
@@ -184,7 +180,7 @@ include "conecta_mysql.php";
                 </div>
 
    
-                <!-- Modal 
+                <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
@@ -198,12 +194,22 @@ include "conecta_mysql.php";
                         </div>
                         <div class="modal-footer">
                           <input type="button" class="btn btn-primary" data-dismiss="modal" value="Voltar"></input>
-                          <a  type="submit" value="Cancelar agendamento" name="Cancela agendamento" type="button" class="btn btn-danger">Cancelar agendamento</a>
+                          <a <?php 
+
+                          $sql = "SELECT * FROM agendamento WHERE cod_cliente = '$cod_cliente'";
+                          $res= mysqli_query($mysqli,$sql);
+                          $linhas= mysqli_num_rows($res);
+                          
+                          for ($i = 0; $i < $linhas; $i++){
+                            $var = mysqli_fetch_array ($res);                            
+                          echo "href='cancela_agendamento.php?cod_agendamento=$var[cod_agendamento]'"; } ?> value='Cancelar agendamento' name='Cancela agendamento' type='button' class='btn btn-danger'>Cancelar agendamento</a>
+                          
+                        
                         </div>
                       </div>
                     </div>
                 </div>
-                                      -->
+
 
             </div>
         </div>

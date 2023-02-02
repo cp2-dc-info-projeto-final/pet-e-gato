@@ -90,9 +90,13 @@
               <br>
 
             <label for="data_nasc">Data de Nascimento:</label>
-            <div class="form-group d-flex label-float">
-                <input type="date" class="form-control rounded-left" required="required" id="data_nasc" name="data_nasc" max="<?php echo date("Y-m-d", strtotime('-18year')); ?>>
+            <div class="form-group d-flex label-float password">
+                <input type="date" class="form-control rounded-left" required="required" id="data_nasc" name="data_nasc" max="<?php echo date("Y-m-d", strtotime('-18year')); ?>">
+
+				<small class="text-black-100">*Idade mínima: 18 anos</small>
             </div>
+
+			  <br>
           
           </fieldset>
 

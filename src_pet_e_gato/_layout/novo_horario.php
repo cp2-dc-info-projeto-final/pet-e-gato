@@ -12,7 +12,7 @@ $cliente = mysqli_fetch_array ($res);
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Agendamento | Pet&Gatô</title>
+    <title>Reagendamento | Pet&Gatô</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -46,7 +46,7 @@ $cliente = mysqli_fetch_array ($res);
 		      <span class="fa fa-calendar"></span>
 		    </div>
         
-        <h3 class="text-center mb-4">Agendamento de serviço</h3>
+        <h3 class="text-center mb-4">Reagendar consulta</h3>
 
           <fieldset>
           
@@ -58,19 +58,27 @@ $cliente = mysqli_fetch_array ($res);
                   echo $_SESSION['mensagem_agendamento'];
                   unset($_SESSION['mensagem_agendamento']);
                 }
+
+              $cod_agendamento = $_REQUEST["cod_agendamento"];
+
             ?>
             
-            <form action="recebe_agendamento.php" method="POST" class="login-form"> 
+            <form action="recebe_novohorario.php" method="POST" class="login-form"> 
             <input type="hidden" name="operacao" value="agendamento">
             <input type="hidden" name="cod_cliente" value="<?php echo $cliente['matricula']?>">
+            <input type="hidden" name="cod_agendamento" value="<?php echo $cod_agendamento ?>"> 
 
                 <div class="form-group">
-                <label for="hora">Escolha uma data e um horário:</label>
+                <label for="hora">Escolha uma nova data e novo um horário:</label>
 		      			<select name="agendamento" required="required" class="form-control rounded-left">
                             
                             <?php
 
-                            $cod_servico = $_REQUEST["cod_servico"];
+                            $sql= "SELECT * FROM agendamento WHERE cod_agendamento = '$cod_agendamento'";
+                            $res= mysqli_query($mysqli,$sql);
+                            $agendamento= mysqli_fetch_array($res);
+
+                            $cod_servico= $agendamento["cod_servico"];
 
                             $sql= "SELECT * FROM agendamento WHERE cod_servico = '$cod_servico' ORDER BY dia ASC";
                             $res= mysqli_query($mysqli,$sql);
@@ -81,12 +89,12 @@ $cliente = mysqli_fetch_array ($res);
                               echo "<option value=''>Data e Horário</option>";
 
                               for ($i = 0; $i < $linhas; $i++){
-                                  $agendamento = mysqli_fetch_array ($res);
+                                  $servico = mysqli_fetch_array ($res);
 
-                                if(empty($agendamento['cod_cliente'])){ 
+                                if(empty($servico['cod_cliente'])){ 
 
                                     echo"
-                                    <option value=".$agendamento['cod_agendamento'].">".date('d/m/Y', strtotime($agendamento['dia'])).' - '.$agendamento['hora']."</option>";
+                                    <option value=".$servico['cod_agendamento'].">".date('d/m/Y', strtotime($servico['dia'])).' - '.$servico['hora']."</option>";
 
                                 }
                               }
@@ -105,12 +113,12 @@ $cliente = mysqli_fetch_array ($res);
 								
                 </div>
                 <div class="form-group container">
-                  <button class="btn btn-dark rounded text-md-flex"><a href="seleciona_servico.php">Voltar</a></button>	
+                  <button class="btn btn-dark rounded text-md-flex"><a href="calendario_cliente.php">Voltar</a></button>	
                 </div>
 	            </div>
 
 	            <div class="form-group">
-	            	<button type="submit" class="btn btn-primary rounded submit p-3 px-5">Cadastrar</button>
+	            	<button type="submit" class="btn btn-primary rounded submit p-3 px-5">Reagendar</button>
 	            </div>
 
 	          </form>

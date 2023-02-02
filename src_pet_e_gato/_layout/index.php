@@ -47,10 +47,6 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="contato.php">Contato</a>
-                  </li>
-
-                  <li class="nav-item">
                     <a class="nav-link" href="#rodape">Sobre</a>
                   </li>
 
@@ -169,9 +165,6 @@
           </h6>
           <p>
             <a href="servicos.php" class="text-reset">Serviços</a>
-          </p>
-          <p>
-            <a href="contato.php" class="text-reset">Contato</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Sobre</a>

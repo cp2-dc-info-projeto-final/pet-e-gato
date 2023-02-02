@@ -16,12 +16,12 @@
   </head>
   <body class="fadeIn">
 
-    <div id="header">
+  <div id="header">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
               
               <a class="navbar-brand" href="#"></a>
-              <a href="index.php"><img src="_img/logo_petgato.png" class="img-center" width="20%"/></a>
+              <a href="index-inicial.php"><img src="_img/logo_petgato.png" class="img-center" width="15%"/></a>
               
               <button 
                 class="navbar-toggler" 
@@ -50,10 +50,6 @@
 
                   <li class="nav-item">
                     <a class="nav-link" href="calendario_cliente.php">Calendário</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="contato-cliente.php">Contato</a>
                   </li>
 
                   <li class="nav-item">
@@ -257,10 +253,7 @@
           Acesso ao site
         </h6>
         <p>
-          <a href="servicos.php" class="text-reset">Serviços</a>
-        </p>
-        <p>
-          <a href="contato.php" class="text-reset">Contato</a>
+          <a href="servicos_cliente.php" class="text-reset">Serviços</a>
         </p>
         <p>
           <a href="#!" class="text-reset">Sobre</a>
@@ -292,8 +285,8 @@
 
 <!-- Copyright -->
 <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-  © 2022 Copyright:
-  <a class="text-reset fw-bold" href="#">Pet&Gatô - House</a>
+  © 2023 Copyright:
+  <a class="text-reset fw-bold" href="index-inicial.php">Pet&Gatô - House</a>
 </div>
 <!-- Copyright -->
 </footer>

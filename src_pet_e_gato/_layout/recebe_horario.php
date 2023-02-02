@@ -1,8 +1,9 @@
-<?php include "autentica-adm.php" ?>
-
 <?php
 
+include "autentica-adm.php";
 include "conecta_mysql.php";
+
+date_default_timezone_set('America/Sao_Paulo');
  
  $matricula = utf8_decode($_POST["funcionario"]); 
  $cod_servico = utf8_decode($_POST["servico"]);
@@ -25,6 +26,24 @@ if ($operacao == "agendamento"){
     $nome_funcionario = $funcionario["nome"];
     $nome_servico = $servico["servico"];
 
+    $data = date_create()->format('Y-m-d');
+    $horario = date_create()->format('H:i');
+
+    if($dia < $data){
+        $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>A data ".date('d/m/Y', strtotime($dia))." é inválida. Escolha a data atual ou posterior para cadastrar.</div>";
+        header("Location: cadastrar_horario.php");
+        exit;
+    }
+
+    if($data == $dia){
+      if($hora < $horario){
+  
+          $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>O horário ".$hora." é inválido. Escolha o horário atual ou posterior para cadastrar.</div>";
+          header("Location: cadastrar_horario.php");
+          exit;
+      }
+  }
+
 $sql= "SELECT * FROM agendamento";
 $res= mysqli_query($mysqli,$sql);
 $linhas= mysqli_num_rows($res);
@@ -45,33 +64,6 @@ for ($i = 0; $i < $linhas; $i++){
         }
     }
 }
-
-
-/* $sql = "SELECT * FROM cliente WHERE email = '$email';";
-$res= mysqli_query($mysqli,$sql);
-$cliente = mysqli_fetch_array ($res);
-
-    if($cliente ['nome'] != $nome){
-
-      $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>O nome não corresponde ao cadastrado.</div>";
-      header("Location: agendamento.php");
-      exit;
-}
-
-    if($cliente ['cpf'] != $cpf){
-
-      $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>O CPF não corresponde ao cadastrado.</div>";
-      header("Location: agendamento.php");
-      exit;
-}
-
-    if($cliente ['email'] != $email){
-
-      $_SESSION['mensagem_agendamento'] = "<div class='alert alert-danger'>O email não corresponde ao cadastrado.</div>";
-      header("Location: agendamento.php");
-      exit;
-}
-*/
                                
 
     $sql = "INSERT INTO agendamento (funcionario, cod_funcionario, servico, cod_servico, hora, dia) VALUES ('$nome_funcionario','$matricula', '$nome_servico', '$cod_servico', '$hora', '$dia');";
@@ -79,11 +71,6 @@ $cliente = mysqli_fetch_array ($res);
 
     $_SESSION['mensagem_agendamento'] = "<div class='alert alert-success' role='alert'> Horário cadastrado!</div>";
     header("Location: cadastrar_horario.php");
-
-      /*if(!mysqli_query($mysqli,$sql)){
-          echo mysqli_error($mysqli);
-          exit;
-      }*/
 
 }
    
