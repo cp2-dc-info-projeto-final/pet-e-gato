@@ -154,6 +154,7 @@ Para fazer agendamento de algum plano.
 
 - O calendário será exibido com as marcações feitas, assim como horário e data. 
 
+![IMG-20230202-WA0014](https://user-images.githubusercontent.com/95935490/216381810-b78861aa-0186-4e53-b3fe-b75d18179289.jpg)
 
 
 **4.3 Editar Agendamento** 
