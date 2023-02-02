@@ -11,7 +11,7 @@ Projeto Final do Curso Técnico Integrado de Desenvolvimento de Sistemas - Colé
  - Bianca do Nascimento Eiras 
  - Carollyne Coelho do Nascimento 
  - Kauan Martinez da Silva
- - Leticia Cáceres Rosas
+ - Letícia Cáceres Rosas
 
  ## Descrição do Projeto
 
