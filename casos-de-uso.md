@@ -4,18 +4,18 @@
 
  - [CDU 01](#CDU-01-Cadastro-do-funcionário): Cadastro do funcionário
  - [CDU 02](#CDU-02-Cadastro-do-tutor): Cadastro do tutor
- - [CDU 03](#CDU-03): Manter funcionário
- - [CDU 04](#CDU-04): Manter tutor
- - [CDU 05](#CDU-05): Autenticação de login 
- - [CDU 06](#CDU-06): Visualizar calendário
- - [CDU 07](#CDU-07): Visualizar perfil
- - [CDU 08](#CDU-08): Manter agendamento
- - [CDU 09](#CDU-09): Manter serviço
- - [CDU 10](#CDU-10): Recuperar senha
- - [CDU 11](#CDU-11): Redefinição de senha
- - [CDU 12](#CDU-12): Disponibilizar horário
- - [CDU 13](#CDU-13): Manter administrador
- - [CDU 14](#CDU-14): Logout
+ - [CDU 03](#CDU-03-Manter-funcionário): Manter funcionário
+ - [CDU 04](#CDU-04-Manter-tutor): Manter tutor
+ - [CDU 05](#CDU-05-Autenticação): Autenticação 
+ - [CDU 06](#CDU-06-Visualizar-calendário): Visualizar calendário
+ - [CDU 07](#CDU-07-Visualizar-perfil): Visualizar perfil
+ - [CDU 08](#CDU-08-Manter-agendamento): Manter agendamento
+ - [CDU 09](#CDU-09-Manter-serviço): Manter serviço
+ - [CDU 10](#CDU-10-Recuperar-senha): Recuperar senha
+ - [CDU 11](#CDU-11-Redefinição-de-senha): Redefinição de senha
+ - [CDU 12](#CDU-12-Disponibilizar-horário): Disponibilizar horário
+ - [CDU 13](#CDU-13-Manter-administrador): Manter administrador
+ - [CDU 14](#CDU-14-Logout): Logout
 
  
 
@@ -190,7 +190,7 @@ Ator: Tutor
 
 
  
-### CDU 05 Autenticação de login
+### CDU 05 Autenticação 
 
 Ator: Tutor, administrador e funcionário
 
