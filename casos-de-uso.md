@@ -75,7 +75,7 @@ Ator: Tutor
 **Fluxo Principal**
 
 1. Usuário seleciona a opção “Cadastrar-se”. 
-2. Usuário insere os dados solicitados: nome completo, CPF, email, senha, data de nascimento, endereço, telefone, nome do pet e data de nascimento do pet.
+2. Usuário insere os dados solicitados: nome completo, CPF, e-mail, senha, data de nascimento, endereço, telefone, nome do pet e data de nascimento do pet.
 3. Sistema armazena os dados e adiciona novo cliente. 
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 5. Sistema redireciona para login.
@@ -88,7 +88,7 @@ Ator: Tutor
 **Fluxo Alternativo A**
 
 1. Administrador seleciona a opção “Cadastrar-se” 
-2. Administrador insere os dados solicitados: nome completo, CPF, email, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet, data de nascimento do pet.
+2. Administrador insere os dados solicitados: nome completo, CPF, e-mail, senha, data de nascimento, endereço, telefone, nome do pet, idade do pet, data de nascimento do pet.
 3. Sistema analisa os dados. 
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
