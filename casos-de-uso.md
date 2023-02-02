@@ -524,7 +524,7 @@ Ator: Administrador
 3. Sistema apresenta funcionários cadastrados.
 
 
-### CDU 14 Fazer logout
+### CDU 14 Logout
 
 Ator: Administrador, funcionário e tutor
 
