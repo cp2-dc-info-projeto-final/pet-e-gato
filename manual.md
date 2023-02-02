@@ -59,7 +59,8 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 - Insira o email e a senha e aperte em "Entrar".
 
-![image](https://user-images.githubusercontent.com/95979551/208579005-74b9e85d-e6ff-4f46-961a-dee54de268f4.png)
+![Login 2 funcionário](https://user-images.githubusercontent.com/95935490/216327788-3587544c-2994-49f9-a204-1ec0ca6f2d94.png)
+
 
 - Seu login de funcionário será feito com sucesso.
 
@@ -75,7 +76,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
 - Insira o email e a senha e aperte em "Login".
 
-![image](https://user-images.githubusercontent.com/95979551/208579410-e4628c6c-2b0f-4d76-bf17-58c17df2edef.png)
+![Login2 adm](https://user-images.githubusercontent.com/95935490/216327849-c3b4575c-df7b-4fe9-bc1b-178d8f555e07.png)
 
 - Seu login de administrador será feito com sucesso.
 
