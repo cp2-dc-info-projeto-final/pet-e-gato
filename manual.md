@@ -14,7 +14,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Cadastrar serviços (Página inicial - adm)](#1-1-Cadastrar-serviços)
  - [Cadastrar funcionário (Página  inicial - adm)]()
  - [Cadastrar administrador(Página  inicial - adm)]()
- - [Cadastrar Horário (Página inicial - adm]()
+ - [Cadastrar horário (Página inicial - adm]()
  - [Exibir clientes (Página  inicial - adm)]()
  - [Consultar funcionários (Página  inicial - adm)]()
  - [Consultar administradores (Página  inicial - adm)]()
