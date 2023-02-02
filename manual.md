@@ -271,7 +271,7 @@ Para fazer agendamento de algum plano.
 
 ## 1. PÁGINA INICIAL - Adm
 
-**1.1 Cadastrar serviços**
+######1.1 Cadastrar serviços
 
 - Clique em "Cadastrar".
 
