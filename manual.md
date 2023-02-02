@@ -6,7 +6,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
 
  - [Login](#1-LOGIN)
  - [Logout](#2-LOGOUT)
- - [Cadastro](#3-CADASTRO)
+ - [Cadastro](#3-CADASTRAR)
  - [Agendamento](#4-AGENDAMENTO)
  - [Recuperar senha](#5-RECUPERAR-SENHA)
  - [Visualizar perfil](#6-VISUALIZAR-PERFIL)
