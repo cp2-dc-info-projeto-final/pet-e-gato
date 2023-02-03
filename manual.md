@@ -12,6 +12,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Visualizar perfil](#6-VISUALIZAR-PERFIL)
  - [Redefinir senha](#7-REDEFINIR-SENHA)
  - [Cadastrar servicos (Pagina  inicial - adm)](#1-1-Cadastrar-servicos)
+ - [Login](#8-LOGIN)
  - [Cadastrar funcionário (Página  inicial - adm)]()
  - [Cadastrar administrador(Página  inicial - adm)]()
  - [Cadastrar horário (Página inicial - adm)]()
@@ -290,7 +291,7 @@ Para fazer agendamento de algum plano.
 ![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
 
-
+## 8. LOGIN
 
 **1.2 Cadastrar funcionário**
 
