@@ -20,15 +20,11 @@ O sistema deve exibir uma aba contendo as datas e horários disponíveis para o 
 
 ### RF 05
 
-O sistema deverá armazenar o endereço do cliente caso ele escolha o serviço de transporte dos animais.
+O sistema não poderá permitir agendamentos ou cadastros duplicados.
 
 ### RF 06
 
-O sistema não poderá permitir agendamentos ou cadastros duplicados.
-
-### RF 07 
-
-O sistema deverá conter uma opção de cancelamento de agendamentos
+O sistema deverá conter uma opção de cancelamento de agendamentos.
 
 
 ## Requisitos Não-Funcionais
