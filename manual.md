@@ -270,7 +270,7 @@ Para fazer agendamento de algum plano.
 
 ## 1. PÁGINA INICIAL - Adm
 
-## 1.1 Cadastrar serviços
+### 1.1 Cadastrar serviços
 
 - Clique em "Cadastrar".
 
@@ -290,7 +290,7 @@ Para fazer agendamento de algum plano.
 
 
 
-**1.2 Cadastrar funcionário**
+### 1.2 Cadastrar funcionário
 
 - Clique em "Cadastrar".
 - Clique em "Funcionários".
@@ -307,7 +307,7 @@ Para fazer agendamento de algum plano.
 ![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
 
-**1.3 Cadastrar Administrador**
+### 1.3 Cadastrar Administrador
 
 - Clique em "Cadastrar".
 - Clique em "Administrador".
@@ -323,7 +323,7 @@ Para fazer agendamento de algum plano.
 
 ![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
-**1.4 Cadastrar Horário (Disponibilizar horário)**
+### 1.4 Cadastrar Horário (Disponibilizar horário) 
 
 - Clique em "Cadastrar". 
 - Clique em "Horários". 
@@ -338,7 +338,7 @@ Para fazer agendamento de algum plano.
 
 ![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
-**2.1 Exibir clientes**
+### 2.1 Exibir clientes
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -352,7 +352,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215335940-c5d0cd2d-a449-4993-942f-0e1e07a97944.png)
 
-**3.1 Consultar funcionários**
+### 3.1 Consultar funcionários
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -366,7 +366,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215336394-191be942-6cd9-4267-9323-faca2e90bfee.png)
 
-**3.2 Consultar administradores**
+### 3.2 Consultar administradores
 
 - Em sua conta administrador, clique em "Empresa". 
 
@@ -381,7 +381,7 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/216078606-8cd5e785-5bca-4e9d-8291-1227fbe5d3cf.png)
 
 
-**4.1 Editar funcionários**
+### 4.1 Editar funcionários
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -401,7 +401,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
-**4.2 Editar serviços**
+### 4.2 Editar serviços
 
 - Em sua conta administrador,  clique em "Serviço". 
 
@@ -416,7 +416,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/208578026-624e8b8e-3027-4def-8178-82ac15e8fc6c.png)
 
-**4.3 Editar administradores**
+### 4.3 Editar administradores
 
 - Em sua conta administrador, clique em "Empresa".
 
@@ -437,7 +437,7 @@ Para fazer agendamento de algum plano.
 ![image](https://user-images.githubusercontent.com/95979551/216079414-d5b0aafd-fee3-4bae-8567-28933e12f593.png)
 
 
-**5.1 Excluir funcionário**
+### 5.1 Excluir funcionário
 
 - Em sua conta administrador, clique em "Empresa".  
 
@@ -455,7 +455,7 @@ Para fazer agendamento de algum plano.
 
 - Exclua funcionário
 
-**5.2 Excluir serviços**
+### 5.2 Excluir serviços
 
 - Em sua conta administrador, clique em "Serviços".
 
@@ -468,7 +468,7 @@ Para fazer agendamento de algum plano.
 
 - Exclua serviço. 
 
-**5.3 Excluir administradores**
+### 5.3 Excluir administradores
 
 -Em sua conta administrador, clique em "Empresa".
 
@@ -489,14 +489,14 @@ Para fazer agendamento de algum plano.
 ## 1. PÁGINA INICIAL - Funcionário
 
 
-**1.1 Acessar calendário**
+### 1.1 Acessar calendário
 
 - Faça "Login". 
 - Clique em "Calendário".
 
 ![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
 
-**2.1 Acessar perfil**
+### 2.1 Acessar perfil
 
 - Faça "Login". 
 - Clique em "Perfil".
