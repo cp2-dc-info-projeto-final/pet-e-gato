@@ -14,7 +14,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Cadastrar serviços (Página  inicial - adm)](#11-Cadastrar-serviços)
  - [Cadastrar funcionário (Página  inicial - adm)](#12-Cadastrar-funcionário)
  - [Cadastrar administrador(Página  inicial - adm)](#13-Cadastrar-Administrador)
- - [Cadastrar horário (Página inicial - adm)](14-Cadastrar-Horário-Disponibilizar-horário-)
+ - [Cadastrar horário (Página inicial - adm)](14-Cadastrar-Horário)
  - [Exibir clientes (Página  inicial - adm)]()
  - [Consultar funcionários (Página  inicial - adm)]()
  - [Consultar administradores (Página  inicial - adm)]()
@@ -323,7 +323,7 @@ Para fazer agendamento de algum plano.
 
 ![Cadastrar botão ](https://user-images.githubusercontent.com/95935490/214922484-5e973d75-e39a-4977-b621-e62cc71c1b0a.png)
 
-### 1.4 Cadastrar Horário (Disponibilizar horário) 
+### 1.4 Cadastrar Horário 
 
 - Clique em "Cadastrar". 
 - Clique em "Horários". 
