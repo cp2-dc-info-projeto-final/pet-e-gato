@@ -395,7 +395,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95935490/216745089-149c53ff-d65b-4d5d-8cc0-d98d1b784df5.png)
 
-### 3.4  Consultar serviços
+### 3.4 Consultar serviços
 
 - Em sua conta administrador, clique em Serviços.  
 
