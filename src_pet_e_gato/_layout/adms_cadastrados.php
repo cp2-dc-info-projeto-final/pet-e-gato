@@ -43,12 +43,15 @@ if($operacao == "administrador"){
     $senha_cript = password_hash($senha, PASSWORD_DEFAULT);
 
     $sql = "INSERT INTO administrador (nome, email, senha, data_nasc) VALUES ('$nome','$email','$senha_cript','$data_nasc');";  
-    $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
+    mysqli_query($mysqli,$sql);
+
+    include "envia_email.php";
+    $para = $email;
+    $assunto = utf8_decode("Seja bem-vindo | Pet&Gatô");
+    $mensagem = utf8_decode("<h2><u>Olá ".utf8_encode($nome)."!</u></h2> <br> <small>Administrador Pet&Gatô</small> <h3>Agora você tem acesso ao Dashboard da Pet&Gatô House!</h3> <h4>Faça login com os seus dados e altere sua senha provisória na aba perfil após logar.</h4> <br> <h2>E-mail:</h2> $email <br> <h2>Senha provisória:</h2> $senha <br> <smallPet&Gatô House</small>");
+    envia_email($para, $assunto, $mensagem);
     
-      if(!mysqli_query($mysqli,$sql)){
-        echo mysqli_error($mysqli);
-      }
- 
+      
       $_SESSION['mensagem_erro'] = "<div class='alert alert-success'>Cadastro realizado com sucesso!</div>";
       header ('location: cadastro_adm.php');
 

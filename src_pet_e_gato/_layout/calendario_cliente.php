@@ -21,6 +21,7 @@ include "conecta_mysql.php";
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
   </head>
   <body class="fadeIn">
 
@@ -182,7 +183,7 @@ include "conecta_mysql.php";
                                                       <input type='button' class='btn btn-primary' data-dismiss='modal' value='Voltar'></input>
                             
                                                       <a                           
-                                                      href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]' type='button' class='btn btn-danger'>Excluir</a>
+                                                      href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]' type='button' class='btn btn-danger'>Cancelar</a>
                             
                                                     </div>
                             
@@ -226,15 +227,37 @@ include "conecta_mysql.php";
 
 <!-- Copyright -->
 <div class="text-center p-4 rodapeposicao" style="background-color: rgba(0, 0, 0, 0.05);">
-  © 2022 Copyright:
+  © 2023 Copyright:
   <a class="text-reset fw-bold" href="index-inicial.php">Pet&Gatô - House</a>
 </div>
 <!-- Copyright -->
 </footer>
 <!-- Footer -->
 
-<a id="topo-link" href="#">&#9650;</a>
+<a href="#" class="topo-link">&#9650;</a>
 
 </body>
+
+<script> 
+  
+      jQuery(document).ready(function() {
+                // Exibe ou oculta o botão
+                jQuery(window).scroll(function() {
+                    if (jQuery(this).scrollTop() > 200) {
+                        jQuery('.topo-link').fadeIn(200);
+                    } else {
+                        jQuery('.topo-link').fadeOut(200);
+                    }
+                });
+                
+                // Faz animação para subir
+                jQuery('.topo-link').click(function(event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({scrollTop: 0}, 300);
+                })
+            });
+
+</script>
+
 
 </html>

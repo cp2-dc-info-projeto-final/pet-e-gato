@@ -84,7 +84,7 @@ $cliente = mysqli_fetch_array ($res);
                             $res= mysqli_query($mysqli,$sql);
                             $linhas= mysqli_num_rows($res);
 
-                            if($linhas >= 1){
+                            if($linhas > 1){
 
                               echo "<option value=''>Data e Horário</option>";
 
@@ -99,7 +99,7 @@ $cliente = mysqli_fetch_array ($res);
                                 }
                               }
                             }
-                            else{
+                            if ($linhas <= 1){
                               echo "<option value=''>*Nenhum horário disponível</option>";
                             }
 

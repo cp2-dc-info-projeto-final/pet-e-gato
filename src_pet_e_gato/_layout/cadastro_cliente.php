@@ -92,9 +92,13 @@
               <br>
 
               <label for="data_nasc">Data de Nascimento:</label>
-              <div class="form-group d-flex label-float">
+              <div class="form-group d-flex label-float password">
                 <input type="date" class="form-control rounded-left" required="required" id="data_nasc" name="data_nasc" max="<?php echo date("Y-m-d", strtotime('-18year')); ?>">
+              
+                <small class="text-black-100">*Você precisa ter 18 anos para se cadastrar</small>
               </div>
+
+              <br>
 
               <label for="endereco">Digite seu endereço:</label>
               <div class="form-group d-flex label-float">

@@ -19,8 +19,8 @@ if($resultado["email"] == $email){
     include "envia_email.php";
 
     $para = $resultado["email"];
-    $assunto = utf8_decode("Recuperação de senha");
-    $mensagem = utf8_decode("Seu código de redefinição de senha é $code");
+    $assunto = utf8_decode("Recuperação de senha | Pet&Gatô");
+    $mensagem = utf8_decode("<h2>Redefina sua senha</h2> <br> <small>Cliente Pet&Gatô</small> <br> <h3>Seu código de redefinição de senha é:</h3> <h2>$code</h2> <br> <smallPet&Gatô House</small>");
 
     envia_email($para, $assunto, $mensagem);
 

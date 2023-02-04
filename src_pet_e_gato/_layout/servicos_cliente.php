@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
   </head>
   <body class="fadeIn">
 
@@ -204,6 +206,7 @@
   <div class="col-12 col-sm-6 col-md-3 m-auto tamanho">
               <!-- card starts here -->
               <div class="card shadow">
+              <a href="#" class="topo-link">&#9650;</a>
                   <img src="_img/Dog walking-rafiki.svg" alt="" class="card-img-top " height= "300" >
                   <div class="card-body">
                       <h3 class="text-center">Clubinho <br> (Plus)</h3>
@@ -292,8 +295,28 @@
 </footer>
 <!-- Footer -->
 
-<a id="topo-link" href="#">&#9650;</a>
-
 </body>
+
+<script> 
+  
+      jQuery(document).ready(function() {
+                // Exibe ou oculta o botão
+                jQuery(window).scroll(function() {
+                    if (jQuery(this).scrollTop() > 200) {
+                        jQuery('.topo-link').fadeIn(200);
+                    } else {
+                        jQuery('.topo-link').fadeOut(200);
+                    }
+                });
+                
+                // Faz animação para subir
+                jQuery('.topo-link').click(function(event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({scrollTop: 0}, 300);
+                })
+            });
+
+</script>
+
 
 </html>

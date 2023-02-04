@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 include "autentica.php";
 include "conecta_mysql.php";
 
@@ -42,11 +41,10 @@ include "envia_email.php";
     $mensagem = utf8_decode("<h2><u>Olá $nome_funcionario!</u></h2> <br> <small>Funcionário Pet&Gatô</small> <br> <h3>O serviço de <b>$servico</b> no dia <b>$dia</b> às <b>$hora</b> foi cancelado pelo cliente <b>$nome_cliente</b>.</h3> <br> <b><small>Pet&Gatô House</small></b>");
     envia_email($para, $assunto, $mensagem);
 
-$sql = "DELETE FROM agendamento WHERE cod_agendamento = $cod_agendamento;";
-mysqli_query($mysqli,$sql);
 
+    $sql = "UPDATE agendamento SET cod_cliente = NULL, nome_cliente = NULL WHERE cod_agendamento = '$cod_agendamento'";
+    $res= mysqli_query($mysqli,$sql);
 
-$sql = "UPDATE agendamento SET cod_cliente = NULL, nome_cliente = NULL WHERE cod_agendamento = '$cod_agendamento'";
 $_SESSION['mensagem_agendamento'] = "<div class='alert alert-success'>Agendamento cancelado!</div>";
 
 header ('location: calendario_cliente.php');

@@ -103,7 +103,7 @@
 
                 <div class="form-group">
                 <label for="nome">Digite a data de nascimento do administrador:</label>
-                    <input type="date" required="required" class="form-control rounded-left" name="data_nasc" placeholder="Data de Nascimento" value="<?php echo $administrador['data_nasc']?>">
+                    <input type="date" required="required" class="form-control rounded-left" name="data_nasc" placeholder="Data de Nascimento" value="<?php echo $administrador['data_nasc']?>" max="<?php echo date("Y-m-d", strtotime('-18year')); ?>">
                 </div>
 
               </fieldset>

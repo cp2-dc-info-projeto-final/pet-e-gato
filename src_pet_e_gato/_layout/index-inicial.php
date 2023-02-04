@@ -17,7 +17,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
   </head>
 
   <body class="fadeIn">
@@ -81,7 +83,7 @@
       <div class="col-md-6 align-self-center">
         <h1>O PetShop mais delicioso para o seu pet!</h1>
         <h4>Contrate já um de nossos serviços.</h4>
-        <a href="seleciona_servico" class="btn btn-primary button">Agendar</a>
+        <a href="seleciona_servico.php" class="btn btn-primary button">Agendar</a>
         <a href="servicos_cliente.php" class="btn btn-outline-secondary button">Serviços</a>
       </div>
       <div class="col-md-6 align-self-center text-center">
@@ -137,7 +139,7 @@
     	</div>
     </section>
 
-    <a id="topo-link" href="#">&#9650;</a>
+    <a href="#" class="topo-link">&#9650;</a>
     
       <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted" id="sobre">
@@ -203,8 +205,8 @@
 
 <!-- Copyright -->
 <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-  © 2022 Copyright:
-  <a class="text-reset fw-bold" href="#">Pet&Gatô - House</a>
+  © 2023 Copyright:
+  <a class="text-reset fw-bold" href="index-inicial.php">Pet&Gatô - House</a>
 </div>
 <!-- Copyright -->
 </footer>
@@ -213,5 +215,27 @@
 <a id="topo-link" href="#">&#9650;</a>
 
 </body>
+
+<script> 
+  
+      jQuery(document).ready(function() {
+                // Exibe ou oculta o botão
+                jQuery(window).scroll(function() {
+                    if (jQuery(this).scrollTop() > 200) {
+                        jQuery('.topo-link').fadeIn(200);
+                    } else {
+                        jQuery('.topo-link').fadeOut(200);
+                    }
+                });
+                
+                // Faz animação para subir
+                jQuery('.topo-link').click(function(event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({scrollTop: 0}, 300);
+                })
+            });
+
+</script>
+
 
 </html>
