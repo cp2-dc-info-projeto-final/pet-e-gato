@@ -185,8 +185,9 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215331648-cdb18ff9-91a4-41ce-b35c-de2067aad4d0.png)
 
-- Cancele seu agendamento.  
+- Confirme a exclusão do agendamento. 
 
+![Cancelar agendamento cliente](https://user-images.githubusercontent.com/95935490/216742309-7effe120-97f6-45a7-a75a-f73e5dd3f6a4.png)
 
 
 ## 5. RECUPERAR SENHA 
@@ -453,7 +454,10 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
-- Exclua funcionário
+- Confirme a exclusão do funcionário. 
+
+![excluir funcionário ](https://user-images.githubusercontent.com/95935490/216742398-31c3b1a8-ea78-47b4-be45-0c715eb9c4d0.png)
+
 
 ### 5.2 Excluir serviços
 
@@ -466,7 +470,10 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215336686-0cb4da9b-1d36-49bd-bb9e-7e63d2740159.png)
 
-- Exclua serviço. 
+- Confirme a exclusão do serviço. 
+
+![excluir serviço ](https://user-images.githubusercontent.com/95935490/216742429-e54f6c18-3f21-428b-a0a3-1251adcde098.png)
+
 
 ### 5.3 Excluir administradores
 
@@ -483,7 +490,9 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/216080402-5e53564b-08b3-40a7-bf95-8e281f5cf061.png)
 
-- Exclua administrador.
+-  Confirme a exclusão do administrador. 
+
+![Excluir administradores](https://user-images.githubusercontent.com/95935490/216742482-7e647ec1-be81-4b85-bd78-b5a7a5d4d9da.png)
 
 
 ## 1. PÁGINA INICIAL - Funcionário
