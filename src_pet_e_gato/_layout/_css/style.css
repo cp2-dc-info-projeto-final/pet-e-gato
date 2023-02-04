@@ -8383,7 +8383,7 @@ html{
   scroll-behavior: smooth;
 }
 
-#topo-link {
+.topo-link {
   text-decoration: none;
   color: white;
   border-radius: 65px;
@@ -8394,6 +8394,10 @@ html{
   right: 22px;
   bottom: 14px;
   box-shadow: 3px 3px 5px black;
+  display: none;
+}
+.topo-link:hover {
+  background-color: #ff914d;
 }
 
 bel-float{
@@ -8555,3 +8559,4 @@ a.btn.btn-primary.button.botao-adm {
   margin-bottom: 0px;
   margin-top: 280px;
 }
+
