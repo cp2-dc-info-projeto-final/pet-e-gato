@@ -174,5 +174,17 @@ $funcionario = mysqli_fetch_array ($res);
         </div>
     </div>
 
+<!-- Copyright -->
+<div class="text-center p-4 rodapeposicao" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2023 Copyright:
+  <a class="text-reset fw-bold" href="index-func.php">Pet&Gatô - House</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<a id="topo-link" href="#">&#9650;</a>
+
 </body>
+
 </html>

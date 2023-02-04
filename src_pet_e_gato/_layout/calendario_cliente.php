@@ -159,10 +159,36 @@ include "conecta_mysql.php";
                                             <td><a class='btn btn-sm btn-primary' href='novo_horario.php?cod_agendamento=$agendamento[cod_agendamento]'>
                                             <img src='_img/agendar.svg' width='25'></a>
                                             </td>
-                                            <td><a class='btn btn-sm btn-danger' data-toggle='modal' data-target='#exampleModal'>
+                                            <td><a class='btn btn-sm btn-danger' data-toggle='modal' data-target='#modalexcluir$agendamento[cod_agendamento]'>
                                             <img src='_img/cancela.svg' width='25'></a>
                                             </td>
-                                            </tr>";
+                                            </tr>
+                                            
+                                            <!-- Modal -->
+                                            <div class='modal fade' id='modalexcluir$agendamento[cod_agendamento]' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+                                                <div class='modal-dialog' role='document'>
+                                                  <div class='modal-content modalcolor'>
+                                                    <div class='modal-header'>
+                                                      <h5 class='modal-title' id='exampleModalLabel'>Confirmação</h5>
+                                                      <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                                                      </button>
+                                                    </div>
+                                                    <div class='modal-body'>
+                                                      Deseja realmente cancelar o angendamento?
+                                                    </div>
+                            
+                                                    <div class='modal-footer'>
+                                                      
+                                                      <input type='button' class='btn btn-primary' data-dismiss='modal' value='Voltar'></input>
+                            
+                                                      <a                           
+                                                      href='cancela_agendamento.php?cod_agendamento=$agendamento[cod_agendamento]' type='button' class='btn btn-danger'>Excluir</a>
+                            
+                                                    </div>
+                            
+                                                  </div>
+                                                </div>
+                                            </div>";
                                             
                                         }
 
@@ -179,36 +205,6 @@ include "conecta_mysql.php";
                  </section>
                 </div>
 
-   
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          Deseja realmente cancelar o agendamento?
-                        </div>
-                        <div class="modal-footer">
-                          <input type="button" class="btn btn-primary" data-dismiss="modal" value="Voltar"></input>
-                          <a <?php 
-
-                          $sql = "SELECT * FROM agendamento WHERE cod_cliente = '$cod_cliente'";
-                          $res= mysqli_query($mysqli,$sql);
-                          $linhas= mysqli_num_rows($res);
-                          
-                          for ($i = 0; $i < $linhas; $i++){
-                            $var = mysqli_fetch_array ($res);                            
-                          echo "href='cancela_agendamento.php?cod_agendamento=$var[cod_agendamento]'"; } ?> value='Cancelar agendamento' name='Cancela agendamento' type='button' class='btn btn-danger'>Cancelar agendamento</a>
-                          
-                        
-                        </div>
-                      </div>
-                    </div>
-                </div>
 
 
             </div>
@@ -229,7 +225,7 @@ include "conecta_mysql.php";
 <br>
 
 <!-- Copyright -->
-<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+<div class="text-center p-4 rodapeposicao" style="background-color: rgba(0, 0, 0, 0.05);">
   © 2022 Copyright:
   <a class="text-reset fw-bold" href="index-inicial.php">Pet&Gatô - House</a>
 </div>

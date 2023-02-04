@@ -52,7 +52,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Login </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="login.php">Como cliente</a>
-                              <a class="dropdown-item" href="login-funcionario.html">Como funcionário</a>
+                              <a class="dropdown-item" href="login-funcionario.php">Como funcionário</a>
                               <a class="dropdown-item" href="login-adm.html">Como administrador</a>
                             </div>
                           </li>
@@ -64,6 +64,8 @@
           </nav>
         </div>
     </div>
+
+    
 
     <div id="slider">
   <div class="container">
@@ -200,6 +202,7 @@
     <div class="col-12 col-sm-6 col-md-3 m-auto tamanho">
                 <!-- card starts here -->
                 <div class="card shadow">
+                <a id="topo-link" href="#">&#9650;</a>
                     <img src="_img/Dog walking-rafiki.svg" alt="" class="card-img-top " height= "300" >
                     <div class="card-body">
                         <h3 class="text-center">Clubinho <br> (Plus)</h3>
@@ -281,14 +284,14 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2022 Copyright:
-    <a class="text-reset fw-bold" href="#">Pet&Gatô - House</a>
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="index.php">Pet&Gatô - House</a>
   </div>
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
 
-<a id="topo-link" href="#">&#9650;</a>
+
 
 </body>
 

@@ -22,7 +22,7 @@ if($editar == "editar"){
         $sql = "UPDATE cliente SET nome='$nome', email='$email_cliente', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
         mysqli_query($mysqli,$sql);
 
-        $_SESSION['msg_rec'] = "<div class='alert alert-success'>Cadastro atualizado!</div>";
+        $_SESSION['msg_rec'] = "<div class='alert alert-success'>Cadastro atualizado! <br> Se necessário, faça login.</div>";
 
         header('Location: perfil_cliente.php');
     }

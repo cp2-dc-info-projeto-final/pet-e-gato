@@ -155,9 +155,19 @@ include "conecta_mysql.php";
                  </section>
                 </div>
 
-   
-                <a id="topo-link" href="#">&#9650;</a>
+    <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
 
-    <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  </body>
+<!-- Copyright -->
+<div class="text-center p-4 rodapeposicao-func" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2023 Copyright:
+  <a class="text-reset fw-bold" href="index-func.php">Pet&Gatô - House</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<a id="topo-link" href="#">&#9650;</a>
+
+</body>
+
 </html>

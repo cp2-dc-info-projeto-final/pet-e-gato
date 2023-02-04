@@ -33,7 +33,7 @@
 		      	</div>
 
 		      	<h3 class="text-center mb-4">Já tem uma conta?</h3>
-						<form action="recebe_login.php" method="POST" class="login-form">
+				<form action="recebe_login.php" method="POST" class="login-form">
 
 				<?php
 
@@ -55,7 +55,7 @@
 		      		</div>
 
 	            <div class="form-group d-flex label-float">
-	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required>
+	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required minlength="5">
 	            </div>
 
 	            <div class="form-group d-md-flex">

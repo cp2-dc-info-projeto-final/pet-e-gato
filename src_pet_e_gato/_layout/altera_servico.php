@@ -1,5 +1,9 @@
 <?php 
-    $mysqli = mysqli_connect("localhost","administrador","2122","pet_e_gato");
+
+include "autentica-adm.php";
+include "conecta_mysql.php";
+
+
      $cod_servico = $_GET ["cod_servico"];
      $sql= "SELECT * FROM servicos WHERE cod_servico = $cod_servico;";
      $res= mysqli_query($mysqli,$sql);

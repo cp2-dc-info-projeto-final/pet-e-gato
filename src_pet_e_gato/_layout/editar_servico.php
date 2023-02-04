@@ -1,5 +1,6 @@
 <?php
 
+include "autentica-adm";
 include "conecta_mysql.php";
 
 $editar = $_REQUEST['operacao_editar'];

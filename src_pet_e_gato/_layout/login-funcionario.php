@@ -45,11 +45,11 @@
 
 
 		      		<div class="form-group label-float">
-		      			<input type="text" name="email" class="form-control rounded-left" placeholder="Digite seu email" required>
+		      			<input type="email" name="email" class="form-control rounded-left" placeholder="Digite seu email" required>
 		      		</div>
 
 	            <div class="form-group d-flex label-float">
-	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required>
+	              <input type="password" name="senha" class="form-control rounded-left" placeholder="Digite sua senha" required minlength="5">
 	            </div>
 
 	            <div class="form-group d-md-flex">
