@@ -18,12 +18,16 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Exibir clientes (Página  inicial - adm)](#21-Exibir-clientes)
  - [Consultar funcionários (Página  inicial - adm)](#31-Consultar-funcionários)
  - [Consultar administradores (Página  inicial - adm)](#32-Consultar-administradores)
+ - [Consultar agendamento (Página  inicial - adm)](#33-Consultar-agendamento)
+ - [Consultar serviços (Página  inicial - adm)](#34-Consultar-serviços)
  - [Editar funcionários (Página  inicial - adm)](#41-Editar-funcionários)
  - [Editar serviços (Página  inicial - adm)](#42-Editar-serviços)
  - [Editar administradores (Página  inicial - adm)](#43-Editar-administradores)
  - [Excluir funcionários (Página  inicial - adm)](#51-Excluir-funcionário)
  - [Excluir serviços (Página  inicial - adm)](#52-Excluir-serviços)
  - [Excluir administradores (Página  inicial - adm)](#53-Excluir-administradores)
+ - [Excluir cliente (Página  inicial - adm)](#54-Excluir-cliente)
+ - [Excluir agendamento (Página  inicial - adm)](#54-Excluir-agendamento)
  - [Acessar calendário (Página  inicial - funcionário)](#11-Acessar-calendário)
  - [Acessar perfil (Página  inicial - funcionário)](#21-Acessar-perfil)
 
@@ -395,11 +399,13 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta administrador, clique em Serviços.  
 
-![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
+![serviços botão](https://user-images.githubusercontent.com/95935490/216745359-6fefe16b-3085-4f92-b21f-c66dff86bb46.png)
+
 
 - Serão exibidos todos os serviços cadastrados, assim como código do serviço, o nome do serviço, a descrição e o preço.	
 
-![image](https://user-images.githubusercontent.com/95935490/216745089-149c53ff-d65b-4d5d-8cc0-d98d1b784df5.png)
+![Serviços tela](https://user-images.githubusercontent.com/95935490/216745400-95da9b8a-8646-4d88-b7d3-927fd52669d1.png)
+
 
 ### 4.1 Editar funcionários
 
