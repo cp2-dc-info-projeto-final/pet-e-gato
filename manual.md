@@ -381,6 +381,25 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/216078606-8cd5e785-5bca-4e9d-8291-1227fbe5d3cf.png)
 
+### 3.3 Consultar agendamento 
+
+- Em sua conta administrador, clique em Calendário.  
+
+![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
+
+- Serão exibidos todos os agendamentos cadastrados, assim como o funcionário responsável, o cliente, serviço, data e hora. 
+
+![image](https://user-images.githubusercontent.com/95935490/216745089-149c53ff-d65b-4d5d-8cc0-d98d1b784df5.png)
+
+### 3.4  Consultar serviços
+
+- Em sua conta administrador, clique em Serviços.  
+
+![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
+
+- Serão exibidos todos os serviços cadastrados, assim como código do serviço, o nome do serviço, a descrição e o preço.	
+
+![image](https://user-images.githubusercontent.com/95935490/216745089-149c53ff-d65b-4d5d-8cc0-d98d1b784df5.png)
 
 ### 4.1 Editar funcionários
 
@@ -493,6 +512,42 @@ Para fazer agendamento de algum plano.
 -  Confirme a exclusão do administrador. 
 
 ![Excluir administradores](https://user-images.githubusercontent.com/95935490/216742482-7e647ec1-be81-4b85-bd78-b5a7a5d4d9da.png)
+
+### 5.4 Excluir cliente
+
+- Em sua conta administrador, clique em "Empresa".
+
+![image](https://user-images.githubusercontent.com/95979551/216080208-5f9bab09-9470-4077-a753-ed39034e1473.png)
+
+- Em sua conta administrador, clique em "Clientes".
+
+![image](https://user-images.githubusercontent.com/95979551/215335926-5967cae8-d7bd-415d-96c7-cefab04e8955.png)
+
+- Escolha o cliente que deseja excluir.
+
+- Aperte em excluir.
+
+![image](https://user-images.githubusercontent.com/95979551/216080402-5e53564b-08b3-40a7-bf95-8e281f5cf061.png)
+
+- Confirme a exclusão do cliente. 
+ 
+![excluir cliente](https://user-images.githubusercontent.com/95935490/216743577-1cdaa879-907c-4a1e-b477-27536bbd494e.png)
+
+### 5.5 Excluir agendamento
+
+- Em sua conta administrador, clique em "Calendário".
+
+![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
+
+- Escolha o agendamento que deseja excluir.
+
+- Aperte em excluir.
+
+![image](https://user-images.githubusercontent.com/95979551/216080402-5e53564b-08b3-40a7-bf95-8e281f5cf061.png)
+
+- Confirme a exclusão do agendamento.
+
+![Excluir agendamento- adm ](https://user-images.githubusercontent.com/95935490/216743904-1454197c-634b-4b58-867f-85b2c8094f98.png)
 
 
 ## 1. PÁGINA INICIAL - Funcionário
