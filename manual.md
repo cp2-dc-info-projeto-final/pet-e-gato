@@ -389,7 +389,7 @@ Para fazer agendamento de algum plano.
 
 - Em sua conta administrador, clique em Calendário.  
 
-![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
+![image](https://user-images.githubusercontent.com/95979551/208572850-2307c677-12f3-40e4-8369-1c5d2f5ec28d.png)
 
 - Serão exibidos todos os agendamentos cadastrados, assim como o funcionário responsável, o cliente, serviço, data e hora. 
 
@@ -429,7 +429,7 @@ Para fazer agendamento de algum plano.
 
 ### 4.2 Editar serviços
 
-- Em sua conta administrador,  clique em "Serviço". 
+- Em sua conta administrador,  clique em "Serviços". 
 
 ![image](https://user-images.githubusercontent.com/95979551/208580855-875054a4-bc21-4cec-a29a-9b425ef3b4c6.png)
 
@@ -564,7 +564,7 @@ Para fazer agendamento de algum plano.
 - Faça "Login". 
 - Clique em "Calendário".
 
-![image](https://user-images.githubusercontent.com/95979551/215336806-0e933475-dde1-475a-acac-825788033e7e.png)
+![image](https://user-images.githubusercontent.com/95979551/208572850-2307c677-12f3-40e4-8369-1c5d2f5ec28d.png)
 
 ### 2.1 Acessar perfil
 
