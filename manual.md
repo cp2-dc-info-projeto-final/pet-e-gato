@@ -19,7 +19,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Consultar funcionários (Página  inicial - adm)](#31-Consultar-funcionários)
  - [Consultar administradores (Página  inicial - adm)](#32-Consultar-administradores)
  - [Consultar agendamento (Página  inicial - adm)](#33-Consultar-agendamento)
- - [Consultar serviço (Página  inicial - adm)](#34-Consultar-serviço)
+ - [Consultar serviço (Página  inicial - adm)](#34-Consultar-serviços)
  - [Editar funcionários (Página  inicial - adm)](#41-Editar-funcionários)
  - [Editar serviços (Página  inicial - adm)](#42-Editar-serviços)
  - [Editar administradores (Página  inicial - adm)](#43-Editar-administradores)
