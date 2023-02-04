@@ -27,7 +27,7 @@ Esse é o manual de usuário do site da empresa de petshop Pet&Gatô House, feit
  - [Excluir serviços (Página  inicial - adm)](#52-Excluir-serviços)
  - [Excluir administradores (Página  inicial - adm)](#53-Excluir-administradores)
  - [Excluir cliente (Página  inicial - adm)](#54-Excluir-cliente)
- - [Excluir agendamento (Página  inicial - adm)](#54-Excluir-agendamento)
+ - [Excluir agendamento (Página  inicial - adm)](#55-Excluir-agendamento)
  - [Acessar calendário (Página  inicial - funcionário)](#11-Acessar-calendário)
  - [Acessar perfil (Página  inicial - funcionário)](#21-Acessar-perfil)
 
