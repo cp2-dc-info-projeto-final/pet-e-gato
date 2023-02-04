@@ -80,7 +80,7 @@ Ator: Tutor
 4. Sistema informa que o cadastro foi efetuado com sucesso.
 5. Sistema redireciona para login.
 
-![Diagrama de sequência  - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95935490/216792793-dd892d13-9426-430b-9866-cc31265dc928.jpg)
+### Diagrama de sequência![Diagrama de sequência  - CDU 02 (fluxo principal)](https://user-images.githubusercontent.com/95935490/216792793-dd892d13-9426-430b-9866-cc31265dc928.jpg)
 
 
 
@@ -92,7 +92,7 @@ Ator: Tutor
 4. Sistema informa que o usuário já está cadastrado. 
 5. Sistema solicita que usuário faça login. 
 
-![Diagrama de sequência  - CDU 02 (fluxo alternativo1)](https://user-images.githubusercontent.com/95935490/216792803-0d407f52-9f32-476e-87c2-30199953bf7e.jpg)
+### Diagrama de sequência![Diagrama de sequência  - CDU 02 (fluxo alternativo1)](https://user-images.githubusercontent.com/95935490/216792803-0d407f52-9f32-476e-87c2-30199953bf7e.jpg)
 
 
 
@@ -471,12 +471,17 @@ Ator: Administrador
 2. Administrador seleciona a opção "Excluir". 
 3. Sistema informa que a exclusão do horário foi efetuada com sucesso.
 
+### Diagrama de sequência ![Diagrama de sequência- CDU12 ( fluxo alternativo- excluir horário) ](https://user-images.githubusercontent.com/95935490/216792883-9dcd800e-3425-4f87-be0f-3584983b5eef.jpg)
+
 **Fluxo alternativo B** 
 
 - Fluxo alternativo: Listar horário.
 
 1. Administrador seleciona a opção "Calendário". 
 2. Sistema apresenta agendamentos cadastrados.
+
+### Diagrama de sequência ![Diagrama de sequência- CDU12 ( fluxo alternativo- Listar horários) ](https://user-images.githubusercontent.com/95935490/216792920-81422b32-4167-41fb-ae9c-d6646dbed3fc.jpg)
+
 
 ### CDU 13 Manter administrador
 
