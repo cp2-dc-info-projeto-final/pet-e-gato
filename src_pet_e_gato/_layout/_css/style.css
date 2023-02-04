@@ -8541,3 +8541,17 @@ a.btn.btn-primary.button.botao-adm {
     color: #fff !important;
 
 }
+
+.modal-content.modalcolor {
+  background-color: white;
+}
+
+.text-center.p-4.rodapeposicao {
+  margin-bottom: 0px;
+  margin-top: 220px;
+}
+
+.text-center.p-4.rodapeposicao-func {
+  margin-bottom: 0px;
+  margin-top: 280px;
+}

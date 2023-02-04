@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 02-Fev-2023 às 04:35
+-- Generation Time: 04-Fev-2023 às 02:23
 -- Versão do servidor: 5.7.17
 -- PHP Version: 7.1.3
 
@@ -29,6 +29,9 @@ USE `pet_e_gato`;
 --
 -- Estrutura da tabela `administrador`
 --
+-- Criação: 03-Fev-2023 às 23:32
+-- Última actualização: 03-Fev-2023 às 23:32
+--
 
 CREATE TABLE `administrador` (
   `matricula` int(11) NOT NULL,
@@ -44,13 +47,16 @@ CREATE TABLE `administrador` (
 
 INSERT INTO `administrador` (`matricula`, `nome`, `email`, `senha`, `data_nasc`) VALUES
 (1, 'Pet&Gatô House', 'petegatooficial1@gmail.com', '$2y$10$fXpm8oZn1vJVHvPlYvEgJuQVrmkjYfs1wr42cwjAYOeM.bjm65Y9q', '2000-01-15'),
-(16, 'Leticia Cáceres', 'leticiacaceresrosas@gmail.com', '$2y$10$iVDJyNH8VptokXjnpkRKaugB8OMRs6Ryn79JsnEcwhmwPU9QTEm2m', '2004-01-25'),
-(13, 'Larissa Ferreira', 'larissaferreirabarbosa31@gmail.com', '$2y$10$yMlQkRdpyRihI49sIRfPhOEFjfD/NR3NpFDd6MrmmIG2o8k2cCEym', '2004-10-07');
+(2, 'Leticia Cáceres', 'leticiacaceresrosas@gmail.com', '$2y$10$iVDJyNH8VptokXjnpkRKaugB8OMRs6Ryn79JsnEcwhmwPU9QTEm2m', '2004-01-25'),
+(3, 'Larissa Ferreira', 'larissaferreirabarbosa31@gmail.com', '$2y$10$yMlQkRdpyRihI49sIRfPhOEFjfD/NR3NpFDd6MrmmIG2o8k2cCEym', '2004-10-07');
 
 -- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `agendamento`
+--
+-- Criação: 04-Fev-2023 às 00:45
+-- Última actualização: 04-Fev-2023 às 01:08
 --
 
 CREATE TABLE `agendamento` (
@@ -70,11 +76,11 @@ CREATE TABLE `agendamento` (
 --
 
 INSERT INTO `agendamento` (`cod_agendamento`, `nome_cliente`, `cod_cliente`, `funcionario`, `cod_funcionario`, `servico`, `cod_servico`, `hora`, `dia`) VALUES
-(1, NULL, NULL, 'Kauan Martinez', 1, 'Banho (Básico)', 1, '14:00', '2023-02-05'),
+(1, 'Larissa Ferreira', 1, 'Kauan Martinez', 1, 'Banho (Básico)', 1, '14:00', '2023-02-05'),
 (2, NULL, NULL, 'Kauan Martinez', 1, 'Banho (Básico)', 1, '12:30', '2023-02-20'),
 (3, NULL, NULL, 'Kauan Martinez', 1, 'Banho (Básico)', 1, '17:00', '2023-02-08'),
 (4, NULL, NULL, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '16:00', '2023-02-03'),
-(5, 'Larissa Ferreira', 2, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '12:00', '2023-02-01'),
+(5, NULL, NULL, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '12:00', '2023-02-01'),
 (6, NULL, NULL, 'Kauan Martinez', 1, 'Tosa (Básico)', 2, '14:30', '2023-02-19'),
 (7, NULL, NULL, 'Bianca do Nascimento', 2, 'Banho e tosa', 3, '12:00', '2023-02-03'),
 (8, NULL, NULL, 'Bianca do Nascimento', 2, 'Banho e tosa', 3, '15:00', '2023-02-14'),
@@ -84,31 +90,30 @@ INSERT INTO `agendamento` (`cod_agendamento`, `nome_cliente`, `cod_cliente`, `fu
 (12, NULL, NULL, 'Bianca do Nascimento', 2, 'Higiênica (Básico)', 5, '16:00', '2023-03-15'),
 (13, NULL, NULL, 'Bianca do Nascimento', 2, 'Higiênica (Básico)', 5, '17:00', '2023-02-16'),
 (14, NULL, NULL, 'Bianca do Nascimento', 2, 'Higiênica (Básico)', 5, '12:30', '2023-02-06'),
-(15, NULL, NULL, 'Leticia Cáceres', 4, 'Banho com Higiênica', 6, '12:00', '2023-02-02'),
-(16, NULL, NULL, 'Leticia Cáceres', 4, 'Banho com Higiênica', 6, '14:50', '2023-02-15'),
-(17, NULL, NULL, 'Leticia Cáceres', 4, 'Banho com Higiênica', 6, '17:00', '2023-02-13'),
-(18, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Básico)', 7, '15:00', '2023-02-03'),
-(19, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '17:00', '2023-02-13'),
-(20, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '16:30', '2023-02-13'),
-(21, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '13:00', '2023-02-13'),
-(22, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Básico)', 7, '17:30', '2023-02-13'),
-(23, 'Larissa Ferreira', 2, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '15:00', '2023-03-15'),
-(24, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '14:30', '2023-03-19'),
-(25, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '16:00', '2023-03-19'),
-(26, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Básico)', 7, '16:30', '2023-03-25'),
-(27, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '17:30', '2023-03-26'),
-(28, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '12:30', '2023-03-29'),
-(29, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '14:00', '2023-03-30'),
-(30, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Plus)', 8, '12:00', '2023-02-08'),
-(31, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Plus)', 8, '13:00', '2023-03-01'),
-(32, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Plus)', 8, '16:00', '2023-03-06'),
-(33, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Plus)', 8, '15:00', '2023-03-10'),
-(34, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Plus)', 8, '14:00', '2023-03-15');
+(15, NULL, NULL, 'Leticia Cáceres', 4, 'Banho com Higiênica', 6, '17:00', '2023-02-13'),
+(16, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Básico)', 7, '15:00', '2023-02-03'),
+(17, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '17:00', '2023-02-13'),
+(18, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '16:30', '2023-02-13'),
+(19, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '13:00', '2023-02-13'),
+(20, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '15:00', '2023-03-15'),
+(21, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '14:30', '2023-03-19'),
+(22, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Básico)', 7, '17:30', '2023-03-26'),
+(23, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Básico)', 7, '12:30', '2023-03-29'),
+(24, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Básico)', 7, '14:00', '2023-03-30'),
+(25, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Plus)', 8, '13:00', '2023-03-01'),
+(26, NULL, NULL, 'Bianca do Nascimento', 2, 'Clubinho (Plus)', 8, '16:00', '2023-03-06'),
+(27, NULL, NULL, 'Carollyne Coelho', 3, 'Clubinho (Plus)', 8, '15:00', '2023-03-10'),
+(28, NULL, NULL, 'Leticia Cáceres', 4, 'Clubinho (Plus)', 8, '14:00', '2023-03-15'),
+(29, NULL, NULL, 'Carollyne Coelho', 3, 'Corte de Unha', 4, '16:30', '2023-03-06'),
+(31, NULL, NULL, 'Kauan Martinez', 1, 'Clubinho (Plus)', 8, '15:00', '2023-03-05');
 
 -- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `cliente`
+--
+-- Criação: 04-Fev-2023 às 01:07
+-- Última actualização: 04-Fev-2023 às 01:07
 --
 
 CREATE TABLE `cliente` (
@@ -129,16 +134,17 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`matricula`, `nome`, `email`, `senha`, `data_nasc`, `endereco`, `cpf`, `telefone`, `nome_pet`, `nasc_pet`) VALUES
-(5, 'Leticia Cáceres', 'leticiacaceresrosas@gmail.com', '$2y$10$CGrXvBnWXYcL4KAuwcKB8e8SOVpJsa5dluwU6J0vHUJlCeZ00i7nC', '2004-01-25', 'Rua H', '036.598.420-72', '(21) 98765-3012', 'Floquinho', '2020-07-03'),
-(2, 'Larissa Ferreira', 'larissaferreirabarbosa31@gmail.com', '$2y$10$JNvFNSIX6gE3BX.q4LBX..uv9ltc2HY0VtxfUS0/0zZ469/wBzAYu', '2004-10-07', 'Rua B', '012.345.678-90', '(21) 98565-2520', 'Bolt', '2014-05-20'),
-(3, 'Pedro Rodrigues Moralles', 'pedrorodriguesmoralles@gmail.com', '$2y$10$MUQO7ltnRWPuQV5Kg9pOgOjkHc4zNkKJFZr1sFGsi1YE4IoCCoaTK', '2004-08-25', 'Rua M', '123.560.214-58', '(21) 96563-0288', 'Caramelo', '2016-03-15'),
-(4, 'Regiane Teixeira', 'regianeteixeira@gmail.com', '$2y$10$wiuR10.oWw9sYY/.RIUwb.tPiCWzzNYSSNcze24EZoUseiirYt/oC', '2004-02-06', 'Rua B', '123.456.987-50', '(21) 96325-8741', 'Guduco', '2019-06-03'),
-(6, 'Kauan Martinez', 'kauannmartiinez.contato@gmail.com', '$2y$10$7H34e/Ho5C4/JZGbv/G.Pu0wjAnKeu9qKI9ajUu.pCpsGQ7mEiBfW', '2005-01-05', 'Rua K', '236.595.525-02', '(21) 98555-2000', 'Boltzinho', '2019-02-06');
+(1, 'Larissa Ferreira', 'larissaferreirabarbosa31@gmail.com', '$2y$10$JNvFNSIX6gE3BX.q4LBX..uv9ltc2HY0VtxfUS0/0zZ469/wBzAYu', '2004-10-07', 'Rua B', '012.345.678-90', '(21) 98565-2520', 'Bolt', '2014-05-20'),
+(2, 'Pedro Rodrigues Moralles', 'pedrorodriguesmoralles@gmail.com', '$2y$10$MUQO7ltnRWPuQV5Kg9pOgOjkHc4zNkKJFZr1sFGsi1YE4IoCCoaTK', '2004-08-25', 'Rua M', '123.560.214-58', '(21) 96563-0288', 'Caramelo', '2016-03-15'),
+(3, 'Regiane Teixeira', 'regianeteixeira@gmail.com', '$2y$10$wiuR10.oWw9sYY/.RIUwb.tPiCWzzNYSSNcze24EZoUseiirYt/oC', '2004-02-06', 'Rua B', '123.456.987-50', '(21) 96325-8741', 'Guduco', '2019-06-03');
 
 -- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `funcionario`
+--
+-- Criação: 28-Jan-2023 às 05:46
+-- Última actualização: 28-Jan-2023 às 05:46
 --
 
 CREATE TABLE `funcionario` (
@@ -164,6 +170,9 @@ INSERT INTO `funcionario` (`matricula`, `nome`, `cpf`, `email`, `senha`, `data_n
 
 --
 -- Estrutura da tabela `servicos`
+--
+-- Criação: 28-Jan-2023 às 05:46
+-- Última actualização: 28-Jan-2023 às 05:46
 --
 
 CREATE TABLE `servicos` (
@@ -229,17 +238,17 @@ ALTER TABLE `servicos`
 -- AUTO_INCREMENT for table `administrador`
 --
 ALTER TABLE `administrador`
-  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `agendamento`
 --
 ALTER TABLE `agendamento`
-  MODIFY `cod_agendamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `cod_agendamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 --
 -- AUTO_INCREMENT for table `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `matricula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `funcionario`
 --
