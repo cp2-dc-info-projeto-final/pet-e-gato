@@ -185,7 +185,7 @@ Para fazer agendamento de algum plano.
 
 ![image](https://user-images.githubusercontent.com/95979551/215331648-cdb18ff9-91a4-41ce-b35c-de2067aad4d0.png)
 
-- Confirme a exclusão do agendamento. 
+- Confirme o cancelamento do agendamento. 
 
 ![Cancelar agendamento cliente](https://user-images.githubusercontent.com/95935490/216742309-7effe120-97f6-45a7-a75a-f73e5dd3f6a4.png)
 
