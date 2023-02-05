@@ -38,6 +38,12 @@ O sistema deverá permitir que o cliente edite e liste seus agendamentos.
 
 O sistema deverá permitir que o funcionário acesse sua grade horária.
 
+### RF 10
+
+O sistema deverá ter envio de e-mail informando mudanças no perfil do usuário.
+
+
+
 ## Requisitos Não-Funcionais
 
 ### RNF 01
@@ -68,4 +74,11 @@ O sistema deverá ter controle de acesso.
 
 O sistema deverá ter conexão com bancos de dados Mysql.
 
+### RNF 08
+
+O usuário deverá ter conexão com a internet para usufruir do sistema. 
+
+### RNF 09
+
+O sistema deverá ter uma boa interface para interação
 
