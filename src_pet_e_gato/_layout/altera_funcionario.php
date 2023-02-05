@@ -98,13 +98,17 @@
                 </div>
 
                 <div class="form-group label-float">
-                  <input type="password" id="botao" style="display:none" class="form-control rounded-left fechar" name="senha" placeholder="Digite a nova senha" minlength="5">
+                  <input type="password" id="botao" style="display:none" class="form-control rounded-left fechar" name="senha" placeholder="Digite a nova senha (Mín. 5 caracteres)" minlength="5">
                 </div>
 
                 <label for="nome">Digite a data de nascimento do funcionário:</label>
                 <div class="form-group label-float">
                   <input type="date" required="required" class="form-control rounded-left" name="data_nasc" placeholder="Data de Nascimento" value="<?php echo $funcionario['data_nasc']?>" max="<?php echo date("Y-m-d", strtotime('-18year')); ?>">
+
+                  <small class="text-black-100">*Idade mínima: 18 anos</small>
                 </div>
+
+                <br>
 
               </fieldset>
 

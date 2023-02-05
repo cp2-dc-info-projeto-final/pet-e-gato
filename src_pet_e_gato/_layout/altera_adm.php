@@ -54,13 +54,13 @@
                 <input type="hidden" name="operacao_editar" value="editar">
                 <input type="hidden" name="matricula" value="<?php echo $matricula?>">
 
-                <div class="form-group">
-                    <label for="nome">Digite o nome do administrador:</label>
+                <label for="nome">Digite o nome do administrador:</label>
+                <div class="form-group label-float">
                     <input type="text" required="required" class="form-control rounded-left" name="nome" placeholder="Nome Completo" value="<?php echo $administrador['nome']?>">
                 </div>
 
-                <div class="form-group">
-                  <label for="nome">Digite o e-mail do administrador:</label>
+                <label for="nome">Digite o e-mail do administrador:</label>
+                <div class="form-group label-float">
                     <input type="email" required="required" class="form-control rounded-left" name="email" placeholder="E-mail" value="<?php echo $administrador['email']?>">
                 </div>
 
@@ -97,14 +97,18 @@
                 
                 </div>
 
-                <div class="form-group">
-                    <input type="password" id="botao" style="display:none" class="form-control rounded-left fechar" name="senha" placeholder="Digite a nova senha" maxlength="8" minlength="5">
+                <div class="form-group  label-float">
+                    <input type="password" id="botao" style="display:none" class="form-control rounded-left fechar" name="senha" placeholder="Digite a nova senha (Mín. 5 caracteres)" minlength="5">
                 </div>
 
-                <div class="form-group">
                 <label for="nome">Digite a data de nascimento do administrador:</label>
+                <div class="form-group label-float">
                     <input type="date" required="required" class="form-control rounded-left" name="data_nasc" placeholder="Data de Nascimento" value="<?php echo $administrador['data_nasc']?>" max="<?php echo date("Y-m-d", strtotime('-18year')); ?>">
+
+                    <small class="text-black-100">*Idade mínima: 18 anos</small>
                 </div>
+
+                <br>
 
               </fieldset>
 

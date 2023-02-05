@@ -186,7 +186,7 @@ $administrador = mysqli_fetch_array ($res);
                       </div>
 
                     <div class="form-group d-flex">
-                    <input type="password" id="botao" style="display:none" class="form-control rounded-left fechar" name="senha" placeholder="Digite a nova senha" minlength="5">
+                    <input type="password" id="botao" style="display:none" class="form-control rounded-left fechar" name="senha" placeholder="Digite a nova senha (Mín. 5 caracteres)" minlength="5">
                     </div>
 
                   <div class="row mt-2 form-group"> 
