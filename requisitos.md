@@ -50,7 +50,7 @@ O sistema deverá exibir as datas e horários disponíveis.
 
 ### RNF 03 
 
-O sistema deverá ser desenvolvido em PHP, MySQL, HTML, CSS, Javascript e Bootstrap.
+O sistema deverá ser desenvolvido em PHP, HTML, CSS, Javascript e Bootstrap.
 
 ### RNF 04
 
@@ -66,6 +66,6 @@ O sistema deverá ter controle de acesso.
 
 ### RNF 07
 
-O sistema deverá ter conexão com bancos de dados mysql.
+O sistema deverá ter conexão com bancos de dados Mysql.
 
 
