@@ -80,5 +80,5 @@ O usuário deverá ter conexão com a internet para usufruir do sistema.
 
 ### RNF 09
 
-O sistema deverá ter uma boa interface para interação
+O sistema deverá ter uma boa interface para interação.
 
