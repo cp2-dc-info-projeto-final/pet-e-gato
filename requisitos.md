@@ -72,7 +72,7 @@ O sistema deverá ter controle de acesso.
 
 ### RNF 07
 
-O sistema deverá ter conexão com bancos de dados Mysql.
+O sistema deverá ter conexão com bancos de dados MySQL.
 
 ### RNF 08
 
