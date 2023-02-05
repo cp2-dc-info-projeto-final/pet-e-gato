@@ -18,6 +18,17 @@ if($editar == "editar"){
 
     $senha_cript = password_hash($senha, PASSWORD_DEFAULT);
 
+    include "envia_email.php";
+        $para = $email_cliente;
+        $assunto = utf8_decode("Seu cadastro foi atualizado! | Pet&Gatô");
+        $mensagem = utf8_decode("A Pet&Gatô detectou uma atualização cadastral em sua conta. Caso não tenha sido você, envie um e-mail para petegatooficial1@gmail.com que te ajudaremos a recuperar o seu acesso.");
+        envia_email($para, $assunto, $mensagem);
+
+        $para = $email;
+        $assunto = utf8_decode("Seu cadastro foi atualizado! | Pet&Gatô");
+        $mensagem = utf8_decode("A Pet&Gatô detectou uma atualização cadastral em sua conta. Caso não tenha sido você, envie um e-mail para petegatooficial1@gmail.com que te ajudaremos a recuperar o seu acesso.");
+        envia_email($para, $assunto, $mensagem);
+
     if(empty($senha)){
         $sql = "UPDATE cliente SET nome='$nome', email='$email_cliente', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
         mysqli_query($mysqli,$sql);
@@ -28,20 +39,16 @@ if($editar == "editar"){
     }
 
     else{
+
         $sql = "UPDATE cliente SET nome='$nome', email='$email_cliente', data_nasc='$data_nasc', cpf='$cpf', endereco='$endereco', telefone='$telefone', senha='$senha_cript', nome_pet='$nome_pet', nasc_pet='$nasc_pet' WHERE email='$email'";
-
         mysqli_query($mysqli,$sql);
-
-        include "envia_email.php";
-        $para = $email_cliente;
-        $assunto = utf8_decode("Seu cadastro foi atualizado! | Pet&Gatô");
-        $mensagem = utf8_decode("A Pet&Gatô detectou uma atualização cadastral em sua conta. Caso não tenha sido você, envie um e-mail para petegatooficial1@gmail.com que te ajudaremos a recuperar o seu acesso.");
-        envia_email($para, $assunto, $mensagem);
 
         $_SESSION['msg_rec'] = "<div class='alert alert-success'>Cadastro atualizado! Faça login novamente.</div>";
 
         header('Location: perfil_cliente.php');
     }
+
+    
 }
 
     /*if(!mysqli_query($mysqli,$sql)){

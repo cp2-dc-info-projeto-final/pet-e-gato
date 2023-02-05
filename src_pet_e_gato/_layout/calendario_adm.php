@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include "autentica-adm.php";
 include "conecta_mysql.php";
@@ -159,14 +159,49 @@ include "conecta_mysql.php";
                                     <tbody>
 
                                     <?php
+
+                                      date_default_timezone_set('America/Argentina/Buenos_Aires');
+
+                                      $dia = date_create()->format('Y-m-d');
+                                      $hora = date_create()->format('H:i');
+
+                                      $sql = "SELECT * FROM agendamento WHERE dia >= $dia";
+                                      $res= mysqli_query($mysqli,$sql);
+                                      $linhas= mysqli_num_rows($res);
+                                        
+                                      for ($i = 0; $i < $linhas; $i++){
+                                        $y = mysqli_fetch_array ($res);
+                                        $x = $y['cod_agendamento'];                                         
+                                        
+
+                                        if ($y['dia'] < $dia){
+                                          $sql = "DELETE FROM agendamento WHERE cod_agendamento = $x"; 
+                                          mysqli_query($mysqli,$sql);
+                                        }
+
+                                        if ($y['hora'] <= $hora and $y['dia'] == $dia){
+                                          $sql = "DELETE FROM agendamento WHERE cod_agendamento = $x";
+                                          mysqli_query($mysqli,$sql);
+                                        }
+
+                                        if(!mysqli_query($mysqli,$sql)){
+                                          echo mysqli_error($mysqli);
+                                          exit;
+                                        }
+                                      }
+
                                         $sql = "SELECT * FROM agendamento ORDER BY dia ASC";
                                         $res= mysqli_query($mysqli,$sql);
                                         $linhas= mysqli_num_rows($res);
                                         
                                         for ($i = 0; $i < $linhas; $i++){
-                                            $agendamento = mysqli_fetch_array ($res);
-                                            
+                                          $agendamento = mysqli_fetch_array ($res);
+                                          
+                                          
 
+                                          
+                                          
+                                          
                                             echo"
                                             <tr>
                                             <td>".date('d/m/Y', strtotime($agendamento['dia']))."</td>
@@ -210,6 +245,7 @@ include "conecta_mysql.php";
                                                   </div>
                                                 </div>
                                             </div>";
+
                                             
                                         }
                                         
@@ -263,6 +299,5 @@ include "conecta_mysql.php";
             });
 
 </script>
-
 
 </html>

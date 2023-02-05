@@ -118,6 +118,37 @@ include "conecta_mysql.php";
                                     <tbody>
 
                                     <?php
+
+                                        date_default_timezone_set('America/Argentina/Buenos_Aires');
+
+                                        $dia = date_create()->format('Y-m-d');
+                                        $hora = date_create()->format('H:i');
+
+                                        $sql = "SELECT * FROM agendamento WHERE dia >= $dia";
+                                        $res= mysqli_query($mysqli,$sql);
+                                        $linhas= mysqli_num_rows($res);
+                                          
+                                        for ($i = 0; $i < $linhas; $i++){
+                                          $y = mysqli_fetch_array ($res);
+                                          $x = $y['cod_agendamento'];                                         
+                                          
+
+                                          if ($y['dia'] < $dia){
+                                            $sql = "DELETE FROM agendamento WHERE cod_agendamento = $x"; 
+                                            mysqli_query($mysqli,$sql);
+                                          }
+
+                                          if ($y['hora'] <= $hora and $y['dia'] == $dia){
+                                            $sql = "DELETE FROM agendamento WHERE cod_agendamento = $x";
+                                            mysqli_query($mysqli,$sql);
+                                          }
+
+                                          if(!mysqli_query($mysqli,$sql)){
+                                            echo mysqli_error($mysqli);
+                                            exit;
+                                          }
+                                        }
+
                                         $sql = "SELECT * FROM funcionario WHERE email = '$email'";
                                         $res= mysqli_query($mysqli,$sql);
                                         $funcionario = mysqli_fetch_array ($res);

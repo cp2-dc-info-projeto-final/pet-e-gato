@@ -23,7 +23,7 @@ include "conecta_mysql.php";
     include "envia_email.php";
         $para = $email_cliente;
         $assunto = utf8_decode("Sua senha foi alterada! | Pet&Gatô");
-        $mensagem = utf8_decode("<h2>A Pet&Gatô detectou uma alteração na sua senha.</h2> <h3>Caso não tenha sido você, <a href='http://localhost/src_pet_e_gato/_layout/recuperar-senha.php'>clique aqui</a> para redefinir sua senha.</>h3 <br> <smallPet&Gatô House</small>");
+        $mensagem = utf8_decode("<h2>A Pet&Gatô detectou uma alteração na sua senha.</h2> <h3>Caso não tenha sido você, <a href='http://localhost/pet-e-gato/src_pet_e_gato/_layout/recuperar-senha.php'>clique aqui</a> para redefinir sua senha.</h3> <br> <smallPet&Gatô House</small>");
         envia_email($para, $assunto, $mensagem);
 
     $_SESSION['msg_rec'] = "<div class='alert alert-success'>Senha Atualizada! Faça login.</div>";

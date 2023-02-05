@@ -212,8 +212,6 @@
 </footer>
 <!-- Footer -->
 
-<a id="topo-link" href="#">&#9650;</a>
-
 </body>
 
 <script> 

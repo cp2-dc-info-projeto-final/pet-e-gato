@@ -3,7 +3,7 @@
 include "autentica-adm.php";
 include "conecta_mysql.php";
 
-date_default_timezone_set('America/Sao_Paulo');
+date_default_timezone_set('America/Argentina/Buenos_Aires');
  
  $matricula = utf8_decode($_POST["funcionario"]); 
  $cod_servico = utf8_decode($_POST["servico"]);
@@ -42,7 +42,8 @@ if ($operacao == "agendamento"){
           header("Location: cadastrar_horario.php");
           exit;
       }
-  }
+
+    }
 
 $sql= "SELECT * FROM agendamento";
 $res= mysqli_query($mysqli,$sql);

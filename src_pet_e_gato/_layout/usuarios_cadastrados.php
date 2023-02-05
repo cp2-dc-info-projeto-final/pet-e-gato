@@ -98,7 +98,7 @@ if ($operacao == "cliente"){
     include "envia_email.php";
     $para = $email;
     $assunto = utf8_decode("Bem-vindo (a) | Pet&Gatô");
-    $mensagem = utf8_encode("<h2><u>Olá $nome!</u></h2> <br> <small>Cliente Pet&Gatô</small> <br> <h3>Seja bem-vindo a Pet&Gatô!</h3> <h4>Estamos felizes que você nos escolheu.</h4> <h5>Acesse o nosso site e conheça nossos serviços.</h5> <br> <b><small>Pet&Gatô House</small></b>");
+    $mensagem = utf8_decode("<h2><u>Olá ".utf8_encode($nome)."!</u></h2> <br> <small>Cliente Pet&Gatô</small> <br> <h3>Seja bem-vindo a Pet&Gatô!</h3> <h4>Estamos felizes que você nos escolheu.</h4> <h5>Acesse o nosso site e conheça nossos serviços.</h5> <br> <b><small>Pet&Gatô House</small></b>");
     envia_email($para, $assunto, $mensagem);
 
         $_SESSION['mensagem_erro'] = "<div class='alert alert-success'>Cadastro realizado com sucesso! Faça login.</div>";
