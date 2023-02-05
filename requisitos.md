@@ -26,6 +26,17 @@ O sistema não poderá permitir agendamentos ou cadastros duplicados.
 
 O sistema deverá conter uma opção de cancelamento de agendamentos.
 
+### RF 07
+
+O sistema deverá permitir que o cliente edite e exclua seus dados. 
+
+### RF 08
+
+O sistema deverá permitir que o cliente edite, exclua e liste seus agendamentos.
+
+### RF 09
+
+O sistema deverá permitir que o funcionário acesse sua grade horária.
 
 ## Requisitos Não-Funcionais
 
@@ -44,4 +55,17 @@ O sistema deverá ser desenvolvido em PHP, MySQL, HTML, CSS, Javascript e Bootst
 ### RNF 04
 
 O sistema deverá ser acessado por qualquer navegador de internet.
+
+### RNF 05
+
+O sistema deverá ter uma boa usabilidade e comunicabilidade.
+
+### RNF 06
+
+O sistema deverá ter controle de acesso.
+
+### RNF 07
+
+O sistema deverá ter conexão com bancos de dados mysql.
+
 
