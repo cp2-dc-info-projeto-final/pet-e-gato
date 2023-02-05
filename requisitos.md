@@ -32,7 +32,7 @@ O sistema deverá permitir que o cliente edite e exclua seus dados.
 
 ### RF 08
 
-O sistema deverá permitir que o cliente edite, exclua e liste seus agendamentos.
+O sistema deverá permitir que o cliente edite e liste seus agendamentos.
 
 ### RF 09
 
